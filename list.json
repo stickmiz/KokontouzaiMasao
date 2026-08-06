@@ -67,6 +67,7 @@
       }
     },
     "url": "http://1st.geocities.jp/hissuj/start.html",
+    "wayback_time": 20070624025311,
     "state": "closed"
   },
   {
@@ -104,10 +105,7 @@
       }
     },
     "url": "http://www.geocities.jp/aiueo_world/",
-    "oldurl": [
-      "http://aiueo.daa.jp/",
-      "http://www.geocities.jp/aiueo_koubou/"
-    ],
+    "oldurl": ["http://aiueo.daa.jp/", "http://www.geocities.jp/aiueo_koubou/"],
     "year": {
       "from": 2004,
       "to": -2005
@@ -173,14 +171,8 @@
       "to": 0
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
-    "work": [
-      "RED ZONEシリーズ",
-      "THE CYBER ERRORシリーズ"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
+    "work": ["RED ZONEシリーズ", "THE CYBER ERRORシリーズ"],
     "state": "canvas"
   },
   {
@@ -188,10 +180,7 @@
       "name": "Icicle world",
       "yomi": "あいしくるわあると"
     },
-    "oldname": [
-      "ファイナルゲームスター",
-      "ファイナルスター・トルネード"
-    ],
+    "oldname": ["ファイナルゲームスター", "ファイナルスター・トルネード"],
     "webmaster": "チービィ",
     "banner": {
       "image": "finalgame.gif",
@@ -245,12 +234,9 @@
       "from": -1,
       "to": 2006
     },
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20190331014902,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -259,10 +245,7 @@
     },
     "webmaster": "デラくす君",
     "url": "http://derakusu.harisen.jp/",
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "wayback_time": 20090305021827,
     "state": "closed"
   },
@@ -290,7 +273,7 @@
     },
     "kind_masao": "JS拡張",
     "wayback_time": 20190407044534,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -310,14 +293,8 @@
       "from": -1,
       "to": 2011
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
-    "work": [
-      "ワールド正男",
-      "マリリの冒険"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
+    "work": ["ワールド正男", "マリリの冒険"],
     "state": "vanished"
   },
   {
@@ -338,10 +315,7 @@
       "from": -1,
       "to": 2006
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "wayback_time": 20080214211904,
     "state": "closed"
   },
@@ -397,12 +371,13 @@
         "y": 70
       }
     },
-    "url": "https://akibo.rosx.net/",
+    "url": "http://akibo.rosx.net/",
     "year": {
       "from": 2008,
       "to": 2018
     },
-    "state": "canvas"
+    "wayback_time": 20241109201943,
+    "state": "archived"
   },
   {
     "site": {
@@ -443,7 +418,7 @@
       "to": 2010
     },
     "wayback_time": 20190329220956,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -451,6 +426,10 @@
       "yomi": "あくあれほりゆうしよんにせんなな"
     },
     "oldname": "EGYPT KING",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#A0E0FF"
+    },
     "url": "http://www.rak2.jp/town/user/postmaster/",
     "oldurl": "http://robocode20002000.hp.infoseek.co.jp/",
     "year": {
@@ -493,16 +472,9 @@
       "from": 2010,
       "to": 2015
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "素材配布",
-    "work": [
-      "National Treason",
-      "Slaughter a person",
-      "Fourth False Force"
-    ],
+    "work": ["National Treason", "Slaughter a person", "Fourth False Force"],
     "state": "canvas"
   },
   {
@@ -525,7 +497,7 @@
     },
     "kind_masao": "一画面",
     "wayback_time": 20181105023401,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -559,23 +531,14 @@
       }
     },
     "url": "http://tif.usamimi.info/",
-    "oldurl": [
-      "http://atuoyr.ddo.jp/",
-      "http://f35.aaacafe.ne.jp/~atuoyr/"
-    ],
+    "oldurl": ["http://atuoyr.ddo.jp/", "http://f35.aaacafe.ne.jp/~atuoyr/"],
     "year": {
       "from": 2004,
       "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
-    "work": [
-      "正男vs浩二",
-      "正男vs敦夫"
-    ],
+    "work": ["正男vs浩二", "正男vs敦夫"],
     "state": "canvas"
   },
   {
@@ -583,10 +546,7 @@
       "name": "ASAYOU＆MARIPIKU",
       "yomi": "あさようあんとまりひく"
     },
-    "oldname": [
-      "麻葉のPIKUMINGAMERAND",
-      "kenken&JAVAGAME"
-    ],
+    "oldname": ["麻葉のPIKUMINGAMERAND", "kenken&JAVAGAME"],
     "webmaster": "麻葉",
     "banner": {
       "image": "asayou.bmp",
@@ -642,7 +602,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105031104,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -659,10 +619,7 @@
       "name": "アスカゼ",
       "yomi": "あすかせ"
     },
-    "oldname": [
-      "ムサンソチタイ",
-      "WZA GAME NET"
-    ],
+    "oldname": ["ムサンソチタイ", "WZA GAME NET"],
     "webmaster": "WZA",
     "banner": {
       "image": "wza.gif",
@@ -678,6 +635,7 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
+    "work": ["スーパーマサオバケーション", "スーパーマサオバケーション2"],
     "wayback_time": 20051124164720,
     "state": "closed"
   },
@@ -686,11 +644,7 @@
       "name": "飛鳥乃小太刀",
       "yomi": "あすかのこたち"
     },
-    "oldname": [
-      "GALAXY OCEAN",
-      "νGALAXY・BOX",
-      "GALAXY BOX"
-    ],
+    "oldname": ["GALAXY OCEAN", "νGALAXY・BOX", "GALAXY BOX"],
     "webmaster": "アスカ",
     "banner": {
       "image": "asuka.png",
@@ -728,11 +682,7 @@
       "from": 2006,
       "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "work": "Light of Dark",
     "state": "canvas"
@@ -759,12 +709,16 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20181105024758,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "遊び場",
       "yomi": "あそひは"
+    },
+    "banner": {
+      "color": "#EE7800",
+      "background_color": "#FFFFCC"
     },
     "url": "http://asobi.s58.xrea.com/",
     "year": {
@@ -789,10 +743,7 @@
       }
     },
     "url": "http://yuu.if.land.to/",
-    "oldurl": [
-      "http://sofo.bufsiz.jp/",
-      "http://yuus.ukime.org/"
-    ],
+    "oldurl": ["http://sofo.bufsiz.jp/", "http://yuus.ukime.org/"],
     "wayback_time": 20080114043849,
     "state": "closed"
   },
@@ -886,7 +837,7 @@
     "url": "http://page.freett.com/adoribuj/adoribuloom.htm",
     "kind_masao": "ストーリー",
     "wayback_time": 20040629003359,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -928,11 +879,7 @@
       "name": "あにめ of 危篤",
       "yomi": "あにめおふきとく"
     },
-    "oldname": [
-      "ねつきのゲーセン",
-      "熱樹のゲーセン",
-      "熱樹の家"
-    ],  
+    "oldname": ["ねつきのゲーセン", "熱樹のゲーセン", "熱樹の家"],
     "webmaster": "ねつくん",
     "banner": {
       "image": "anime.gif",
@@ -948,8 +895,9 @@
       "http://www66.tok2.com/home2/netsuki/"
     ],
     "feature": "素材配布",
+    "work": ["スーパーデュラオ", "北の刺客"],
     "wayback_time": 20041104053206,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -987,7 +935,7 @@
       }
     },
     "url": "http://abataboru777.gozaru.jp/",
-    "suburl": "http://abataboru777.fc2web.com/",
+    "oldurl": "http://abataboru777.fc2web.com/",
     "year": {
       "from": 2004,
       "to": 2006
@@ -1037,10 +985,7 @@
       "name": "A Future Window",
       "yomi": "あふゆうちやあういんとう"
     },
-    "oldname": [
-      "正男キングダム",
-      "MADE in 正男"
-    ],
+    "oldname": ["正男キングダム", "MADE in 正男"],
     "webmaster": "ティア",
     "banner": {
       "image": "future.gif",
@@ -1069,11 +1014,7 @@
       "name": "Ahead on Our Way",
       "yomi": "あへつとおんあうあうえい"
     },
-    "oldname": [
-      "WIND PARK",
-      "GKS",
-      "ほっとひといき"
-    ],
+    "oldname": ["WIND PARK", "GKS", "ほっとひといき"],
     "webmaster": "リキチュウ",
     "banner": {
       "image": "gks.png",
@@ -1111,7 +1052,7 @@
       "to": 2007
     },
     "wayback_time": 20190331143235,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1131,12 +1072,7 @@
       "from": 2008,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "state": "exist"
   },
@@ -1159,12 +1095,9 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20190330222550,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1203,7 +1136,7 @@
       "to": 2007
     },
     "wayback_time": 20190330234342,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1224,7 +1157,7 @@
       "to": 2011
     },
     "wayback_time": 20190331141300,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1246,7 +1179,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20190331142332,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1302,10 +1235,7 @@
       "from": 2009,
       "to": 2010
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "state": "exist"
   },
   {
@@ -1336,11 +1266,7 @@
       "name": "Andante",
       "yomi": "あんたんて"
     },
-    "oldname": [
-      "fabulauss wind",
-      "crystal",
-      "Made in masao"
-    ],
+    "oldname": ["fabulauss wind", "crystal", "Made in masao"],
     "webmaster": "ドルチェ",
     "banner": {
       "image": "crystal.jpg",
@@ -1355,12 +1281,9 @@
       "to": 2012
     },
     "kind_masao": "ストーリー",
-    "work": [
-      "スーパー正男の冒険",
-      "スーパー正次郎の冒険"
-    ],
+    "work": ["スーパー正男の冒険", "スーパー正次郎の冒険"],
     "wayback_time": 20071226155327,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1401,6 +1324,10 @@
       "yomi": "あんのうん"
     },
     "webmaster": "黒曜石",
+    "banner": {
+      "color": "#705050",
+      "background_color": "#E0E0FF"
+    },
     "url": "http://yume.gaiax.com/home/yuichiro",
     "year": {
       "from": 2004,
@@ -1423,17 +1350,14 @@
     "url": "http://gensoukikisi.fc2web.com/",
     "oldurl": "http://members13.tsukaeru.net/illu/",
     "wayback_time": 20190222032515,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "安楽の広場",
       "yomi": "あんらくのひろは"
     },
-    "oldname": [
-      "White ground",
-      "竹竿による正男のページ"
-    ],
+    "oldname": ["White ground", "竹竿による正男のページ"],
     "webmaster": "竹竿",
     "banner": {
       "image": "anraku.png",
@@ -1448,17 +1372,10 @@
       "from": -1,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20071114210347,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1479,7 +1396,8 @@
       "from": 2008,
       "to": 2009
     },
-    "state": "exist"
+    "wayback_time": 20210511132055,
+    "state": "closed"
   },
   {
     "site": {
@@ -1487,6 +1405,10 @@
       "yomi": "いいひいえすくうかん"
     },
     "webmaster": "教祖",
+    "banner": {
+      "color": "#008000",
+      "background_color": "#E6E6FA"
+    },
     "url": "http://www2.holon.dyndns.org/~kyoso/",
     "year": {
       "from": -1,
@@ -1540,7 +1462,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105023941,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1583,7 +1505,7 @@
     "url": "http://wierosk.hp.infoseek.co.jp/",
     "oldurl": "http://popup3.tok2.com/home2/heiwa/",
     "wayback_time": 20040323083322,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1596,7 +1518,7 @@
       "イクスワールド",
       "IgzarionGameNet",
       "イグザリオン'ズ ゲームタウン"
-    ],  
+    ],
     "webmaster": "いぐ",
     "banner": {
       "image": "whitelight.gif",
@@ -1618,8 +1540,9 @@
       "from": 2004,
       "to": -2008
     },
+    "work": "レイズアドベンチャー",
     "wayback_time": 20060704224147,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1675,7 +1598,7 @@
       "to": -1
     },
     "wayback_time": 20181105090140,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1731,7 +1654,12 @@
     },
     "oldname": "ダークのHP",
     "webmaster": "公孫樹",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#6699FF"
+    },
     "url": "http://www.geocities.jp/waruo0719/",
+    "oldurl": "http://www.geocities.jp/taku_dark/",
     "year": {
       "from": 2004,
       "to": -1
@@ -1755,7 +1683,7 @@
     "url": "http://to1.hp.infoseek.co.jp/",
     "feature": "WWA",
     "wayback_time": 20100316153647,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1763,6 +1691,10 @@
       "yomi": "いつてきますのへえし"
     },
     "webmaster": "ZEX",
+    "banner": {
+      "color": "#0000FF",
+      "background_color": "#7CFC00"
+    },
     "url": "http://www.geocities.jp/yuna12236122000/",
     "wayback_time": 20041116055738,
     "state": "closed"
@@ -1846,13 +1778,10 @@
       "to": 2007
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "feature": ["正男100個以上", "WWA"],
     "work": "正男伝説",
     "wayback_time": 20190329231856,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -1860,6 +1789,10 @@
       "yomi": "いりおのひようかしよう"
     },
     "webmaster": "いりお",
+    "banner": {
+      "color": "#00AAFF",
+      "background_color": "#8FF3FE"
+    },
     "url": "http://www.geocities.jp/a_irio/",
     "wayback_time": 20040805065214,
     "state": "closed"
@@ -1916,7 +1849,7 @@
       "to": 2009
     },
     "wayback_time": 20181030152727,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1957,7 +1890,7 @@
       "to": 2004
     },
     "wayback_time": 20181105023920,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -1988,13 +1921,11 @@
       }
     },
     "url": "http://lucifer.holy.jp/",
-    "oldurl": [
-      "http://levit.client.jp/",
-      "http://levit.concon.jp/"
-    ],
+    "oldurl": ["http://levit.client.jp/", "http://levit.concon.jp/"],
     "kind_masao": "ストーリー",
+    "work": ["正男ブラザーズ", "Pirates Panic"],
     "wayback_time": 20130620071219,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2051,7 +1982,7 @@
       "to": 2008
     },
     "wayback_time": 20190329205204,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2103,10 +2034,7 @@
       "name": "Winter",
       "yomi": "ういんたあ"
     },
-    "oldname": [
-      "Digital station",
-      "Miyamuxuの正男製作支援研究所"
-    ],
+    "oldname": ["Digital station", "Miyamuxuの正男製作支援研究所"],
     "webmaster": "Miyamuxu",
     "banner": {
       "image": "winter.png",
@@ -2203,16 +2131,8 @@
       "from": 2005,
       "to": 2018
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "JS拡張",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "一画面", "JS拡張", "SASUKE系"],
+    "feature": ["正男100個以上", "WWA"],
     "work": [
       "スーパールカリ男",
       "コイン氏の冒険",
@@ -2235,9 +2155,9 @@
     "oldurl": [
       "http://warrior.sakura.ne.jp/",
       "http://www.geocities.jp/takuro_minamoto/"
-     ],
+    ],
     "wayback_time": 20060711194230,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2275,10 +2195,7 @@
       "name": "兎小屋",
       "yomi": "うさきこや"
     },
-    "oldname": [
-      "きなこの小屋",
-      "そらのかなた"
-    ],
+    "oldname": ["きなこの小屋", "そらのかなた"],
     "webmaster": "SHiROUSAGi",
     "banner": {
       "color": "#222222",
@@ -2287,7 +2204,7 @@
     "url": "http://w3.oroti.net/~kinako4/",
     "suburl": "http://lonelyrabbit.michikusa.jp/index2.html",
     "wayback_time": 20200810073256,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2347,13 +2264,17 @@
       "name": "海スケタウン",
       "yomi": "うみすけたうん"
     },
+    "banner": {
+      "color": "#FF6600",
+      "background_color": "#C0E0FF"
+    },
     "url": "http://www.geocities.jp/kaiykj/",
     "year": {
       "from": 2004,
       "to": 2004
     },
     "wayback_time": 20181026151138,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2378,6 +2299,10 @@
       "yomi": "うるとらまん"
     },
     "webmaster": "のむけん",
+    "banner": {
+      "color": "#5E5E5E",
+      "background_color": "#CCCCCC"
+    },
     "url": "http://www1.tst.ne.jp/ultraman/",
     "wayback_time": 20051108072922,
     "state": "closed"
@@ -2403,7 +2328,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20190331145646,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2423,13 +2348,10 @@
     "suburl": "http://ultramedarot.nce.buttobi.net/",
     "year": {
       "from": 2003,
-      "to": 2020
+      "to": 0
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "feature": ["正男100個以上", "WWA"],
     "work": "ロクショウの旅Ⅱ（Zexed Medarot）",
     "state": "canvas"
   },
@@ -2457,18 +2379,9 @@
       "from": 2007,
       "to": 0
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
-    "feature": [
-      "素材配布",
-      "エディタ"
-    ],
-    "work": [
-      "シュークリームくん",
-      "影郎"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
+    "feature": ["素材配布", "エディタ"],
+    "work": ["シュークリームくん", "影郎"],
     "state": "canvas"
   },
   {
@@ -2528,16 +2441,10 @@
     },
     "url": "http://2style.biz/~herosp/",
     "oldurl": "http://www.2style.zapto.org/~herosp/",
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20041129080927,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2554,10 +2461,7 @@
       "from": 2006,
       "to": 2009
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
     "state": "exist"
   },
@@ -2607,7 +2511,8 @@
       "from": 2005,
       "to": 2005
     },
-    "state": "exist"
+    "wayback_time": 20241219075036,
+    "state": "closed"
   },
   {
     "site": {
@@ -2647,18 +2552,14 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024251,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "ABC兵器",
       "yomi": "ええひいしいへいき"
     },
-    "oldname": [
-      "ゲームケースN",
-      "ゲーム島",
-      "ゲームNAページ"
-    ],
+    "oldname": ["ゲームケースN", "ゲーム島", "ゲームNAページ"],
     "webmaster": "刀",
     "banner": {
       "image": "gamecasen.gif",
@@ -2686,6 +2587,10 @@
     },
     "oldname": "大空の片隅",
     "webmaster": "エカカカ",
+    "banner": {
+      "color": "#FF00FF",
+      "background_color": "#0A0A0A"
+    },
     "url": "http://www.geocities.co.jp/Playtown-Yoyo/8439/top.html",
     "wayback_time": 20190216041642,
     "state": "closed"
@@ -2696,6 +2601,10 @@
       "yomi": "えくすしのしろ"
     },
     "webmaster": "獲紅守死",
+    "banner": {
+      "color": "#FF0000",
+      "background_color": "#FFEFD5"
+    },
     "url": "http://www.geocities.co.jp/Playtown-Denei/4790/",
     "wayback_time": 20040807064215,
     "state": "closed"
@@ -2768,10 +2677,7 @@
       }
     },
     "url": "http://www.geocities.jp/pasonaruakatyappi/",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20050220085359,
     "state": "closed"
   },
@@ -2791,7 +2697,7 @@
     "url": "http://xwisp.hp.infoseek.co.jp/index.html",
     "feature": "WWA",
     "wayback_time": 20040806021957,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -2826,6 +2732,10 @@
       "yomi": "えつくすろつと"
     },
     "webmaster": "Xlot",
+    "banner": {
+      "color": "#FFFFFF",
+      "background_color": "#2D2D2D"
+    },
     "url": "http://www.xlot.jp/",
     "year": {
       "from": -1,
@@ -2840,6 +2750,10 @@
       "yomi": "えとうてんしほう"
     },
     "webmaster": "鱈井元衡",
+    "banner": {
+      "color": "#0D0D00",
+      "background_color": "#7FFFD4"
+    },
     "url": "http://tarawi.starfree.jp/",
     "year": {
       "from": 2022,
@@ -2865,10 +2779,7 @@
       "from": 2009,
       "to": 2022
     },
-    "kind_masao": [
-      "一画面",
-      "SASUKE系"
-    ],
+    "kind_masao": ["一画面", "SASUKE系"],
     "wayback_time": 20210222032329,
     "state": "closed"
   },
@@ -2878,6 +2789,10 @@
       "yomi": "えぬえすまさおえんしよい"
     },
     "webmaster": "てーきとー",
+    "banner": {
+      "color": "#669989",
+      "background_color": "#650000"
+    },
     "url": "http://nsmenjoy.ifdef.jp/",
     "wayback_time": 20070718092227,
     "state": "closed"
@@ -3009,11 +2924,7 @@
       "from": 2007,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20080116054303,
     "state": "closed"
   },
@@ -3065,30 +2976,6 @@
   },
   {
     "site": {
-      "name": "mmmのページっぽい",
-      "yomi": "えむえむえむのへえしつほい"
-    },
-    "webmaster": "mmm",
-    "banner": {
-      "image": "mmm.gif",
-      "size": {
-        "x": 200,
-        "y": 50
-      }
-    },
-    "url": "http://f50.aaa.livedoor.jp/~mmmz/",
-    "oldurl": "http://f50.aaacafe.ne.jp/~mmmz/",
-    "year": {
-      "from": 2004,
-      "to": -1
-    },
-    "kind_masao": "ストーリー",
-    "feature": "WWA",
-    "wayback_time": 20050212170347,
-    "state": "archived_wayback"
-  },
-  {
-    "site": {
       "name": "ML",
       "yomi": "えむえる"
     },
@@ -3130,7 +3017,7 @@
       "name": "M.Kのホムペ作成講座",
       "yomi": "えむけえのほむへさくせいこうさ"
     },
-    "oldname": "M.K's Site",
+    "oldname": ["M.K's Site", "yuna's game"],
     "webmaster": "M.K",
     "banner": {
       "image": "mks.png",
@@ -3140,12 +3027,14 @@
       }
     },
     "url": "http://myk.main.jp/",
+    "oldurl": "http://yuna0161.hp.infoseek.co.jp/",
     "year": {
       "from": 2003,
       "to": -1
     },
     "wayback_time": 20071123141015,
-    "state": "closed"
+    "state": "closed",
+    "explanation": "https://web.archive.org/web/20040503065120/http://www.kawachi.zaq.ne.jp/b-family/rinnkusyuu1.htm にyuna's gameの記載あり"
   },
   {
     "site": {
@@ -3188,7 +3077,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20070225103140,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3202,7 +3091,7 @@
       "to": 2006
     },
     "wayback_time": 20190324060404,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3288,10 +3177,7 @@
       "name": "MPT",
       "yomi": "えむひいていい"
     },
-    "oldname": [
-      "正男プラネットタウン",
-      "裏の裏"
-    ],
+    "oldname": ["正男プラネットタウン", "裏の裏"],
     "webmaster": "Dark",
     "banner": {
       "image": "planettown.gif",
@@ -3314,10 +3200,7 @@
       "name": "Emblem Masao City",
       "yomi": "えむふれむまさおしてい"
     },
-    "oldname": [
-      "任天堂ゲーム諸島",
-      "ひろたかのホームページ"
-    ],
+    "oldname": ["任天堂ゲーム諸島", "ひろたかのホームページ"],
     "webmaster": "emblem",
     "banner": {
       "image": "emblem.gif",
@@ -3366,12 +3249,16 @@
     },
     "url": "http://www.geocities.jp/metarou21/",
     "wayback_time": 20060208065043,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "エリンギの住処",
       "yomi": "えりんきのすみか"
+    },
+    "banner": {
+      "color": "#CD5C5C",
+      "background_color": "#000000"
     },
     "url": "http://www.geocities.co.jp/Playtown-Denei/7884/",
     "year": {
@@ -3379,7 +3266,7 @@
       "to": 2003
     },
     "wayback_time": 20181105051747,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3387,6 +3274,10 @@
       "yomi": "えんしえるるうむ"
     },
     "webmaster": "天使",
+    "banner": {
+      "color": "#CCFFFF",
+      "background_color": "#000000"
+    },
     "url": "http://kdkpka.hp.infoseek.co.jp/htmitosiya.html",
     "wayback_time": 20040811144047,
     "state": "closed"
@@ -3409,7 +3300,8 @@
       "from": 2003,
       "to": 2010
     },
-    "state": "exist"
+    "wayback_time": 20230621025435,
+    "state": "archived"
   },
   {
     "site": {
@@ -3534,17 +3426,10 @@
     "url": "http://bouningenlupus.web.fc2.com/",
     "year": {
       "from": 2015,
-      "to": 0
+      "to": 2021
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
-    "work": [
-      "七つの大罪",
-      "星空の侵略者",
-      "星空クラブ"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
+    "work": ["七つの大罪", "星空の侵略者", "星空クラブ"],
     "state": "canvas"
   },
   {
@@ -3553,6 +3438,10 @@
       "yomi": "おおけえけえせいさくしよ"
     },
     "webmaster": "葬龍",
+    "banner": {
+      "color": "#6B2394",
+      "background_color": "#666699"
+    },
     "url": "http://okk-z.hp.infoseek.co.jp/",
     "wayback_time": 20050127224627,
     "state": "closed"
@@ -3646,7 +3535,7 @@
       "to": 2005
     },
     "wayback_time": 20050306201514,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3716,13 +3605,15 @@
         "y": 40
       }
     },
-    "url": "http://aurorarchipelago.s223.xrea.com/",
+    "url": "https://www.aurorarchipelago.net/",
+    "oldurl": "http://aurorarchipelago.s223.xrea.com/",
     "year": {
       "from": 2021,
-      "to": 0
+      "to": -1
     },
     "kind_masao": "一画面",
-    "state": "canvas"
+    "wayback_time": 20230322234115,
+    "state": "archived"
   },
   {
     "site": {
@@ -3779,6 +3670,10 @@
       "name": "otahouse",
       "yomi": "おたはうす"
     },
+    "banner": {
+      "color": "#FF3300",
+      "background_color": "#FFFFFF"
+    },
     "url": "http://www.geocities.jp/otahausu/",
     "oldurl": [
       "http://www.geocities.jp/masaohausu/",
@@ -3788,12 +3683,9 @@
       "from": 2006,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
     "wayback_time": 20181105105456,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3825,10 +3717,11 @@
     "oldurl": "http://homepage3.nifty.com/w-museum4/Q.htm",
     "year": {
       "from": 2003,
-      "to": 2007
+      "to": 2025
     },
     "kind_masao": "ストーリー",
     "feature": "WWA",
+    "wayback_time": 20250719024325,
     "state": "exist"
   },
   {
@@ -3837,13 +3730,17 @@
       "yomi": "おとこきふんかのほおむへえし"
     },
     "webmaster": "男気噴火",
+    "banner": {
+      "color": "#FFFF00",
+      "background_color": "#000080"
+    },
     "url": "http://www.geocities.co.jp/Playtown-Darts/8720/otokogihunka/otokogihunka.htm",
     "year": {
       "from": 2003,
       "to": 2003
     },
     "wayback_time": 20030812082253,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3851,6 +3748,10 @@
       "yomi": "おむれんちのいえ"
     },
     "webmaster": "オムレンチ",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#FFFF00"
+    },
     "url": "http://www7a.biglobe.ne.jp/~omurenti/index2.html",
     "year": {
       "from": 2005,
@@ -3889,7 +3790,7 @@
       "to": -2004
     },
     "wayback_time": 20040607151033,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3918,6 +3819,10 @@
       "yomi": "おらのさいと"
     },
     "webmaster": "オラ",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#CABDFE"
+    },
     "url": "http://ora-site.ddo.jp/ora_site/",
     "wayback_time": 20040605170743,
     "state": "closed"
@@ -3928,6 +3833,10 @@
       "yomi": "おれのおれによるおれのためのへえし"
     },
     "webmaster": "与野市",
+    "banner": {
+      "color": "#00FF00",
+      "background_color": "#008000"
+    },
     "url": "http://www.geocities.jp/kkasu11432/",
     "year": {
       "from": 2005,
@@ -3936,7 +3845,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20181105024008,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -3944,6 +3853,10 @@
       "yomi": "おれのしかはねをこえていけ"
     },
     "webmaster": "どりーまー",
+    "banner": {
+      "color": "#CC0000",
+      "background_color": "#EFEFF7"
+    },
     "url": "http://dorii.fc2web.com/",
     "wayback_time": 20040730214842,
     "state": "closed"
@@ -3966,14 +3879,11 @@
       "from": 2003,
       "to": 2005
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
     "feature": "正男100個以上",
     "work": "スーパー金次郎",
     "wayback_time": 20190330095924,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -4099,10 +4009,7 @@
       "from": 2004,
       "to": -1
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "feature": "WWA",
     "wayback_time": 20090519075320,
     "state": "closed"
@@ -4249,7 +4156,7 @@
       "to": 2007
     },
     "wayback_time": 20181105023524,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4279,7 +4186,7 @@
       "to": 2006
     },
     "wayback_time": 20181105172152,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4310,10 +4217,7 @@
       "name": "カエデモミジ",
       "yomi": "かえてもみし"
     },
-    "oldname": [
-      "通行人館",
-      "通行人の家"
-    ],
+    "oldname": ["通行人館", "通行人の家"],
     "webmaster": "季壱",
     "banner": {
       "image": "kaedemomiji.gif",
@@ -4393,6 +4297,10 @@
       "yomi": "かけろうわあると"
     },
     "oldname": "第三惑星基地",
+    "banner": {
+      "color": "#FFFFFF",
+      "background_color": "#666666"
+    },
     "url": "http://www7.plala.or.jp/earthborn/",
     "oldurl": "http://sky.geocities.jp/plasma1115/",
     "year": {
@@ -4471,17 +4379,14 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023945,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "kazuのページ",
       "yomi": "かすのへえし"
     },
-    "oldname": [
-      "和のHP",
-      "kazu0o0's WEBSITE"
-    ],
+    "oldname": ["和のHP", "kazu0o0's WEBSITE"],
     "webmaster": "kazu",
     "banner": {
       "image": "kazu.gif",
@@ -4496,13 +4401,9 @@
       "from": -2004,
       "to": 2005
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "ストーリー", "カービィ系"],
     "wayback_time": 20181105024050,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4546,12 +4447,9 @@
       "from": 2006,
       "to": 2008
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "wayback_time": 20181105023909,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4572,7 +4470,7 @@
       "to": 2006
     },
     "wayback_time": 20041015055418,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4591,6 +4489,10 @@
     },
     "oldname": "The blink of a wind,",
     "webmaster": "tatoro",
+    "banner": {
+      "color": "#00FF00",
+      "background_color": "#000000"
+    },
     "url": "http://www.geocities.jp/wind0ut/",
     "oldurl": "http://www.geocities.co.jp/Playtown-Part/9018/",
     "year": {
@@ -4619,7 +4521,7 @@
       "to": 2005
     },
     "wayback_time": 20181105090034,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4634,7 +4536,7 @@
     ],
     "feature": "正男100個以上",
     "wayback_time": 20041102025309,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4655,11 +4557,7 @@
       "from": 2012,
       "to": 0
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["一画面", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "state": "canvas"
   },
@@ -4720,23 +4618,24 @@
       "yomi": "かひのほおむへえし"
     },
     "webmaster": "青カビx",
+    "banner": {
+      "color": "#CDCFED",
+      "background_color": "#6464FD"
+    },
     "url": "http://www.geocities.jp/aokabi1/masao.html",
     "year": {
       "from": -2007,
       "to": -2007
     },
     "wayback_time": 20190329141000,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "かびほし☆",
       "yomi": "かひほし"
     },
-    "oldname": [
-      "kirby stars",
-      "かびむら"
-    ],
+    "oldname": ["kirby stars", "かびむら"],
     "webmaster": "あおかび",
     "banner": {
       "image": "kabihoshi.png",
@@ -4752,7 +4651,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20080113053940,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4760,6 +4659,10 @@
       "yomi": "かほすえすひいふらすのさいと"
     },
     "webmaster": "カボスSP+",
+    "banner": {
+      "color": "#0033CC",
+      "background_color": "#D0E0FF"
+    },
     "url": "http://www.geocities.jp/wwarpggame765/",
     "year": {
       "from": 2005,
@@ -4767,7 +4670,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190330222539,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -4788,7 +4691,7 @@
       "to": 2009
     },
     "wayback_time": 20190127164339,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4818,7 +4721,7 @@
       "yomi": "かみかみのかくれか"
     },
     "oldname": "正男カオスゾーン",
-    "webmaster": "two",
+    "webmaster": "なななな",
     "banner": {
       "image": "kamigami.png",
       "size": {
@@ -4826,13 +4729,16 @@
         "y": 40
       }
     },
-    "url": "http://www.myunru.com/two/",
+    "url": "http://nnnnarisa.net/",
+    "oldurl": [
+      "https://narisaspirithaven.web.fc2.com/",
+      "http://www.myunru.com/two/"
+    ],
     "year": {
       "from": 2009,
-      "to": 2019
+      "to": 0
     },
-    "wayback_time": 20181028115742,
-    "state": "closed"
+    "state": "canvas"
   },
   {
     "site": {
@@ -4853,7 +4759,7 @@
       "to": 2004
     },
     "wayback_time": 20040227085055,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -4861,6 +4767,10 @@
       "yomi": "かめさんのほおむへえし"
     },
     "webmaster": "カメさま",
+    "banner": {
+      "color": "#006633",
+      "background_color": "#FFFFFF"
+    },
     "url": "http://www.hpmix.com/home/yappy/kouta/index.htm",
     "wayback_time": 20041129044520,
     "state": "closed"
@@ -4931,6 +4841,10 @@
       "yomi": "からくたのやかた"
     },
     "webmaster": "イケる生ける死者",
+    "banner": {
+      "color": "#666699",
+      "background_color": "#555599"
+    },
     "url": "http://garakutax.fc2web.com/",
     "year": {
       "from": 2004,
@@ -4945,10 +4859,7 @@
       "name": "がらくた保存庫",
       "yomi": "からくたほかんこ"
     },
-    "oldname": [
-      "Terabi Factory",
-      "yuの正男ゲーム置き場"
-    ],
+    "oldname": ["Terabi Factory", "yuの正男ゲーム置き場"],
     "webmaster": "テラビモス",
     "banner": {
       "image": "terabi.gif",
@@ -5009,6 +4920,10 @@
       "name": "かりんとう2009",
       "yomi": "かりんとうにせんきゆう"
     },
+    "banner": {
+      "color": "#ADDDDD",
+      "background_color": "#000000"
+    },
     "url": "http://www.geocities.jp/karinntou_2009/index.html",
     "oldurl": [
       "http://www.geocities.jp/pokettomonnsuta2008/",
@@ -5018,12 +4933,9 @@
       "from": 2007,
       "to": 2009
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "wayback_time": 20181105050515,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5066,8 +4978,10 @@
       }
     },
     "url": "http://ganda.web.fc2.com/",
-    "suburl": "http://www3.tok2.com/home/sdsss/",
-    "oldurl": "http://gentyan.fc2web.com/",
+    "oldurl": [
+      "http://www3.tok2.com/home/sdsss/",
+      "http://gentyan.fc2web.com/"
+    ],
     "kind_masao": "ストーリー",
     "state": "exist"
   },
@@ -5110,6 +5024,10 @@
       "yomi": "かんちえまんのいえ"
     },
     "webmaster": "カンチェマン",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#FFFFBA"
+    },
     "url": "http://cancheman.web.fc2.com/",
     "year": {
       "from": 2007,
@@ -5196,12 +5114,9 @@
       "to": 2004
     },
     "kind_masao": "ストーリー",
-    "work": [
-      "ゴクリンVSケッパ",
-      "まおー最強伝説"
-    ],
+    "work": ["ゴクリンVSケッパ", "まおー最強伝説"],
     "wayback_time": 20190330031114,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -5222,12 +5137,16 @@
     },
     "wayback_time": 20190330222549,
     "feature": "WWA",
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
       "name": "キタキタ",
       "yomi": "きたきた"
+    },
+    "banner": {
+      "color": "#999999",
+      "background_color": "#000000"
     },
     "url": "http://sezannu.fc2web.com/",
     "wayback_time": 20030717065122,
@@ -5260,6 +5179,10 @@
       "yomi": "きとうせんしかんしやむ"
     },
     "webmaster": "ガンジャム",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#CDB9FF"
+    },
     "url": "http://himazin.zero-yen.com/",
     "year": {
       "from": 2005,
@@ -5311,10 +5234,7 @@
       "name": "Kinokoman's Junk Shop",
       "yomi": "きのこまんすしやんくしよつふ"
     },
-    "oldname": [
-      "キノコマンのページ",
-      "毬藻堂"
-    ],
+    "oldname": ["キノコマンのページ", "毬藻堂"],
     "webmaster": "キノコマン",
     "banner": {
       "image": "kinokoman.gif",
@@ -5342,7 +5262,7 @@
     },
     "url": "http://www.geocities.jp/enbonbonshio/",
     "wayback_time": 20181105023520,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5380,10 +5300,7 @@
       "name": "気まぐれ正男ネット",
       "yomi": "きまくれまさおねつと"
     },
-    "oldname": [
-      "気まぐれWEB",
-      "kentoの部屋"
-    ],
+    "oldname": ["気まぐれWEB", "kentoの部屋"],
     "webmaster": "気まぐれ君",
     "banner": {
       "image": "kimagure.gif",
@@ -5458,7 +5375,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20050207120056,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5483,7 +5400,7 @@
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
     "wayback_time": 20080325162010,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5499,20 +5416,14 @@
       }
     },
     "url": "http://sh.wktk.so/",
-    "oldurl": [
-      "http://www19.atpages.jp/~shpqg/",
-      "http://xxx.masao.info/"
-    ],
+    "oldurl": ["http://www19.atpages.jp/~shpqg/", "http://xxx.masao.info/"],
     "year": {
       "from": -2007,
       "to": 2020
     },
-    "kind_masao": [
-      "一画面",
-      "JS拡張"
-    ],
+    "kind_masao": ["一画面", "JS拡張"],
     "wayback_time": 20200310003408,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5530,7 +5441,7 @@
     "url": "http://www010.upp.so-net.ne.jp/tomirimi/",
     "kind_masao": "ストーリー",
     "wayback_time": 20050415084840,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5553,7 +5464,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20190202154240,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5630,7 +5541,7 @@
     "kind_masao": "自動",
     "feature": "WWA",
     "wayback_time": 20181030115914,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5738,10 +5649,7 @@
       "from": 2004,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "work": "バケツとボウ",
     "wayback_time": 20070830165310,
@@ -5753,6 +5661,10 @@
       "yomi": "きよにいのけえむひろは"
     },
     "webmaster": "ぎょにー",
+    "banner": {
+      "color": "#FF9900",
+      "background_color": "#FFFFFF"
+    },
     "url": "http://irubon.com/",
     "oldurl": "http://www.geocities.jp/tkyy1125225/framepage2.html",
     "year": {
@@ -5805,7 +5717,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105023858,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5823,13 +5735,17 @@
       "yomi": "くうはくのふんやふらんくふいいると"
     },
     "webmaster": "田村 諭吉",
+    "banner": {
+      "color": "#000000",
+      "background_color": "#F0F0F0"
+    },
     "url": "http://www.geocities.jp/atomleon2000/",
     "year": {
       "from": 2007,
       "to": 2008
     },
     "wayback_time": 20181105023431,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -5851,21 +5767,16 @@
       "background_color": "#000000"
     },
     "url": "http://w5.oroti.net/~mal/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "state": "exist"
+    "kind_masao": ["自動", "ストーリー"],
+    "wayback_time": 20200810093604,
+    "state": "archived"
   },
   {
     "site": {
       "name": "Cugry's Box",
       "yomi": "くくりいすほつくす"
     },
-    "oldname": [
-      "緑のソラ",
-      "ブラウザ人のホームページ"
-    ],
+    "oldname": ["緑のソラ", "ブラウザ人のホームページ"],
     "webmaster": "クグリー",
     "banner": {
       "image": "cugry.png",
@@ -5961,7 +5872,8 @@
     },
     "kind_masao": "自動",
     "feature": "正男100個以上",
-    "state": "exist"
+    "wayback_time": 20181030115826,
+    "state": "archived"
   },
   {
     "site": {
@@ -5999,6 +5911,10 @@
       "yomi": "くめこんおうこく"
     },
     "webmaster": "kumegon",
+    "banner": {
+      "color": "#00FFFF",
+      "background_color": "#000000"
+    },
     "url": "http://www.geocities.jp/kumegons/",
     "oldurl": "http://kumegonns2.azarea.jp/",
     "year": {
@@ -6053,6 +5969,10 @@
       "yomi": "くらつしゆかいそうまさお"
     },
     "webmaster": "電光石火",
+    "banner": {
+      "color": "#0000FF",
+      "background_color": "#C0C0C0"
+    },
     "url": "http://www.geocities.jp/crash_factory1/denkosekka/",
     "year": {
       "from": -2008,
@@ -6082,7 +6002,7 @@
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
     "wayback_time": 20091213192343,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6276,13 +6196,10 @@
       "from": 2003,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20110908074944,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6362,10 +6279,7 @@
       "from": 2006,
       "to": 2008
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20080324223359,
     "state": "closed"
   },
@@ -6413,7 +6327,7 @@
       "name": "Grace",
       "yomi": "くれえす"
     },
-    "oldname": "Twig Story",
+    "oldname": ["Twig Story", "正男フィールド"],
     "webmaster": "ミカン",
     "banner": {
       "image": "twigstory.gif",
@@ -6424,7 +6338,8 @@
     },
     "url": "http://prinonly.hp.infoseek.co.jp/",
     "wayback_time": 20080405091755,
-    "state": "closed"
+    "state": "closed",
+    "explanation": "旧サイト名は https://web.archive.org/web/20071027004054/http://www.geocities.jp/rkayumi2006/linku.html より"
   },
   {
     "site": {
@@ -6447,7 +6362,7 @@
     },
     "kind_masao": "一画面",
     "wayback_time": 20181109142158,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6555,10 +6470,7 @@
       "from": 2006,
       "to": 0
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "state": "exist"
   },
   {
@@ -6614,6 +6526,10 @@
       "name": "Keigoの部屋",
       "yomi": "けいこのへや"
     },
+    "banner": {
+      "color": "#000000",
+      "background_color": "#F6EFEB"
+    },
     "webmaster": "Keigo",
     "url": "http://www.geocities.jp/bazirukokeigo/",
     "year": {
@@ -6621,7 +6537,7 @@
       "to": 2011
     },
     "wayback_time": 20181105023400,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6636,12 +6552,16 @@
         "y": 40
       }
     },
-    "url": "http://mito.cool.ne.jp/keisei-web/",
+    "url": "http://www4.pf-x.net/~keisei/",
     "oldurl": [
-      "http://www4.pf-x.net/~keisei/",
+      "http://mito.cool.ne.jp/keisei-web/",
       "http://imclub.gaiax.com/home/keisei/main"
     ],
-    "wayback_time": 20050213162649,
+    "year": {
+      "from": 2003,
+      "to": -1
+    },
+    "wayback_time": 20081021050051,
     "state": "closed"
   },
   {
@@ -6661,7 +6581,7 @@
     },
     "feature": "正男100個以上",
     "wayback_time": 20190113124025,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6689,7 +6609,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20190720115426,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6710,7 +6630,7 @@
       "to": 2003
     },
     "wayback_time": 20181105072744,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6745,13 +6665,10 @@
       "from": 2005,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20190331005823,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -6799,7 +6716,7 @@
     "url": "http://www.geocities.jp/tumetaihono/",
     "kind_masao": "ストーリー",
     "wayback_time": 20040407114208,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6855,6 +6772,27 @@
   },
   {
     "site": {
+      "name": "GAME ISLAND",
+      "yomi": "けえむあいらんと"
+    },
+    "webmaster": "よっすぃー",
+    "banner": {
+      "image": "game_island.jpg",
+      "size": {
+        "x": 200,
+        "y": 40
+      }
+    },
+    "url": "http://www5e.biglobe.ne.jp/~reff/",
+    "year": {
+      "from": -2002,
+      "to": -2003
+    },
+    "wayback_time": 20030807053118,
+    "state": "closed"
+  },
+  {
+    "site": {
       "name": "GAME ADVENTURE",
       "yomi": "けえむあとへんちやあ"
     },
@@ -6889,7 +6827,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105023405,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -6920,12 +6858,9 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20200815152019,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7002,7 +6937,7 @@
       "to": 2003
     },
     "wayback_time": 20181105051552,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7039,7 +6974,16 @@
       "to": 2007
     },
     "wayback_time": 20181105023748,
-    "state": "archived_wayback"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "GAME.THE.すぺしゃる",
+      "yomi": "けえむさすへしやる"
+    },
+    "url": "http://unbako.fc2web.com/",
+    "wayback_time": 20190525224213,
+    "state": "closed"
   },
   {
     "site": {
@@ -7105,6 +7049,7 @@
       "name": "Game star",
       "yomi": "けえむすたあ"
     },
+    "oldname": "スラ友のHP",
     "webmaster": "スラ友",
     "banner": {
       "image": "gamestar.gif",
@@ -7121,7 +7066,8 @@
     "kind_masao": "自動",
     "feature": "素材配布",
     "wayback_time": 20080108110815,
-    "state": "closed"
+    "state": "closed",
+    "explanation": "旧サイト名は https://web.archive.org/web/20071027004054/http://www.geocities.jp/rkayumi2006/linku.html より"
   },
   {
     "site": {
@@ -7197,12 +7143,9 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "カービィ"
-    ],
+    "kind_masao": ["自動", "カービィ"],
     "wayback_time": 20190331142026,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7384,7 +7327,7 @@
     "kind_masao": "自動",
     "feature": "WWA",
     "wayback_time": 20190331143628,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -7406,7 +7349,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20041227104736,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7471,7 +7414,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20050525020727,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7526,12 +7469,9 @@
       "to": 2006
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20080421093842,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7543,7 +7483,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20050424020337,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7574,10 +7514,7 @@
       "from": 2008,
       "to": 2017
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "feature": "WWA",
     "state": "exist"
   },
@@ -7623,16 +7560,10 @@
       "from": 2005,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "一画面"],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20190330222547,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -7675,7 +7606,7 @@
     ],
     "kind_masao": "自動",
     "wayback_time": 20100615033759,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7697,7 +7628,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20041213161840,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -7766,10 +7697,7 @@
       "from": 2004,
       "to": 2007
     },
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20190331145831,
     "state": "closed"
   },
@@ -7778,10 +7706,7 @@
       "name": "GAME LAND",
       "yomi": "けえむらんと"
     },
-    "oldname": [
-      "GAME CITY",
-      "GAME TOWN"
-    ],
+    "oldname": ["GAME CITY", "GAME TOWN"],
     "webmaster": "ラティウス",
     "url": "http://abekun2.hp.infoseek.co.jp/",
     "year": {
@@ -7913,10 +7838,7 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
-    "work": [
-      "Kouji and Turtle",
-      "Searching Light Fragment"
-    ],
+    "work": ["Kouji and Turtle", "Searching Light Fragment"],
     "wayback_time": 20210509065526,
     "state": "closed"
   },
@@ -7938,10 +7860,7 @@
       "from": 2012,
       "to": 2015
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "素材配布",
     "wayback_time": 20150516131653,
     "state": "closed"
@@ -7960,7 +7879,7 @@
     },
     "url": "http://www.valley.ne.jp/~mi/index.htm",
     "wayback_time": 20200429032647,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8044,7 +7963,7 @@
     },
     "url": "http://www1.tst.ne.jp/miko/gen/",
     "wayback_time": 20051108072229,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8066,7 +7985,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20050204104736,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8082,8 +8001,9 @@
         "y": 31
       }
     },
-    "url": "http://www25.tok2.com/home2/koppamario/GAME/GAME.htm",
-    "state": "exist"
+    "url": "http://www25.tok2.com/home2/koppamario/",
+    "wayback_time": 20060213101700,
+    "state": "archived"
   },
   {
     "site": {
@@ -8115,7 +8035,8 @@
     "url": "http://www16.tok2.com/home/kokosan/",
     "kind_masao": "ストーリー",
     "feature": "素材配布",
-    "state": "exist"
+    "wayback_time": 20190413140723,
+    "state": "archived"
   },
   {
     "site": {
@@ -8140,10 +8061,7 @@
       "from": -2004,
       "to": -1
     },
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20070821113248,
     "state": "closed"
   },
@@ -8166,7 +8084,7 @@
       "to": 2004
     },
     "wayback_time": 20181105062412,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8194,11 +8112,7 @@
     },
     "url": "http://net.yu-nagi.com/",
     "oldurl": "http://www3.pf-x.net/~nacchan-game",
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "year": {
       "from": 2005,
@@ -8221,7 +8135,7 @@
       "to": -2005
     },
     "wayback_time": 20050511191816,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8338,7 +8252,7 @@
     },
     "feature": "素材配布",
     "wayback_time": 20050406094310,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8359,7 +8273,7 @@
       "to": 2008
     },
     "wayback_time": 20181105023938,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8402,7 +8316,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190329155336,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8440,11 +8354,7 @@
       "name": "木立ちの散歩道",
       "yomi": "こたちのさんほみち"
     },
-    "oldname": [
-      "Lapis Lazuli",
-      "蒼月の光",
-      "聖獣の牙"
-    ],
+    "oldname": ["Lapis Lazuli", "蒼月の光", "聖獣の牙"],
     "webmaster": "水流 霧月",
     "banner": {
       "image": "sougetsu.gif",
@@ -8493,7 +8403,7 @@
       "to": 2010
     },
     "wayback_time": 20060616182941,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8507,7 +8417,7 @@
       "to": 2006
     },
     "wayback_time": 20181105024447,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8551,7 +8461,7 @@
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
     "wayback_time": 20181004133049,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -8608,12 +8518,9 @@
       "to": 2009
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20190326142301,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8641,7 +8548,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20050213023452,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8659,14 +8566,11 @@
     "url": "http://umahito.web.fc2.com/",
     "year": {
       "from": -1,
-      "to": 2014
+      "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "素材配布",
-    "state": "exist"
+    "state": "canvas"
   },
   {
     "site": {
@@ -8703,7 +8607,7 @@
       "to": 2003
     },
     "wayback_time": 20181105080134,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8746,10 +8650,7 @@
       "to": 2015
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "state": "exist"
   },
   {
@@ -8760,7 +8661,7 @@
     "webmaster": "つっち",
     "url": "http://www.geocities.jp/tsucchifine2002jp/",
     "wayback_time": 20050815010823,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8784,14 +8685,10 @@
       "from": 2005,
       "to": 2013
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20190117221447,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8806,7 +8703,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023501,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8861,7 +8758,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105153646,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8886,7 +8783,7 @@
       "to": 2009
     },
     "wayback_time": 20190320201543,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -8928,7 +8825,8 @@
       "from": -1,
       "to": 2008
     },
-    "state": "exist"
+    "wayback_time": 20190414013808,
+    "state": "archived"
   },
   {
     "site": {
@@ -8950,7 +8848,7 @@
       "to": 2006
     },
     "wayback_time": 20190330065610,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -8978,7 +8876,7 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20181108140011,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -9071,7 +8969,7 @@
       "to": 2004
     },
     "wayback_time": 20181105051833,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9094,7 +8992,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20140209125141,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9137,7 +9035,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181002132331,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9158,18 +9056,14 @@
       "http://onlyplace.symphonic-net.com/",
       "http://masao0517.tm.land.to/"
     ],
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "一画面", "カービィ系"],
     "feature": "正男100個以上",
     "year": {
       "from": 2005,
       "to": 2019
     },
     "wayback_time": 20220417123426,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9283,7 +9177,7 @@
     },
     "url": "http://sweety.jp/satoutakao/",
     "wayback_time": 20060502005836,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9343,10 +9237,7 @@
       "name": "Saturn'sMF",
       "yomi": "さたあんすえむえふ"
     },
-    "oldname": [
-      "正男フィールド",
-      "ゆうすけのページ"
-    ],
+    "oldname": ["正男フィールド", "ゆうすけのページ"],
     "webmaster": "skysaturn",
     "banner": {
       "image": "masaofield.png",
@@ -9427,7 +9318,7 @@
       "to": 2005
     },
     "wayback_time": 20181105024810,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9470,7 +9361,8 @@
       "to": 2008
     },
     "kind_masao": "カービィ系",
-    "state": "exist"
+    "wayback_time": 20221229185158,
+    "state": "archived"
   },
   {
     "site": {
@@ -9486,7 +9378,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20080211173944,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9520,7 +9412,7 @@
       "to": 2004
     },
     "wayback_time": 20181105024259,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9572,7 +9464,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190528074105,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9639,15 +9531,11 @@
       }
     },
     "url": "http://ma2.s55.xrea.com/",
-    "suburl": "http://ma2page.fc2web.com/",
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "oldurl": "http://ma2page.fc2web.com/",
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20060206035821,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9669,7 +9557,7 @@
     },
     "kind_masao": "一画面",
     "wayback_time": 20190330235448,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9733,10 +9621,7 @@
       "from": -1,
       "to": 2010
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20150303195548,
     "state": "closed"
   },
@@ -9841,7 +9726,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105024918,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9904,7 +9789,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105024646,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9951,12 +9836,9 @@
       "from": -1,
       "to": -2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20200308153615,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9969,7 +9851,7 @@
       "to": 2003
     },
     "wayback_time": 20181105073708,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -9997,7 +9879,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105054604,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10106,7 +9988,7 @@
     },
     "url": "http://www.geocities.co.jp/Playtown-Bishop/6402/",
     "wayback_time": 20040914204051,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10206,7 +10088,7 @@
       "to": 2006
     },
     "wayback_time": 20181019141327,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10293,14 +10175,8 @@
       "background_color": "#000080"
     },
     "url": "http://mssiden.ifdef.jp/",
-    "oldurl": [
-      "http://sidenwwa.hp.infoseek.co.jp/",
-      "http://siden.tn.st/"
-    ],
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "oldurl": ["http://sidenwwa.hp.infoseek.co.jp/", "http://siden.tn.st/"],
+    "kind_masao": ["自動", "一画面"],
     "state": "exist"
   },
   {
@@ -10338,10 +10214,7 @@
       "http://ninjamasao.syuriken.jp/",
       "http://shinobinokakurezato.web.fc2.com/"
     ],
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "wayback_time": 20150730123749,
     "state": "closed"
   },
@@ -10359,10 +10232,7 @@
       }
     },
     "url": "http://sim-kengo.hp.infoseek.co.jp/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "work": "浩二の遥か道",
     "wayback_time": 20051210083302,
     "state": "closed"
@@ -10387,10 +10257,7 @@
       "http://www.geocities.jp/super_german_potato/"
     ],
     "kind_masao": "カービィ系",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
     "state": "exist"
   },
   {
@@ -10404,7 +10271,7 @@
       "to": 2003
     },
     "wayback_time": 20181105023447,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10418,7 +10285,7 @@
       "to": 2006
     },
     "wayback_time": 20181105071731,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10457,7 +10324,7 @@
       "to": 2007
     },
     "wayback_time": 20181105023825,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10500,13 +10367,9 @@
       "to": -2004
     },
     "kind_masao": "ストーリー",
-    "work": [
-      "シャロンの冒険",
-      "おじいさんの冒険",
-      "浩二の反乱"
-    ],
+    "work": ["シャロンの冒険", "おじいさんの冒険", "浩二の反乱"],
     "wayback_time": 20181105072901,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10524,7 +10387,7 @@
     "url": "http://www12.ocn.ne.jp/~potohiro/",
     "kind_masao": "ストーリー",
     "wayback_time": 20040131064639,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10536,7 +10399,8 @@
       "background_color": "#FFFFFF"
     },
     "url": "http://rcp123.k-server.org/",
-    "state": "exist"
+    "wayback_time": 20200429050240,
+    "state": "archived"
   },
   {
     "site": {
@@ -10625,7 +10489,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181020154928,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10677,7 +10541,7 @@
       "to": 2006
     },
     "wayback_time": 20190113091244,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10705,10 +10569,7 @@
       "name": "ジュンのアイスクライマー・Wikiの部屋",
       "yomi": "しゆんのあいすくらいまあういきのへや"
     },
-    "oldname": [
-      "アイクラルーム",
-      "ジュンページ"
-    ],
+    "oldname": ["アイクラルーム", "ジュンページ"],
     "webmaster": "ジュン",
     "banner": {
       "image": "juniceclimber.png",
@@ -10765,7 +10626,7 @@
       "to": -2006
     },
     "wayback_time": 20060208032240,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -10840,7 +10701,8 @@
       "background_color": "#050505"
     },
     "url": "http://www16.plala.or.jp/s00138/",
-    "state": "exist"
+    "wayback_time": 20250331233613,
+    "state": "archived"
   },
   {
     "site": {
@@ -10967,11 +10829,7 @@
       "from": 2006,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20081212002022,
     "state": "closed"
   },
@@ -10992,7 +10850,7 @@
     "url": "http://f17.aaa.livedoor.jp/~takasoft/",
     "oldurl": "http://www.geocities.jp/takafm2000/",
     "wayback_time": 20071120213126,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11009,8 +10867,10 @@
       }
     },
     "url": "http://silverunion.ifdef.jp/",
-    "suburl": "http://mumc.nm.land.to/",
-    "oldurl": "http://urawa.cool.ne.jp/silver-union/",
+    "oldurl": [
+      "http://mumc.nm.land.to/",
+      "http://urawa.cool.ne.jp/silver-union/"
+    ],
     "year": {
       "from": 2004,
       "to": 2008
@@ -11033,10 +10893,7 @@
       "from": 2011,
       "to": 2011
     },
-    "kind_masao": [
-      "JS拡張",
-      "カービィ系"
-    ],
+    "kind_masao": ["JS拡張", "カービィ系"],
     "state": "exist"
   },
   {
@@ -11080,11 +10937,7 @@
       "from": 2007,
       "to": -1
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["一画面", "ストーリー", "カービィ系"],
     "feature": "正男100個以上",
     "wayback_time": 20071206005927,
     "state": "closed"
@@ -11183,10 +11036,7 @@
       "from": 2006,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20070124021039,
     "state": "closed"
   },
@@ -11248,12 +11098,7 @@
       "from": 2009,
       "to": 2020
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "work": "12の秘宝",
     "state": "canvas"
@@ -11293,16 +11138,10 @@
       "from": 2005,
       "to": 2013
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20190331144648,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -11346,10 +11185,7 @@
       "to": 2013
     },
     "kind_masao": "カービィ系",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20130702154931,
     "state": "closed"
   },
@@ -11407,13 +11243,20 @@
       "from": 2006,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "WWA",
     "wayback_time": 20190331003715,
-    "state": "archived_geolog"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "スーパーゲームタウン",
+      "yomi": "すうはあけえむたうん"
+    },
+    "webmaster": "zyekuto",
+    "url": "http://zyekuto.hp.infoseek.co.jp/",
+    "wayback_time": 20050214033625,
+    "state": "closed"
   },
   {
     "site": {
@@ -11428,22 +11271,17 @@
         "y": 40
       }
     },
-    "url": "http://diamondshp.starfree.jp/",
-    "oldurl": "http://www.geocities.jp/diamondshp/",
+    "url": "https://sds.stars.ne.jp/",
+    "oldurl": [
+      "http://diamondshp.starfree.jp/",
+      "http://www.geocities.jp/diamondshp/"
+    ],
     "year": {
       "from": 2006,
       "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "カービィ系",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "一画面", "カービィ系", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "state": "canvas"
   },
   {
@@ -11465,11 +11303,8 @@
       "to": 2007
     },
     "wayback_time": 20190409160507,
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
-    "state": "archived_wayback"
+    "feature": ["正男100個以上", "WWA"],
+    "state": "archived"
   },
   {
     "site": {
@@ -11488,11 +11323,7 @@
     },
     "webmaster": "TOMOHIRO",
     "url": "http://1st.geocities.jp/tomohiro1994427/masaoairando.htm",
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20080606024340,
     "state": "closed"
   },
@@ -11536,14 +11367,8 @@
       "from": 2003,
       "to": 2005
     },
-    "kind_masao": [
-      "ストーリー",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["ストーリー", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20050404082622,
     "state": "closed"
   },
@@ -11584,16 +11409,10 @@
       "to": 2005
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
-    "work": [
-      "水玉亀の冒険",
-      "アースの復讐"
-    ],
+    "feature": ["正男100個以上", "WWA"],
+    "work": ["水玉亀の冒険", "アースの復讐"],
     "wayback_time": 20050406155450,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11623,10 +11442,7 @@
       "name": "Super Masao Empire",
       "yomi": "すうはあまさおえんはいあ"
     },
-    "oldname": [
-      "超正男帝国",
-      "正男のおっきなくに"
-    ],
+    "oldname": ["超正男帝国", "正男のおっきなくに"],
     "webmaster": "Word Mode",
     "banner": {
       "image": "sme.gif",
@@ -11641,10 +11457,7 @@
       "from": 2008,
       "to": 2010
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "state": "exist"
   },
   {
@@ -11691,11 +11504,7 @@
       "name": "スーパー正男斬ネオ",
       "yomi": "すうはあまさおきりねお"
     },
-    "oldname": [
-      "スーパー正男斬",
-      "カーボンのホームページ",
-      "MASAO COMANDER'S"
-    ],
+    "oldname": ["スーパー正男斬", "カーボンのホームページ", "MASAO COMANDER'S"],
     "webmaster": "スタープラチナ",
     "banner": {
       "image": "zan.gif",
@@ -11741,7 +11550,7 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20090313002611,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11807,16 +11616,10 @@
     "oldurl": "http://gms.symphonic-net.com/",
     "year": {
       "from": 2009,
-      "to": 0
+      "to": 2021
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "エディタ"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
+    "feature": ["正男100個以上", "エディタ"],
     "state": "canvas"
   },
   {
@@ -11883,7 +11686,7 @@
     "url": "http://masaostock.hp.infoseek.co.jp/",
     "kind_masao": "カービィ系",
     "wayback_time": 20071215203656,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11893,7 +11696,7 @@
     "url": "http://www.okiniiri.com/masao/",
     "kind_masao": "カービィ系",
     "wayback_time": 20150220225519,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11916,7 +11719,7 @@
       "to": 2008
     },
     "wayback_time": 20060421152043,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -11937,11 +11740,7 @@
       "from": 2006,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "SASUKE系"
-    ],
+    "kind_masao": ["自動", "ストーリー", "SASUKE系"],
     "feature": "素材配布",
     "wayback_time": 20100408140104,
     "state": "closed"
@@ -11991,11 +11790,7 @@
       "name": "スーパー正男MY+",
       "yomi": "すうはあまさおまいふらす"
     },
-    "oldname": [
-      "GrayPlanet",
-      "てふRoom",
-      "スーパー正男MY"
-    ],
+    "oldname": ["GrayPlanet", "てふRoom", "スーパー正男MY"],
     "webmaster": "Tex",
     "banner": {
       "image": "myplus.gif",
@@ -12013,15 +11808,8 @@
       "from": 2008,
       "to": 0
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
-    "feature": [
-      "正男100個以上",
-      "エディタ"
-    ],
+    "kind_masao": ["一画面", "ストーリー", "JS拡張"],
+    "feature": ["正男100個以上", "エディタ"],
     "state": "canvas"
   },
   {
@@ -12046,15 +11834,10 @@
       "from": 2004,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "SASUKE系"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "SASUKE系"],
     "feature": "正男100個以上",
     "wayback_time": 20130124210224,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12100,16 +11883,10 @@
       "from": 2003,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20071024103213,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12147,7 +11924,7 @@
       "to": 2004
     },
     "wayback_time": 20181105041121,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12173,7 +11950,7 @@
       "to": 2004
     },
     "wayback_time": 20030604083647,
-    "state": "remained"
+    "state": "archived"
   },
   {
     "site": {
@@ -12218,12 +11995,9 @@
       "from": 2005,
       "to": 2005
     },
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20181105024204,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12279,20 +12053,15 @@
       }
     },
     "url": "http://sky.geocities.jp/nao_hazumu/",
+    "oldurl": "http://www.geocities.jp/ifjbasifiu87sahfl3diufihf/index2.html",
     "year": {
       "from": 2005,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20071113035103,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12354,7 +12123,7 @@
     "url": "http://sky.geocities.jp/akatuki1akatuki2akatuki3/index.htm",
     "feature": "WWA",
     "wayback_time": 20080612195153,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12376,7 +12145,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181005155928,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12465,7 +12234,7 @@
       "to": 2005
     },
     "wayback_time": 20050208062908,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12503,7 +12272,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20050209180239,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12526,7 +12295,7 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20060724043917,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12543,10 +12312,7 @@
     },
     "url": "http://puchi1.hp.infoseek.co.jp/index.htm",
     "kind_masao": "カービィ系",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20050524120203,
     "state": "closed"
   },
@@ -12562,10 +12328,7 @@
       "from": 2005,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
     "feature": "素材配布",
     "wayback_time": 20090303070149,
     "state": "closed"
@@ -12615,7 +12378,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190330224454,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -12630,18 +12393,14 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105034611,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "スターリングラード",
       "yomi": "すたありんくらあと"
     },
-    "oldname": [
-      "正男ゲームのページ",
-      "正男の館",
-      "島津の砦"
-    ],
+    "oldname": ["正男ゲームのページ", "正男の館", "島津の砦"],
     "webmaster": "島津義弘",
     "banner": {
       "image": "stalingrad.jpg",
@@ -12656,7 +12415,7 @@
       "http://www.geocities.co.jp/SiliconValley/2720/"
     ],
     "wayback_time": 20060306203611,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12670,7 +12429,7 @@
       "to": 2004
     },
     "wayback_time": 20181105065152,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12687,7 +12446,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20181105034441,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12710,7 +12469,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181029120943,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12757,11 +12516,7 @@
       "name": "Stream",
       "yomi": "すとりいむ"
     },
-    "oldname": [
-      "MASAO ISLAND",
-      "帝王卓球",
-      "99X"
-    ],
+    "oldname": ["MASAO ISLAND", "帝王卓球", "99X"],
     "webmaster": "BIZ",
     "banner": {
       "image": "masaoisland.gif",
@@ -12772,10 +12527,7 @@
     },
     "url": "http://www2.fctv.ne.jp/~gotoh/index.html",
     "oldurl": "http://www2.fctv.ne.jp/~gotoh/shun/top.htm",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20150325035003,
     "state": "closed"
@@ -12839,12 +12591,9 @@
       "from": -2004,
       "to": 2011
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "wayback_time": 20181105023505,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12878,7 +12627,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20190301223244,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12919,13 +12668,10 @@
       "from": 2004,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20060516094351,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -12994,7 +12740,7 @@
       "to": 2009
     },
     "wayback_time": 20181105034656,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13048,7 +12794,8 @@
       "from": -1,
       "to": 2005
     },
-    "state": "exist"
+    "wayback_time": 20220329204533,
+    "state": "archived"
   },
   {
     "site": {
@@ -13070,7 +12817,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105050032,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13091,7 +12838,7 @@
       "to": 2005
     },
     "wayback_time": 20181125074344,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13148,7 +12895,7 @@
     },
     "url": "http://www.geocities.jp/suntyan3/",
     "wayback_time": 20190325154340,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13194,16 +12941,10 @@
       "from": 2008,
       "to": 2011
     },
-    "kind_masao": [
-      "一画面",
-      "JS拡張"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["一画面", "JS拡張"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20180226132707,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13246,7 +12987,7 @@
       "to": 2010
     },
     "wayback_time": 20200810083041,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13259,7 +13000,7 @@
       "to": 2011
     },
     "wayback_time": 20190331142323,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -13270,7 +13011,7 @@
     "url": "http://www.geocities.jp/celeryyyy/",
     "kind_masao": "自動",
     "wayback_time": 20190330234705,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13300,7 +13041,7 @@
     "oldurl": "http://litter.symphonic-net.com/",
     "year": {
       "from": 2010,
-      "to": 2019
+      "to": 0
     },
     "feature": "エディタ",
     "state": "canvas"
@@ -13324,7 +13065,7 @@
       "to": 2008
     },
     "wayback_time": 20190330114950,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -13337,7 +13078,8 @@
       "background_color": "#99FF99"
     },
     "url": "http://csv.cs.land.to/",
-    "state": "exist"
+    "wayback_time": 20190415132514,
+    "state": "archived"
   },
   {
     "site": {
@@ -13376,10 +13118,7 @@
     },
     "url": "http://homepage2.nifty.com/creationcity/",
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
     "state": "vanished"
   },
   {
@@ -13417,10 +13156,7 @@
       "from": 2010,
       "to": 2018
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "state": "exist"
   },
@@ -13495,10 +13231,7 @@
     },
     "webmaster": "健二",
     "url": "http://tanabeosumi.ikaduchi.com/index.html",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20080628050219,
     "state": "closed"
   },
@@ -13573,7 +13306,7 @@
       "to": 2009
     },
     "wayback_time": 20181105023455,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13621,7 +13354,7 @@
       "to": 2014
     },
     "wayback_time": 20190330064322,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13632,7 +13365,7 @@
     "url": "http://www2.cty-net.ne.jp/~tomatsu/",
     "kind_masao": "ストーリー",
     "wayback_time": 20070818215853,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13714,7 +13447,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023735,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13749,7 +13482,7 @@
       "to": 2010
     },
     "wayback_time": 20180226235026,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13770,7 +13503,7 @@
       "to": 2004
     },
     "wayback_time": 20181105053358,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13864,7 +13597,7 @@
       "to": 2008
     },
     "wayback_time": 20080202183210,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13892,10 +13625,7 @@
       "name": "鷹の特大正男帝国",
       "yomi": "たかのとくたいまさおていこく"
     },
-    "oldname": [
-      "正男の特大帝国",
-      "正男でGOGO"
-    ],
+    "oldname": ["正男の特大帝国", "正男でGOGO"],
     "webmaster": "鷹男",
     "banner": {
       "image": "takateikoku.gif",
@@ -13911,7 +13641,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181003131436,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -13981,12 +13711,9 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
-    "work": [
-      "スーパー正男ウィンター",
-      "WINTER&SUNSHINE"
-    ],
+    "work": ["スーパー正男ウィンター", "WINTER&SUNSHINE"],
     "wayback_time": 20040924180133,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14012,14 +13739,11 @@
       "from": 2003,
       "to": 2006
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "feature": "正男100個以上",
     "work": "メカザワGO!GO!",
     "wayback_time": 20040722073243,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14044,7 +13768,7 @@
       "to": 2005
     },
     "wayback_time": 20181024025048,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14063,18 +13787,14 @@
     "url": "http://yanabou.hp.infoseek.co.jp/index.html",
     "kind_masao": "ストーリー",
     "wayback_time": 20061114123200,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "たけのこ峠",
       "yomi": "たけのことうけ"
     },
-    "oldname": [
-      "aqua luna zone",
-      "クレセントムーン",
-      "青空なページ"
-    ],
+    "oldname": ["aqua luna zone", "クレセントムーン", "青空なページ"],
     "webmaster": "カイト",
     "banner": {
       "image": "takenokotouge.gif",
@@ -14146,10 +13866,7 @@
       "from": 2006,
       "to": 2014
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "work": "正男のてきとー大冒険",
     "state": "exist"
   },
@@ -14222,7 +13939,8 @@
       "to": 2006
     },
     "feature": "エディタ",
-    "state": "exist"
+    "wayback_time": 20241219090239,
+    "state": "closed"
   },
   {
     "site": {
@@ -14281,10 +13999,7 @@
     "oldname": "幻想空間",
     "webmaster": "wiz",
     "url": "http://thefantasyspace.web.fc2.com/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20070705102706,
     "state": "closed"
   },
@@ -14307,10 +14022,7 @@
       "from": 2014,
       "to": 0
     },
-    "kind_masao": [
-      "一画面",
-      "JS拡張"
-    ],
+    "kind_masao": ["一画面", "JS拡張"],
     "feature": "素材配布",
     "state": "canvas"
   },
@@ -14443,11 +14155,9 @@
       "to": -1
     },
     "feature": "素材配布",
-    "work": [
-      "正男カート",
-      "恐怖正男"
-    ],
-    "state": "exist"
+    "work": ["正男カート", "恐怖正男"],
+    "wayback_time": 20220329204649,
+    "state": "archived"
   },
   {
     "site": {
@@ -14469,16 +14179,10 @@
       "to": 2007
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
-    "work": [
-      "MMOバスターズ",
-      "マサオカート"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
+    "work": ["MMOバスターズ", "マサオカート"],
     "wayback_time": 20140718073021,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14593,7 +14297,7 @@
     },
     "kind_masao": "一画面",
     "wayback_time": 20190330224537,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -14641,7 +14345,7 @@
     },
     "url": "http://madougu.hp.infoseek.co.jp/",
     "wayback_time": 20050331044140,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14754,7 +14458,8 @@
       }
     },
     "url": "http://web-box.jp/wtr/teammasao/",
-    "state": "exist"
+    "wayback_time": 20080512082115,
+    "state": "closed"
   },
   {
     "site": {
@@ -14776,8 +14481,9 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
+    "work": "トレジャーハンター",
     "wayback_time": 20190331133758,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14818,7 +14524,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20190127093759,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -14847,10 +14553,7 @@
       "name": "中学生ちゃんねる2129",
       "yomi": "ちゆうかくせいちやんねるにいいちにいきゆう"
     },
-    "oldname": [
-      "中学生ぢゃんねる2129",
-      "中学生じゃんねる2129"
-    ],
+    "oldname": ["中学生ぢゃんねる2129", "中学生じゃんねる2129"],
     "webmaster": "まさとし",
     "url": "http://www.geocities.jp/masaton2129/",
     "oldurl": [
@@ -14863,7 +14566,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190330062521,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -15010,7 +14713,7 @@
       "to": 2005
     },
     "wayback_time": 20051219033459,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15024,7 +14727,7 @@
       "to": 2011
     },
     "wayback_time": 20190331145437,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15090,7 +14793,7 @@
     "url": "http://tatsuro12.zero-yen.com/game.html",
     "oldurl": "http://www.geocities.jp/tatsuro0987/",
     "wayback_time": 20181030111558,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15175,11 +14878,7 @@
       "from": 2006,
       "to": 2021
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "state": "canvas"
   },
@@ -15259,17 +14958,10 @@
       "from": -1,
       "to": -2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "一画面", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20190330142326,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -15328,7 +15020,7 @@
       "to": 2005
     },
     "wayback_time": 20181105023512,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15414,7 +15106,7 @@
       "to": -2004
     },
     "wayback_time": 20031122010210,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15436,7 +15128,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20110730131414,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15461,7 +15153,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20060505135437,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15555,7 +15247,7 @@
     },
     "url": "http://w3.oroti.net/~seisaku/",
     "wayback_time": 20200810080536,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15578,7 +15270,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105034152,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15613,7 +15305,8 @@
       "from": -1,
       "to": 2003
     },
-    "state": "exist"
+    "wayback_time": 20200807143137,
+    "state": "archived"
   },
   {
     "site": {
@@ -15656,7 +15349,7 @@
       "to": 2006
     },
     "wayback_time": 20181105034312,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15713,20 +15406,11 @@
       "from": 2008,
       "to": 2019
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
-    "work": [
-      "普通正男",
-      "普通ザトシ"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
+    "feature": ["正男100個以上", "素材配布"],
+    "work": ["普通正男", "普通ザトシ"],
     "wayback_time": 20190331144526,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -15751,10 +15435,7 @@
       "name": "天界の聖域",
       "yomi": "てんかいのせいいき"
     },
-    "oldname": [
-      "天界の研究室",
-      "メガメガLAB"
-    ],
+    "oldname": ["天界の研究室", "メガメガLAB"],
     "webmaster": "ノア",
     "banner": {
       "image": "seiiki.gif",
@@ -15770,7 +15451,8 @@
       "to": -1
     },
     "kind_masao": "ストーリー",
-    "state": "exist"
+    "wayback_time": 20150228202517,
+    "state": "archived"
   },
   {
     "site": {
@@ -15784,7 +15466,7 @@
       "to": 2007
     },
     "wayback_time": 20181122160041,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15868,7 +15550,7 @@
       "to": -2004
     },
     "wayback_time": 20040901182232,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -15914,10 +15596,7 @@
       "from": 2007,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "state": "exist"
   },
   {
@@ -15939,12 +15618,9 @@
       "from": 2006,
       "to": 2008
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20181029134250,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16058,7 +15734,7 @@
       "to": 2005
     },
     "wayback_time": 20060531124055,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16093,7 +15769,7 @@
       }
     },
     "url": "http://wakakusa.ikaduchi.com/",
-    "suburl": "http://wakakusa.is.land.to/",
+    "oldurl": "http://wakakusa.is.land.to/",
     "kind_masao": "ストーリー",
     "state": "exist"
   },
@@ -16153,7 +15829,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023515,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16273,7 +15949,7 @@
       "to": 2006
     },
     "wayback_time": 20181106200908,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16287,7 +15963,7 @@
       "to": 2006
     },
     "wayback_time": 20190126122244,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16391,7 +16067,7 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20181107192114,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16412,7 +16088,7 @@
       "to": 2005
     },
     "wayback_time": 20181105023723,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16434,7 +16110,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105144722,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16457,7 +16133,8 @@
       "from": 2006,
       "to": 2012
     },
-    "state": "exist"
+    "wayback_time": 20160316145615,
+    "state": "archived"
   },
   {
     "site": {
@@ -16530,7 +16207,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024728,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16575,6 +16252,7 @@
       "to": 2006
     },
     "feature": "正男100個以上",
+    "work": ["DARKMASAO", "自衛隊正男", "OKKの大冒険"],
     "wayback_time": 20060102225829,
     "state": "closed"
   },
@@ -16648,7 +16326,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024015,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16662,7 +16340,7 @@
       "to": 2009
     },
     "wayback_time": 20181105104754,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16683,7 +16361,7 @@
       "to": 2006
     },
     "wayback_time": 20190329033516,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16724,13 +16402,10 @@
       "from": 2005,
       "to": 2010
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20191215072134,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16751,7 +16426,7 @@
       "to": 2012
     },
     "wayback_time": 20190330011550,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16765,7 +16440,7 @@
       "to": 2004
     },
     "wayback_time": 20181105041606,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16800,7 +16475,7 @@
       "to": 2005
     },
     "wayback_time": 20181105095146,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16824,7 +16499,7 @@
     "webmaster": "7755334",
     "url": "http://www.geocities.jp/yuma2ch/",
     "wayback_time": 20181105024814,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -16880,7 +16555,18 @@
       "to": 2006
     },
     "wayback_time": 20181105062902,
-    "state": "archived_wayback"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "Nabeyan's Web Site",
+      "yomi": "なへやんすうえふさいと"
+    },
+    "webmaster": "なべやん",
+    "url": "http://nws15.hp.infoseek.co.jp/",
+    "oldurl": "http://www10.plala.or.jp/toshikosan/nws/index.htm",
+    "wayback_time": 20050829220648,
+    "state": "closed"
   },
   {
     "site": {
@@ -16979,7 +16665,7 @@
       "to": 2006
     },
     "wayback_time": 20181027070659,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17068,7 +16754,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20190330234333,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -17091,17 +16777,14 @@
     },
     "url": "http://www.geocities.jp/beta1090/newmasao.htm",
     "wayback_time": 20181118105905,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "New Sky Order",
       "yomi": "にゆうすかいおおたあ"
     },
-    "oldname": [
-      "あるなーと神国",
-      "やかん王国"
-    ],
+    "oldname": ["あるなーと神国", "やかん王国"],
     "webmaster": "もとき",
     "banner": {
       "image": "newskyorder.gif",
@@ -17118,7 +16801,7 @@
     },
     "kind_masao": "JS拡張",
     "wayback_time": 20210422014516,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17195,12 +16878,9 @@
       "from": 2007,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20190330234853,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17217,7 +16897,7 @@
     },
     "url": "http://nobausagi.hp.infoseek.co.jp/",
     "wayback_time": 20050323213335,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17282,7 +16962,7 @@
     "url": "http://xsgm.hp.infoseek.co.jp/INDEX.HTM",
     "feature": "WWA",
     "wayback_time": 20050322083751,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17455,7 +17135,7 @@
       "to": -1
     },
     "wayback_time": 20060827210625,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17542,7 +17222,7 @@
       "to": -2006
     },
     "wayback_time": 20200815161515,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17558,10 +17238,7 @@
       }
     },
     "url": "http://kikutako.hp.infoseek.co.jp/index.html",
-    "oldurl": [
-      "http://monhan.ddo.jp/",
-      "http://www11.ocn.ne.jp/~taku/"
-    ],
+    "oldurl": ["http://monhan.ddo.jp/", "http://www11.ocn.ne.jp/~taku/"],
     "feature": "正男100個以上",
     "wayback_time": 20060107014926,
     "state": "closed"
@@ -17604,7 +17281,7 @@
       "to": -2005
     },
     "wayback_time": 20190325134234,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17622,10 +17299,7 @@
       "name": "のーぷろぐれむ",
       "yomi": "のおふろくれむ"
     },
-    "oldname": [
-      "グンイレプルーロ",
-      "フララページ"
-    ],
+    "oldname": ["グンイレプルーロ", "フララページ"],
     "webmaster": "ほりん",
     "banner": {
       "image": "noproglem.gif",
@@ -17640,10 +17314,7 @@
       "from": 2004,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20090129172041,
     "state": "closed"
   },
@@ -17681,7 +17352,7 @@
       "to": 2004
     },
     "wayback_time": 20181105041630,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17740,10 +17411,7 @@
     },
     "url": "http://masaogame.web.fc2.com/",
     "oldurl": "http://www.geocities.jp/noppi422/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20121015084023,
     "state": "closed"
   },
@@ -17767,7 +17435,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023811,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17790,7 +17458,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20190321131748,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17904,7 +17572,7 @@
     "kind_masao": "カービィ系",
     "feature": "WWA",
     "wayback_time": 20181105023541,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -17992,7 +17660,7 @@
     "url": "http://www.geocities.jp/ramiaravuresu/",
     "kind_masao": "ストーリー",
     "wayback_time": 20080611114637,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18015,7 +17683,7 @@
     "kind_masao": "自動",
     "feature": "WWA",
     "wayback_time": 20181105023751,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18045,7 +17713,7 @@
       "to": 2011
     },
     "wayback_time": 20190331123436,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18061,23 +17729,19 @@
       }
     },
     "url": "http://pakuriman.pv.land.to/",
-    "suburl": "http://masao.yh.land.to/",
-    "oldurl": "http://pakuriman.hp.infoseek.co.jp/",
+    "oldurl": [
+      "http://masao.yh.land.to/",
+      "http://pakuriman.hp.infoseek.co.jp/"
+    ],
     "year": {
       "from": 2003,
       "to": 2010
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "ストーリー", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "work": "リーディングヒッターシチロー",
-    "state": "exist"
+    "wayback_time": 20241012144156,
+    "state": "archived"
   },
   {
     "site": {
@@ -18170,7 +17834,7 @@
       "to": 2007
     },
     "wayback_time": 20181105023656,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18311,22 +17975,15 @@
       }
     },
     "url": "http://81.la/~paphi/",
-    "suburl": "http://paphi.jp.land.to/",
+    "oldurl": "http://paphi.jp.land.to/",
     "year": {
       "from": 2005,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "エディタ"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
+    "feature": ["正男100個以上", "エディタ"],
     "wayback_time": 20211026173536,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18362,7 +18019,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181125091801,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18379,7 +18036,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20101008025931,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18420,7 +18077,7 @@
       "to": 2011
     },
     "wayback_time": 20181105024144,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18474,6 +18131,27 @@
   },
   {
     "site": {
+      "name": "パワ神",
+      "yomi": "はわかみ"
+    },
+    "webmaster": "tadu333",
+    "banner": {
+      "image": "pawakami.gif",
+      "size": {
+        "x": 200,
+        "y": 40
+      }
+    },
+    "url": "http://tadu333.fc2web.com/",
+    "year": {
+      "from": -1,
+      "to": -2005
+    },
+    "wayback_time": 20050516013050,
+    "state": "closed"
+  },
+  {
+    "site": {
       "name": "ぱわぷろ屋",
       "yomi": "はわふろや"
     },
@@ -18519,7 +18197,7 @@
       "to": 2004
     },
     "wayback_time": 20181105024309,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -18540,10 +18218,7 @@
       "from": 2005,
       "to": 2012
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "正男100個以上",
     "state": "exist"
   },
@@ -18583,18 +18258,14 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20190331134324,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "B-Sta",
       "yomi": "ひいすた"
     },
-    "oldname": [
-      "Java Game Stadium",
-      "俺のゲームの家",
-      "俺のホームページ"
-    ],
+    "oldname": ["Java Game Stadium", "俺のゲームの家", "俺のホームページ"],
     "webmaster": "俺",
     "banner": {
       "image": "orenogameno.gif",
@@ -18617,10 +18288,7 @@
       "name": "PEACEFUL FARM",
       "yomi": "ひいすふるふああむ"
     },
-    "oldname": [
-      "PEACEFUL TOWN",
-      "MAJIMAN'S WWA！"
-    ],
+    "oldname": ["PEACEFUL TOWN", "MAJIMAN'S WWA！"],
     "webmaster": "マジマン",
     "banner": {
       "image": "peacefulfarm.png",
@@ -18682,7 +18350,7 @@
       "to": 2004
     },
     "wayback_time": 20181105024648,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -18704,7 +18372,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190331143023,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -18761,10 +18429,7 @@
       "長編3 World ruin army corps",
       "長編4 New Power Dictatorship."
     ],
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "wayback_time": 20120923135042,
     "state": "closed"
@@ -18806,7 +18471,7 @@
     "url": "http://www.rak1.jp/one/user/pikumin_tyappi/",
     "state": "vanished"
   },
-  
+
   {
     "site": {
       "name": "ピケミンの部屋",
@@ -18873,7 +18538,7 @@
       "to": 2007
     },
     "wayback_time": 20181105024711,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18916,15 +18581,9 @@
       "from": 2011,
       "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
-    "work": [
-      "手抜き正男",
-      "ひらがな正男"
-    ],
+    "work": ["手抜き正男", "ひらがな正男"],
     "state": "canvas"
   },
   {
@@ -18947,7 +18606,7 @@
       "to": 2003
     },
     "wayback_time": 20190203051107,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -18972,6 +18631,19 @@
     "url": "http://www42.tok2.com/home/himakisiharahetta/yugijo.html",
     "oldurl": "http://himakisi.fuma-kotaro.com/",
     "state": "vanished"
+  },
+  {
+    "site": {
+      "name": "暇検定",
+      "yomi": "ひまけんてい"
+    },
+    "url": "http://einestone.hp.infoseek.co.jp/",
+    "year": {
+      "from": 2003,
+      "to": -1
+    },
+    "wayback_time": 20030618024139,
+    "state": "closed"
   },
   {
     "site": {
@@ -19033,7 +18705,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20050403203433,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19083,12 +18755,9 @@
       "http://me0406.client.jp/",
       "http://www.geocities.jp/me1020305/"
     ],
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "カービィ系"
-    ],
-    "state": "exist"
+    "kind_masao": ["自動", "ストーリー", "カービィ系"],
+    "wayback_time": 20040820101803,
+    "state": "archived"
   },
   {
     "site": {
@@ -19109,7 +18778,7 @@
       "to": 2005
     },
     "wayback_time": 20190330041050,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -19131,7 +18800,7 @@
       "name": "★ひも団★とSOMA.ページ",
       "yomi": "ひもたんとそおまへえし"
     },
-    "oldname": "★ひも団★とSOMAのホームページ", 
+    "oldname": "★ひも団★とSOMAのホームページ",
     "webmaster": "SOMA",
     "url": "http://members.ld.infoseek.co.jp/soma10/",
     "oldurl": [
@@ -19189,7 +18858,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105023739,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19209,10 +18878,7 @@
       "from": 2009,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20140308030135,
     "state": "closed"
@@ -19236,10 +18902,7 @@
       "name": "Hiro's game room",
       "yomi": "ひろすけえむるうむ"
     },
-    "oldname": [
-      "ヒーローのゲーム部屋",
-      "カービィの部屋"
-    ],
+    "oldname": ["ヒーローのゲーム部屋", "カービィの部屋"],
     "webmaster": "ヒーロー",
     "banner": {
       "image": "hiros.png",
@@ -19250,16 +18913,10 @@
     },
     "url": "http://www.geocities.jp/hirotaka403/top01.htm",
     "oldurl": "http://hiro.s201.xrea.com/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20190120080010,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19405,7 +19062,7 @@
       "to": 2006
     },
     "wayback_time": 20190312151245,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19545,10 +19202,7 @@
       "from": 2007,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "JS拡張"],
     "wayback_time": 20110716022310,
     "state": "closed"
   },
@@ -19569,11 +19223,9 @@
       "to": 2016
     },
     "kind_masao": "JS拡張",
-    "feature": [
-      "正男100個以上",
-      "エディタ"
-    ],
-    "state": "canvas"
+    "feature": ["正男100個以上", "エディタ"],
+    "wayback_time": 20250530140008,
+    "state": "archived"
   },
   {
     "site": {
@@ -19613,7 +19265,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105212413,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19644,7 +19296,7 @@
       "to": 2004
     },
     "wayback_time": 20181105023958,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19664,12 +19316,9 @@
       "from": 2006,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
     "wayback_time": 20190330225902,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -19705,7 +19354,7 @@
       "to": 2009
     },
     "wayback_time": 20181003155719,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19774,17 +19423,15 @@
         "y": 40
       }
     },
-    "url": "http://platinet.zouri.jp/orichara_page/",
+    "url": "http://platinet.zouri.jp/orichara_page/top.html",
     "suburl": "http://kamewani.web.fc2.com/",
     "year": {
       "from": 2006,
-      "to": 2015
+      "to": 2026
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
-    "state": "exist"
+    "kind_masao": ["ストーリー", "カービィ系"],
+    "wayback_time": 20250322183627,
+    "state": "archived"
   },
   {
     "site": {
@@ -19820,10 +19467,7 @@
       "name": "Free is MY way",
       "yomi": "ふりいいすまいうえい"
     },
-    "oldname": [
-      "海辺の村",
-      "青夢空"
-    ],
+    "oldname": ["海辺の村", "青夢空"],
     "webmaster": "ハレルヤ",
     "banner": {
       "image": "freeismyway.gif",
@@ -19856,7 +19500,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190330222538,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -19889,7 +19533,7 @@
     },
     "feature": "正男100個以上",
     "wayback_time": 20050307072139,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19935,7 +19579,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20101007124249,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -19950,7 +19594,7 @@
       "to": 2004
     },
     "wayback_time": 20040510015723,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20006,22 +19650,17 @@
       "from": 2006,
       "to": 2013
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "正男100個以上",
-    "state": "exist"
+    "wayback_time": 20251008121044,
+    "state": "archived"
   },
   {
     "site": {
       "name": "Play Game Web",
       "yomi": "ふれいけえむうえふ"
     },
-    "oldname": [
-      "tubotubo's home page",
-      "GAME WORLD"
-    ],
+    "oldname": ["tubotubo's home page", "GAME WORLD"],
     "webmaster": "壺壺",
     "banner": {
       "image": "playgameweb.gif",
@@ -20036,7 +19675,8 @@
       "from": -2003,
       "to": 2004
     },
-    "state": "exist"
+    "wayback_time": 20190519194836,
+    "state": "archived"
   },
   {
     "site": {
@@ -20084,7 +19724,7 @@
         "y": 40
       }
     },
-    
+
     "url": "http://gmdr.ojaru.jp/",
     "year": {
       "from": 2007,
@@ -20108,6 +19748,20 @@
     },
     "url": "http://skwatata.hp.infoseek.co.jp/",
     "wayback_time": 20050306081409,
+    "state": "closed"
+  },
+  {
+    "site": {
+      "name": "FRIEND",
+      "yomi": "ふれんと"
+    },
+    "webmaster": "ユウ",
+    "url": "http://www15.ocn.ne.jp/~friendhp/",
+    "year": {
+      "from": 2004,
+      "to": 2005
+    },
+    "wayback_time": 20050410215438,
     "state": "closed"
   },
   {
@@ -20146,17 +19800,14 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20190329214710,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
       "name": "Flog Cyclone",
       "yomi": "ふろつくさいくろん"
     },
-    "oldname": [
-      "Shidamon's WebPage",
-      "しだまんページ"
-    ],
+    "oldname": ["Shidamon's WebPage", "しだまんページ"],
     "webmaster": "Flog",
     "banner": {
       "image": "flog.gif",
@@ -20174,7 +19825,27 @@
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
     "wayback_time": 20050306081543,
-    "state": "archived_wayback"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "プロフェシー軍団",
+      "yomi": "ふろふえしいくんたん"
+    },
+    "webmaster": "prophecy_lotus",
+    "banner": {
+      "image": "prophecy.jpg",
+      "size": {
+        "x": 200,
+        "y": 40
+      }
+    },
+    "url": "http://yuba.gozaru.jp/",
+    "year": {
+      "from": 2004,
+      "to": 2005
+    },
+    "state": "exist"
   },
   {
     "site": {
@@ -20236,10 +19907,7 @@
       "from": 2009,
       "to": 2011
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "wayback_time": 20100809114746,
     "state": "closed"
   },
@@ -20270,7 +19938,7 @@
     "wayback_time": 20051211215529,
     "kind_masao": "カービィ系",
     "feature": "WWA",
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20330,17 +19998,14 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105024128,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "Peketyu.com",
       "yomi": "へけちゆうこむ"
     },
-    "oldname": [
-      "ぺけちゅうこむ",
-      "POKE NET"
-    ],
+    "oldname": ["ぺけちゅうこむ", "POKE NET"],
     "webmaster": "ペケチュウ",
     "banner": {
       "image": "peketyu.jpg",
@@ -20371,6 +20036,7 @@
       "from": 1999,
       "to": 2008
     },
+    "work": "す～ぱ～べとべた～",
     "wayback_time": 20181018153339,
     "state": "closed"
   },
@@ -20409,7 +20075,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105051056,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20504,11 +20170,9 @@
       "from": 2019,
       "to": 2021
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
-    "state": "canvas"
+    "kind_masao": ["自動", "一画面"],
+    "wayback_time": 20240417210252,
+    "state": "closed"
   },
   {
     "site": {
@@ -20535,9 +20199,9 @@
     },
     "webmaster": "SYランチャー",
     "url": "http://finito-web.com/syranntixya/",
-    "suburl": "http://syranntixya.finito-web.com/",
+    "oldurl": "http://syranntixya.finito-web.com/",
     "wayback_time": 20031212115515,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20558,7 +20222,8 @@
       "to": 2008
     },
     "feature": "正男100個以上",
-    "state": "exist"
+    "wayback_time": 20250210152729,
+    "state": "archived"
   },
   {
     "site": {
@@ -20580,7 +20245,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20110325142322,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20651,7 +20316,32 @@
       "to": 2020
     },
     "wayback_time": 20191001143742,
-    "state": "archived_wayback"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "HOLY SANCTUARY",
+      "yomi": "ほおりいさんくちゆあり"
+    },
+    "oldname": "mmmのページっぽい",
+    "webmaster": "mmm",
+    "banner": {
+      "image": "mmm.gif",
+      "size": {
+        "x": 200,
+        "y": 50
+      }
+    },
+    "url": "http://f50.aaa.livedoor.jp/~mmmz/",
+    "oldurl": "http://f50.aaacafe.ne.jp/~mmmz/",
+    "year": {
+      "from": 2004,
+      "to": -1
+    },
+    "kind_masao": "ストーリー",
+    "feature": "WWA",
+    "wayback_time": 20050212170347,
+    "state": "archived"
   },
   {
     "site": {
@@ -20695,10 +20385,7 @@
       "to": 2007
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "state": "exist"
   },
   {
@@ -20722,7 +20409,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20060716162152,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20743,23 +20430,17 @@
       "from": 2004,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "素材配布",
     "wayback_time": 20190326212950,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "ぽけもん・えぼりゅーしょん・あどばんす！",
       "yomi": "ほけもんえほりゆうしよんあとはんす"
     },
-    "oldname": [
-      "Pokemon-Evolution",
-      "くりすたる～む"
-    ],
+    "oldname": ["Pokemon-Evolution", "くりすたる～む"],
     "webmaster": "TOKI",
     "banner": {
       "image": "pokemonevolution.gif",
@@ -20776,7 +20457,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20050313194914,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20798,18 +20479,10 @@
       "from": 2005,
       "to": 2020
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "JS拡張",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
-    "state": "canvas"
+    "kind_masao": ["自動", "一画面", "ストーリー", "JS拡張", "SASUKE系"],
+    "feature": ["正男100個以上", "WWA"],
+    "wayback_time": 20220213092935,
+    "state": "closed"
   },
   {
     "site": {
@@ -20872,7 +20545,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20050830200847,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -20902,10 +20575,7 @@
       "name": "ポケ錬道場",
       "yomi": "ほけれんとうしよう"
     },
-    "oldname": [
-      "ポケモンの錬金術師SPR",
-      "スーパー正男SPR"
-    ],
+    "oldname": ["ポケモンの錬金術師SPR", "スーパー正男SPR"],
     "webmaster": "ルカリオ☆",
     "banner": {
       "image": "pokeren.png",
@@ -20915,10 +20585,7 @@
       }
     },
     "url": "http://spr7.com/",
-    "oldurl": [
-      "http://spr.ifdef.jp/",
-      "http://edospr.gozaru.jp/masao.top.htm"
-    ],
+    "oldurl": ["http://spr.ifdef.jp/", "http://edospr.gozaru.jp/masao.top.htm"],
     "year": {
       "from": 2004,
       "to": 2005
@@ -20931,10 +20598,7 @@
       "name": "星屑の溜まり場",
       "yomi": "ほしくすのたまりは"
     },
-    "oldname": [
-      "BlastTown",
-      "ウオーズパーク"
-    ],
+    "oldname": ["BlastTown", "ウオーズパーク"],
     "webmaster": "BlastWars",
     "banner": {
       "image": "blastwars.gif",
@@ -20986,6 +20650,7 @@
       }
     },
     "url": "http://www.freepe.com/ii.cgi?ryotua",
+    "oldurl": "http://www.geocities.jp/rkayumi2006/",
     "wayback_time": 20070822021326,
     "state": "closed"
   },
@@ -20994,10 +20659,7 @@
       "name": "星空ぱれっと",
       "yomi": "ほしそらはれつと"
     },
-    "oldname": [
-      "星霜の時",
-      "違男と浩二の秘密の裏庭（仮）"
-    ],
+    "oldname": ["星霜の時", "違男と浩二の秘密の裏庭（仮）"],
     "webmaster": "違男",
     "banner": {
       "image": "starpalette.png",
@@ -21039,7 +20701,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20040518034951,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21085,7 +20747,7 @@
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
     "wayback_time": 20181204153917,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21142,16 +20804,10 @@
     },
     "url": "http://www.geocities.co.jp/Playtown-King/3132/main.html",
     "oldurl": "http://www.geocities.co.jp/Milkyway-Cassiopeia/4742/",
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20040616060146,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21197,14 +20853,8 @@
       }
     },
     "url": "http://huxeruru.jog.buttobi.net/",
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
+    "feature": ["素材配布", "WWA"],
     "state": "exist"
   },
   {
@@ -21225,11 +20875,7 @@
       "from": -1,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "一画面", "カービィ系"],
     "wayback_time": 20181107011234,
     "state": "closed"
   },
@@ -21294,7 +20940,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20181105024723,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21364,7 +21010,8 @@
     "url": "http://www16.tok2.com/home/horitake/",
     "kind_masao": "自動",
     "feature": "まさお3",
-    "state": "exist"
+    "wayback_time": 20190803203513,
+    "state": "archived"
   },
   {
     "site": {
@@ -21382,10 +21029,7 @@
     },
     "url": "http://sound.jp/boru/",
     "suburl": "http://masaoclub.xxxxxxxx.jp/",
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "state": "exist"
   },
   {
@@ -21404,7 +21048,7 @@
     "url": "http://www.geocities.jp/takka212/masao.htm",
     "kind_masao": "SASUKE系",
     "wayback_time": 20181111103359,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21478,7 +21122,7 @@
       "name": "marble's star",
       "yomi": "まあふるすすたあ"
     },
-    "oldname": "マーブル ゲーム生活と学校生活", 
+    "oldname": "マーブル ゲーム生活と学校生活",
     "webmaster": "マーブル7641",
     "banner": {
       "image": "marble.jpeg",
@@ -21519,10 +21163,7 @@
     },
     "url": "http://tubuaroe.nomaki.jp/",
     "oldurl": "http://www.geocities.jp/msnt_world/",
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "state": "exist"
   },
   {
@@ -21540,20 +21181,14 @@
       }
     },
     "url": "http://isiko.buzama.com/frame.htm",
-    "oldurl": [
-      "http://isiko.bnnm.net/",
-      "http://www17.tok2.com/home/isiko/"
-    ],
+    "oldurl": ["http://isiko.bnnm.net/", "http://www17.tok2.com/home/isiko/"],
     "year": {
       "from": 2004,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20120504030858,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21588,7 +21223,7 @@
       "to": 2006
     },
     "wayback_time": 20181106205752,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21601,12 +21236,9 @@
       "from": 2006,
       "to": 2009
     },
-    "kind_masao": [
-      "自動",
-      "カービィ系"
-    ],
+    "kind_masao": ["自動", "カービィ系"],
     "wayback_time": 20150609015336,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21628,18 +21260,10 @@
     ],
     "year": {
       "from": 2015,
-      "to": 2021
+      "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "JS拡張"],
+    "feature": ["正男100個以上", "WWA"],
     "state": "canvas"
   },
   {
@@ -21694,12 +21318,9 @@
       "from": 2007,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20190331143631,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21748,7 +21369,7 @@
       "to": 2004
     },
     "wayback_time": 20181102124547,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21769,7 +21390,7 @@
       "to": -2004
     },
     "wayback_time": 20181105152035,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21783,7 +21404,7 @@
       "to": 2005
     },
     "wayback_time": 20190324093150,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21822,11 +21443,7 @@
       "from": 2008,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20090802154900,
     "state": "closed"
   },
@@ -21965,7 +21582,7 @@
       "to": 2005
     },
     "wayback_time": 20181105023357,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -21997,8 +21614,9 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
+    "work": ["トレジャーハント", "Heavens ～戦うものたち～"],
     "wayback_time": 20190331142459,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22018,10 +21636,7 @@
       "from": 2008,
       "to": 2009
     },
-    "kind_masao": [
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["ストーリー", "カービィ系"],
     "feature": "素材配布",
     "state": "exist"
   },
@@ -22054,13 +21669,10 @@
       "from": -2005,
       "to": -2005
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "素材配布",
     "wayback_time": 20181111043457,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22161,13 +21773,10 @@
       "from": 2004,
       "to": 2009
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20181029154104,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22188,7 +21797,7 @@
       "to": 2008
     },
     "wayback_time": 20190201104111,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22202,7 +21811,7 @@
     },
     "kind_masao": "一画面",
     "wayback_time": 20181013170323,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22266,11 +21875,7 @@
       "name": "正男クラブ",
       "yomi": "まさおくらふ"
     },
-    "oldname": [
-      "STAR-NIGHT-CLUB",
-      "セブンクロス",
-      "クロスラウンド"
-    ],
+    "oldname": ["STAR-NIGHT-CLUB", "セブンクロス", "クロスラウンド"],
     "webmaster": "STAR",
     "banner": {
       "image": "club.gif",
@@ -22280,10 +21885,7 @@
       }
     },
     "url": "http://masao-club.net/",
-    "oldurl": [
-      "http://masao.boy.jp/",
-      "http://masaobu.gozaru.jp/"
-    ],
+    "oldurl": ["http://masao.boy.jp/", "http://masaobu.gozaru.jp/"],
     "year": {
       "from": 2003,
       "to": -1
@@ -22320,7 +21922,7 @@
       "to": 2006
     },
     "wayback_time": 20181105023754,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22393,12 +21995,9 @@
       "from": 2003,
       "to": 2004
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20050424062115,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22416,9 +22015,10 @@
     "url": "http://masaogate.cs.land.to/",
     "year": {
       "from": 2008,
-      "to": 0
+      "to": -1
     },
-    "state": "exist"
+    "wayback_time": 20250710030238,
+    "state": "closed"
   },
   {
     "site": {
@@ -22491,7 +22091,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024123,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22511,12 +22111,9 @@
       "from": 2003,
       "to": 2008
     },
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20181109072347,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22530,7 +22127,7 @@
       "to": 2005
     },
     "wayback_time": 20190324050221,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22551,11 +22148,7 @@
       "from": 2009,
       "to": 2016
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "一画面", "JS拡張"],
     "feature": "正男100個以上",
     "wayback_time": 20150317150325,
     "state": "closed"
@@ -22565,10 +22158,7 @@
       "name": "正男劇場",
       "yomi": "まさおけきしよう"
     },
-    "oldname": [
-      "正男ド→ム",
-      "正男アパート"
-    ],
+    "oldname": ["正男ド→ム", "正男アパート"],
     "webmaster": "Tamu",
     "banner": {
       "image": "gekijo.gif",
@@ -22602,7 +22192,7 @@
       "to": 2014
     },
     "wayback_time": 20160912101958,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22708,13 +22298,10 @@
       "from": 2007,
       "to": 2012
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "wayback_time": 20150304101639,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -22882,10 +22469,7 @@
       "from": 2004,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "素材配布",
     "wayback_time": 20061026130536,
     "state": "closed"
@@ -22909,13 +22493,10 @@
       "http://f37.aaa.livedoor.jp/~masaokk/",
       "http://f46.aaa.livedoor.jp/~gamepark/chui.html"
     ],
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
-    "state": "exist"
+    "wayback_time": 20220416113611,
+    "state": "archived"
   },
   {
     "site": {
@@ -22936,7 +22517,7 @@
       "to": 2004
     },
     "wayback_time": 20190320201533,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -23013,10 +22594,7 @@
       "from": 2006,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "state": "exist"
   },
   {
@@ -23098,7 +22676,8 @@
       }
     },
     "url": "http://valkeeno.yh.land.to/",
-    "state": "exist"
+    "wayback_time": 20090220174931,
+    "state": "archived"
   },
   {
     "site": {
@@ -23113,10 +22692,10 @@
     "url": "http://masao3.starfree.jp/",
     "year": {
       "from": 2018,
-      "to": 2022
+      "to": 0
     },
     "feature": "まさお3",
-    "wayback_time": 20201201121523,
+    "wayback_time": 20230424220149,
     "state": "closed"
   },
   {
@@ -23203,7 +22782,7 @@
       "to": 2005
     },
     "wayback_time": 20190330233539,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -23270,7 +22849,7 @@
       }
     },
     "url": "http://masao.sengoku-jidai.com/",
-    "suburl": "http://masaosengoku.pv.land.to/",
+    "oldurl": "http://masaosengoku.pv.land.to/",
     "year": {
       "from": 2010,
       "to": 2010
@@ -23313,7 +22892,7 @@
       "to": 2005
     },
     "wayback_time": 20181105075832,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -23335,7 +22914,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105063941,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -23461,7 +23040,7 @@
       "to": 2010
     },
     "wayback_time": 20190331143627,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -23507,7 +23086,7 @@
     },
     "kind_masao": "JS拡張",
     "wayback_time": 20181105024643,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -23525,7 +23104,8 @@
     "url": "http://masaothemapark.web.fc2.com/",
     "kind_masao": "ストーリー",
     "feature": "素材配布",
-    "state": "exist"
+    "wayback_time": 20190805194056,
+    "state": "archived"
   },
   {
     "site": {
@@ -23566,14 +23146,10 @@
       "from": 2006,
       "to": 2009
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "work": "スーパー敏男",
     "wayback_time": 20190330041855,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -23597,10 +23173,7 @@
       "from": 2006,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20071231045704,
     "state": "closed"
@@ -23645,11 +23218,7 @@
       "from": 2009,
       "to": 2013
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20160311075056,
     "state": "closed"
@@ -23665,10 +23234,7 @@
       "background_color": "#DDDDDD"
     },
     "url": "https://masao.hits.jp/",
-    "oldurl": [
-      "https://mhito.web.fc2.com/",
-      "http://kohta.a.orn.jp/hito/"
-    ],
+    "oldurl": ["https://mhito.web.fc2.com/", "http://kohta.a.orn.jp/hito/"],
     "year": {
       "from": -1,
       "to": 0
@@ -23694,7 +23260,7 @@
       "to": 2006
     },
     "wayback_time": 20181105023315,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -23718,7 +23284,21 @@
       "to": 2003
     },
     "wayback_time": 20181105040753,
-    "state": "archived_wayback"
+    "state": "archived"
+  },
+  {
+    "site": {
+      "name": "正男道場",
+      "yomi": "まさおとうしよう"
+    },
+    "webmaster": "どっしー",
+    "url": "http://www.geocities.jp/xewe_xeb4/Wii.html",
+    "year": {
+      "from": 2005,
+      "to": 2007
+    },
+    "wayback_time": 20130313020222,
+    "state": "closed"
   },
   {
     "site": {
@@ -23818,10 +23398,7 @@
       "from": 2004,
       "to": 2004
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20060530170924,
     "state": "closed"
   },
@@ -23843,10 +23420,7 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20060923005405,
     "state": "closed"
   },
@@ -23930,17 +23504,25 @@
       "from": 2004,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
+    "kind_masao": ["自動", "一画面", "ストーリー"],
+    "feature": ["正男100個以上", "素材配布"],
+    "work": [
+      "ピカチーの冒険",
+      "パンジョーとカーズイの大冒険",
+      "スペース正男",
+      "バベルの塔",
+      "ゼロの魔本",
+      "甲虫戦士 ムシナイト",
+      "ミズタロウの冒険",
+      "スーパー幼稚園児信ちゃん",
+      "光正男",
+      "デイズニーシリーズ",
+      "テチ子の大大大冒険",
+      "ドーピング浩二",
+      "メイド イン 正男"
     ],
     "wayback_time": 20090804051344,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -23980,7 +23562,8 @@
       "to": 2007
     },
     "kind_masao": "ストーリー",
-    "state": "exist"
+    "wayback_time": 20260330201114,
+    "state": "archived"
   },
   {
     "site": {
@@ -24063,13 +23646,9 @@
       "from": 2009,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20150104100752,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24089,13 +23668,10 @@
       "from": 2004,
       "to": -2005
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "素材配布",
     "wayback_time": 20050308184731,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24117,10 +23693,7 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20080501070620,
     "state": "closed"
   },
@@ -24159,10 +23732,7 @@
       "name": "正男の集い場",
       "yomi": "まさおのつといは"
     },
-    "oldname": [
-      "ZUIRET",
-      "TORN"
-    ],
+    "oldname": ["ZUIRET", "TORN"],
     "webmaster": "チコララシ",
     "banner": {
       "image": "tudoiba.gif",
@@ -24177,16 +23747,8 @@
       "from": 2007,
       "to": 2018
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "JS拡張"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "JS拡張"],
+    "feature": ["正男100個以上", "素材配布"],
     "work": [
       "長編1 ペットモン軍の襲撃",
       "長編2 The Darkside People",
@@ -24194,7 +23756,7 @@
       "長編4 Menace by the Bloody Scorpion"
     ],
     "wayback_time": 20110812090522,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24373,7 +23935,7 @@
     },
     "kind_masao": "カービィ系",
     "wayback_time": 20190330134832,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -24451,7 +24013,7 @@
     "url": "http://www.rak1.jp/one/user/masaonomori/",
     "oldurl": "http://www.hamq.jp/i.cfm?i=19900709",
     "wayback_time": 20071215132028,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24492,14 +24054,10 @@
       "from": 2003,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20080311211505,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24518,13 +24076,9 @@
     "oldurl": "https://masayori.iinaa.net/",
     "year": {
       "from": 2010,
-      "to": 2021
+      "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "state": "canvas"
   },
@@ -24543,16 +24097,10 @@
     },
     "url": "http://www.geocities.jp/morisinya/masao/gametop.html",
     "oldurl": "http://masaonorakuen.kuchinawa.com/",
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20181119132709,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24569,10 +24117,7 @@
     },
     "url": "http://www.geocities.jp/ksmjm466/masao.html",
     "kind_masao": "自動",
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20050308010231,
     "state": "closed"
   },
@@ -24595,16 +24140,8 @@
       "from": 2007,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20080617235243,
     "state": "closed"
   },
@@ -24613,11 +24150,7 @@
       "name": "Masao personal sitez",
       "yomi": "まさおはあそなるさいつ"
     },
-    "oldname": [
-      "kou43kの正男村",
-      "kou43kの正男のページ",
-      "kou43kのページ"
-    ],
+    "oldname": ["kou43kの正男村", "kou43kの正男のページ", "kou43kのページ"],
     "webmaster": "MPS",
     "url": "http://www.geocities.jp/akane_mps/",
     "year": {
@@ -24625,7 +24158,7 @@
       "to": 2011
     },
     "wayback_time": 20181119021638,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24657,20 +24190,13 @@
       }
     },
     "url": "http://masaobako.bufsiz.jp/",
-    "suburl": "http://gokko.no.land.to/",
-    "oldurl": "http://gokko.nobody.jp/",
+    "oldurl": ["http://gokko.no.land.to/", "http://gokko.nobody.jp/"],
     "year": {
       "from": 2006,
       "to": 2015
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
+    "feature": ["正男100個以上", "素材配布"],
     "state": "exist"
   },
   {
@@ -24695,7 +24221,7 @@
     ],
     "feature": "WWA",
     "wayback_time": 20050330070053,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24728,13 +24254,9 @@
       "to": 2007
     },
     "feature": "WWA",
-    "work": [
-      "正男道場",
-      "しのびっくす",
-      "逆走君"
-    ],
+    "work": ["正男道場", "ちびすけ太郎", "しのびっくす", "逆走君"],
     "wayback_time": 20190330152155,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -24799,13 +24321,10 @@
       "from": 2007,
       "to": 2010
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20181028081042,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24842,7 +24361,8 @@
       "to": 2003
     },
     "feature": "素材配布",
-    "state": "exist"
+    "wayback_time": 20190410071214,
+    "state": "archived"
   },
   {
     "site": {
@@ -24898,7 +24418,7 @@
       "to": 2006
     },
     "wayback_time": 20190321052131,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24918,10 +24438,7 @@
       "from": 2005,
       "to": -2009
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "wayback_time": 20090118125305,
     "state": "closed"
@@ -24972,7 +24489,7 @@
     "url": "http://www21.atpages.jp/masao50000/",
     "kind_masao": "一画面",
     "wayback_time": 20180227000216,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -24998,11 +24515,7 @@
     },
     "url": "http://1283455.web.fc2.com/top.html",
     "oldurl": "http://www.geocities.jp/aki1283455/",
-    "kind_masao": [
-      "一画面",
-      "ストーリー",
-      "カービィ系"
-    ],
+    "kind_masao": ["一画面", "ストーリー", "カービィ系"],
     "state": "exist"
   },
   {
@@ -25018,6 +24531,15 @@
     },
     "wayback_time": 20131108225006,
     "state": "closed"
+  },
+  {
+    "site": {
+      "name": "Masao Magic",
+      "yomi": "まさおましつく"
+    },
+    "url": "http://www.geocities.jp/kodebiba/index1.html",
+    "state": "vanished",
+    "explanation": "https://web.archive.org/web/20080127184312/http://www.abcoroti.com:4600/~suratomo/link.html からリンクあり"
   },
   {
     "site": {
@@ -25045,10 +24567,7 @@
       "name": "Masao Museum",
       "yomi": "まさおみゆうしあむ"
     },
-    "oldname": [
-      "正男DESTINY",
-      "MASAPOKE STREEM"
-    ],
+    "oldname": ["正男DESTINY", "MASAPOKE STREEM"],
     "webmaster": "Mz",
     "banner": {
       "image": "museum.gif",
@@ -25063,7 +24582,7 @@
       "to": 2007
     },
     "wayback_time": 20060623060301,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25118,7 +24637,7 @@
     "kind_masao": "ストーリー",
     "feature": "素材配布",
     "wayback_time": 20040928170734,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25159,7 +24678,8 @@
       "from": 2006,
       "to": 2007
     },
-    "state": "exist"
+    "wayback_time": 20230618143641,
+    "state": "closed"
   },
   {
     "site": {
@@ -25211,10 +24731,7 @@
       "from": 2004,
       "to": 2007
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20070112201411,
     "state": "closed"
   },
@@ -25319,7 +24836,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20190323101514,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25339,7 +24856,8 @@
       "from": 2007,
       "to": 2007
     },
-    "state": "exist"
+    "wayback_time": 20150305200007,
+    "state": "archived"
   },
   {
     "site": {
@@ -25352,7 +24870,7 @@
       "to": 2004
     },
     "wayback_time": 20190330225918,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -25379,11 +24897,9 @@
       "from": 2003,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
-    "state": "exist"
+    "kind_masao": ["自動", "一画面"],
+    "wayback_time": 20250713043512,
+    "state": "archived"
   },
   {
     "site": {
@@ -25434,13 +24950,17 @@
       "from": 2004,
       "to": 2005
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "素材配布",
+    "work": [
+      "不死身正男",
+      "DS正男",
+      "受験生正男",
+      "巻戻し正男",
+      "正男アドベンチャー"
+    ],
     "wayback_time": 20181105024415,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25464,10 +24984,7 @@
       "from": 2006,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20070614161931,
     "state": "closed"
@@ -25498,10 +25015,7 @@
       }
     },
     "url": "http://www.geocities.jp/ganchan724/",
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20090310005744,
     "state": "closed"
   },
@@ -25516,13 +25030,10 @@
       "from": 2004,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20181105023902,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25543,7 +25054,7 @@
       "to": 2004
     },
     "wayback_time": 20040815044353,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25564,7 +25075,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024224,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25623,12 +25134,9 @@
       "from": 2005,
       "to": 2008
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20070227231335,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25648,10 +25156,7 @@
       "from": 2009,
       "to": 2020
     },
-    "kind_masao": [
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "state": "canvas"
   },
@@ -25676,7 +25181,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20181105023902,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -25708,7 +25213,7 @@
     "url": "http://www.geocities.jp/akisute132435/",
     "kind_masao": "ストーリー",
     "wayback_time": 20190330224818,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -25849,7 +25354,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105024348,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -25865,7 +25370,8 @@
       }
     },
     "url": "http://cider.jf.land.to/top.html",
-    "state": "exist"
+    "wayback_time": 20250813170131,
+    "state": "archived"
   },
   {
     "site": {
@@ -25890,11 +25396,7 @@
       "name": "まじな",
       "yomi": "ましな"
     },
-    "oldname": [
-      "あおぞら",
-      "虹色の星",
-      "ポポカビのHP"
-    ],
+    "oldname": ["あおぞら", "虹色の星", "ポポカビのHP"],
     "webmaster": "ポポカビ",
     "banner": {
       "image": "majina.jpg",
@@ -25911,7 +25413,7 @@
     ],
     "year": {
       "from": 2004,
-      "to": 0
+      "to": 2021
     },
     "kind_masao": "カービィ系",
     "work": "カビィの冒険記",
@@ -26021,10 +25523,7 @@
     },
     "url": "http://bomuoman.hp.infoseek.co.jp/",
     "oldurl": "http://www17.tok2.com/home2/bomuoman/",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "素材配布",
     "wayback_time": 20050404221531,
     "state": "closed"
@@ -26034,10 +25533,7 @@
       "name": "まったり.com",
       "yomi": "まつたりとつとこむ"
     },
-    "oldname": [
-      "サンダーページ",
-      "エレキポケモン城"
-    ],
+    "oldname": ["サンダーページ", "エレキポケモン城"],
     "webmaster": "サンダーブロスVI世",
     "url": "http://www2.cyberworld.ne.jp/jyunsei/index.html",
     "wayback_time": 20040205091244,
@@ -26148,10 +25644,7 @@
       "from": 2005,
       "to": 2012
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20080430195254,
     "state": "closed"
   },
@@ -26183,7 +25676,7 @@
     "url": "http://www.geocities.jp/battlegauntlet/marioka-to.html",
     "kind_masao": "自動",
     "wayback_time": 20190329151311,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26200,10 +25693,7 @@
       "name": "まりお屋",
       "yomi": "まりおや"
     },
-    "oldname": [
-      "MASAO-FACTRY",
-      "NYAKOP"
-    ],
+    "oldname": ["MASAO-FACTRY", "NYAKOP"],
     "url": "http://www2.nns.ne.jp/pri/s-shun/masao/index",
     "oldurl": "http://www2.nns.ne.jp/pri/s-shun/",
     "kind_masao": "自動",
@@ -26238,12 +25728,9 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20181105024230,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26276,10 +25763,7 @@
       "name": "MARINBA",
       "yomi": "まりんは"
     },
-    "oldname": [
-      "茲のゲームセンター",
-      "正男ランド"
-    ],
+    "oldname": ["茲のゲームセンター", "正男ランド"],
     "webmaster": "茲",
     "banner": {
       "image": "kokoge-sen.gif",
@@ -26299,7 +25783,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181105024745,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26322,7 +25806,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190331130313,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26518,7 +26002,7 @@
       "to": 2008
     },
     "wayback_time": 20190329143614,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26540,10 +26024,7 @@
       "from": -1,
       "to": 2009
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "feature": "WWA",
     "state": "exist"
   },
@@ -26561,12 +26042,9 @@
       }
     },
     "url": "http://j-ynv.net/~uhc2/",
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
+    "work": ["葉っぱカッターの大冒険", "ダリオ", "クリスタルの試練"],
     "wayback_time": 20070309232603,
     "state": "closed"
   },
@@ -26583,7 +26061,7 @@
       "to": 2005
     },
     "wayback_time": 20181021132217,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26637,10 +26115,7 @@
       "from": 2007,
       "to": 2007
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "state": "exist"
   },
   {
@@ -26707,7 +26182,7 @@
       "to": 2004
     },
     "wayback_time": 20040209184144,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26735,7 +26210,8 @@
     },
     "feature": "素材配布",
     "work": "ブレイズ君の冒険",
-    "state": "canvas"
+    "wayback_time": 20190724002914,
+    "state": "closed"
   },
   {
     "site": {
@@ -26750,7 +26226,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20190324073753,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -26871,10 +26347,7 @@
       "from": 2012,
       "to": 2016
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20181230210321,
     "state": "closed"
   },
@@ -26989,7 +26462,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20190330014228,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27014,11 +26487,7 @@
     },
     "url": "http://newmuhoutitai.web.fc2.com/",
     "oldurl": "http://ganmanandaa.web.fc2.com/",
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "JS拡張"
-    ],
+    "kind_masao": ["自動", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
     "state": "exist"
   },
@@ -27136,7 +26605,7 @@
       "to": 2006
     },
     "wayback_time": 20190216131642,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27174,7 +26643,7 @@
       "to": 2007
     },
     "wayback_time": 20070808020734,
-    "state": "closed"   
+    "state": "closed"
   },
   {
     "site": {
@@ -27188,7 +26657,7 @@
       "to": 2005
     },
     "wayback_time": 20050123232428,
-    "state": "closed"   
+    "state": "closed"
   },
   {
     "site": {
@@ -27209,7 +26678,7 @@
       "to": -2009
     },
     "wayback_time": 20090209213505,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27256,7 +26725,7 @@
       "to": 2006
     },
     "wayback_time": 20190326163851,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -27293,7 +26762,7 @@
       "to": 2006
     },
     "wayback_time": 20181105023730,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27307,7 +26776,7 @@
     },
     "wayback_time": 20181105023828,
     "kind_masao": "カービィ系",
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27322,7 +26791,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20181108150900,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -27336,6 +26805,20 @@
     },
     "feature": "素材配布",
     "wayback_time": 20040813180950,
+    "state": "closed"
+  },
+  {
+    "site": {
+      "name": "も のページ",
+      "yomi": "ものへえし"
+    },
+    "webmaster": "mage",
+    "url": "http://www.rr.iij4u.or.jp/~hironori/mc/index.html",
+    "year": {
+      "from": -1,
+      "to": -2004
+    },
+    "wayback_time": 20050409034957,
     "state": "closed"
   },
   {
@@ -27382,7 +26865,8 @@
       "to": 2018
     },
     "kind_masao": "ストーリー",
-    "state": "canvas"
+    "wayback_time": 20250305211839,
+    "state": "archived"
   },
   {
     "site": {
@@ -27460,7 +26944,7 @@
     },
     "feature": "WWA",
     "wayback_time": 20181105064422,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27530,7 +27014,7 @@
     },
     "feature": "素材配布",
     "wayback_time": 20190330122859,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27553,7 +27037,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20150317145328,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27602,7 +27086,7 @@
     },
     "url": "http://www.geocities.jp/gonohe75225511/",
     "wayback_time": 20040905014043,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27615,11 +27099,9 @@
       "background_color": "#FFFFDD"
     },
     "url": "http://www7.plala.or.jp/WAKU/uhp/uheya1.htm",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
-    "state": "exist"
+    "kind_masao": ["自動", "ストーリー"],
+    "wayback_time": 20250322082454,
+    "state": "archived"
   },
   {
     "site": {
@@ -27661,12 +27143,9 @@
       "to": 2004
     },
     "kind_masao": "ストーリー",
-    "feature": [
-      "素材配布",
-      "WWA"
-    ],
+    "feature": ["素材配布", "WWA"],
     "wayback_time": 20040903031007,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27708,7 +27187,7 @@
       "to": -1
     },
     "wayback_time": 20200810094843,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27742,7 +27221,7 @@
       "to": 2005
     },
     "wayback_time": 20181105023852,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27751,10 +27230,7 @@
     },
     "webmaster": "サツ's",
     "url": "http://www.geocities.jp/tsatsukawa/index2.html",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "WWA",
     "wayback_time": 20161210030843,
     "state": "closed"
@@ -27794,7 +27270,7 @@
       "to": 2005
     },
     "wayback_time": 20050126011509,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27857,7 +27333,7 @@
       "to": 2006
     },
     "wayback_time": 20190326163110,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -27892,7 +27368,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20190324050605,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27939,7 +27415,7 @@
     },
     "kind_masao": "ストーリー",
     "wayback_time": 20040716191949,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -27963,13 +27439,9 @@
     },
     "kind_masao": "ストーリー",
     "feature": "正男100個以上",
-    "work": [
-      "哲郎 in 正男3",
-      "正男アドベンチャー",
-      "ナックルブラスト"
-    ],
+    "work": ["哲郎 in 正男3", "正男アドベンチャー", "ナックルブラスト"],
     "wayback_time": 20190330234036,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -28020,7 +27492,7 @@
     },
     "kind_masao": "自動",
     "wayback_time": 20181105024236,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28161,7 +27633,7 @@
       "to": -2006
     },
     "wayback_time": 20051222053333,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28182,7 +27654,7 @@
       "to": -2009
     },
     "wayback_time": 20090528030112,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28228,23 +27700,17 @@
       "from": 2004,
       "to": 2004
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20040409090252,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "ライト★タウン",
       "yomi": "らいとたうん"
     },
-    "oldname": [
-      "kouta GAME CITY",
-      "光太のゲームシティ"
-    ],
+    "oldname": ["kouta GAME CITY", "光太のゲームシティ"],
     "webmaster": "光太",
     "banner": {
       "image": "lighttown.gif",
@@ -28262,12 +27728,9 @@
       "from": 2004,
       "to": 2004
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20181105024424,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28291,10 +27754,7 @@
       "name": "ラインズベース",
       "yomi": "らいんすへえす"
     },
-    "oldname": [
-      "アルファクルーズ",
-      "PKトパーズのページ"
-    ],
+    "oldname": ["アルファクルーズ", "PKトパーズのページ"],
     "webmaster": "Rhines",
     "banner": {
       "image": "rhines.bmp",
@@ -28309,7 +27769,7 @@
       "to": -2005
     },
     "wayback_time": 20050420015934,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28391,10 +27851,7 @@
       "name": "ららばいの正男ランド",
       "yomi": "ららはいのまさおらんと"
     },
-    "oldname": [
-      "のとびの正男ランド",
-      "しゃぶしゃぶの正男ランド"
-    ],
+    "oldname": ["のとびの正男ランド", "しゃぶしゃぶの正男ランド"],
     "webmaster": "ららばい",
     "banner": {
       "image": "syabusyabu.png",
@@ -28411,7 +27868,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20181105024316,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28432,14 +27889,10 @@
       "from": 2007,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "feature": "正男100個以上",
     "wayback_time": 20190331143630,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28453,7 +27906,7 @@
       "to": 2009
     },
     "wayback_time": 20181105024333,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28488,12 +27941,9 @@
       "from": 2003,
       "to": 2010
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "wayback_time": 20181105024304,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -28613,12 +28063,9 @@
       "from": 2005,
       "to": 2005
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20181119032744,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28640,15 +28087,8 @@
       "from": -1,
       "to": -2004
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "カービィ系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "WWA"
-    ],
+    "kind_masao": ["自動", "ストーリー", "カービィ系"],
+    "feature": ["正男100個以上", "WWA"],
     "wayback_time": 20040926054321,
     "state": "closed"
   },
@@ -28670,18 +28110,10 @@
       "from": 2006,
       "to": 2019
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー",
-      "カービィ系",
-      "SASUKE系"
-    ],
-    "feature": [
-      "正男100個以上",
-      "素材配布"
-    ],
+    "kind_masao": ["自動", "ストーリー", "カービィ系", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
     "wayback_time": 20190330043716,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -28802,13 +28234,11 @@
       "from": 2007,
       "to": 2011
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "正男100個以上",
+    "work": ["すべてのはじまり", "レース正男"],
     "wayback_time": 20090316201212,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28830,7 +28260,7 @@
       "to": 2006
     },
     "wayback_time": 20050826015736,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28862,14 +28292,15 @@
         "y": 90
       }
     },
-    "url": "http://rulizuli.nm.land.to/",
-    "oldurl": "http://www.geocities.jp/rili_zuli/",
+    "url": "http://www.geocities.jp/rili_zuli/ge-mu.html",
+    "oldurl": "http://rulizuli.nm.land.to/",
     "year": {
       "from": -2002,
       "to": 2007
     },
     "kind_masao": "ストーリー",
-    "state": "exist"
+    "wayback_time": 20190223024356,
+    "state": "archived"
   },
   {
     "site": {
@@ -28904,7 +28335,7 @@
       "to": 2009
     },
     "wayback_time": 20190201104112,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -28948,10 +28379,7 @@
       "name": "RAINBOW WIND",
       "yomi": "れいんほおういんと"
     },
-    "oldname": [
-      "虹色の風",
-      "正男のたまり場"
-    ],
+    "oldname": ["虹色の風", "正男のたまり場"],
     "webmaster": "Skies",
     "banner": {
       "image": "nijiironokaze.gif",
@@ -29001,10 +28429,7 @@
     },
     "url": "http://ki-apple.hp.infoseek.co.jp/index.htm",
     "oldurl": "http://2nd.geocities.jp/appleki0/index.htm",
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "wayback_time": 20080725043127,
     "state": "closed"
   },
@@ -29079,7 +28504,7 @@
     "oldurl": "http://www.geocities.jp/free_masaoworld/top.html",
     "year": {
       "from": 2005,
-      "to": 2021
+      "to": 0
     },
     "kind_masao": "一画面",
     "state": "canvas"
@@ -29096,10 +28521,7 @@
       "from": 2004,
       "to": -1
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "WWA",
     "wayback_time": 20100315143232,
     "state": "closed"
@@ -29125,7 +28547,7 @@
     "kind_masao": "ストーリー",
     "work": "正男VSペトモン \"ペトモン大反乱\"",
     "wayback_time": 20181105024348,
-    "state": "archived_geolog"
+    "state": "archived"
   },
   {
     "site": {
@@ -29154,10 +28576,7 @@
       "from": 2004,
       "to": -2007
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["一画面", "ストーリー"],
     "wayback_time": 20080417000216,
     "state": "closed"
   },
@@ -29196,13 +28615,10 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": [
-      "自動",
-      "一画面"
-    ],
+    "kind_masao": ["自動", "一画面"],
     "feature": "正男100個以上",
     "wayback_time": 20181105024157,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29224,10 +28640,7 @@
       "from": 2004,
       "to": 0
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "WWA",
     "work": "北極正男シリーズ",
     "state": "canvas"
@@ -29251,7 +28664,7 @@
       "to": -2007
     },
     "wayback_time": 20181105024722,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29275,7 +28688,7 @@
     "kind_masao": "ストーリー",
     "work": "ねずみの大冒険",
     "wayback_time": 20190927090123,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29290,7 +28703,7 @@
     },
     "wayback_time": 20160912101331,
     "work": "地球防衛軍FX",
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29308,7 +28721,7 @@
     "url": "http://www.geocities.jp/ryousuke_horisawa/",
     "oldurl": "http://www.geocities.co.jp/AnimeComic/5426/",
     "wayback_time": 20190330232015,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29326,7 +28739,7 @@
     "url": "http://sky.geocities.jp/teiruzuobu_youth/aozora.html",
     "feature": "WWA",
     "wayback_time": 20130420155151,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29368,10 +28781,7 @@
       "from": 2008,
       "to": 2009
     },
-    "kind_masao": [
-      "自動",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "ストーリー"],
     "feature": "WWA",
     "wayback_time": 20191015120823,
     "state": "closed"
@@ -29381,15 +28791,11 @@
       "name": "ロマたま！？",
       "yomi": "ろまたま"
     },
-    "oldname": "ロマサオ！", 
+    "oldname": "ロマサオ！",
     "webmaster": "ロマサイ",
     "url": "http://m-pe.tv/u/page.php?uid=romasai&id=1",
     "oldurl": "http://romatama.web.fc2.com/",
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
+    "kind_masao": ["自動", "一画面", "ストーリー"],
     "wayback_time": 20181129135722,
     "state": "closed"
   },
@@ -29412,7 +28818,7 @@
       "to": 2006
     },
     "wayback_time": 20181102144149,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29463,23 +28869,17 @@
       }
     },
     "url": "http://www.geocities.jp/jhsr009/su-pa-masao.html",
-    "oldurl": [
-      "http://psyco.jp/ytmkai/",
-      "http://ytmkais.hp.infoseek.co.jp/"
-    ],
+    "oldurl": ["http://psyco.jp/ytmkai/", "http://ytmkais.hp.infoseek.co.jp/"],
     "kind_masao": "ストーリー",
     "wayback_time": 20181023150519,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
       "name": "わいにゃんのサイト",
       "yomi": "わいにやんのさいと"
     },
-    "oldname": [
-      "のんびりランド",
-      "yuqisland"
-    ],
+    "oldname": ["のんびりランド", "yuqisland"],
     "webmaster": "yuq",
     "banner": {
       "image": "nonbiri.jpg",
@@ -29494,13 +28894,18 @@
       "from": 2005,
       "to": 2010
     },
-    "kind_masao": [
-      "一画面",
-      "ストーリー",
-      "カービィ系",
-      "SASUKE系"
-    ],
+    "kind_masao": ["一画面", "ストーリー", "カービィ系", "SASUKE系"],
     "feature": "正男100個以上",
+    "work": [
+      "スーパー正太郎",
+      "ゆ？の冒険",
+      "浩二とユッハーの冒険",
+      "kaby's adventure～虹の泉？～",
+      "ググスターズ",
+      "yuq＆大地の怒り･",
+      "THE MASAJIRO",
+      "正男カート"
+    ],
     "state": "exist"
   },
   {
@@ -29517,20 +28922,14 @@
       }
     },
     "url": "http://wakabasao.nm.land.to/",
-    "suburl": [
-      "http://list.wakabasao.ifdef.jp/",
-      "http://wakabasao.ifdef.jp/"
-    ],
+    "suburl": ["http://list.wakabasao.ifdef.jp/", "http://wakabasao.ifdef.jp/"],
     "year": {
       "from": 2006,
       "to": 2007
     },
-    "kind_masao": [
-      "自動",
-      "一画面",
-      "ストーリー"
-    ],
-    "state": "exist"
+    "kind_masao": ["自動", "一画面", "ストーリー"],
+    "wayback_time": 20181109051112,
+    "state": "archived"
   },
   {
     "site": {
@@ -29595,7 +28994,8 @@
       "from": -1,
       "to": 0
     },
-    "state": "canvas"
+    "wayback_time": 20190720022534,
+    "state": "archived"
   },
   {
     "site": {
@@ -29617,7 +29017,7 @@
     },
     "kind_masao": "SASUKE系",
     "wayback_time": 20190331001847,
-    "state": "archived_wayback"
+    "state": "archived"
   },
   {
     "site": {
@@ -29641,10 +29041,7 @@
       "name": "藁葺き屋根の城",
       "yomi": "わらふきやねのしろ"
     },
-    "oldname": [
-      "Masao Empire",
-      "ひりゅうの巣"
-    ],
+    "oldname": ["Masao Empire", "ひりゅうの巣"],
     "webmaster": "飛竜",
     "banner": {
       "image": "empire.gif",
