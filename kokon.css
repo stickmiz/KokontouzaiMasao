@@ -8,6 +8,13 @@ form#form_order {
 form#form_mode {
   margin: 0;
 }
+div.filter {
+  background-color: #ccffcc;
+  border: 2px solid #404040;
+  max-width: 800px;
+  margin: 12px 0;
+  padding: 4px;
+}
 div#display_site_num {
   margin-top: 32px;
 }

@@ -13,6 +13,61 @@ const CLASS_NAME_CLOSED = "closed";
 const CLASS_NAME_ARCHIVED = "archived";
 const CLASS_NAME_VANISHED = "vanished";
 
+// 正男のデータがアーカイブされている状態
+const ARCHIVE_STATES = [
+  STATE_ARCHIVED,
+  STATE_ARCHIVED_WAYBACK,
+  STATE_ARCHIVED_GEOLOG,
+  STATE_REMAINED,
+];
+
+// Wayback Machine 内のページにリンクする状態
+const WAYBACK_LINK_STATES = [
+  STATE_CLOSED,
+  STATE_ARCHIVED,
+  STATE_ARCHIVED_WAYBACK,
+  STATE_REMAINED,
+];
+
+// バナーの背景色を決める class 名
+const STATE_CLASS_NAMES = {
+  [STATE_EXIST]: CLASS_NAME_EXIST,
+  [STATE_CLOSED]: CLASS_NAME_CLOSED,
+  [STATE_VANISHED]: CLASS_NAME_VANISHED,
+  [STATE_CANVAS]: CLASS_NAME_CANVAS,
+  [STATE_ARCHIVED]: CLASS_NAME_ARCHIVED,
+  [STATE_ARCHIVED_WAYBACK]: CLASS_NAME_ARCHIVED,
+  [STATE_ARCHIVED_GEOLOG]: CLASS_NAME_ARCHIVED,
+  [STATE_REMAINED]: CLASS_NAME_ARCHIVED,
+};
+
+// 「サイトの状態」の絞り込みで表示する状態（ここに無い値は絞り込まない）
+const MODE_STATES = {
+  now: [STATE_EXIST, STATE_CANVAS],
+  canvas: [STATE_CANVAS],
+  archive: ARCHIVE_STATES,
+};
+
+// 「先頭文字の行」の絞り込みで、よみの先頭文字の範囲（ここに無い値は絞り込まない）
+const ORDER_RANGES = {
+  a: ["あ", "お"],
+  k: ["か", "こ"],
+  s: ["さ", "そ"],
+  t: ["た", "と"],
+  n: ["な", "の"],
+  h: ["は", "ほ"],
+  m: ["ま", "も"],
+  y: ["や", "よ"],
+  r: ["ら", "ろ"],
+  w: ["わ", "ん"],
+};
+
+const FILTER_ALL = "all";
+
+const NO_BANNER_COLOR = "#000000";
+const NO_BANNER_BACKGROUND_COLOR = "#808080";
+const BANNER_MAX_WIDTH = 200;
+
 let list = [];
 
 $.ajax({
@@ -26,213 +81,42 @@ $.ajax({
   },
 });
 
-function creatTable(mode, order, kind_masao, feature) {
+function matchesMode(entry, mode) {
+  const states = MODE_STATES[mode];
+  return states === undefined || states.includes(entry.state);
+}
+
+function matchesOrder(entry, order) {
+  const range = ORDER_RANGES[order];
+  if (range === undefined) {
+    return true;
+  }
+  const initial = entry.site.yomi.charAt(0);
+  return initial >= range[0] && initial <= range[1];
+}
+
+// kind_masao・feature のように、1つの値か配列で持つ項目の絞り込み
+function matchesValue(value, filter) {
+  if (filter == FILTER_ALL) {
+    return true;
+  }
+  const values = Array.isArray(value) ? value : [value];
+  return values.some((v) => v == filter);
+}
+
+function createTable(mode, order, kindMasao, feature) {
+  const tbody = document.getElementById("kokon_nakami");
   let count = 0;
-  let isModeDisplay;
-  let isOrderDisplay;
-  let isKindMasaoDisplay;
-  let isFeatureDisplay;
 
-  for (let i = 0; i < list.length; i++) {
-    switch (mode) {
-      case "now":
-        if (list[i].state == STATE_EXIST || list[i].state == STATE_CANVAS) {
-          isModeDisplay = true;
-        } else {
-          isModeDisplay = false;
-        }
-        break;
-      case "canvas":
-        if (list[i].state == STATE_CANVAS) {
-          isModeDisplay = true;
-        } else {
-          isModeDisplay = false;
-        }
-        break;
-      case "archive":
-        if (
-          list[i].state == STATE_ARCHIVED ||
-          list[i].state == STATE_ARCHIVED_WAYBACK ||
-          list[i].state == STATE_ARCHIVED_GEOLOG ||
-          list[i].state == STATE_REMAINED
-        ) {
-          isModeDisplay = true;
-        } else {
-          isModeDisplay = false;
-        }
-        break;
-      default:
-        isModeDisplay = true;
-        break;
-    }
-
-    switch (order) {
-      case "a":
-        if (
-          list[i].site.yomi.charAt(0) >= "あ" &&
-          list[i].site.yomi.charAt(0) <= "お"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "k":
-        if (
-          list[i].site.yomi.charAt(0) >= "か" &&
-          list[i].site.yomi.charAt(0) <= "こ"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "s":
-        if (
-          list[i].site.yomi.charAt(0) >= "さ" &&
-          list[i].site.yomi.charAt(0) <= "そ"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "t":
-        if (
-          list[i].site.yomi.charAt(0) >= "た" &&
-          list[i].site.yomi.charAt(0) <= "と"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "n":
-        if (
-          list[i].site.yomi.charAt(0) >= "な" &&
-          list[i].site.yomi.charAt(0) <= "の"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "h":
-        if (
-          list[i].site.yomi.charAt(0) >= "は" &&
-          list[i].site.yomi.charAt(0) <= "ほ"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "m":
-        if (
-          list[i].site.yomi.charAt(0) >= "ま" &&
-          list[i].site.yomi.charAt(0) <= "も"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "y":
-        if (
-          list[i].site.yomi.charAt(0) >= "や" &&
-          list[i].site.yomi.charAt(0) <= "よ"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "r":
-        if (
-          list[i].site.yomi.charAt(0) >= "ら" &&
-          list[i].site.yomi.charAt(0) <= "ろ"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      case "w":
-        if (
-          list[i].site.yomi.charAt(0) >= "わ" &&
-          list[i].site.yomi.charAt(0) <= "ん"
-        ) {
-          isOrderDisplay = true;
-        } else {
-          isOrderDisplay = false;
-        }
-        break;
-      default:
-        isOrderDisplay = true;
-        break;
-    }
-
-    if (kind_masao == "all" || kind_masao == 0) {
-      isKindMasaoDisplay = true;
-    } else {
-      if (list[i].kind_masao instanceof Array) {
-        for (let j = 0; j < list[i].kind_masao.length; j++) {
-          if (kind_masao == list[i].kind_masao[j]) {
-            isKindMasaoDisplay = true;
-            break;
-          } else {
-            isKindMasaoDisplay = false;
-          }
-        }
-      } else {
-        if (kind_masao == list[i].kind_masao) {
-          isKindMasaoDisplay = true;
-        } else {
-          isKindMasaoDisplay = false;
-        }
-      }
-    }
-
-    if (feature == "all" || feature == 0) {
-      isFeatureDisplay = true;
-    } else {
-      if (list[i].feature instanceof Array) {
-        for (let j = 0; j < list[i].feature.length; j++) {
-          if (feature == list[i].feature[j]) {
-            isFeatureDisplay = true;
-            break;
-          } else {
-            isFeatureDisplay = false;
-          }
-        }
-      } else {
-        if (feature == list[i].feature) {
-          isFeatureDisplay = true;
-        } else {
-          isFeatureDisplay = false;
-        }
-      }
-    }
-
+  for (const entry of list) {
     if (
-      isModeDisplay == true &&
-      isOrderDisplay == true &&
-      isKindMasaoDisplay == true &&
-      isFeatureDisplay == true
+      matchesMode(entry, mode) &&
+      matchesOrder(entry, order) &&
+      matchesValue(entry.kind_masao, kindMasao) &&
+      matchesValue(entry.feature, feature)
     ) {
       count += 1;
-      masao(
-        list[i].site.name,
-        list[i].oldname,
-        list[i].webmaster,
-        list[i].banner,
-        list[i].url,
-        list[i].year,
-        list[i].work,
-        list[i].state,
-        list[i].wayback_time,
-        list[i].nobanner,
-      );
+      tbody.appendChild(createRow(entry));
     }
   }
 
@@ -243,235 +127,167 @@ function creatTable(mode, order, kind_masao, feature) {
   );
 }
 
-function masao(
-  name,
-  subname,
-  man,
-  banner,
-  http,
-  year,
-  work,
-  state,
-  wayback_time,
-  nobanner,
-) {
-  let tr = document.createElement("tr");
-  let td_banner = document.createElement("td");
+function createRow(entry) {
+  const tr = document.createElement("tr");
+  tr.appendChild(createBannerCell(entry));
+  tr.appendChild(createSiteNameCell(entry.site.name, entry.oldname));
+  tr.appendChild(createTextCell(entry.webmaster ?? "？"));
+  tr.appendChild(createTextCell(formatPeriod(entry.year)));
+  return tr;
+}
 
-  if (state == STATE_EXIST) {
-    td_banner.className = CLASS_NAME_EXIST;
-  } else if (state == STATE_CLOSED) {
-    td_banner.className = CLASS_NAME_CLOSED;
-  } else if (state == STATE_VANISHED) {
-    td_banner.className = CLASS_NAME_VANISHED;
-  } else if (state == STATE_CANVAS) {
-    td_banner.className = CLASS_NAME_CANVAS;
-  } else if (
-    state == STATE_ARCHIVED ||
-    state == STATE_ARCHIVED_WAYBACK ||
-    state == STATE_ARCHIVED_GEOLOG ||
-    state == STATE_REMAINED
-  ) {
-    td_banner.className = CLASS_NAME_ARCHIVED;
+function createTextCell(text) {
+  const td = document.createElement("td");
+  td.appendChild(document.createTextNode(text));
+  return td;
+}
+
+function createBannerCell(entry) {
+  const td = document.createElement("td");
+  const className = STATE_CLASS_NAMES[entry.state];
+  if (className !== undefined) {
+    td.className = className;
   }
 
-  let a_banner = document.createElement("a");
-  if (state != STATE_VANISHED) {
-    let clickname = "古今東西正男/" + name;
-    a_banner.onclick = function () {
-      ga("send", "event", "banner", "click", clickname);
-    };
-    if (
-      state == STATE_CLOSED ||
-      state == STATE_ARCHIVED ||
-      state == STATE_ARCHIVED_WAYBACK ||
-      state == STATE_REMAINED
-    ) {
-      if (wayback_time === undefined) {
-        a_banner.href = "https://web.archive.org/web/" + http;
-      } else {
-        a_banner.href =
-          "https://web.archive.org/web/" + wayback_time + "/" + http;
-      }
-    } else if (state == STATE_ARCHIVED_GEOLOG) {
-      a_banner.href = "https://geolog.mydns.jp/" + http.replace("http://", "");
-    } else {
-      a_banner.href = http;
+  const bannerElement = createBannerElement(entry.banner, entry.site.name);
+  if (entry.state == STATE_VANISHED) {
+    // データが消滅したサイトはリンクせず、バナーだけを置く
+    if (bannerElement.tagName == "DIV") {
+      bannerElement.className = "noimage";
     }
-    a_banner.target = "_blank";
-    if (banner === undefined) {
-      a_banner.className = "noimage";
-    } else {
-      if (banner.image === undefined) {
-        a_banner.className = "noimage";
-      } else {
-        a_banner.className = "image";
-      }
-    }
-  }
-
-  if (banner === undefined) {
-    let div_nobanner = document.createElement("div");
-    div_nobanner.style.color = "#000000";
-    div_nobanner.style.backgroundColor = "#808080";
-    if (state == STATE_VANISHED) {
-      div_nobanner.className = "noimage";
-      td_banner.appendChild(div_nobanner);
-    } else {
-      a_banner.appendChild(div_nobanner);
-      td_banner.appendChild(a_banner);
-    }
+    td.appendChild(bannerElement);
   } else {
-    if (banner.image === undefined) {
-      let div_nobanner = document.createElement("div");
-      if (banner.color === undefined) {
-        div_nobanner.style.color = "#000000";
-      } else {
-        div_nobanner.style.color = banner.color;
-      }
-      if (banner.background_color === undefined) {
-        div_nobanner.style.backgroundColor = "#808080";
-      } else {
-        div_nobanner.style.backgroundColor = banner.background_color;
-      }
-      if (state == STATE_VANISHED) {
-        div_nobanner.className = "noimage";
-        td_banner.appendChild(div_nobanner);
-      } else {
-        a_banner.appendChild(div_nobanner);
-        td_banner.appendChild(a_banner);
-      }
-    } else {
-      let img_banner = document.createElement("img");
-      if (banner.size.x > 200) {
-        let hi = banner.size.x / 200;
-        let h = banner.size.y / hi;
-        img_banner.setAttribute("width", 200);
-        img_banner.setAttribute("height", h);
-      } else {
-        img_banner.setAttribute("width", banner.size.x);
-        img_banner.setAttribute("height", banner.size.y);
-      }
-      img_banner.className = "lazy";
-      img_banner.onload = img_banner.onerror = function () {
-        img_banner.classList.add("loaded");
-      };
-      // src より先に loading を設定しないと、即座に読み込まれるブラウザがある
-      img_banner.setAttribute("loading", "lazy");
-      img_banner.setAttribute("src", "banner/" + banner.image);
-      img_banner.alt = name;
-      if (state == STATE_VANISHED) {
-        td_banner.appendChild(img_banner);
-      } else {
-        a_banner.appendChild(img_banner);
-        td_banner.appendChild(a_banner);
-      }
-    }
+    td.appendChild(createBannerLink(entry, bannerElement));
   }
-  tr.appendChild(td_banner);
+  return td;
+}
 
-  let td_site_name = document.createElement("td");
-  let em_site_name_main = document.createElement("em");
-  let text_site_name_main = document.createTextNode(name);
-  em_site_name_main.appendChild(text_site_name_main);
-  td_site_name.appendChild(em_site_name_main);
+function createBannerLink(entry, bannerElement) {
+  const a = document.createElement("a");
+  const clickName = "古今東西正男/" + entry.site.name;
+  a.onclick = function () {
+    ga("send", "event", "banner", "click", clickName);
+  };
+  a.href = getLinkUrl(entry);
+  a.target = "_blank";
+  a.className = hasBannerImage(entry.banner) ? "image" : "noimage";
+  a.appendChild(bannerElement);
+  return a;
+}
 
-  if (subname !== undefined) {
-    if (subname instanceof Array) {
-      for (let i = 0; i < subname.length; i++) {
-        let br = document.createElement("br");
-        td_site_name.appendChild(br);
-        let span_site_name_sub = document.createElement("span");
-        span_site_name_sub.className = "old";
-        let text_site_name_sub = document.createTextNode(subname[i]);
-        span_site_name_sub.appendChild(text_site_name_sub);
-        td_site_name.appendChild(span_site_name_sub);
-      }
-    } else {
-      let br = document.createElement("br");
-      td_site_name.appendChild(br);
-      let span_site_name_sub = document.createElement("span");
-      span_site_name_sub.className = "old";
-      let text_site_name_sub = document.createTextNode(subname);
-      span_site_name_sub.appendChild(text_site_name_sub);
-      td_site_name.appendChild(span_site_name_sub);
+function getLinkUrl(entry) {
+  if (WAYBACK_LINK_STATES.includes(entry.state)) {
+    if (entry.wayback_time === undefined) {
+      return "https://web.archive.org/web/" + entry.url;
     }
+    return (
+      "https://web.archive.org/web/" + entry.wayback_time + "/" + entry.url
+    );
   }
-  tr.appendChild(td_site_name);
+  if (entry.state == STATE_ARCHIVED_GEOLOG) {
+    return "https://geolog.mydns.jp/" + entry.url.replace("http://", "");
+  }
+  return entry.url;
+}
 
-  let td_manager = document.createElement("td");
-  let text_manager;
-  if (man !== undefined) {
-    text_manager = document.createTextNode(man);
+function hasBannerImage(banner) {
+  return banner !== undefined && banner.image !== undefined;
+}
+
+function createBannerElement(banner, name) {
+  if (hasBannerImage(banner)) {
+    return createBannerImage(banner, name);
+  }
+  return createNoBanner(banner);
+}
+
+// バナー画像が無いサイトの「NO BANNER」（文字は CSS で出す）
+function createNoBanner(banner) {
+  const div = document.createElement("div");
+  div.style.color = banner?.color ?? NO_BANNER_COLOR;
+  div.style.backgroundColor =
+    banner?.background_color ?? NO_BANNER_BACKGROUND_COLOR;
+  return div;
+}
+
+function createBannerImage(banner, name) {
+  const img = document.createElement("img");
+  // 幅の大きいバナーは、縦横比を保って縮める
+  if (banner.size.x > BANNER_MAX_WIDTH) {
+    const ratio = banner.size.x / BANNER_MAX_WIDTH;
+    img.setAttribute("width", BANNER_MAX_WIDTH);
+    img.setAttribute("height", banner.size.y / ratio);
   } else {
-    text_manager = document.createTextNode("？");
+    img.setAttribute("width", banner.size.x);
+    img.setAttribute("height", banner.size.y);
   }
-  td_manager.appendChild(text_manager);
-  tr.appendChild(td_manager);
+  img.className = "lazy";
+  img.onload = img.onerror = function () {
+    img.classList.add("loaded");
+  };
+  // src より先に loading を設定しないと、即座に読み込まれるブラウザがある
+  img.setAttribute("loading", "lazy");
+  img.setAttribute("src", "banner/" + banner.image);
+  img.alt = name;
+  return img;
+}
 
-  let td_period = document.createElement("td");
-  let tempFrom;
-  let tempTo;
-  let text_period;
+// 旧サイト名は、新しいものから順に下へ薄く並べる
+function createSiteNameCell(name, oldNames) {
+  const td = document.createElement("td");
+  const em = document.createElement("em");
+  em.appendChild(document.createTextNode(name));
+  td.appendChild(em);
 
-  if (year === undefined) {
-    tempFrom = "？";
-    tempTo = "？";
-  } else {
-    if (year.from === undefined) {
-      tempFrom = "？";
-    } else {
-      if (year.from == -1) {
-        tempFrom = "？";
-      } else if (year.from < 0) {
-        tempFrom = -year.from + "？";
-      } else {
-        tempFrom = year.from;
-      }
-    }
-    if (year.to === undefined) {
-      tempTo = "？";
-    } else {
-      if (year.to == -1) {
-        tempTo = "？";
-      } else if (year.to < 0) {
-        tempTo = -year.to + "？";
-      } else {
-        tempTo = year.to;
-      }
+  if (oldNames !== undefined) {
+    for (const oldName of Array.isArray(oldNames) ? oldNames : [oldNames]) {
+      td.appendChild(document.createElement("br"));
+      const span = document.createElement("span");
+      span.className = "old";
+      span.appendChild(document.createTextNode(oldName));
+      td.appendChild(span);
     }
   }
+  return td;
+}
 
-  if (tempTo === 0) {
-    text_period = document.createTextNode(tempFrom + "～");
-  } else if (tempFrom == tempTo) {
-    text_period = document.createTextNode(tempFrom);
-  } else {
-    text_period = document.createTextNode(tempFrom + "～" + tempTo);
+// year.to が 0 なら継続中（「2010～」）
+function formatPeriod(year) {
+  const from = formatYear(year?.from);
+  if (year?.to === 0) {
+    return from + "～";
   }
-  td_period.appendChild(text_period);
-  tr.appendChild(td_period);
+  const to = formatYear(year?.to);
+  if (from == to) {
+    return from;
+  }
+  return from + "～" + to;
+}
 
-  kokon_nakami.appendChild(tr);
+// -1 は不明（「？」）、ほかの負の値は推定（-2005 なら「2005？」）
+function formatYear(value) {
+  if (value === undefined || value == -1) {
+    return "？";
+  }
+  if (value < 0) {
+    return -value + "？";
+  }
+  return String(value);
 }
 
 function resetTable() {
-  while (kokon_nakami.rows[0]) kokon_nakami.deleteRow(0);
-  while (display_site_num.firstChild)
-    display_site_num.removeChild(display_site_num.firstChild);
+  document.getElementById("kokon_nakami").replaceChildren();
+  document.getElementById("display_site_num").replaceChildren();
 }
 
-function reCreateTable(mode, order, kind_masao, feature) {
-  resetTable();
-  creatTable(mode, order, kind_masao, feature);
-}
-
+// index.html のラジオボタンの onclick から呼ぶ
 function clickRadio() {
-  reCreateTable(
-    form_mode.radio_mode.value,
-    form_order.radio_order.value,
-    form_kind_masao.radio_kind_masao.value,
-    form_feature.radio_feature.value,
+  resetTable();
+  createTable(
+    document.getElementById("form_mode").radio_mode.value,
+    document.getElementById("form_order").radio_order.value,
+    document.getElementById("form_kind_masao").radio_kind_masao.value,
+    document.getElementById("form_feature").radio_feature.value,
   );
 }
 
@@ -479,6 +295,5 @@ $(function () {
   $("#all_site_num").append(
     "<p>現在の正男サイトの総数は<strong>" + list.length + "</strong>です。</p>",
   );
-  let kokon_nakami = document.getElementById("kokon_nakami");
-  creatTable(0, 0, 0, 0);
+  createTable(FILTER_ALL, FILTER_ALL, FILTER_ALL, FILTER_ALL);
 });

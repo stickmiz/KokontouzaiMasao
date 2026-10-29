@@ -1,11 +1,18 @@
-const STATE_CANVAS = "canvas";
-const STATE_EXIST = "exist";
 const STATE_CLOSED = "closed";
 const STATE_ARCHIVED = "archived";
-const STATE_VANISHED = "vanished";
 const STATE_REMAINED = "remained";
 const STATE_ARCHIVED_WAYBACK = "archived_wayback";
-const STATE_ARCHIVED_GEOLOG = "archived_geolog";
+
+// Wayback Machine 内のページにリンクするため、wayback_time が必要な状態
+const WAYBACK_LINK_STATES = [
+  STATE_CLOSED,
+  STATE_ARCHIVED,
+  STATE_ARCHIVED_WAYBACK,
+  STATE_REMAINED,
+];
+
+// よみはひらがなだけで書く
+const NOT_HIRAGANA = /[^あ-ん]/;
 
 let list = [];
 
@@ -20,58 +27,36 @@ $.ajax({
   },
 });
 
-function checkData(mode, order, kind_masao, feature) {
-  let count = 0;
-  let re;
-  let beforeyomi;
+function appendError(entry, message) {
+  $("#error_message").append(entry.site.name + "：" + message + "<br>");
+}
 
+function checkData() {
   for (let i = 0; i < list.length; i++) {
-    if (i != 0) {
-      if (list[i].site.yomi < list[i - 1].site.yomi) {
-        $("#error_message").append(list[i].site.name + "：yomi sort error<br>");
-      }
+    const entry = list[i];
+
+    if (i != 0 && entry.site.yomi < list[i - 1].site.yomi) {
+      appendError(entry, "yomi sort error");
     }
 
-    re = /[^あ-ん]/;
-    if (re.test(list[i].site.yomi) == true) {
-      $("#error_message").append(list[i].site.name + "：yomi aiueo error<br>");
+    if (NOT_HIRAGANA.test(entry.site.yomi)) {
+      appendError(entry, "yomi aiueo error");
     }
 
-    if (
-      (list[i].state == STATE_CLOSED ||
-        list[i].state == STATE_ARCHIVED ||
-        list[i].state == STATE_ARCHIVED_WAYBACK ||
-        list[i].state == STATE_REMAINED) &&
-      list[i].wayback_time === undefined
-    ) {
-      $("#error_message").append(
-        list[i].site.name + "：wayback_time is a must<br>",
-      );
+    const needsWaybackTime = WAYBACK_LINK_STATES.includes(entry.state);
+    if (needsWaybackTime && entry.wayback_time === undefined) {
+      appendError(entry, "wayback_time is a must");
+    }
+    if (!needsWaybackTime && entry.wayback_time !== undefined) {
+      appendError(entry, "wayback_time is not a must");
     }
 
-    if (
-      list[i].state != STATE_CLOSED &&
-      list[i].state != STATE_ARCHIVED &&
-      list[i].state != STATE_ARCHIVED_WAYBACK &&
-      list[i].state != STATE_REMAINED &&
-      list[i].wayback_time !== undefined
-    ) {
-      $("#error_message").append(
-        list[i].site.name + "：wayback_time is not a must<br>",
-      );
+    if (entry.url == entry.suburl) {
+      appendError(entry, "url equal suburl");
     }
-
-    if (list[i].url == list[i].suburl) {
-      $("#error_message").append(list[i].site.name + "：url equal suburl<br>");
-    }
-
-    //    if (list[i].archive != 0 && list[i].archive != 1 && list[i].archive != 2 && list[i].archive != 3 && list[i].archive != 4) {
-    //      $("#error_message").append(list[i].site.name + "：archive value error " + list[i].archive + "<br>");
-    //    }
   }
 }
 
 $(function () {
-  var error_message = document.getElementById("error_message");
-  checkData(0, 0, 0, 0);
+  checkData();
 });
