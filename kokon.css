@@ -1,0 +1,168 @@
+﻿.old {
+  color: #808080;
+}
+
+form#form_order {
+  margin: 0;
+}
+form#form_mode {
+  margin: 0;
+}
+div#display_site_num {
+  margin-top: 32px;
+}
+#main th {
+  padding: 5px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #A5A4BF),
+    color-stop(1, #E6E6E6)
+  );
+  background-image: -o-linear-gradient(bottom, #A5A4BF 0%, #E6E6E6 100%);
+  background-image: -moz-linear-gradient(bottom, #A5A4BF 0%, #E6E6E6 100%);
+  background-image: -webkit-linear-gradient(bottom, #A5A4BF 0%, #E6E6E6 100%);
+  background-image: -ms-linear-gradient(bottom, #A5A4BF 0%, #E6E6E6 100%);
+  background-image: linear-gradient(to bottom, #A5A4BF 0%, #E6E6E6 100%);
+}
+
+#main td {
+  text-align: left;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+.now {
+  background-color: #98FB98;
+}
+.closed {
+  background-color: #F5DEB3;
+}
+.vanished {
+  background-color: #87CEFA;
+}
+.canvas {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #FFD700),
+    color-stop(1, #FFFF00)
+  );
+  background-image: -o-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -moz-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -ms-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: linear-gradient(to bottom, #FFD700 0%, #FFFF00 100%);
+}
+
+.archived {
+  background-color: #E8A8AB;
+}
+
+#main td.exist {
+  background-color: #98FB98;
+}
+#main td.closed {
+  background-color: #F5DEB3;
+}
+#main td.vanished {
+  background-color: #87CEFA;
+}
+#main td.canvas {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #FFD700),
+    color-stop(1, #FFFF00)
+  );
+  background-image: -o-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -moz-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: -ms-linear-gradient(bottom, #FFD700 0%, #FFFF00 100%);
+  background-image: linear-gradient(to bottom, #FFD700 0%, #FFFF00 100%);
+}
+
+#main td.archived {
+  background-color: #E8A8AB;
+}
+
+.work {
+  display: none;
+  position: absolute;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: rgba(255, 255, 160, 0.9);
+}
+
+em.name {
+  color: #4169E1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+dt {
+  font-weight:bold;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  border: 2px solid #404040;
+  white-space: nowrap;
+}
+
+input:checked + label {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: 2px solid #B00000;
+}
+
+a.noimage {
+  text-decoration: none;
+}
+
+a.noimage div {
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  font-style: italic;
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+}
+
+a.noimage div:after {
+  content: "NO BANNER";
+}
+
+div.noimage {
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  font-style: italic;
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+}
+
+div.noimage:after {
+  content: "NO BANNER";
+}

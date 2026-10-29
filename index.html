@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B60TWXP7V8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-B60TWXP7V8");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="正男,スーパー正男,まさおコンストラクション,リンク集,古今東西正男"
+    />
+    <title>とにかく古今東西のスーパー正男サイトを集めてみるページ</title>
+    <meta property="og:site_name" content="過疎村" />
+    <meta
+      property="og:title"
+      content="とにかく古今東西のスーパー正男サイトを集めてみるページ"
+    />
+    <meta
+      property="og:url"
+      content="https://kasomura.stickmiz.net/kokontouzai/"
+    />
+    <meta
+      property="og:image"
+      content="https://kasomura.stickmiz.net/masao/masao_icon.png"
+    />
+    <meta
+      property="og:description"
+      content="ブラウザゲーム「スーパー正男」のサイト集。総サイト数1500以上。"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@stickmiz" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="jquery.lazyload.js"></script>
+    <script src="kokon.js?var=8"></script>
+    <link rel="stylesheet" href="/css/allpage.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="kokon.css?var=6" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-title">
+          <h1><a href="/">過疎村</a></h1>
+          <p id="tekitouna">適当な人間が適当に管理する過疎ページ</p>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="/">トップ</a></li>
+        <li><a href="/about.html">はじめに</a></li>
+        <li><a href="/masao/">スーパー正男</a></li>
+        <li><a href="/kokontouzai/">古今東西正男</a></li>
+        <li><a href="/sasuke_data/">SASUKEデータ集</a></li>
+        <li><a href="/other.html">その他</a></li>
+        <li><a href="/bbs/">掲示板ログ</a></li>
+        <li><a href="/link/">リンク</a></li>
+      </ul>
+    </nav>
+    <script></script>
+
+    <div id="main">
+      <h2>とにかく古今東西のスーパー正男サイトを集めてみるページ</h2>
+
+      <!--<p>メジャーなものからマイナーなもの、活動中のものから懐かしいものまで</p>-->
+      <p>スーパー正男の過去、現在、そして未来</p>
+
+      <p><a href="setsumei.html">このページについて</a></p>
+
+      <p><a href="exception_sitelist.html">例外リスト一覧</a></p>
+
+      <div
+        style="
+          background-color: #ccffcc;
+          border: 2px solid #404040;
+          max-width: 800px;
+          margin: 12px 0;
+          padding: 4px;
+        "
+      >
+        先頭文字の行で絞り込む
+        <form id="form_order">
+          <input
+            type="radio"
+            name="radio_order"
+            value="all"
+            id="all"
+            onclick="clickRadio()"
+            checked
+          /><label for="all">すべての行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="a"
+            id="a"
+            onclick="clickRadio()"
+          /><label for="a">あ行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="k"
+            id="k"
+            onclick="clickRadio()"
+          /><label for="k">か行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="s"
+            id="s"
+            onclick="clickRadio()"
+          /><label for="s">さ行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="t"
+            id="t"
+            onclick="clickRadio()"
+          /><label for="t">た行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="n"
+            id="n"
+            onclick="clickRadio()"
+          /><label for="n">な行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="h"
+            id="h"
+            onclick="clickRadio()"
+          /><label for="h">は行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="m"
+            id="m"
+            onclick="clickRadio()"
+          /><label for="m">ま行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="y"
+            id="y"
+            onclick="clickRadio()"
+          /><label for="y">や行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="r"
+            id="r"
+            onclick="clickRadio()"
+          /><label for="r">ら行</label>
+          <input
+            type="radio"
+            name="radio_order"
+            value="w"
+            id="w"
+            onclick="clickRadio()"
+          /><label for="w">わ行</label>
+        </form>
+      </div>
+
+      <div
+        style="
+          background-color: #ccffcc;
+          border: 2px solid #404040;
+          max-width: 800px;
+          margin: 12px 0;
+          padding: 4px;
+        "
+      >
+        サイトの状態で絞り込む
+        <form id="form_mode">
+          <input
+            type="radio"
+            name="radio_mode"
+            value="all"
+            id="all_site"
+            onclick="clickRadio()"
+            checked
+          /><label for="all_site">すべて</label>
+          <input
+            type="radio"
+            name="radio_mode"
+            value="now"
+            id="now_site"
+            onclick="clickRadio()"
+          /><label for="now_site">現存サイトのみ</label>
+          <input
+            type="radio"
+            name="radio_mode"
+            value="canvas"
+            id="canvas_site"
+            onclick="clickRadio()"
+          /><label for="canvas_site">Canvas対応サイトのみ</label>
+          <input
+            type="radio"
+            name="radio_mode"
+            value="archive"
+            id="archive_site"
+            onclick="clickRadio()"
+          /><label for="archive_site">アーカイブに正男保存のサイトのみ</label>
+        </form>
+      </div>
+
+      <div
+        style="
+          background-color: #ccffcc;
+          border: 2px solid #404040;
+          max-width: 800px;
+          margin: 12px 0;
+          padding: 4px;
+        "
+      >
+        正男の種別で絞り込む
+        <form id="form_kind_masao">
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="all"
+            id="kind_masao_all"
+            onclick="clickRadio()"
+            checked
+          /><label for="kind_masao_all">すべて</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="自動"
+            id="kind_masao_auto"
+            onclick="clickRadio()"
+          /><label for="kind_masao_auto">自動</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="一画面"
+            id="kind_masao_ichigamen"
+            onclick="clickRadio()"
+          /><label for="kind_masao_ichigamen">一画面</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="ストーリー"
+            id="kind_masao_story"
+            onclick="clickRadio()"
+          /><label for="kind_masao_story">ストーリー</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="JS拡張"
+            id="kind_masao_exjs"
+            onclick="clickRadio()"
+          /><label for="kind_masao_exjs">JS拡張</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="カービィ系"
+            id="kind_masao_kirby"
+            onclick="clickRadio()"
+          /><label for="kind_masao_kirby">カービィ系</label>
+          <input
+            type="radio"
+            name="radio_kind_masao"
+            value="SASUKE系"
+            id="kind_masao_sasuke"
+            onclick="clickRadio()"
+          /><label for="kind_masao_sasuke">SASUKE系</label>
+        </form>
+      </div>
+
+      <div
+        style="
+          background-color: #ccffcc;
+          border: 2px solid #404040;
+          max-width: 800px;
+          margin: 12px 0;
+          padding: 4px;
+        "
+      >
+        サイトの特徴で絞り込む
+        <form id="form_feature">
+          <input
+            type="radio"
+            name="radio_feature"
+            value="all"
+            id="feature_all"
+            onclick="clickRadio()"
+            checked
+          /><label for="feature_all">すべて</label>
+          <input
+            type="radio"
+            name="radio_feature"
+            value="正男100個以上"
+            id="feature_hundred"
+            onclick="clickRadio()"
+          /><label for="feature_hundred">正男100個以上</label>
+          <input
+            type="radio"
+            name="radio_feature"
+            value="素材配布"
+            id="feature_material"
+            onclick="clickRadio()"
+          /><label for="feature_material">素材配布</label>
+          <input
+            type="radio"
+            name="radio_feature"
+            value="エディタ"
+            id="feature_editor"
+            onclick="clickRadio()"
+          /><label for="feature_editor">エディタ</label>
+          <input
+            type="radio"
+            name="radio_feature"
+            value="WWA"
+            id="feature_wwa"
+            onclick="clickRadio()"
+          /><label for="feature_wwa">WWA</label>
+          <input
+            type="radio"
+            name="radio_feature"
+            value="まさお3"
+            id="feature_three"
+            onclick="clickRadio()"
+          /><label for="feature_three">まさお3</label>
+        </form>
+      </div>
+
+      <div class="scroll_top"><p>左右にスクロールできます</p></div>
+      <div class="scroll">
+        <div id="kokon">
+          <table>
+            <thead>
+              <tr>
+                <th>バナー</th>
+                <th>サイト名</th>
+                <th>管理人</th>
+                <th>期間</th>
+              </tr>
+            </thead>
+            <tbody id="kokon_nakami"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="display_site_num"></div>
+      <div id="all_site_num"></div>
+
+      <noscript>
+        <p>
+          申し訳ありませんが、JavaScriptに対応してないとこのページは見られません＞＜
+        </p>
+      </noscript>
+    </div>
+
+    <footer>
+      <div id="breadcrumbs">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"
+              ><span itemprop="name">過疎村TOP</span></a
+            >
+            <meta itemprop="position" content="1" />
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name" class="here">古今東西正男</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+      </div>
+      <div id="since">
+        <small>since <time datetime="2011-04-12">2011.4.12</time></small>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -680,7 +680,7 @@
     "oldurl": "http://www.geocities.jp/musikinngu95/",
     "year": {
       "from": 2006,
-      "to": 0
+      "to": 2023
     },
     "kind_masao": ["自動", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
@@ -2348,7 +2348,7 @@
     "suburl": "http://ultramedarot.nce.buttobi.net/",
     "year": {
       "from": 2003,
-      "to": 0
+      "to": 2022
     },
     "kind_masao": "ストーリー",
     "feature": ["正男100個以上", "WWA"],
@@ -4555,7 +4555,7 @@
     "url": "http://canalist.web.fc2.com/",
     "year": {
       "from": 2012,
-      "to": 0
+      "to": 2023
     },
     "kind_masao": ["一画面", "ストーリー", "JS拡張"],
     "feature": "正男100個以上",
@@ -4729,8 +4729,9 @@
         "y": 40
       }
     },
-    "url": "http://nnnnarisa.net/",
+    "url": "https://nnnnarisa.sakura.ne.jp/",
     "oldurl": [
+      "http://nnnnarisa.net/",
       "https://narisaspirithaven.web.fc2.com/",
       "http://www.myunru.com/two/"
     ],
@@ -5088,7 +5089,7 @@
     "oldurl": "http://www.geocities.jp/yosgspec/",
     "year": {
       "from": 2008,
-      "to": 0
+      "to": 2023
     },
     "kind_masao": "ストーリー",
     "work": "ζ05の冒険",
@@ -5169,7 +5170,7 @@
     "suburl": "https://kitekiisseimomoirogameyakata.web.fc2.com/",
     "year": {
       "from": 2009,
-      "to": 0
+      "to": 2022
     },
     "state": "canvas"
   },
@@ -7143,7 +7144,7 @@
       "from": 2005,
       "to": 2006
     },
-    "kind_masao": ["自動", "カービィ"],
+    "kind_masao": ["自動", "カービィ系"],
     "wayback_time": 20190331142026,
     "state": "archived"
   },
@@ -8566,7 +8567,7 @@
     "url": "http://umahito.web.fc2.com/",
     "year": {
       "from": -1,
-      "to": 0
+      "to": -1
     },
     "kind_masao": ["自動", "一画面"],
     "feature": "素材配布",
@@ -11616,7 +11617,7 @@
     "oldurl": "http://gms.symphonic-net.com/",
     "year": {
       "from": 2009,
-      "to": 2021
+      "to": 0
     },
     "kind_masao": ["自動", "ストーリー"],
     "feature": ["正男100個以上", "エディタ"],
@@ -13041,7 +13042,7 @@
     "oldurl": "http://litter.symphonic-net.com/",
     "year": {
       "from": 2010,
-      "to": 0
+      "to": 2022
     },
     "feature": "エディタ",
     "state": "canvas"
@@ -23833,7 +23834,7 @@
     "url": "http://takaya.gozaru.jp/",
     "year": {
       "from": -1,
-      "to": 2016
+      "to": 2023
     },
     "kind_masao": "ストーリー",
     "state": "canvas"
@@ -26324,7 +26325,7 @@
     "url": "http://retrogarden.konjiki.jp/",
     "year": {
       "from": 2018,
-      "to": 0
+      "to": 2022
     },
     "kind_masao": "ストーリー",
     "state": "canvas"

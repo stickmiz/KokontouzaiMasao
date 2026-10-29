@@ -1,86 +1,74 @@
 [
-	{
-		"url": "http://finaldestination.client.jp/"
-	},
-	{
-		"url": "http://shinkaido.michikusa.jp/"
-	},
-	{
-		"url": "http://www12.plala.or.jp/magesusu/"
-	},
-	{
-		"url": "http://www.cims.jp/star/jj_sanada/"
-	},
-	{
-		"url": "http://home.r07.itscom.net/nikori/"
-	},
-	{
-		"url": "http://masimaro.saloon.jp/"
-	},
-	{
-		"url": "http://mini4wd.jp.land.to/"
-	},
-	{
-		"url": "http://www5f.biglobe.ne.jp/~gmt/"
-	},
-	{
-		"url": "http://taisai.sakura.ne.jp/"
-	},
-	{
-		"url": "http://nuage.raindrop.jp/play/"
-	},
-	{
-		"url": "http://www.game1.info/"
-	},
-	{
-		"url": "http://acrin3rd.web.fc2.com/acrintop.htm"
-	},
-	{
-		"url": "http://www2s.biglobe.ne.jp/~ch-marin/"
-	},
-	{
-		"url": "http://www.kumagera.ne.jp/jh7qvt/"
-	},
-	{
-		"url": "http://www4.plala.or.jp/mamasasa/"
-	},
-	{
-		"url": "https://kouheiunti.web.fc2.com/"
-	},
-	{
-		"url": "http://saroro.yu-yake.com/game/mario/mario.html"
-	},
-	{
-		"url": "http://ferrite.gozaru.jp/"
-	},
-	{
-		"url": "http://kirbyopen.harisen.jp/"
-	},
-	{
-		"url": "http://chopperpirates.nomaki.jp/"
-	},
-	{
-		"url": "http://domo310.michikusa.jp/"
-	},
-	{
-		"url": "http://gmu.nobody.jp/"
-	},
-	{
-		"url": "http://xfreedomx.fc2web.com/"
-	},
-	{
-		"url": "http://burityann.tuzikaze.com/"
-	},
-	{
-		"url": "http://www.boktaifan.com/"
-	},
-	{
-		"url": "http://dfnt.net/"
-	},
-	{
-		"url": "http://www5d.biglobe.ne.jp/~aoi-k/"
-	},
-	{
-		"url": "https://kasomura.stickmiz.net/"
-	}    
+  {
+    "url": "http://finaldestination.client.jp/"
+  },
+  {
+    "url": "http://shinkaido.michikusa.jp/"
+  },
+  {
+    "url": "http://www.cims.jp/star/jj_sanada/"
+  },
+  {
+    "url": "http://home.r07.itscom.net/nikori/"
+  },
+  {
+    "url": "http://masimaro.saloon.jp/"
+  },
+  {
+    "url": "http://www5f.biglobe.ne.jp/~gmt/"
+  },
+  {
+    "url": "http://taisai.sakura.ne.jp/"
+  },
+  {
+    "url": "http://nuage.raindrop.jp/play/"
+  },
+  {
+    "url": "http://www.game1.info/"
+  },
+  {
+    "url": "http://acrin3rd.web.fc2.com/acrintop.htm"
+  },
+  {
+    "url": "http://www2s.biglobe.ne.jp/~ch-marin/"
+  },
+  {
+    "url": "http://www.kumagera.ne.jp/jh7qvt/"
+  },
+  {
+    "url": "https://kouheiunti.web.fc2.com/"
+  },
+  {
+    "url": "http://saroro.yu-yake.com/game/mario/mario.html"
+  },
+  {
+    "url": "http://ferrite.gozaru.jp/"
+  },
+  {
+    "url": "http://kirbyopen.harisen.jp/"
+  },
+  {
+    "url": "http://chopperpirates.nomaki.jp/"
+  },
+  {
+    "url": "http://domo310.michikusa.jp/"
+  },
+  {
+    "url": "http://gmu.nobody.jp/"
+  },
+  {
+    "url": "http://burityann.tuzikaze.com/"
+  },
+  {
+    "url": "http://www.boktaifan.com/"
+  },
+  {
+    "url": "http://dfnt.net/"
+  },
+  {
+    "url": "http://www5d.biglobe.ne.jp/~aoi-k/"
+  },
+  {
+    "url": "https://kasomura.stickmiz.net/"
+  }
 ]
