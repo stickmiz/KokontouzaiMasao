@@ -241,10 +241,6 @@ function creatTable(mode, order, kind_masao, feature) {
       count +
       "</strong>です。</p>",
   );
-  $("img").lazyload({
-    effect: "fadeIn",
-    effectspeed: 500,
-  });
 }
 
 function masao(
@@ -356,8 +352,13 @@ function masao(
         img_banner.setAttribute("width", banner.size.x);
         img_banner.setAttribute("height", banner.size.y);
       }
-      img_banner.setAttribute("dataoriginal", "banner/" + banner.image);
-      img_banner.setAttribute("src", "banner/unload.png");
+      img_banner.className = "lazy";
+      img_banner.onload = img_banner.onerror = function () {
+        img_banner.classList.add("loaded");
+      };
+      // src より先に loading を設定しないと、即座に読み込まれるブラウザがある
+      img_banner.setAttribute("loading", "lazy");
+      img_banner.setAttribute("src", "banner/" + banner.image);
       img_banner.alt = name;
       if (state == STATE_VANISHED) {
         td_banner.appendChild(img_banner);

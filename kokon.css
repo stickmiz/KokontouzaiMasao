@@ -166,3 +166,12 @@ div.noimage {
 div.noimage:after {
   content: "NO BANNER";
 }
+
+img.lazy {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+img.lazy.loaded {
+  opacity: 1;
+}
