@@ -1,11 +1,4 @@
-const STATE_CANVAS = "canvas";
-const STATE_EXIST = "exist";
-const STATE_CLOSED = "closed";
-const STATE_ARCHIVED = "archived";
-const STATE_VANISHED = "vanished";
-const STATE_REMAINED = "remained";
-const STATE_ARCHIVED_WAYBACK = "archived_wayback";
-const STATE_ARCHIVED_GEOLOG = "archived_geolog";
+// STATE_*・WAYBACK_LINK_STATES・KIND_MASAO_VALUES・FEATURE_VALUES は js/common.js で定義
 
 const CLASS_NAME_CANVAS = "canvas";
 const CLASS_NAME_EXIST = "exist";
@@ -18,14 +11,6 @@ const ARCHIVE_STATES = [
   STATE_ARCHIVED,
   STATE_ARCHIVED_WAYBACK,
   STATE_ARCHIVED_GEOLOG,
-  STATE_REMAINED,
-];
-
-// Wayback Machine 内のページにリンクする状態
-const WAYBACK_LINK_STATES = [
-  STATE_CLOSED,
-  STATE_ARCHIVED,
-  STATE_ARCHIVED_WAYBACK,
   STATE_REMAINED,
 ];
 
@@ -280,7 +265,27 @@ function resetTable() {
   document.getElementById("display_site_num").replaceChildren();
 }
 
-// index.html のラジオボタンの onclick から呼ぶ
+// 絞り込みのラジオボタンを、値の一覧から作って form の末尾に足す。
+// form の id は「form_{key}」、ボタンの name は「radio_{key}」（「すべて」は index.html に書いてある）
+function appendFilterRadios(key, values) {
+  const form = document.getElementById("form_" + key);
+  values.forEach(function (value, i) {
+    const id = key + "_" + (i + 1);
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "radio_" + key;
+    input.value = value;
+    input.id = id;
+    input.addEventListener("click", clickRadio);
+    const label = document.createElement("label");
+    label.htmlFor = id;
+    label.textContent = value;
+    // index.html に書いたボタンと同じく、ボタンの間に空白を入れる
+    form.append(" ", input, label);
+  });
+}
+
+// 絞り込みのラジオボタンをクリックしたときに呼ぶ
 function clickRadio() {
   resetTable();
   createTable(
@@ -292,6 +297,8 @@ function clickRadio() {
 }
 
 $(function () {
+  appendFilterRadios("kind_masao", KIND_MASAO_VALUES);
+  appendFilterRadios("feature", FEATURE_VALUES);
   $("#all_site_num").append(
     "<p>現在の正男サイトの総数は<strong>" + list.length + "</strong>です。</p>",
   );

@@ -1,6 +1,7 @@
-const STATE_CANVAS = "canvas";
-const STATE_EXIST = "exist";
-const STATE_REMAINED = "remained";
+// STATE_* は js/common.js で定義
+
+// 例外サイトリストに今の url を入れる状態（正男が今も見られるサイト）
+const EXCEPTION_LIST_STATES = [STATE_EXIST, STATE_CANVAS, STATE_REMAINED];
 
 const listUrl = "list.json";
 const anotherListUrl = "anotherlist.json";
@@ -20,7 +21,7 @@ const extractUrls = (items) => {
   const urls = [];
 
   items.forEach((item) => {
-    if ([STATE_EXIST, STATE_CANVAS, STATE_REMAINED].includes(item.state)) {
+    if (EXCEPTION_LIST_STATES.includes(item.state)) {
       urls.push(item.url);
     }
 

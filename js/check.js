@@ -1,47 +1,4 @@
-const STATE_CANVAS = "canvas";
-const STATE_EXIST = "exist";
-const STATE_CLOSED = "closed";
-const STATE_ARCHIVED = "archived";
-const STATE_VANISHED = "vanished";
-const STATE_REMAINED = "remained";
-const STATE_ARCHIVED_WAYBACK = "archived_wayback";
-const STATE_ARCHIVED_GEOLOG = "archived_geolog";
-
-const KNOWN_STATES = [
-  STATE_CANVAS,
-  STATE_EXIST,
-  STATE_CLOSED,
-  STATE_ARCHIVED,
-  STATE_VANISHED,
-  STATE_REMAINED,
-  STATE_ARCHIVED_WAYBACK,
-  STATE_ARCHIVED_GEOLOG,
-];
-
-// Wayback Machine 内のページにリンクするため、wayback_time が必要な状態
-const WAYBACK_LINK_STATES = [
-  STATE_CLOSED,
-  STATE_ARCHIVED,
-  STATE_ARCHIVED_WAYBACK,
-  STATE_REMAINED,
-];
-
-// index.html の絞り込みの値と揃える
-const KNOWN_KIND_MASAO = [
-  "自動",
-  "一画面",
-  "ストーリー",
-  "JS拡張",
-  "カービィ系",
-  "SASUKE系",
-];
-const KNOWN_FEATURES = [
-  "正男100個以上",
-  "素材配布",
-  "エディタ",
-  "WWA",
-  "まさお3",
-];
+// STATE_*・KNOWN_STATES・WAYBACK_LINK_STATES・KIND_MASAO_VALUES・FEATURE_VALUES は js/common.js で定義
 
 const KNOWN_KEYS = [
   "site",
@@ -175,8 +132,8 @@ function checkData(list) {
       appendError(entry, `state has an unknown value "${entry.state}"`);
     }
 
-    checkKnownValues(entry, "kind_masao", KNOWN_KIND_MASAO);
-    checkKnownValues(entry, "feature", KNOWN_FEATURES);
+    checkKnownValues(entry, "kind_masao", KIND_MASAO_VALUES);
+    checkKnownValues(entry, "feature", FEATURE_VALUES);
 
     const needsWaybackTime = WAYBACK_LINK_STATES.includes(entry.state);
     if (needsWaybackTime && entry.wayback_time === undefined) {
