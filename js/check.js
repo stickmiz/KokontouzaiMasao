@@ -1,6 +1,7 @@
 // STATE_*・KNOWN_STATES・WAYBACK_LINK_STATES・KIND_MASAO_VALUES・FEATURE_VALUES は js/common.js で定義
 
 const KNOWN_KEYS = [
+  "id",
   "site",
   "oldname",
   "webmaster",

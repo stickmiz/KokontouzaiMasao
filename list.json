@@ -135,7 +135,7 @@
     "oldname": "LIGHT-TV",
     "webmaster": "AioiLight",
     "banner": {
-      "image": "lighttv.png",
+      "image": "light-tv.png",
       "size": {
         "x": 200,
         "y": 60
@@ -183,7 +183,7 @@
     "oldname": ["ファイナルゲームスター", "ファイナルスター・トルネード"],
     "webmaster": "チービィ",
     "banner": {
-      "image": "finalgame.gif",
+      "image": "final-game.gif",
       "size": {
         "x": 187,
         "y": 82
@@ -282,7 +282,7 @@
     },
     "webmaster": "BLYS",
     "banner": {
-      "image": "aoyossy.gif",
+      "image": "ao-yoshi.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -484,7 +484,7 @@
     },
     "webmaster": "ken-2510",
     "banner": {
-      "image": "othersselection.png",
+      "image": "others-selection.png",
       "size": {
         "x": 88,
         "y": 29
@@ -506,7 +506,7 @@
     },
     "webmaster": "Lime",
     "banner": {
-      "image": "asite.gif",
+      "image": "a-site.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -622,7 +622,7 @@
     "oldname": ["ムサンソチタイ", "WZA GAME NET"],
     "webmaster": "WZA",
     "banner": {
-      "image": "wza.gif",
+      "image": "musanso-chitai.gif",
       "size": {
         "x": 210,
         "y": 50
@@ -695,7 +695,7 @@
     "oldname": "Qsann☆SPのHP",
     "webmaster": "Qさん",
     "banner": {
-      "image": "qsan.jpg",
+      "image": "q-san.jpg",
       "size": {
         "x": 181,
         "y": 93
@@ -769,7 +769,7 @@
       "yomi": "あたつくせろ"
     },
     "banner": {
-      "image": "attackzero.png",
+      "image": "attack-zero.png",
       "size": {
         "x": 200,
         "y": 40
@@ -786,7 +786,7 @@
     "oldname": "正男Factory",
     "webmaster": "一文字",
     "banner": {
-      "image": "assi.gif",
+      "image": "asshi-.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -828,7 +828,7 @@
     },
     "webmaster": "アドリブ人",
     "banner": {
-      "image": "adoribujin.gif",
+      "image": "adoribu-jin.gif",
       "size": {
         "x": 240,
         "y": 71
@@ -846,7 +846,7 @@
     },
     "webmaster": "谺",
     "banner": {
-      "image": "anotherworlds.jpg",
+      "image": "another-worlds.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -882,7 +882,7 @@
     "oldname": ["ねつきのゲーセン", "熱樹のゲーセン", "熱樹の家"],
     "webmaster": "ねつくん",
     "banner": {
-      "image": "anime.gif",
+      "image": "anime-of-kitoku.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -950,7 +950,7 @@
     },
     "webmaster": "九九悔い",
     "banner": {
-      "image": "bimyou.gif",
+      "image": "a-bimyo.gif",
       "size": {
         "x": 166,
         "y": 40
@@ -988,7 +988,7 @@
     "oldname": ["正男キングダム", "MADE in 正男"],
     "webmaster": "ティア",
     "banner": {
-      "image": "future.gif",
+      "image": "a-future-window.gif",
       "size": {
         "x": 113,
         "y": 51
@@ -1202,7 +1202,7 @@
     },
     "webmaster": "あんくん",
     "banner": {
-      "image": "ankun.gif",
+      "image": "an-kun.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -1246,7 +1246,7 @@
     "oldname": "ボブリチャードランド",
     "webmaster": "ボブ",
     "banner": {
-      "image": "anzuworld.png",
+      "image": "anzu-world.png",
       "size": {
         "x": 200,
         "y": 40
@@ -1360,7 +1360,7 @@
     "oldname": ["White ground", "竹竿による正男のページ"],
     "webmaster": "竹竿",
     "banner": {
-      "image": "anraku.png",
+      "image": "white-ground.png",
       "size": {
         "x": 200,
         "y": 40
@@ -1521,7 +1521,7 @@
     ],
     "webmaster": "いぐ",
     "banner": {
-      "image": "whitelight.gif",
+      "image": "white-light.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -1551,7 +1551,7 @@
     },
     "webmaster": "開き直る人",
     "banner": {
-      "image": "ikoitown.gif",
+      "image": "ikoi-town.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -1570,7 +1570,7 @@
     },
     "webmaster": "kazu",
     "banner": {
-      "image": "pawayoshi.bmp",
+      "image": "pawa-yoshi.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -1674,7 +1674,7 @@
     },
     "webmaster": "一浩二",
     "banner": {
-      "image": "jokamachi.gif",
+      "image": "ichi-koji.gif",
       "size": {
         "x": 87,
         "y": 31
@@ -1766,7 +1766,7 @@
     },
     "webmaster": "センダイ",
     "banner": {
-      "image": "imifumei.bmp",
+      "image": "imi-fumei.bmp",
       "size": {
         "x": 217,
         "y": 50
@@ -1820,7 +1820,7 @@
       "yomi": "いろいろまさおすてえしよんいろまさ"
     },
     "banner": {
-      "image": "iromasa.gif",
+      "image": "iro-masa.gif",
       "size": {
         "x": 127,
         "y": 60
@@ -1837,7 +1837,7 @@
     },
     "webmaster": "王平",
     "banner": {
-      "image": "ironnna.gif",
+      "image": "ironna.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -1858,7 +1858,7 @@
     },
     "webmaster": "Mac",
     "banner": {
-      "image": "inkobe.gif",
+      "image": "in-kobe.gif",
       "size": {
         "x": 135,
         "y": 45
@@ -1935,7 +1935,7 @@
     "oldname": "in&out's GAMEPAGE",
     "webmaster": "in&out",
     "banner": {
-      "image": "inworld.gif",
+      "image": "in-world.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -1957,7 +1957,7 @@
     },
     "webmaster": "邪眼",
     "banner": {
-      "image": "wicked.gif",
+      "image": "wicked-eyes.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -1991,7 +1991,7 @@
     },
     "webmaster": "ディク",
     "banner": {
-      "image": "wingcrystal.png",
+      "image": "wing-crystal.png",
       "size": {
         "x": 200,
         "y": 70
@@ -2012,7 +2012,7 @@
     },
     "webmaster": "カオスのしもべ",
     "banner": {
-      "image": "wingzero.jpg",
+      "image": "wing-zero.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -2068,7 +2068,7 @@
     },
     "webmaster": "WIND",
     "banner": {
-      "image": "windsky.gif",
+      "image": "wind-sky.gif",
       "size": {
         "x": 288,
         "y": 96
@@ -2084,7 +2084,7 @@
     },
     "webmaster": "うえ",
     "banner": {
-      "image": "uehp.gif",
+      "image": "ue-no-hp.gif",
       "size": {
         "x": 98,
         "y": 39
@@ -2283,7 +2283,7 @@
     },
     "webmaster": "46エモン",
     "banner": {
-      "image": "urawazahakubutsukan.gif",
+      "image": "urawaza-hakubutsukan.gif",
       "size": {
         "x": 152,
         "y": 45
@@ -2314,7 +2314,7 @@
     },
     "webmaster": "ウルトラリーグ",
     "banner": {
-      "image": "ultraleague.gif",
+      "image": "ultra-league.gif",
       "size": {
         "x": 250,
         "y": 80
@@ -2391,7 +2391,7 @@
     },
     "webmaster": "ともゆき",
     "banner": {
-      "image": "uwanosora.gif",
+      "image": "uwa-no-sora.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -2433,7 +2433,7 @@
     },
     "webmaster": "H.K.",
     "banner": {
-      "image": "hkplaying.gif",
+      "image": "hk-playing.gif",
       "size": {
         "x": 200,
         "y": 45
@@ -2539,7 +2539,7 @@
     },
     "webmaster": "エース",
     "banner": {
-      "image": "acespage.bmp",
+      "image": "ace-no-page.bmp",
       "size": {
         "x": 136,
         "y": 56
@@ -2562,7 +2562,7 @@
     "oldname": ["ゲームケースN", "ゲーム島", "ゲームNAページ"],
     "webmaster": "刀",
     "banner": {
-      "image": "gamecasen.gif",
+      "image": "game-case-n.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -2627,7 +2627,7 @@
     "oldname": "諸葛亮信用組合",
     "webmaster": "思遠",
     "banner": {
-      "image": "syokatsuryou.jpg",
+      "image": "shokatsuryo.jpg",
       "size": {
         "x": 380,
         "y": 140
@@ -2648,7 +2648,7 @@
     },
     "webmaster": "dorabo",
     "banner": {
-      "image": "esrooms.gif",
+      "image": "es-rooms.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -2670,7 +2670,7 @@
     "oldname": "Eternal blue",
     "webmaster": "eternal",
     "banner": {
-      "image": "eternalsanctuary.gif",
+      "image": "eternal-sanctuary.gif",
       "size": {
         "x": 130,
         "y": 40
@@ -2768,7 +2768,7 @@
     },
     "webmaster": "オレンジスター",
     "banner": {
-      "image": "energy.png",
+      "image": "energy-ball.png",
       "size": {
         "x": 200,
         "y": 40
@@ -2882,7 +2882,7 @@
     "oldname": "false dysentery HSP soft ware",
     "webmaster": "ノウネム",
     "banner": {
-      "image": "fdsoft.png",
+      "image": "fd-soft.png",
       "size": {
         "x": 200,
         "y": 50
@@ -2913,7 +2913,7 @@
     },
     "webmaster": "コンペイトウ",
     "banner": {
-      "image": "fhonobono.gif",
+      "image": "f-honobono.gif",
       "size": {
         "x": 213,
         "y": 60
@@ -3020,7 +3020,7 @@
     "oldname": ["M.K's Site", "yuna's game"],
     "webmaster": "M.K",
     "banner": {
-      "image": "mks.png",
+      "image": "mks-site.png",
       "size": {
         "x": 88,
         "y": 31
@@ -3043,7 +3043,7 @@
     },
     "webmaster": "トコロ",
     "banner": {
-      "image": "mstudio.jpg",
+      "image": "m-studio.jpg",
       "size": {
         "x": 200,
         "y": 60
@@ -3064,7 +3064,7 @@
     },
     "webmaster": "MUTEKI",
     "banner": {
-      "image": "mzero.gif",
+      "image": "m-zero.gif",
       "size": {
         "x": 100,
         "y": 43
@@ -3101,7 +3101,7 @@
     "oldname": "Taka419town",
     "webmaster": "Taka419",
     "banner": {
-      "image": "taka419town.gif",
+      "image": "taka419-town.gif",
       "size": {
         "x": 173,
         "y": 42
@@ -3123,7 +3123,7 @@
     },
     "webmaster": "魚占",
     "banner": {
-      "image": "mtmasao.gif",
+      "image": "mt-masao.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -3180,7 +3180,7 @@
     "oldname": ["正男プラネットタウン", "裏の裏"],
     "webmaster": "Dark",
     "banner": {
-      "image": "planettown.gif",
+      "image": "masao-planet-town.gif",
       "size": {
         "x": 150,
         "y": 73
@@ -3224,7 +3224,7 @@
     },
     "webmaster": "陽炎",
     "banner": {
-      "image": "areax.gif",
+      "image": "area-x.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -3241,7 +3241,7 @@
     },
     "webmaster": "ドクガス",
     "banner": {
-      "image": "area21.png",
+      "image": "area-21.png",
       "size": {
         "x": 200,
         "y": 40
@@ -3289,7 +3289,7 @@
     },
     "webmaster": "zyekuto",
     "banner": {
-      "image": "enjoy.jpg",
+      "image": "enjoy-station.jpg",
       "size": {
         "x": 200,
         "y": 50
@@ -3311,7 +3311,7 @@
     "oldname": "ENJOYゲームDX",
     "webmaster": "ゲティオ",
     "banner": {
-      "image": "gethio.png",
+      "image": "enjoy-places.png",
       "size": {
         "x": 200,
         "y": 40
@@ -3332,7 +3332,7 @@
     },
     "webmaster": "パポピ",
     "banner": {
-      "image": "enjoyroom.gif",
+      "image": "enjoy-room.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -3373,7 +3373,7 @@
     },
     "webmaster": "すみれ",
     "banner": {
-      "image": "endless.jpg",
+      "image": "endless-history.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -3394,7 +3394,7 @@
     },
     "webmaster": "スラピー",
     "banner": {
-      "image": "oounabaranokotou.gif",
+      "image": "oounabara-no-kotou.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -3453,7 +3453,7 @@
     },
     "webmaster": "関空快速2500番台",
     "banner": {
-      "image": "osakamasao.gif",
+      "image": "osaka-no-masao.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -3474,7 +3474,7 @@
     },
     "webmaster": "大出雄大",
     "banner": {
-      "image": "oodeyudai.gif",
+      "image": "oode-yudai.gif",
       "size": {
         "x": 115,
         "y": 38
@@ -3523,7 +3523,7 @@
     "oldname": "シグマ－幻影旅団－",
     "webmaster": "松",
     "banner": {
-      "image": "sigmagenei.jpg",
+      "image": "sigma-genei.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -3544,7 +3544,7 @@
     },
     "webmaster": "大原部長",
     "banner": {
-      "image": "oohara.gif",
+      "image": "ohara.gif",
       "size": {
         "x": 100,
         "y": 50
@@ -3578,7 +3578,7 @@
     },
     "webmaster": "天空龍",
     "banner": {
-      "image": "allnintendo.jpg",
+      "image": "all-nintendo.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -3707,7 +3707,7 @@
     },
     "webmaster": "Q",
     "banner": {
-      "image": "otouto.jpg",
+      "image": "ototo-no-tenjishitsu.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -3778,7 +3778,7 @@
     },
     "webmaster": "FirstKey",
     "banner": {
-      "image": "omosirotown.gif",
+      "image": "omoshiro-town.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -3799,7 +3799,7 @@
     },
     "webmaster": "メムーロトノ",
     "banner": {
-      "image": "omotyobako.gif",
+      "image": "omocho-bako.gif",
       "size": {
         "x": 125,
         "y": 40
@@ -3911,7 +3911,7 @@
     "oldname": "キノコ・オブ・ザ・マサオ",
     "webmaster": "やつら",
     "banner": {
-      "image": "owataweb.bmp",
+      "image": "owata-web.bmp",
       "size": {
         "x": 128,
         "y": 35
@@ -3976,7 +3976,7 @@
     },
     "webmaster": "魔竿",
     "banner": {
-      "image": "kirbycu.png",
+      "image": "kirby-construction.png",
       "size": {
         "x": 88,
         "y": 31
@@ -3998,7 +3998,7 @@
     },
     "webmaster": "牙",
     "banner": {
-      "image": "kirbysstage.gif",
+      "image": "kirbys-stage.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -4021,7 +4021,7 @@
     },
     "webmaster": "星矢",
     "banner": {
-      "image": "kirbystar.gif",
+      "image": "kirby-star.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -4058,7 +4058,7 @@
       "yomi": "かあひいとらまへのいりくち"
     },
     "banner": {
-      "image": "kirbydrama.gif",
+      "image": "kirby-drama.gif",
       "size": {
         "x": 211,
         "y": 80
@@ -4087,7 +4087,7 @@
     },
     "webmaster": "カビプロ",
     "banner": {
-      "image": "kirbyprogram.gif",
+      "image": "kirby-program.gif",
       "size": {
         "x": 190,
         "y": 75
@@ -4110,7 +4110,7 @@
     },
     "webmaster": "スターオブカービィ",
     "banner": {
-      "image": "kirbymaxim.png",
+      "image": "kirby-maxim.png",
       "size": {
         "x": 170,
         "y": 80
@@ -4174,7 +4174,7 @@
       "yomi": "かいそうまさおのへや"
     },
     "banner": {
-      "image": "kaizoumasaoutada.gif",
+      "image": "kaizo-masao-utada.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -4220,7 +4220,7 @@
     "oldname": ["通行人館", "通行人の家"],
     "webmaster": "季壱",
     "banner": {
-      "image": "kaedemomiji.gif",
+      "image": "kaede-momiji.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -4256,7 +4256,7 @@
     "oldname": "まさのゲーム部屋",
     "webmaster": "まさ",
     "banner": {
-      "image": "gunsei.png",
+      "image": "kagayaku-gunsei.png",
       "size": {
         "x": 200,
         "y": 40
@@ -4509,7 +4509,7 @@
     },
     "webmaster": "かつどんユル子",
     "banner": {
-      "image": "katudon.gif",
+      "image": "katsudon.gif",
       "size": {
         "x": 120,
         "y": 70
@@ -4546,7 +4546,7 @@
     "oldname": "るみにぅ's おはなばたけ",
     "webmaster": "かな",
     "banner": {
-      "image": "kanas.png",
+      "image": "kanas-ohanabatake.png",
       "size": {
         "x": 200,
         "y": 40
@@ -4568,7 +4568,7 @@
     },
     "webmaster": "カナス",
     "banner": {
-      "image": "kanasu.gif",
+      "image": "kanasu-land.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -4599,7 +4599,7 @@
     },
     "webmaster": "デデすけ",
     "banner": {
-      "image": "kabino.png",
+      "image": "kabi-no-asobiba.png",
       "size": {
         "x": 200,
         "y": 40
@@ -4638,7 +4638,7 @@
     "oldname": ["kirby stars", "かびむら"],
     "webmaster": "あおかび",
     "banner": {
-      "image": "kabihoshi.png",
+      "image": "kabi-hoshi.png",
       "size": {
         "x": 200,
         "y": 40
@@ -4700,7 +4700,7 @@
     },
     "webmaster": "京徳",
     "banner": {
-      "image": "gamannnoyakata.gif",
+      "image": "gaman-no-yakata.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -4748,7 +4748,7 @@
     },
     "webmaster": "ガム",
     "banner": {
-      "image": "gamunohp.gif",
+      "image": "gamu-no-hp.gif",
       "size": {
         "x": 99,
         "y": 50
@@ -4825,7 +4825,7 @@
     },
     "webmaster": "こう",
     "banner": {
-      "image": "kamonnohashi.bmp",
+      "image": "kamon-no-hashi.bmp",
       "size": {
         "x": 198,
         "y": 61
@@ -5058,7 +5058,7 @@
     },
     "webmaster": "いなっち",
     "banner": {
-      "image": "kiokunotuioku.jpg",
+      "image": "kioku-no-tsuioku.jpg",
       "size": {
         "x": 270,
         "y": 71
@@ -5079,7 +5079,7 @@
     },
     "webmaster": "YOS",
     "banner": {
-      "image": "gigaspec.gif",
+      "image": "giga-spec.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -5103,7 +5103,7 @@
     "oldname": "シャイギガッシュ",
     "webmaster": "シャイガ",
     "banner": {
-      "image": "gigassyu.gif",
+      "image": "gigash.gif",
       "size": {
         "x": 138,
         "y": 48
@@ -5125,7 +5125,7 @@
       "yomi": "きしのま"
     },
     "banner": {
-      "image": "kishinoma.gif",
+      "image": "kishi-no-ma.gif",
       "size": {
         "x": 178,
         "y": 45
@@ -5160,7 +5160,7 @@
     },
     "webmaster": "桃色",
     "banner": {
-      "image": "kitekiisseimomoiro.png",
+      "image": "kiteki-issei-momoiro.png",
       "size": {
         "x": 200,
         "y": 80
@@ -5215,7 +5215,7 @@
     },
     "webmaster": "きのこくん",
     "banner": {
-      "image": "kinokogameroom.png",
+      "image": "kinoko-game-room.png",
       "size": {
         "x": 200,
         "y": 40
@@ -5255,7 +5255,7 @@
       "yomi": "きほうのかせ"
     },
     "banner": {
-      "image": "kibounokaze.gif",
+      "image": "kibo-no-kaze.gif",
       "size": {
         "x": 400,
         "y": 150
@@ -5362,7 +5362,7 @@
     },
     "webmaster": "マツ",
     "banner": {
-      "image": "gyakutensita.jpg",
+      "image": "gyakutenshita.jpg",
       "size": {
         "x": 202,
         "y": 39
@@ -5495,7 +5495,7 @@
     },
     "webmaster": "キューブ",
     "banner": {
-      "image": "cubedx.gif",
+      "image": "cube-dx.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -5513,7 +5513,7 @@
     "oldname": "にゃずハウス",
     "webmaster": "にゃ",
     "banner": {
-      "image": "kyurinotane.gif",
+      "image": "kyuri-no-tane.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -5532,7 +5532,7 @@
     },
     "webmaster": "kyu",
     "banner": {
-      "image": "kyu.gif",
+      "image": "kyu-no-omochabako.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -5551,7 +5551,7 @@
     },
     "webmaster": "京の",
     "banner": {
-      "image": "kyono.gif",
+      "image": "kyo-no-web-game-center.gif",
       "size": {
         "x": 210,
         "y": 72
@@ -5594,7 +5594,7 @@
     "oldname": "チルスター・ムウン",
     "webmaster": "ハトぽっぽ",
     "banner": {
-      "image": "kyokugenmade.png",
+      "image": "kyokugen-made.png",
       "size": {
         "x": 200,
         "y": 40
@@ -5616,7 +5616,7 @@
     },
     "webmaster": "梟鸚鵡 栞",
     "banner": {
-      "image": "kiyoku.png",
+      "image": "kiyoku-tadashiku.png",
       "size": {
         "x": 200,
         "y": 40
@@ -5638,7 +5638,7 @@
     "oldname": "英ちゃんのホームページ",
     "webmaster": "英ちゃん",
     "banner": {
-      "image": "i.gif",
+      "image": "kyosu.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -5682,7 +5682,7 @@
     },
     "webmaster": "管理人",
     "banner": {
-      "image": "kirakunamama.png",
+      "image": "kiraku-namama.png",
       "size": {
         "x": 210,
         "y": 50
@@ -5704,7 +5704,7 @@
     "oldname": "ホワイトポケモンズ",
     "webmaster": "キリサク",
     "banner": {
-      "image": "whitepokemons.jpg",
+      "image": "white-pokemons.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -5805,7 +5805,7 @@
     "oldname": "G9 WEB",
     "webmaster": "G9",
     "banner": {
-      "image": "g9web.bmp",
+      "image": "g9-web.bmp",
       "size": {
         "x": 88,
         "y": 31
@@ -5950,7 +5950,7 @@
     "oldname": "晋輔のホームページ",
     "webmaster": "大ちゃん",
     "banner": {
-      "image": "nihonnzixyagaru.gif",
+      "image": "crash-and-masao.gif",
       "size": {
         "x": 236,
         "y": 68
@@ -5989,7 +5989,7 @@
     },
     "webmaster": "ジミーあきち",
     "banner": {
-      "image": "crash.gif",
+      "image": "crash-to-masao-to-sonohoka-to.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6012,7 +6012,7 @@
     },
     "webmaster": "クラゴロー",
     "banner": {
-      "image": "crashnokoya.gif",
+      "image": "crash-no-koya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6028,7 +6028,7 @@
     },
     "webmaster": "ISGN",
     "banner": {
-      "image": "crashnohimitsu.png",
+      "image": "crash-no-himitsu.png",
       "size": {
         "x": 200,
         "y": 50
@@ -6050,7 +6050,7 @@
     },
     "webmaster": "ウォンバット",
     "banner": {
-      "image": "crashaikoukai.gif",
+      "image": "crash-bandicoot-aikokai.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6071,7 +6071,7 @@
     },
     "webmaster": "たクラッシュ",
     "banner": {
-      "image": "crashtown.gif",
+      "image": "crash-bandicoot-town.gif",
       "size": {
         "x": 200,
         "y": 49
@@ -6092,7 +6092,7 @@
     },
     "webmaster": "CURA",
     "banner": {
-      "image": "crashhouse.png",
+      "image": "crash-bandicoot-house.png",
       "size": {
         "x": 200,
         "y": 100
@@ -6114,7 +6114,7 @@
     },
     "webmaster": "さ〜しょ",
     "banner": {
-      "image": "crashfight.png",
+      "image": "crash-bandicoot-fight.png",
       "size": {
         "x": 200,
         "y": 40
@@ -6149,7 +6149,7 @@
     },
     "webmaster": "ぴくるす",
     "banner": {
-      "image": "clapdrop.gif",
+      "image": "clap-drop.gif",
       "size": {
         "x": 164,
         "y": 60
@@ -6182,7 +6182,7 @@
     },
     "webmaster": "クライン",
     "banner": {
-      "image": "grandpalace.gif",
+      "image": "grand-palace.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6209,7 +6209,7 @@
     },
     "webmaster": "マンイーター",
     "banner": {
-      "image": "greenisland.gif",
+      "image": "green-island.gif",
       "size": {
         "x": 200,
         "y": 70
@@ -6268,7 +6268,7 @@
     },
     "webmaster": "かめっち",
     "banner": {
-      "image": "holonic.gif",
+      "image": "group-holonic.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -6313,7 +6313,7 @@
       "yomi": "くれえしいほおい"
     },
     "banner": {
-      "image": "crazyboy.bmp",
+      "image": "crazy-boy.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -6331,7 +6331,7 @@
     "oldname": ["Twig Story", "正男フィールド"],
     "webmaster": "ミカン",
     "banner": {
-      "image": "twigstory.gif",
+      "image": "twig-story.gif",
       "size": {
         "x": 174,
         "y": 60
@@ -6349,7 +6349,7 @@
     },
     "webmaster": "鉛筆",
     "banner": {
-      "image": "guren.gif",
+      "image": "guren-no-hayate.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6372,7 +6372,7 @@
     },
     "webmaster": "紅蓮",
     "banner": {
-      "image": "gurenno.gif",
+      "image": "guren-no-page.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -6395,7 +6395,7 @@
     },
     "webmaster": "三剣",
     "banner": {
-      "image": "kuroiturugi.gif",
+      "image": "kuroi-tsurugi.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6619,7 +6619,7 @@
     },
     "webmaster": "break",
     "banner": {
-      "image": "gavememory.gif",
+      "image": "gave-memory.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6727,7 +6727,7 @@
     "oldname": "MASAO FACTORY -正男製作所-",
     "webmaster": "裏影紅刃",
     "banner": {
-      "image": "gamers.png",
+      "image": "gamers-frontier.png",
       "size": {
         "x": 200,
         "y": 40
@@ -6778,7 +6778,7 @@
     },
     "webmaster": "よっすぃー",
     "banner": {
-      "image": "game_island.jpg",
+      "image": "game-island.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -6799,7 +6799,7 @@
     },
     "webmaster": "kou",
     "banner": {
-      "image": "gameadventure.gif",
+      "image": "game-adventure.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6815,7 +6815,7 @@
     },
     "webmaster": "武勇伝",
     "banner": {
-      "image": "dokokai.gif",
+      "image": "game-and-manga.gif",
       "size": {
         "x": 31,
         "y": 33
@@ -6848,7 +6848,7 @@
     },
     "webmaster": "嵐",
     "banner": {
-      "image": "gameinmasao.bmp",
+      "image": "game-in-masao.bmp",
       "size": {
         "x": 449,
         "y": 78
@@ -6870,7 +6870,7 @@
     },
     "webmaster": "Mr.X",
     "banner": {
-      "image": "gameurawaza.gif",
+      "image": "game-urawaza.gif",
       "size": {
         "x": 201,
         "y": 69
@@ -6887,7 +6887,7 @@
     },
     "webmaster": "oikawa5",
     "banner": {
-      "image": "creator.gif",
+      "image": "game-creator.gif",
       "size": {
         "x": 183,
         "y": 49
@@ -6904,7 +6904,7 @@
     "oldname": "正男天国",
     "webmaster": "masa",
     "banner": {
-      "image": "gamekoubou.gif",
+      "image": "game-kobo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -6926,7 +6926,7 @@
     },
     "webmaster": "ボンベカイ",
     "banner": {
-      "image": "deesu.gif",
+      "image": "game-koryaku-deesu.gif",
       "size": {
         "x": 170,
         "y": 59
@@ -6963,7 +6963,7 @@
     },
     "webmaster": "KAITO",
     "banner": {
-      "image": "gamethekaito.gif",
+      "image": "game-the-kaito.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -6993,7 +6993,7 @@
     },
     "webmaster": "レイクス",
     "banner": {
-      "image": "gamethepark.gif",
+      "image": "game-the-park.gif",
       "size": {
         "x": 220,
         "y": 100
@@ -7014,7 +7014,7 @@
     },
     "webmaster": "冷",
     "banner": {
-      "image": "gamecity.png",
+      "image": "game-city.png",
       "size": {
         "x": 200,
         "y": 45
@@ -7035,7 +7035,7 @@
     },
     "webmaster": "ペコペン",
     "banner": {
-      "image": "gamejirai.jpg",
+      "image": "game-jiraibara.jpg",
       "size": {
         "x": 126,
         "y": 35
@@ -7053,7 +7053,7 @@
     "oldname": "スラ友のHP",
     "webmaster": "スラ友",
     "banner": {
-      "image": "gamestar.gif",
+      "image": "game-star.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -7077,7 +7077,7 @@
     },
     "webmaster": "ゼロス",
     "banner": {
-      "image": "gamesterminal.gif",
+      "image": "games-terminal.gif",
       "size": {
         "x": 700,
         "y": 90
@@ -7116,7 +7116,7 @@
     },
     "webmaster": "arasan",
     "banner": {
-      "image": "arasan.gif",
+      "image": "game-station-ara-san.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -7155,7 +7155,7 @@
     },
     "webmaster": "IMACON",
     "banner": {
-      "image": "gamespace.gif",
+      "image": "game-space.gif",
       "size": {
         "x": 205,
         "y": 55
@@ -7207,7 +7207,7 @@
     },
     "webmaster": "忍丸",
     "banner": {
-      "image": "gametown.gif",
+      "image": "game-town.gif",
       "size": {
         "x": 107,
         "y": 40
@@ -7229,7 +7229,7 @@
     },
     "webmaster": "ST",
     "banner": {
-      "image": "gametou_st.gif",
+      "image": "game-to-st.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7257,7 +7257,7 @@
     },
     "webmaster": "ガロバトロス",
     "banner": {
-      "image": "gametou_garo.png",
+      "image": "game-to-garobatorosu.png",
       "size": {
         "x": 100,
         "y": 42
@@ -7292,7 +7292,7 @@
     },
     "webmaster": "イーオス",
     "banner": {
-      "image": "gamedream.png",
+      "image": "game-dream.png",
       "size": {
         "x": 200,
         "y": 80
@@ -7314,7 +7314,7 @@
     },
     "webmaster": "暇人Y",
     "banner": {
-      "image": "gameike.gif",
+      "image": "game-no-ike.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7337,7 +7337,7 @@
     },
     "webmaster": "クロウ",
     "banner": {
-      "image": "gamenoizumi.bmp",
+      "image": "game-no-izumi.bmp",
       "size": {
         "x": 151,
         "y": 49
@@ -7359,7 +7359,7 @@
     },
     "webmaster": "ボーた",
     "banner": {
-      "image": "oasis.gif",
+      "image": "game-no-oasis.gif",
       "size": {
         "x": 88,
         "y": 33
@@ -7380,7 +7380,7 @@
       "yomi": "けえむのこうりやくうらわさかん"
     },
     "banner": {
-      "image": "gamekouryaku.gif",
+      "image": "game-no-koryaku-urawaza-kan.gif",
       "size": {
         "x": 242,
         "y": 104
@@ -7402,7 +7402,7 @@
     },
     "webmaster": "すーさん・ZERO",
     "banner": {
-      "image": "gamenosyuraku.gif",
+      "image": "game-no-shuraku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7425,7 +7425,7 @@
     "oldname": "ゼルダ＆マリオ城",
     "webmaster": "白髪の騎士",
     "banner": {
-      "image": "gamenoshiro.gif",
+      "image": "game-no-shiro.gif",
       "size": {
         "x": 267,
         "y": 64
@@ -7458,7 +7458,7 @@
     },
     "webmaster": "ヨッシー",
     "banner": {
-      "image": "gamenoheya.gif",
+      "image": "game-no-heya-yoshi.gif",
       "size": {
         "x": 205,
         "y": 55
@@ -7504,7 +7504,7 @@
     "oldname": "???のHP",
     "webmaster": "???",
     "banner": {
-      "image": "gameparking.gif",
+      "image": "game-parking.gif",
       "size": {
         "x": 194,
         "y": 40
@@ -7527,7 +7527,7 @@
     "oldname": "ゲーム総合サイト",
     "webmaster": "ソード",
     "banner": {
-      "image": "gamepark.gif",
+      "image": "game-park.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -7550,7 +7550,7 @@
     },
     "webmaster": "muteki",
     "banner": {
-      "image": "gamehouse.jpg",
+      "image": "game-house.jpg",
       "size": {
         "x": 99,
         "y": 28
@@ -7573,7 +7573,7 @@
     },
     "webmaster": "紅龍",
     "banner": {
-      "image": "gamebattler.gif",
+      "image": "game-battler.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -7594,7 +7594,7 @@
     "oldname": "Masao Page DX",
     "webmaster": "masaDX",
     "banner": {
-      "image": "gamevillage.gif",
+      "image": "game-village.gif",
       "size": {
         "x": 187,
         "y": 66
@@ -7616,7 +7616,7 @@
     },
     "webmaster": "モウル",
     "banner": {
-      "image": "gamefactory.bmp",
+      "image": "game-factory.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -7638,7 +7638,7 @@
     },
     "webmaster": "HiRo",
     "banner": {
-      "image": "gameblend.gif",
+      "image": "game-blend.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7687,7 +7687,7 @@
     },
     "webmaster": "E-2000",
     "banner": {
-      "image": "gemuya.png",
+      "image": "game-ya.png",
       "size": {
         "x": 150,
         "y": 50
@@ -7726,7 +7726,7 @@
     "oldname": "たくみのホームページ",
     "webmaster": "たくみ",
     "banner": {
-      "image": "gamelandicchome.png",
+      "image": "game-land-icchome.png",
       "size": {
         "x": 160,
         "y": 56
@@ -7757,7 +7757,7 @@
     },
     "webmaster": "パピヨン",
     "banner": {
-      "image": "gameroompapi.gif",
+      "image": "game-room-papiyon.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7780,7 +7780,7 @@
     "oldname": "ハジけストア",
     "webmaster": "ボンバー",
     "banner": {
-      "image": "restaurant.gif",
+      "image": "game-restaurant.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7803,7 +7803,7 @@
     },
     "webmaster": "shine_star",
     "banner": {
-      "image": "gamerengou.gif",
+      "image": "game-rengou.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -7822,7 +7822,7 @@
     },
     "webmaster": "シャイん",
     "banner": {
-      "image": "gameworld_shine.gif",
+      "image": "game-world-shine.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7850,7 +7850,7 @@
     },
     "webmaster": "YUTA",
     "banner": {
-      "image": "gameworld_yuta.gif",
+      "image": "game-world-yuta.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7872,7 +7872,7 @@
       "yomi": "けつかすいもくきんとにち"
     },
     "banner": {
-      "image": "getsukasuimokukindonichi.gif",
+      "image": "getsu-ka-sui-moku-kin-do-nichi.gif",
       "size": {
         "x": 307,
         "y": 47
@@ -7889,7 +7889,7 @@
     },
     "webmaster": "月影",
     "banner": {
-      "image": "gekka.gif",
+      "image": "gekka-no-yozora.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -7956,7 +7956,7 @@
     },
     "webmaster": "KURIFA",
     "banner": {
-      "image": "gentop.jpg",
+      "image": "gen-no-page.jpg",
       "size": {
         "x": 275,
         "y": 87
@@ -7996,7 +7996,7 @@
     "oldname": "m@njo's Homepage",
     "webmaster": "m@njo",
     "banner": {
-      "image": "redfundoshi.gif",
+      "image": "red-fundoshi.gif",
       "size": {
         "x": 31,
         "y": 31
@@ -8013,7 +8013,7 @@
     },
     "webmaster": "kouki",
     "banner": {
-      "image": "koukisbox.gif",
+      "image": "koukis-box.gif",
       "size": {
         "x": 82,
         "y": 34
@@ -8073,7 +8073,7 @@
     },
     "webmaster": "純",
     "banner": {
-      "image": "koukousei.gif",
+      "image": "kokosei.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -8105,7 +8105,7 @@
     "oldname": "けだるい夏の午後",
     "webmaster": "瀬音夏咲",
     "banner": {
-      "image": "goeloge.png",
+      "image": "go-eloge.png",
       "size": {
         "x": 200,
         "y": 50
@@ -8145,7 +8145,7 @@
     },
     "webmaster": "コーラ",
     "banner": {
-      "image": "ko-ra.bmp",
+      "image": "cola.bmp",
       "size": {
         "x": 169,
         "y": 43
@@ -8161,7 +8161,7 @@
     },
     "webmaster": "ゴールドラッシュ",
     "banner": {
-      "image": "goldrush.bmp",
+      "image": "gold-rush.bmp",
       "size": {
         "x": 201,
         "y": 40
@@ -8180,7 +8180,7 @@
     },
     "webmaster": "もろこし",
     "banner": {
-      "image": "cornvillage.png",
+      "image": "corn-village.png",
       "size": {
         "x": 200,
         "y": 60
@@ -8262,7 +8262,7 @@
     },
     "webmaster": "yu_dai",
     "banner": {
-      "image": "kokohaoounabara.gif",
+      "image": "koko-ha-oounabara.gif",
       "size": {
         "x": 222,
         "y": 51
@@ -8283,7 +8283,7 @@
     },
     "webmaster": "774",
     "banner": {
-      "image": "kokoha.gif",
+      "image": "koko-wa-masao-o.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -8340,7 +8340,7 @@
     },
     "webmaster": "ゴジラMMO",
     "banner": {
-      "image": "gojirammo.gif",
+      "image": "godzilla-mmo.gif",
       "size": {
         "x": 213,
         "y": 73
@@ -8358,7 +8358,7 @@
     "oldname": ["Lapis Lazuli", "蒼月の光", "聖獣の牙"],
     "webmaster": "水流 霧月",
     "banner": {
-      "image": "sougetsu.gif",
+      "image": "sogetsu.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -8427,7 +8427,7 @@
     },
     "webmaster": "このみ24",
     "banner": {
-      "image": "konomi24.gif",
+      "image": "konomi-24.gif",
       "size": {
         "x": 225,
         "y": 74
@@ -8484,7 +8484,7 @@
     },
     "webmaster": "KOBO",
     "banner": {
-      "image": "kobo.gif",
+      "image": "kobo-no-homepage.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -8531,7 +8531,7 @@
     "oldname": "Move Forward With Hope",
     "webmaster": "炎武",
     "banner": {
-      "image": "communi.gif",
+      "image": "communi-anime.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -8558,7 +8558,7 @@
     },
     "webmaster": "瀧",
     "banner": {
-      "image": "gorakukukan.png",
+      "image": "goraku-kukan.png",
       "size": {
         "x": 200,
         "y": 40
@@ -8671,7 +8671,7 @@
     },
     "webmaster": "マッハ",
     "banner": {
-      "image": "konshin.png",
+      "image": "konshinwakai.png",
       "size": {
         "x": 200,
         "y": 40
@@ -8746,7 +8746,7 @@
     },
     "webmaster": "いちゃ昆布",
     "banner": {
-      "image": "koubutoasahito.gif",
+      "image": "konbu-to-asahi.gif",
       "size": {
         "x": 173,
         "y": 43
@@ -8793,7 +8793,7 @@
     },
     "webmaster": "L使途",
     "banner": {
-      "image": "psychochips.gif",
+      "image": "psycho-chips.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -8859,7 +8859,7 @@
     "oldname": "ギャクサイタマサオ",
     "webmaster": "サイタマ",
     "banner": {
-      "image": "saitama.gif",
+      "image": "saitama-ken.gif",
       "size": {
         "x": 211,
         "y": 64
@@ -8980,7 +8980,7 @@
     "oldname": "正男商店街",
     "webmaster": "エクストラ",
     "banner": {
-      "image": "theiro.gif",
+      "image": "the-iro2.gif",
       "size": {
         "x": 160,
         "y": 62
@@ -9022,7 +9022,7 @@
     "oldname": "Masao's Evolution",
     "webmaster": "マグロス",
     "banner": {
-      "image": "evolution.png",
+      "image": "the-evolution.png",
       "size": {
         "x": 88,
         "y": 31
@@ -9046,7 +9046,7 @@
     "oldname": "魔法の竿",
     "webmaster": "魔竿",
     "banner": {
-      "image": "onlyplace.png",
+      "image": "the-only-place.png",
       "size": {
         "x": 200,
         "y": 40
@@ -9127,7 +9127,7 @@
     "oldname": "『謎』の奇妙な世界",
     "webmaster": "Shayu",
     "banner": {
-      "image": "nazonokimyou.gif",
+      "image": "nazo-no-kimyo.gif",
       "size": {
         "x": 198,
         "y": 71
@@ -9148,7 +9148,7 @@
     },
     "webmaster": "キノコ",
     "banner": {
-      "image": "gamenetter.gif",
+      "image": "the-game-netter.gif",
       "size": {
         "x": 140,
         "y": 75
@@ -9208,7 +9208,7 @@
     },
     "webmaster": "染五郎",
     "banner": {
-      "image": "thesimplepage.png",
+      "image": "the-simple-page.png",
       "size": {
         "x": 200,
         "y": 40
@@ -9241,7 +9241,7 @@
     "oldname": ["正男フィールド", "ゆうすけのページ"],
     "webmaster": "skysaturn",
     "banner": {
-      "image": "masaofield.png",
+      "image": "masao-field.png",
       "size": {
         "x": 200,
         "y": 40
@@ -9306,7 +9306,7 @@
     },
     "webmaster": "tomo_ver9",
     "banner": {
-      "image": "thetruesight.bmp",
+      "image": "the-true-sight.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -9328,7 +9328,7 @@
     },
     "webmaster": "聡",
     "banner": {
-      "image": "satoshinopage_anidue.gif",
+      "image": "satoshi-no-page.gif",
       "size": {
         "x": 117,
         "y": 69
@@ -9346,7 +9346,7 @@
     "oldname": "The star of hope",
     "webmaster": "NZM・ユウザ",
     "banner": {
-      "image": "newstar.jpg",
+      "image": "the-new-star.jpg",
       "size": {
         "x": 200,
         "y": 100
@@ -9432,7 +9432,7 @@
     },
     "webmaster": "SASAMI",
     "banner": {
-      "image": "sasami.bmp",
+      "image": "the-page-of-sasami.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -9487,7 +9487,7 @@
     },
     "webmaster": "Zton",
     "banner": {
-      "image": "themasaogames.gif",
+      "image": "the-masao-games.gif",
       "size": {
         "x": 220,
         "y": 40
@@ -9505,7 +9505,7 @@
     },
     "webmaster": "yuntara",
     "banner": {
-      "image": "yuntara.bmp",
+      "image": "the-yuntara.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -9525,7 +9525,7 @@
     "oldname": "Ma2 Page",
     "webmaster": "Ma2",
     "banner": {
-      "image": "tlon.png",
+      "image": "the-light-of-night.png",
       "size": {
         "x": 200,
         "y": 39
@@ -9567,7 +9567,7 @@
     },
     "webmaster": "キセノンXe",
     "banner": {
-      "image": "labyrinth.gif",
+      "image": "the-labyrinth.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -9588,7 +9588,7 @@
     },
     "webmaster": "大根ネズミ",
     "banner": {
-      "image": "sarinazu.bmp",
+      "image": "sarinas.bmp",
       "size": {
         "x": 144,
         "y": 55
@@ -9611,7 +9611,7 @@
     },
     "webmaster": "零雅",
     "banner": {
-      "image": "sansi.gif",
+      "image": "sanshisuimei.gif",
       "size": {
         "x": 200,
         "y": 41
@@ -9633,7 +9633,7 @@
     },
     "webmaster": "望月",
     "banner": {
-      "image": "sanpara.gif",
+      "image": "sunshine-paradise.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -9655,7 +9655,7 @@
     },
     "webmaster": "ぷら",
     "banner": {
-      "image": "happyi.png",
+      "image": "shiawase-jima.png",
       "size": {
         "x": 200,
         "y": 80
@@ -9698,7 +9698,7 @@
     },
     "webmaster": "GR",
     "banner": {
-      "image": "gr.gif",
+      "image": "gr-no-page.gif",
       "size": {
         "x": 216,
         "y": 48
@@ -9737,7 +9737,7 @@
     "oldname": "正男の宿",
     "webmaster": "さはら",
     "banner": {
-      "image": "gelements.gif",
+      "image": "g-elements.gif",
       "size": {
         "x": 136,
         "y": 66
@@ -9761,7 +9761,7 @@
     },
     "webmaster": "タイソン",
     "banner": {
-      "image": "seacastle.gif",
+      "image": "sea-castle.gif",
       "size": {
         "x": 160,
         "y": 55
@@ -9799,7 +9799,7 @@
     },
     "webmaster": "メーメー",
     "banner": {
-      "image": "sieg.gif",
+      "image": "sieg-masao.gif",
       "size": {
         "x": 200,
         "y": 43
@@ -9889,7 +9889,7 @@
     },
     "webmaster": "takkyuu",
     "banner": {
-      "image": "gnohp.gif",
+      "image": "g-no-hp.gif",
       "size": {
         "x": 174,
         "y": 57
@@ -9921,7 +9921,7 @@
     },
     "webmaster": "GEM",
     "banner": {
-      "image": "gland.gif",
+      "image": "g-land.gif",
       "size": {
         "x": 160,
         "y": 60
@@ -9943,7 +9943,7 @@
     "oldname": "G・E・Mの部屋",
     "webmaster": "G・E・M",
     "banner": {
-      "image": "groom.gif",
+      "image": "g-room.gif",
       "size": {
         "x": 100,
         "y": 40
@@ -9965,7 +9965,7 @@
     },
     "webmaster": "ズゴーン",
     "banner": {
-      "image": "japank.gif",
+      "image": "j-a-pank.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -9998,7 +9998,7 @@
     },
     "webmaster": "ファル恩徒",
     "banner": {
-      "image": "jikuwotorikomu.png",
+      "image": "jiku-o-torikomu.png",
       "size": {
         "x": 200,
         "y": 40
@@ -10024,7 +10024,7 @@
     },
     "webmaster": "さぁ",
     "banner": {
-      "image": "jigenbakudan.gif",
+      "image": "jigen-bakudan.gif",
       "size": {
         "x": 180,
         "y": 30
@@ -10132,7 +10132,7 @@
     },
     "webmaster": "正男屋",
     "banner": {
-      "image": "shippunoaozora.gif",
+      "image": "shippu-no-aozora.gif",
       "size": {
         "x": 236,
         "y": 50
@@ -10187,7 +10187,7 @@
     },
     "webmaster": "いお",
     "banner": {
-      "image": "jidou.gif",
+      "image": "jido-masao-domei.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -10204,7 +10204,7 @@
     },
     "webmaster": "YK",
     "banner": {
-      "image": "kakure.jpg",
+      "image": "shinobi-no-kakurezato.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -10226,7 +10226,7 @@
     },
     "webmaster": "sim_kengo",
     "banner": {
-      "image": "simto.gif",
+      "image": "sim-to-jibun.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -10245,7 +10245,7 @@
     },
     "webmaster": "ジャーマンポテト",
     "banner": {
-      "image": "german.png",
+      "image": "german-potato.png",
       "size": {
         "x": 200,
         "y": 40
@@ -10334,7 +10334,7 @@
     },
     "webmaster": "Jack",
     "banner": {
-      "image": "jackpod.gif",
+      "image": "jack-pod.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -10379,7 +10379,7 @@
     },
     "webmaster": "名無しのゴン米",
     "banner": {
-      "image": "jumpingpage.gif",
+      "image": "jumping-page.gif",
       "size": {
         "x": 392,
         "y": 120
@@ -10454,7 +10454,7 @@
     "oldname": "ユキのページ",
     "webmaster": "ユキ",
     "banner": {
-      "image": "juroku.gif",
+      "image": "juroku-gai.gif",
       "size": {
         "x": 168,
         "y": 64
@@ -10476,7 +10476,7 @@
     },
     "webmaster": "シュガー",
     "banner": {
-      "image": "sugar.png",
+      "image": "sugar-town.png",
       "size": {
         "x": 140,
         "y": 50
@@ -10573,7 +10573,7 @@
     "oldname": ["アイクラルーム", "ジュンページ"],
     "webmaster": "ジュン",
     "banner": {
-      "image": "juniceclimber.png",
+      "image": "i-cli-room.png",
       "size": {
         "x": 128,
         "y": 32
@@ -10598,7 +10598,7 @@
     },
     "webmaster": "潤",
     "banner": {
-      "image": "jun.gif",
+      "image": "jun-no-heya.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -10799,7 +10799,7 @@
     "oldname": "Diamond Dust",
     "webmaster": "Qoo",
     "banner": {
-      "image": "diamonddust.gif",
+      "image": "diamond-dust.gif",
       "size": {
         "x": 96,
         "y": 40
@@ -10927,7 +10927,7 @@
     },
     "webmaster": "クーリア",
     "banner": {
-      "image": "kokoichi.gif",
+      "image": "shin-kokoichiban.gif",
       "size": {
         "x": 210,
         "y": 57
@@ -11008,7 +11008,7 @@
     },
     "webmaster": "清蛇",
     "banner": {
-      "image": "shinpinoshizuku.png",
+      "image": "shinpi-no-shizuku.png",
       "size": {
         "x": 88,
         "y": 31
@@ -11063,7 +11063,7 @@
     "oldname": "星の駅 kirby駅",
     "webmaster": "Yuuki",
     "banner": {
-      "image": "shinhoshinoeki.jpg",
+      "image": "shin-hoshi-no-eki.jpg",
       "size": {
         "x": 88,
         "y": 31
@@ -11087,7 +11087,7 @@
     "oldname": "正男ポケモンアイランド",
     "webmaster": "aみかん5",
     "banner": {
-      "image": "shinryokunokusaki.png",
+      "image": "shinryoku-no-kusaki.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11112,7 +11112,7 @@
     "oldname": "正男コロシアム ～黒き騎士道～",
     "webmaster": "ライディン",
     "banner": {
-      "image": "shinryokunowakaba.png",
+      "image": "shinryoku-no-wakaba.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11151,7 +11151,7 @@
     },
     "webmaster": "すいせいさん",
     "banner": {
-      "image": "suiseisekai.gif",
+      "image": "suisei-sekai.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -11233,7 +11233,7 @@
     "oldname": "正男の一本道",
     "webmaster": "嗚呼嗚呼",
     "banner": {
-      "image": "aaaa.gif",
+      "image": "super-games-link-world.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11266,7 +11266,7 @@
     },
     "webmaster": "ダイヤモンド",
     "banner": {
-      "image": "superdiamond.png",
+      "image": "super-diamond.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11292,7 +11292,7 @@
     },
     "webmaster": "ONE",
     "banner": {
-      "image": "narhaha.gif",
+      "image": "super-narhaha.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -11335,7 +11335,7 @@
     },
     "webmaster": "BINGO",
     "banner": {
-      "image": "smabingo.png",
+      "image": "super-masao-association.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11356,7 +11356,7 @@
     },
     "webmaster": "α",
     "banner": {
-      "image": "alpha.gif",
+      "image": "super-masao-alpha.gif",
       "size": {
         "x": 172,
         "y": 56
@@ -11397,7 +11397,7 @@
     },
     "webmaster": "AOK",
     "banner": {
-      "image": "aok.gif",
+      "image": "super-masao-aok.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11423,7 +11423,7 @@
     "oldname": "正男WEB",
     "webmaster": "pascua",
     "banner": {
-      "image": "masaox.gif",
+      "image": "super-masao-x.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -11446,7 +11446,7 @@
     "oldname": ["超正男帝国", "正男のおっきなくに"],
     "webmaster": "Word Mode",
     "banner": {
-      "image": "sme.gif",
+      "image": "super-masao-empire.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11486,7 +11486,7 @@
     },
     "webmaster": "SUPER MASARIO",
     "banner": {
-      "image": "supermasaocastle.gif",
+      "image": "super-masao-castle.gif",
       "size": {
         "x": 275,
         "y": 100
@@ -11508,7 +11508,7 @@
     "oldname": ["スーパー正男斬", "カーボンのホームページ", "MASAO COMANDER'S"],
     "webmaster": "スタープラチナ",
     "banner": {
-      "image": "zan.gif",
+      "image": "masagiri-neo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11537,7 +11537,7 @@
     "oldname": "オーディン帝國",
     "webmaster": "ﾜｹｱﾘ狂人K",
     "banner": {
-      "image": "odin.gif",
+      "image": "odin-teikoku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11560,7 +11560,7 @@
     },
     "webmaster": "BSO",
     "banner": {
-      "image": "sucolle.bmp",
+      "image": "super-masao-collection.bmp",
       "size": {
         "x": 200,
         "y": 50
@@ -11607,7 +11607,7 @@
     },
     "webmaster": "タケヒロ",
     "banner": {
-      "image": "gms.png",
+      "image": "super-masao-gms.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11630,7 +11630,7 @@
     },
     "webmaster": "キノコ",
     "banner": {
-      "image": "supermasaostation.gif",
+      "image": "super-masao-station.gif",
       "size": {
         "x": 206,
         "y": 59
@@ -11655,7 +11655,7 @@
     },
     "webmaster": "dare",
     "banner": {
-      "image": "masao3.png",
+      "image": "super-masao3-exe-style.png",
       "size": {
         "x": 160,
         "y": 48
@@ -11678,7 +11678,7 @@
     },
     "webmaster": "BBB",
     "banner": {
-      "image": "souko.gif",
+      "image": "super-masao-soko.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11707,7 +11707,7 @@
     "oldname": "Masao game station",
     "webmaster": "jpmattu",
     "banner": {
-      "image": "supermasaonet.png",
+      "image": "super-masao-net.png",
       "size": {
         "x": 200,
         "y": 40
@@ -11730,7 +11730,7 @@
     "oldname": "超正男軌跡輝星",
     "webmaster": "喬之",
     "banner": {
-      "image": "miracle.gif",
+      "image": "super-masao-no-miracle-star.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11794,7 +11794,7 @@
     "oldname": ["GrayPlanet", "てふRoom", "スーパー正男MY"],
     "webmaster": "Tex",
     "banner": {
-      "image": "myplus.gif",
+      "image": "super-masao-my-plus.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11820,7 +11820,7 @@
     },
     "webmaster": "とりとり",
     "banner": {
-      "image": "masaren.gif",
+      "image": "super-masao-rengogun.gif",
       "size": {
         "x": 83,
         "y": 29
@@ -11869,7 +11869,7 @@
     },
     "webmaster": "達也",
     "banner": {
-      "image": "mario.gif",
+      "image": "super-mario-icchokusen.gif",
       "size": {
         "x": 197,
         "y": 40
@@ -11896,7 +11896,7 @@
     },
     "webmaster": "メトール",
     "banner": {
-      "image": "mariodaitokai.png",
+      "image": "super-mario-daitokai.png",
       "size": {
         "x": 202,
         "y": 64
@@ -11913,7 +11913,7 @@
     },
     "webmaster": "ヨッシー",
     "banner": {
-      "image": "marioworld2.gif",
+      "image": "super-mario-world2.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -11934,7 +11934,7 @@
     },
     "webmaster": "アミティー&riaf",
     "banner": {
-      "image": "maruo.gif",
+      "image": "super-maruo.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -11961,7 +11961,7 @@
     "oldname": "zハウス",
     "webmaster": "z",
     "banner": {
-      "image": "supermedaroters.gif",
+      "image": "super-medaroters.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -11985,7 +11985,7 @@
       "yomi": "すうはあもらおふらさあすけえむかふしきかいしや"
     },
     "banner": {
-      "image": "supermorao.gif",
+      "image": "super-morao.gif",
       "size": {
         "x": 166,
         "y": 47
@@ -12007,7 +12007,7 @@
     },
     "oldname": "ゲーム攻略館",
     "banner": {
-      "image": "sumaridoujou.bmp",
+      "image": "sumari-dojo.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -12024,7 +12024,7 @@
     },
     "webmaster": "オザ",
     "banner": {
-      "image": "sukaiocean.gif",
+      "image": "sukai-ocean.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -12047,7 +12047,7 @@
     "oldname": "Sacred dark",
     "webmaster": "NAO",
     "banner": {
-      "image": "skygarden.png",
+      "image": "sky-garden.png",
       "size": {
         "x": 200,
         "y": 60
@@ -12072,7 +12072,7 @@
     "oldname": "正男駅",
     "webmaster": "蒼",
     "banner": {
-      "image": "masaoeki.gif",
+      "image": "masao-eki.gif",
       "size": {
         "x": 200,
         "y": 64
@@ -12094,7 +12094,7 @@
     "oldname": "天空スカイキャッスル",
     "webmaster": "神風鳳凰",
     "banner": {
-      "image": "skycastle.gif",
+      "image": "sky-castle.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -12115,7 +12115,7 @@
     },
     "webmaster": "覇",
     "banner": {
-      "image": "skythewind.bmp",
+      "image": "sky-the-wind.bmp",
       "size": {
         "x": 299,
         "y": 60
@@ -12133,7 +12133,7 @@
     },
     "webmaster": "辰屋",
     "banner": {
-      "image": "skypages.gif",
+      "image": "sky-pages.gif",
       "size": {
         "x": 120,
         "y": 38
@@ -12155,7 +12155,7 @@
     },
     "webmaster": "ぎがくっぱ",
     "banner": {
-      "image": "skyland.gif",
+      "image": "sky-land.gif",
       "size": {
         "x": 148,
         "y": 64
@@ -12259,7 +12259,7 @@
     },
     "webmaster": "カー吉",
     "banner": {
-      "image": "starcatsle.gif",
+      "image": "star-catsle.gif",
       "size": {
         "x": 105,
         "y": 43
@@ -12282,7 +12282,7 @@
     },
     "webmaster": "キョロロン",
     "banner": {
-      "image": "starsisland.png",
+      "image": "stars-island.png",
       "size": {
         "x": 200,
         "y": 40
@@ -12305,7 +12305,7 @@
     },
     "webmaster": "プチ",
     "banner": {
-      "image": "starstore.gif",
+      "image": "star-store.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -12479,7 +12479,7 @@
     },
     "webmaster": "NAO",
     "banner": {
-      "image": "story.png",
+      "image": "story-masao-doumei.png",
       "size": {
         "x": 128,
         "y": 64
@@ -12501,7 +12501,7 @@
     },
     "webmaster": "suto",
     "banner": {
-      "image": "suto.gif",
+      "image": "suto-no-heya.gif",
       "size": {
         "x": 150,
         "y": 50
@@ -12520,7 +12520,7 @@
     "oldname": ["MASAO ISLAND", "帝王卓球", "99X"],
     "webmaster": "BIZ",
     "banner": {
-      "image": "masaoisland.gif",
+      "image": "masao-island-biz.gif",
       "size": {
         "x": 295,
         "y": 54
@@ -12563,7 +12563,7 @@
     },
     "webmaster": "SPIDER-MAN",
     "banner": {
-      "image": "spiderman.gif",
+      "image": "spider-man.gif",
       "size": {
         "x": 176,
         "y": 69
@@ -12580,7 +12580,7 @@
     },
     "webmaster": "あすぱらがす☆彡",
     "banner": {
-      "image": "speed.jpg",
+      "image": "speed-no-sumika.jpg",
       "size": {
         "x": 199,
         "y": 39
@@ -12615,7 +12615,7 @@
     },
     "webmaster": "SPACE KING",
     "banner": {
-      "image": "spaceking.jpg",
+      "image": "space-kingdom.jpg",
       "size": {
         "x": 193,
         "y": 58
@@ -12638,7 +12638,7 @@
     "oldname": "Smile room",
     "webmaster": "カガク",
     "banner": {
-      "image": "smileroom.png",
+      "image": "smile-room.png",
       "size": {
         "x": 88,
         "y": 31
@@ -12658,7 +12658,7 @@
     },
     "webmaster": "ノッシー親鸞",
     "banner": {
-      "image": "smashcable.jpg",
+      "image": "smash-cable.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -12681,7 +12681,7 @@
     },
     "webmaster": "kazuki",
     "banner": {
-      "image": "smashstrike.gif",
+      "image": "smash-strike.gif",
       "size": {
         "x": 184,
         "y": 49
@@ -12713,7 +12713,7 @@
     },
     "webmaster": "いたくら",
     "banner": {
-      "image": "sumadera.gif",
+      "image": "suma-dera.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -12729,7 +12729,7 @@
     },
     "webmaster": "Y",
     "banner": {
-      "image": "y1229913.gif",
+      "image": "sumaburas-world.gif",
       "size": {
         "x": 200,
         "y": 80
@@ -12762,7 +12762,7 @@
     "oldname": "GekoWeb",
     "webmaster": "Reload",
     "banner": {
-      "image": "haiiro.png",
+      "image": "sumiiro-chitai.png",
       "size": {
         "x": 200,
         "y": 40
@@ -12784,7 +12784,7 @@
     },
     "webmaster": "スミス",
     "banner": {
-      "image": "smith.jpg",
+      "image": "smith-no-heya.jpg",
       "size": {
         "x": 193,
         "y": 79
@@ -12805,7 +12805,7 @@
     },
     "webmaster": "スモールカービィ",
     "banner": {
-      "image": "smallkirby.gif",
+      "image": "small-kirby.gif",
       "size": {
         "x": 150,
         "y": 50
@@ -12827,7 +12827,7 @@
     },
     "webmaster": "山ちゃん",
     "banner": {
-      "image": "smallraitsu.gif",
+      "image": "small-raitsu.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -12847,7 +12847,7 @@
       "yomi": "すもりくらふ"
     },
     "banner": {
-      "image": "zumoriclub.gif",
+      "image": "zumori-club.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -12874,7 +12874,7 @@
     },
     "webmaster": "あたりめ",
     "banner": {
-      "image": "surume.gif",
+      "image": "surume-dendo.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -12905,7 +12905,7 @@
     },
     "webmaster": "カズ",
     "banner": {
-      "image": "absolute.gif",
+      "image": "absolute-zero.gif",
       "size": {
         "x": 150,
         "y": 40
@@ -12927,7 +12927,7 @@
     },
     "webmaster": "和田",
     "banner": {
-      "image": "absolute2.gif",
+      "image": "absolute-zero-2.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -12955,7 +12955,7 @@
     "oldname": "ゼニ☆ウェイブ",
     "webmaster": "ゼニガメの進化前",
     "banner": {
-      "image": "zeniwave.png",
+      "image": "zeni-wave.png",
       "size": {
         "x": 200,
         "y": 40
@@ -13032,7 +13032,7 @@
     },
     "webmaster": "Litter",
     "banner": {
-      "image": "senkonohoshi.gif",
+      "image": "senko-no-hoshi.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -13054,7 +13054,7 @@
     },
     "webmaster": "真田丸",
     "banner": {
-      "image": "sengokudaimyoujiten.gif",
+      "image": "sengoku-daimyo-jiten.gif",
       "size": {
         "x": 234,
         "y": 60
@@ -13090,7 +13090,7 @@
     "oldname": "矢吹の正男のページ",
     "webmaster": "鵺",
     "banner": {
-      "image": "nueteikoku.png",
+      "image": "nue-teikoku.png",
       "size": {
         "x": 200,
         "y": 40
@@ -13111,7 +13111,7 @@
     "oldname": "GAME TOWN",
     "webmaster": "Formula",
     "banner": {
-      "image": "creation.gif",
+      "image": "creation-city.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -13145,7 +13145,7 @@
     ],
     "webmaster": "NrtKS",
     "banner": {
-      "image": "zoned.gif",
+      "image": "zone-d.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -13210,7 +13210,7 @@
     "oldname": "100点 boyの正男部屋",
     "webmaster": "Arai",
     "banner": {
-      "image": "sorairo100.jpg",
+      "image": "sorairo-no-kaze.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -13244,7 +13244,7 @@
     "oldname": "SKY&CONTINENT",
     "webmaster": "sky",
     "banner": {
-      "image": "skycontinent.gif",
+      "image": "sky-and-continent.gif",
       "size": {
         "x": 192,
         "y": 64
@@ -13281,7 +13281,7 @@
     "oldname": "カービィキャッスル",
     "webmaster": "闇ヨッシー",
     "banner": {
-      "image": "kirbycastle.gif",
+      "image": "kirby-castle.gif",
       "size": {
         "x": 250,
         "y": 70
@@ -13327,7 +13327,7 @@
     "oldname": "正男学級",
     "webmaster": "Corvus",
     "banner": {
-      "image": "darkness.gif",
+      "image": "darkness-full-of-light.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -13407,7 +13407,7 @@
     },
     "webmaster": "たこ",
     "banner": {
-      "image": "taikutu.gif",
+      "image": "taikutsu.gif",
       "size": {
         "x": 120,
         "y": 60
@@ -13471,7 +13471,7 @@
     },
     "webmaster": "DAMN",
     "banner": {
-      "image": "taihei.jpg",
+      "image": "taihei-tengoku.jpg",
       "size": {
         "x": 181,
         "y": 63
@@ -13492,7 +13492,7 @@
     },
     "webmaster": "グライダー",
     "banner": {
-      "image": "timeoflegend.gif",
+      "image": "time-of-legend.gif",
       "size": {
         "x": 160,
         "y": 50
@@ -13513,7 +13513,7 @@
     },
     "webmaster": "togeboh",
     "banner": {
-      "image": "timekilling.gif",
+      "image": "time-killing.gif",
       "size": {
         "x": 177,
         "y": 48
@@ -13547,7 +13547,7 @@
     },
     "webmaster": "RAGI",
     "banner": {
-      "image": "diamonddragon.gif",
+      "image": "diamond-dragon.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -13582,7 +13582,7 @@
     },
     "webmaster": "Taka",
     "banner": {
-      "image": "taka.png",
+      "image": "takas-homepage.png",
       "size": {
         "x": 88,
         "y": 31
@@ -13607,7 +13607,7 @@
     },
     "webmaster": "タカッチ",
     "banner": {
-      "image": "takatti.gif",
+      "image": "takaxtuti-no-hp.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -13629,7 +13629,7 @@
     "oldname": ["正男の特大帝国", "正男でGOGO"],
     "webmaster": "鷹男",
     "banner": {
-      "image": "takateikoku.gif",
+      "image": "masao-no-tokudai.gif",
       "size": {
         "x": 120,
         "y": 60
@@ -13670,7 +13670,7 @@
     "oldname": "Wing of door of magic",
     "webmaster": "メアニム",
     "banner": {
-      "image": "takitubo.gif",
+      "image": "takitsubo.gif",
       "size": {
         "x": 208,
         "y": 56
@@ -13695,7 +13695,7 @@
     },
     "webmaster": "taku",
     "banner": {
-      "image": "takumasao.gif",
+      "image": "taku-and-masao.gif",
       "size": {
         "x": 177,
         "y": 94
@@ -13779,7 +13779,7 @@
     "oldname": "やなぼーのノート",
     "webmaster": "やなぼー",
     "banner": {
-      "image": "yanabou.gif",
+      "image": "yanabo.gif",
       "size": {
         "x": 169,
         "y": 49
@@ -13798,7 +13798,7 @@
     "oldname": ["aqua luna zone", "クレセントムーン", "青空なページ"],
     "webmaster": "カイト",
     "banner": {
-      "image": "takenokotouge.gif",
+      "image": "takenoko-toge.gif",
       "size": {
         "x": 178,
         "y": 39
@@ -13850,7 +13850,7 @@
     },
     "webmaster": "うひょ",
     "banner": {
-      "image": "uhyo.png",
+      "image": "tashushi-no-kuni.png",
       "size": {
         "x": 88,
         "y": 31
@@ -13878,7 +13878,7 @@
     },
     "webmaster": "タスク",
     "banner": {
-      "image": "task.gif",
+      "image": "task-no-heya.gif",
       "size": {
         "x": 202,
         "y": 75
@@ -14126,7 +14126,7 @@
     },
     "webmaster": "ごら！",
     "banner": {
-      "image": "wwagora.gif",
+      "image": "wwa-and-masao-okoku.gif",
       "size": {
         "x": 170,
         "y": 45
@@ -14144,7 +14144,7 @@
     },
     "webmaster": "WTR",
     "banner": {
-      "image": "wtr.png",
+      "image": "wtrs-room.png",
       "size": {
         "x": 200,
         "y": 40
@@ -14167,7 +14167,7 @@
     },
     "webmaster": "WTY",
     "banner": {
-      "image": "wty.gif",
+      "image": "wty-game-land.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -14191,7 +14191,7 @@
       "yomi": "たふるのへえし"
     },
     "banner": {
-      "image": "wbana.png",
+      "image": "w-no-page.png",
       "size": {
         "x": 250,
         "y": 100
@@ -14207,7 +14207,7 @@
     },
     "webmaster": "耐斗",
     "banner": {
-      "image": "tamasii.png",
+      "image": "tamashii.png",
       "size": {
         "x": 163,
         "y": 48
@@ -14246,7 +14246,7 @@
     },
     "webmaster": "ダル",
     "banner": {
-      "image": "daru.gif",
+      "image": "daru-no-homepage.gif",
       "size": {
         "x": 136,
         "y": 78
@@ -14338,7 +14338,7 @@
     },
     "webmaster": "DONE",
     "banner": {
-      "image": "done.png",
+      "image": "dones-page.png",
       "size": {
         "x": 88,
         "y": 31
@@ -14355,7 +14355,7 @@
     },
     "webmaster": "段玉",
     "banner": {
-      "image": "itizoku.gif",
+      "image": "dantamake-no-ichizoku.gif",
       "size": {
         "x": 101,
         "y": 60
@@ -14393,7 +14393,7 @@
     },
     "webmaster": "知ィ知ィ",
     "banner": {
-      "image": "chichi.jpg",
+      "image": "chiichii-no-homepage.jpg",
       "size": {
         "x": 252,
         "y": 56
@@ -14410,7 +14410,7 @@
     },
     "webmaster": "チービィ",
     "banner": {
-      "image": "chiibiisozai.gif",
+      "image": "chiibii-no-sozaiya.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -14430,7 +14430,7 @@
     },
     "webmaster": "チービィ",
     "banner": {
-      "image": "chiibii.png",
+      "image": "chiibii-no-homepage.png",
       "size": {
         "x": 200,
         "y": 40
@@ -14452,7 +14452,7 @@
     },
     "webmaster": "WTR",
     "banner": {
-      "image": "teammasao.gif",
+      "image": "team-masao.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -14469,7 +14469,7 @@
     },
     "webmaster": "チコ",
     "banner": {
-      "image": "tiko.gif",
+      "image": "chiko-no-site.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -14535,7 +14535,7 @@
     "oldname": "正男シティ",
     "webmaster": "チャンマホウ",
     "banner": {
-      "image": "sithi.gif",
+      "image": "masao-sithi.gif",
       "size": {
         "x": 70,
         "y": 32
@@ -14612,7 +14612,7 @@
     },
     "webmaster": "kenta070106",
     "banner": {
-      "image": "chosupermasao.gif",
+      "image": "cho-super-masao.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -14629,7 +14629,7 @@
     },
     "webmaster": "けんぼー",
     "banner": {
-      "image": "tyouhenmasao.gif",
+      "image": "tyouhenn-masao.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -14651,7 +14651,7 @@
     "oldname": "超魔界帝国",
     "webmaster": "大魔王軍",
     "banner": {
-      "image": "makai.gif",
+      "image": "chomakai-teikoku.gif",
       "size": {
         "x": 151,
         "y": 53
@@ -14677,7 +14677,7 @@
     },
     "webmaster": "わいゆ～",
     "banner": {
-      "image": "tyotto.gif",
+      "image": "chotto-hitoiki.gif",
       "size": {
         "x": 88,
         "y": 32
@@ -14699,7 +14699,7 @@
     },
     "webmaster": "チョロQプロja32",
     "banner": {
-      "image": "tyoroqpro.gif",
+      "image": "choro-q-pro.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -14734,7 +14734,7 @@
     },
     "webmaster": "アシェス",
     "banner": {
-      "image": "chinroutou.gif",
+      "image": "chinroto.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -14760,7 +14760,7 @@
     },
     "webmaster": "Hasamiぎろちん",
     "banner": {
-      "image": "tsukiyono.png",
+      "image": "tsukiyo-no-restaurant.png",
       "size": {
         "x": 80,
         "y": 31
@@ -14782,7 +14782,7 @@
     },
     "webmaster": "EAGLE",
     "banner": {
-      "image": "tkoolproject.gif",
+      "image": "tkool-project.gif",
       "size": {
         "x": 150,
         "y": 100
@@ -14829,7 +14829,7 @@
     },
     "webmaster": "ツナさん",
     "banner": {
-      "image": "tsuna.gif",
+      "image": "tsuna-san.gif",
       "size": {
         "x": 189,
         "y": 71
@@ -14887,7 +14887,7 @@
     },
     "webmaster": "ディー",
     "banner": {
-      "image": "dhiark.gif",
+      "image": "dhi-ark.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -14910,7 +14910,7 @@
     "oldname": "MECHAROID",
     "webmaster": "masanaka7",
     "banner": {
-      "image": "tiad.png",
+      "image": "t-i-a-d.png",
       "size": {
         "x": 200,
         "y": 40
@@ -14945,7 +14945,7 @@
     },
     "webmaster": "DK",
     "banner": {
-      "image": "dk.png",
+      "image": "dks-homepage.png",
       "size": {
         "x": 200,
         "y": 40
@@ -14968,7 +14968,7 @@
     },
     "webmaster": "tk",
     "banner": {
-      "image": "tk.gif",
+      "image": "tk-no-heya.gif",
       "size": {
         "x": 169,
         "y": 65
@@ -15005,7 +15005,7 @@
     },
     "webmaster": "ソレイユ",
     "banner": {
-      "image": "ddrspread.gif",
+      "image": "ddr-spread.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15041,7 +15041,7 @@
     },
     "webmaster": "TB",
     "banner": {
-      "image": "tbtown.bmp",
+      "image": "tb-town.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -15065,7 +15065,7 @@
     "oldname": "正男100％",
     "webmaster": "悟天Jr",
     "banner": {
-      "image": "100percent.bmp",
+      "image": "masao-100percent.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -15082,7 +15082,7 @@
     },
     "webmaster": "ていおー",
     "banner": {
-      "image": "teio.gif",
+      "image": "teio-himitsukichi.gif",
       "size": {
         "x": 108,
         "y": 51
@@ -15113,7 +15113,7 @@
     },
     "webmaster": "テイク",
     "banner": {
-      "image": "takeup.gif",
+      "image": "take-up.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -15135,7 +15135,7 @@
     },
     "oldname": "正男星",
     "banner": {
-      "image": "masakoudynamite.gif",
+      "image": "masao-star.gif",
       "size": {
         "x": 81,
         "y": 33
@@ -15171,7 +15171,7 @@
     },
     "webmaster": "猿飛",
     "banner": {
-      "image": "dimensionmirror.gif",
+      "image": "dimension-mirror.gif",
       "size": {
         "x": 195,
         "y": 57
@@ -15193,7 +15193,7 @@
     },
     "webmaster": "Rye",
     "banner": {
-      "image": "daylight.gif",
+      "image": "daylight-moon.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15215,7 +15215,7 @@
     "oldname": "マウントカービィ",
     "webmaster": "マルプスター(ひと)",
     "banner": {
-      "image": "mountkirby.gif",
+      "image": "mount-kirby.gif",
       "size": {
         "x": 160,
         "y": 55
@@ -15237,7 +15237,7 @@
     },
     "webmaster": "くっく",
     "banner": {
-      "image": "digitalkoubou.gif",
+      "image": "digital-kobo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15314,7 +15314,7 @@
     "oldname": "紅と蒼の翼",
     "webmaster": "Scarlet",
     "banner": {
-      "image": "devilwing.gif",
+      "image": "devil-wing.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15393,7 +15393,7 @@
     },
     "webmaster": "Ago",
     "banner": {
-      "image": "ago.gif",
+      "image": "ten-years-ago.gif",
       "size": {
         "x": 143,
         "y": 72
@@ -15436,7 +15436,7 @@
     "oldname": ["天界の研究室", "メガメガLAB"],
     "webmaster": "ノア",
     "banner": {
-      "image": "seiiki.gif",
+      "image": "tenkai-no-seiiki.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15495,7 +15495,7 @@
     "oldname": "光汰のページ",
     "webmaster": "光汰",
     "banner": {
-      "image": "denshin.png",
+      "image": "denshinbashira.png",
       "size": {
         "x": 88,
         "y": 31
@@ -15536,7 +15536,7 @@
     },
     "webmaster": "Snowmusic",
     "banner": {
-      "image": "snowmusic8.gif",
+      "image": "snow-music8.gif",
       "size": {
         "x": 117,
         "y": 58
@@ -15583,7 +15583,7 @@
     "oldname": "dqのページ（仮）",
     "webmaster": "dq",
     "banner": {
-      "image": "tochu.gif",
+      "image": "tochukaso.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -15604,7 +15604,7 @@
     },
     "webmaster": "とうふ",
     "banner": {
-      "image": "tofu.gif",
+      "image": "tofu-no-kakurega.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -15627,7 +15627,7 @@
     },
     "webmaster": "しょーでん",
     "banner": {
-      "image": "exit_hp.jpg",
+      "image": "tobosha.jpg",
       "size": {
         "x": 200,
         "y": 50
@@ -15644,7 +15644,7 @@
     },
     "webmaster": "folse",
     "banner": {
-      "image": "touryuden.jpg",
+      "image": "toryuden.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -15675,7 +15675,7 @@
     },
     "webmaster": "トーテム",
     "banner": {
-      "image": "totem.png",
+      "image": "totem-no-game-center.png",
       "size": {
         "x": 200,
         "y": 40
@@ -15697,7 +15697,7 @@
     },
     "webmaster": "マクスウェル",
     "banner": {
-      "image": "dounats.gif",
+      "image": "donatu-island.gif",
       "size": {
         "x": 269,
         "y": 97
@@ -15719,7 +15719,7 @@
     },
     "webmaster": "トオル",
     "banner": {
-      "image": "tooru.gif",
+      "image": "tooru-no-hp.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15760,7 +15760,7 @@
     "oldname": "わかくさ",
     "webmaster": "寿",
     "banner": {
-      "image": "dokumikan.png",
+      "image": "doku-mikan.png",
       "size": {
         "x": 88,
         "y": 31
@@ -15779,7 +15779,7 @@
     "oldname": "トコナツアイランド",
     "webmaster": "飛竜",
     "banner": {
-      "image": "tokonatsu.gif",
+      "image": "tokonatsu-island.gif",
       "size": {
         "x": 120,
         "y": 40
@@ -15814,7 +15814,7 @@
     },
     "webmaster": "あーもんど",
     "banner": {
-      "image": "dosaisen.png",
+      "image": "dosei-san.png",
       "size": {
         "x": 124,
         "y": 48
@@ -15836,7 +15836,7 @@
     },
     "webmaster": "サテライト",
     "banner": {
-      "image": "dosei.gif",
+      "image": "dosei-no-chika-soko.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -15872,7 +15872,7 @@
     },
     "webmaster": "阿斗丸",
     "banner": {
-      "image": "dotdegash.gif",
+      "image": "dot-de-gash.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -15894,7 +15894,7 @@
     "oldname": "放棄物処理場",
     "webmaster": "yos",
     "banner": {
-      "image": "toppi.png",
+      "image": "toppi-na-hasso.png",
       "size": {
         "x": 200,
         "y": 40
@@ -15915,7 +15915,7 @@
     },
     "webmaster": "dodo",
     "banner": {
-      "image": "dodo.gif",
+      "image": "dodos-home.gif",
       "size": {
         "x": 100,
         "y": 40
@@ -15984,7 +15984,7 @@
     },
     "webmaster": "とも",
     "banner": {
-      "image": "tomonoheya.gif",
+      "image": "tomo-no-heya.gif",
       "size": {
         "x": 450,
         "y": 80
@@ -16006,7 +16006,7 @@
     "oldname": "Nothingness",
     "webmaster": "はね",
     "banner": {
-      "image": "draht.png",
+      "image": "draht-and-line.png",
       "size": {
         "x": 88,
         "y": 31
@@ -16029,7 +16029,7 @@
     },
     "webmaster": "アルセーヌ・マッシー",
     "banner": {
-      "image": "dragonegg.jpg",
+      "image": "dragon-egg.jpg",
       "size": {
         "x": 191,
         "y": 40
@@ -16050,7 +16050,7 @@
     },
     "webmaster": "ドラギ",
     "banner": {
-      "image": "dragonstream.png",
+      "image": "dragon-stream.png",
       "size": {
         "x": 180,
         "y": 70
@@ -16074,7 +16074,7 @@
     },
     "webmaster": "ダークキング",
     "banner": {
-      "image": "dragonnoshiro.gif",
+      "image": "dragon-no-shiro.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16095,7 +16095,7 @@
     },
     "webmaster": "リュウト",
     "banner": {
-      "image": "dragonworld.png",
+      "image": "dragon-world.png",
       "size": {
         "x": 200,
         "y": 50
@@ -16141,7 +16141,7 @@
     },
     "webmaster": "きて",
     "banner": {
-      "image": "dorayashiki.gif",
+      "image": "dora-yashiki.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -16176,7 +16176,7 @@
     },
     "webmaster": "sain",
     "banner": {
-      "image": "dreamland.gif",
+      "image": "dream-land.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16238,7 +16238,7 @@
     },
     "webmaster": "ゆっとん",
     "banner": {
-      "image": "tornado.gif",
+      "image": "tornado-spin.gif",
       "size": {
         "x": 212,
         "y": 60
@@ -16260,7 +16260,7 @@
       "yomi": "とんははゆうきしようたつしんとうしよう"
     },
     "banner": {
-      "image": "tatujin.gif",
+      "image": "tatsujin-dojo.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -16277,7 +16277,7 @@
     },
     "webmaster": "NAITMAN",
     "banner": {
-      "image": "knightnet.png",
+      "image": "knight-net.png",
       "size": {
         "x": 200,
         "y": 40
@@ -16297,7 +16297,7 @@
     },
     "webmaster": "なおき",
     "banner": {
-      "image": "naoki.gif",
+      "image": "naoki-okoku.gif",
       "size": {
         "x": 102,
         "y": 32
@@ -16347,7 +16347,7 @@
     },
     "webmaster": "ナカヨウ",
     "banner": {
-      "image": "nakayou.png",
+      "image": "nakayo-no-homepage.png",
       "size": {
         "x": 200,
         "y": 80
@@ -16368,7 +16368,7 @@
     },
     "webmaster": "焔",
     "banner": {
-      "image": "nagomi.gif",
+      "image": "nagomi-biyori.gif",
       "size": {
         "x": 89,
         "y": 34
@@ -16389,7 +16389,7 @@
     },
     "webmaster": "志知六",
     "banner": {
-      "image": "kakukan.gif",
+      "image": "nazo-no-kakukan.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16412,7 +16412,7 @@
     },
     "webmaster": "G・スライム",
     "banner": {
-      "image": "nazonokukan.gif",
+      "image": "nazo-no-kukan.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16461,7 +16461,7 @@
     },
     "webmaster": "GAE(SK)",
     "banner": {
-      "image": "nazoworld.gif",
+      "image": "nazo-world.gif",
       "size": {
         "x": 144,
         "y": 48
@@ -16541,7 +16541,7 @@
       "yomi": "なにもないさいと"
     },
     "banner": {
-      "image": "nanimonai.bmp",
+      "image": "nani-mo-nai.bmp",
       "size": {
         "x": 167,
         "y": 41
@@ -16573,7 +16573,7 @@
     },
     "webmaster": "ナマけもん",
     "banner": {
-      "image": "namake.gif",
+      "image": "namake-dojo.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -16590,7 +16590,7 @@
     },
     "webmaster": "セキ",
     "banner": {
-      "image": "namonai.bmp",
+      "image": "na-mo-nai-field.bmp",
       "size": {
         "x": 124,
         "y": 54
@@ -16607,7 +16607,7 @@
     },
     "webmaster": "かせい",
     "banner": {
-      "image": "namonaki.bmp",
+      "image": "na-mo-naki-tairiku.bmp",
       "size": {
         "x": 90,
         "y": 30
@@ -16625,7 +16625,7 @@
     },
     "webmaster": "nalto",
     "banner": {
-      "image": "nalto.gif",
+      "image": "nalto-in-chikuwa.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -16642,7 +16642,7 @@
     },
     "webmaster": "にくお",
     "banner": {
-      "image": "nikupark.gif",
+      "image": "niku-park.gif",
       "size": {
         "x": 288,
         "y": 101
@@ -16672,7 +16672,7 @@
     },
     "webmaster": "にこり",
     "banner": {
-      "image": "nikori.gif",
+      "image": "nikori-no-oshiro.gif",
       "size": {
         "x": 160,
         "y": 80
@@ -16703,7 +16703,7 @@
     },
     "webmaster": "二世",
     "banner": {
-      "image": "nisei.gif",
+      "image": "nisei-to-nagazono.gif",
       "size": {
         "x": 172,
         "y": 70
@@ -16738,7 +16738,7 @@
     },
     "oldname": "カービィ空港",
     "banner": {
-      "image": "kabikuko.jpg",
+      "image": "kirby-kuko.jpg",
       "size": {
         "x": 146,
         "y": 50
@@ -16785,7 +16785,7 @@
     "oldname": ["あるなーと神国", "やかん王国"],
     "webmaster": "もとき",
     "banner": {
-      "image": "newskyorder.gif",
+      "image": "new-sky-order.gif",
       "size": {
         "x": 120,
         "y": 60
@@ -16809,7 +16809,7 @@
     "oldname": "NEW任天堂ネットワーク",
     "webmaster": "タコぴー",
     "banner": {
-      "image": "newnintendonetwork.jpg",
+      "image": "new-nintendo-network.jpg",
       "size": {
         "x": 140,
         "y": 50
@@ -16831,7 +16831,7 @@
     "oldname": "NEW WORLD ～新たな世界～",
     "webmaster": "メダリー",
     "banner": {
-      "image": "newworld.gif",
+      "image": "new-world-hateshinai-daichi.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16865,7 +16865,7 @@
     "oldname": "ニワニハニワールド",
     "webmaster": "ゆコケ",
     "banner": {
-      "image": "niwa.gif",
+      "image": "niwa-no-eiko.gif",
       "size": {
         "x": 182,
         "y": 58
@@ -16887,7 +16887,7 @@
     },
     "webmaster": "棒さん",
     "banner": {
-      "image": "ningendaijugo.gif",
+      "image": "ningen-daijugo.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -16914,7 +16914,7 @@
     },
     "webmaster": "マリモン",
     "banner": {
-      "image": "ninten.gif",
+      "image": "ninten-shokudo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -16930,7 +16930,7 @@
     },
     "webmaster": "korotann",
     "banner": {
-      "image": "nintensqueni.png",
+      "image": "ninten-squeni.png",
       "size": {
         "x": 200,
         "y": 40
@@ -16951,7 +16951,7 @@
     },
     "webmaster": "弘祐",
     "banner": {
-      "image": "nintencho.gif",
+      "image": "ninten-cho-x.gif",
       "size": {
         "x": 216,
         "y": 59
@@ -17001,7 +17001,7 @@
     "oldname": "ゲーム好きの人のぺーじ",
     "webmaster": "Yta",
     "banner": {
-      "image": "nintendotower.gif",
+      "image": "nintendo-tower.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17022,7 +17022,7 @@
     },
     "webmaster": "青風堂",
     "banner": {
-      "image": "nintendodoumei.bmp",
+      "image": "nintendo-doumei.bmp",
       "size": {
         "x": 255,
         "y": 53
@@ -17038,7 +17038,7 @@
     },
     "webmaster": "hai",
     "banner": {
-      "image": "nintenmax.gif",
+      "image": "ninten-max.gif",
       "size": {
         "x": 232,
         "y": 60
@@ -17072,7 +17072,7 @@
     },
     "webmaster": "岡一賢大",
     "banner": {
-      "image": "nu.jpg",
+      "image": "nu-no-homepage.jpg",
       "size": {
         "x": 173,
         "y": 38
@@ -17121,7 +17121,7 @@
     },
     "webmaster": "ひーちゃん",
     "banner": {
-      "image": "nurupokaigun.gif",
+      "image": "nurupo-kaigun.gif",
       "size": {
         "x": 150,
         "y": 50
@@ -17142,7 +17142,7 @@
     },
     "webmaster": "Ω",
     "banner": {
-      "image": "neoplanet.gif",
+      "image": "neo-planet.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17190,7 +17190,7 @@
     },
     "webmaster": "ヨッシィー",
     "banner": {
-      "image": "netsurfing.gif",
+      "image": "net-surfing-masao.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17229,7 +17229,7 @@
     },
     "webmaster": "たこ",
     "banner": {
-      "image": "tako.gif",
+      "image": "net-no-kyukeijo.gif",
       "size": {
         "x": 217,
         "y": 78
@@ -17248,7 +17248,7 @@
     },
     "webmaster": "良人",
     "banner": {
-      "image": "pioneer.jpg",
+      "image": "network-pioneer.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -17300,7 +17300,7 @@
     "oldname": ["グンイレプルーロ", "フララページ"],
     "webmaster": "ほりん",
     "banner": {
-      "image": "noproglem.gif",
+      "image": "no-proglem.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17359,7 +17359,7 @@
     },
     "webmaster": "nozo",
     "banner": {
-      "image": "nozo.gif",
+      "image": "nozo-no-page.gif",
       "size": {
         "x": 174,
         "y": 46
@@ -17380,7 +17380,7 @@
     },
     "webmaster": "NL3",
     "banner": {
-      "image": "notfound.png",
+      "image": "not-found.png",
       "size": {
         "x": 146,
         "y": 40
@@ -17401,7 +17401,7 @@
     },
     "webmaster": "のっぴー",
     "banner": {
-      "image": "noppi.gif",
+      "image": "noppi-no-page.gif",
       "size": {
         "x": 157,
         "y": 51
@@ -17420,7 +17420,7 @@
     },
     "webmaster": "タツた",
     "banner": {
-      "image": "nonoshitou.gif",
+      "image": "nonoshito.gif",
       "size": {
         "x": 691,
         "y": 351
@@ -17442,7 +17442,7 @@
     },
     "webmaster": "のば",
     "banner": {
-      "image": "noba.gif",
+      "image": "nobas-homepage.gif",
       "size": {
         "x": 200,
         "y": 80
@@ -17465,7 +17465,7 @@
     },
     "webmaster": "パソコン次郎",
     "banner": {
-      "image": "novelroom.gif",
+      "image": "novel-room.gif",
       "size": {
         "x": 266,
         "y": 83
@@ -17487,7 +17487,7 @@
     "oldname": "ざ・てのりるーむ",
     "webmaster": "のら",
     "banner": {
-      "image": "noranekobeya.gif",
+      "image": "noraneko-beya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17514,7 +17514,7 @@
     },
     "webmaster": "戸倉",
     "banner": {
-      "image": "personalq.gif",
+      "image": "personal-quest.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17535,7 +17535,7 @@
     ],
     "webmaster": "智",
     "banner": {
-      "image": "bartomo.gif",
+      "image": "bar-tomo.gif",
       "size": {
         "x": 170,
         "y": 47
@@ -17556,7 +17556,7 @@
     },
     "webmaster": "PAR",
     "banner": {
-      "image": "par.bmp",
+      "image": "par-no-page.bmp",
       "size": {
         "x": 215,
         "y": 54
@@ -17580,7 +17580,7 @@
     "oldname": "ほあちゃあのページ",
     "webmaster": "ほあちゃあ",
     "banner": {
-      "image": "violetsky.png",
+      "image": "violet-sky.png",
       "size": {
         "x": 133,
         "y": 47
@@ -17628,7 +17628,7 @@
     },
     "webmaster": "ぱお",
     "banner": {
-      "image": "pao.gif",
+      "image": "pao-no-masao-room.gif",
       "size": {
         "x": 184,
         "y": 35
@@ -17649,7 +17649,7 @@
     },
     "webmaster": "武神装甲",
     "banner": {
-      "image": "hakanaku.jpg",
+      "image": "hakanaku-chirisona.jpg",
       "size": {
         "x": 195,
         "y": 39
@@ -17667,7 +17667,7 @@
     },
     "webmaster": "はがねくん",
     "banner": {
-      "image": "haganekun.bmp",
+      "image": "hagane-kun.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -17690,7 +17690,7 @@
     },
     "webmaster": "アフォ！",
     "banner": {
-      "image": "baka.png",
+      "image": "baka-massatsu.png",
       "size": {
         "x": 163,
         "y": 45
@@ -17780,7 +17780,7 @@
     },
     "webmaster": "BLACKSTAR",
     "banner": {
-      "image": "hagesiku.gif",
+      "image": "hageshiku-masao.gif",
       "size": {
         "x": 170,
         "y": 57
@@ -17798,7 +17798,7 @@
     "oldname": "めいび～",
     "webmaster": "レオン春斗",
     "banner": {
-      "image": "karahado.gif",
+      "image": "bus-kara-hadoho.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -17820,7 +17820,7 @@
     },
     "webmaster": "hiro",
     "banner": {
-      "image": "pasozuki.gif",
+      "image": "paso-zuki.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -17895,7 +17895,7 @@
     },
     "webmaster": "GT-9",
     "banner": {
-      "image": "hatena.gif",
+      "image": "hatena-hatena-hatena.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -17943,7 +17943,7 @@
     "oldname": "Desert Garden",
     "webmaster": "はりやま",
     "banner": {
-      "image": "desertgarden.bmp",
+      "image": "desert-garden.bmp",
       "size": {
         "x": 148,
         "y": 45
@@ -18004,7 +18004,7 @@
     },
     "webmaster": "パポピ",
     "banner": {
-      "image": "pipopa.gif",
+      "image": "papopi-no-pipopa.gif",
       "size": {
         "x": 88,
         "y": 32
@@ -18063,7 +18063,7 @@
     "oldname": "HYPER CITY",
     "webmaster": "元史",
     "banner": {
-      "image": "various.gif",
+      "image": "various-city.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18084,7 +18084,7 @@
     },
     "webmaster": "はりがね君",
     "banner": {
-      "image": "hariganekun.gif",
+      "image": "harigane-kun.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18134,7 +18134,7 @@
     },
     "webmaster": "tadu333",
     "banner": {
-      "image": "pawakami.gif",
+      "image": "pawa-kami.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18155,7 +18155,7 @@
     },
     "webmaster": "うぱ",
     "banner": {
-      "image": "pawapuroya.gif",
+      "image": "pawapuro-ya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18204,7 +18204,7 @@
     },
     "webmaster": "パン男 73期",
     "banner": {
-      "image": "pano.gif",
+      "image": "pano-73ki.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18266,7 +18266,7 @@
     "oldname": ["Java Game Stadium", "俺のゲームの家", "俺のホームページ"],
     "webmaster": "俺",
     "banner": {
-      "image": "orenogameno.gif",
+      "image": "ore-no-game-no-ie.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18289,7 +18289,7 @@
     "oldname": ["PEACEFUL TOWN", "MAJIMAN'S WWA！"],
     "webmaster": "マジマン",
     "banner": {
-      "image": "peacefulfarm.png",
+      "image": "peaceful-farm.png",
       "size": {
         "x": 200,
         "y": 40
@@ -18336,7 +18336,7 @@
       "yomi": "ひおかみなみしようろくねんのほおぬへえち"
     },
     "banner": {
-      "image": "hiokaminami.gif",
+      "image": "hioka-minami.gif",
       "size": {
         "x": 180,
         "y": 64
@@ -18389,7 +18389,7 @@
     },
     "webmaster": "hikaru",
     "banner": {
-      "image": "hikaru.gif",
+      "image": "hikarus-room.gif",
       "size": {
         "x": 201,
         "y": 50
@@ -18410,7 +18410,7 @@
     },
     "webmaster": "島タロウ",
     "banner": {
-      "image": "hikarutama.gif",
+      "image": "hikaru-tama.gif",
       "size": {
         "x": 200,
         "y": 64
@@ -18439,7 +18439,7 @@
     },
     "webmaster": "KIYAABYIII",
     "banner": {
-      "image": "pichalchapil.bmp",
+      "image": "pichal-chapil.bmp",
       "size": {
         "x": 80,
         "y": 37
@@ -18460,7 +18460,7 @@
     },
     "webmaster": "プカプカ正男",
     "banner": {
-      "image": "pikumin.gif",
+      "image": "pikumin-to-masao.gif",
       "size": {
         "x": 230,
         "y": 50
@@ -18478,7 +18478,7 @@
     "oldname": "ピクミンランド",
     "webmaster": "ピケミン",
     "banner": {
-      "image": "pikminland.gif",
+      "image": "pikmin-land.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -18496,7 +18496,7 @@
     "oldname": "HISA web",
     "webmaster": "HISA",
     "banner": {
-      "image": "hisa.gif",
+      "image": "hisa-no-homepage.gif",
       "size": {
         "x": 180,
         "y": 74
@@ -18524,7 +18524,7 @@
     },
     "webmaster": "X-YAS",
     "banner": {
-      "image": "pichukabi.gif",
+      "image": "pichu-kabi.gif",
       "size": {
         "x": 219,
         "y": 53
@@ -18545,7 +18545,7 @@
     },
     "webmaster": "コリン",
     "banner": {
-      "image": "bigblue.gif",
+      "image": "big-blue.gif",
       "size": {
         "x": 100,
         "y": 50
@@ -18591,7 +18591,7 @@
     },
     "webmaster": "HIDE",
     "banner": {
-      "image": "hide.gif",
+      "image": "hides-room.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -18651,7 +18651,7 @@
     "oldname": "スー正テーマパーク",
     "webmaster": "いとみみず",
     "banner": {
-      "image": "himajin.gif",
+      "image": "himajin-with-imagine.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -18668,7 +18668,7 @@
     },
     "webmaster": "141",
     "banner": {
-      "image": "himajinnomachi.png",
+      "image": "himajin-no-machi.png",
       "size": {
         "x": 317,
         "y": 103
@@ -18690,7 +18690,7 @@
     "oldname": "MARIMO ISLAND",
     "webmaster": "まめ",
     "banner": {
-      "image": "himatsubushi.gif",
+      "image": "himatsubushi-web-site.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18724,7 +18724,7 @@
     },
     "webmaster": "暇な人",
     "banner": {
-      "image": "himanahito.gif",
+      "image": "himana-hito-no-ie.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18741,7 +18741,7 @@
     },
     "webmaster": "神無",
     "banner": {
-      "image": "himanahitonoheya.gif",
+      "image": "himana-hito-no-heya.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -18764,7 +18764,7 @@
     },
     "webmaster": "あんこд",
     "banner": {
-      "image": "zerudan.bmp",
+      "image": "himitsu-soshiki-zerudan.bmp",
       "size": {
         "x": 200,
         "y": 43
@@ -18821,7 +18821,7 @@
     },
     "webmaster": "ひもの",
     "banner": {
-      "image": "himono.gif",
+      "image": "himonos-cafe.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -18843,7 +18843,7 @@
     "oldname": "sky tower",
     "webmaster": "氷火",
     "banner": {
-      "image": "skytower.png",
+      "image": "sky-tower.png",
       "size": {
         "x": 200,
         "y": 50
@@ -18903,7 +18903,7 @@
     "oldname": ["ヒーローのゲーム部屋", "カービィの部屋"],
     "webmaster": "ヒーロー",
     "banner": {
-      "image": "hiros.png",
+      "image": "hiros-game-room.png",
       "size": {
         "x": 88,
         "y": 31
@@ -18923,7 +18923,7 @@
     },
     "webmaster": "piro",
     "banner": {
-      "image": "piros.gif",
+      "image": "piros-homepage.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -18955,7 +18955,7 @@
     "oldname": "小さな大志の村",
     "webmaster": "アオチュウ",
     "banner": {
-      "image": "vintagetofu.jpg",
+      "image": "vintage-tofu.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -18977,7 +18977,7 @@
     },
     "webmaster": "shelling",
     "banner": {
-      "image": "farabove.jpg",
+      "image": "far-above-the-clouds.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -18999,7 +18999,7 @@
     "oldname": "satoshiのページ",
     "webmaster": "SATOSHI",
     "banner": {
-      "image": "satoshinopage_filex.gif",
+      "image": "satoshi-no-page-filex.gif",
       "size": {
         "x": 128,
         "y": 64
@@ -19084,7 +19084,7 @@
     "oldname": "ゲームステーション",
     "webmaster": "アーロン",
     "banner": {
-      "image": "gsfever.gif",
+      "image": "game-station-fever.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19125,7 +19125,7 @@
     },
     "webmaster": "ギコ丸",
     "banner": {
-      "image": "furai.gif",
+      "image": "furai-no-masao.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19168,7 +19168,7 @@
     },
     "webmaster": "フォックス",
     "banner": {
-      "image": "foxnopage.gif",
+      "image": "fox-no-page.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19232,7 +19232,7 @@
     },
     "webmaster": "ふじも",
     "banner": {
-      "image": "fujimo.gif",
+      "image": "fujimo-land.gif",
       "size": {
         "x": 175,
         "y": 56
@@ -19282,7 +19282,7 @@
     },
     "webmaster": "からし&わさび",
     "banner": {
-      "image": "futsunopage.gif",
+      "image": "futsu-no-page-karashi.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19303,7 +19303,7 @@
     },
     "webmaster": "kai",
     "banner": {
-      "image": "futsumitai.jpg",
+      "image": "futsu-mitai.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -19325,7 +19325,7 @@
     },
     "webmaster": "シービィ",
     "banner": {
-      "image": "pupupu.png",
+      "image": "pupupu-teikoku.png",
       "size": {
         "x": 180,
         "y": 38
@@ -19374,7 +19374,7 @@
     },
     "webmaster": "フライ",
     "banner": {
-      "image": "hurais.gif",
+      "image": "furais-homepage.gif",
       "size": {
         "x": 222,
         "y": 58
@@ -19396,7 +19396,7 @@
     },
     "webmaster": "siro",
     "banner": {
-      "image": "plasmaweb.gif",
+      "image": "plasma-web.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19450,7 +19450,7 @@
     "oldname": "MY HOME",
     "webmaster": "MuGi",
     "banner": {
-      "image": "myhome.gif",
+      "image": "my-home.gif",
       "size": {
         "x": 81,
         "y": 31
@@ -19468,7 +19468,7 @@
     "oldname": ["海辺の村", "青夢空"],
     "webmaster": "ハレルヤ",
     "banner": {
-      "image": "freeismyway.gif",
+      "image": "free-is-my-way.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19485,7 +19485,7 @@
     },
     "webmaster": "matto",
     "banner": {
-      "image": "freegamematto.gif",
+      "image": "free-game-of-matto.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19518,7 +19518,7 @@
     },
     "webmaster": "邪少年",
     "banner": {
-      "image": "freetime.jpg",
+      "image": "free-time.jpg",
       "size": {
         "x": 200,
         "y": 50
@@ -19563,7 +19563,7 @@
     "oldname": "青ピカシティー",
     "webmaster": "青ピカ",
     "banner": {
-      "image": "aopika.gif",
+      "image": "aopika-city.gif",
       "size": {
         "x": 150,
         "y": 45
@@ -19601,7 +19601,7 @@
     },
     "webmaster": "リーフ",
     "banner": {
-      "image": "bluesky.png",
+      "image": "blue-sky-leaf.png",
       "size": {
         "x": 200,
         "y": 40
@@ -19636,7 +19636,7 @@
     "oldname": "川中島（おそらく）",
     "webmaster": "安い武田信玄",
     "banner": {
-      "image": "yasutake.gif",
+      "image": "furuhonya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19661,7 +19661,7 @@
     "oldname": ["tubotubo's home page", "GAME WORLD"],
     "webmaster": "壺壺",
     "banner": {
-      "image": "playgameweb.gif",
+      "image": "play-game-web.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19683,7 +19683,7 @@
     },
     "webmaster": "Masashi",
     "banner": {
-      "image": "placemasashi.gif",
+      "image": "place-masashi.gif",
       "size": {
         "x": 145,
         "y": 45
@@ -19716,7 +19716,7 @@
     "oldname": "プレイパラダイス",
     "webmaster": "ゴマダレ",
     "banner": {
-      "image": "playersroom.gif",
+      "image": "players-room.gif",
       "size": {
         "x": 120,
         "y": 40
@@ -19784,7 +19784,7 @@
     "oldname": "そろそろバグってきましたよ",
     "webmaster": "FyS",
     "banner": {
-      "image": "projectwelkin.gif",
+      "image": "project-welkin.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19808,7 +19808,7 @@
     "oldname": ["Shidamon's WebPage", "しだまんページ"],
     "webmaster": "Flog",
     "banner": {
-      "image": "flog.gif",
+      "image": "flog-cyclone.gif",
       "size": {
         "x": 85,
         "y": 30
@@ -19852,7 +19852,7 @@
     },
     "webmaster": "横道それた",
     "banner": {
-      "image": "bunshintakkyu.jpg",
+      "image": "bunshin-takkyu.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -19872,7 +19872,7 @@
     },
     "webmaster": "BUNTA",
     "banner": {
-      "image": "bunta.gif",
+      "image": "bunta-no-heya.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -19894,7 +19894,7 @@
     },
     "webmaster": "平安貴族",
     "banner": {
-      "image": "heiankyo.gif",
+      "image": "heian-kizoku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -19961,7 +19961,7 @@
     "oldname": "正男工場",
     "webmaster": "β-I",
     "banner": {
-      "image": "betai.jpg",
+      "image": "beta-i.jpg",
       "size": {
         "x": 197,
         "y": 32
@@ -19983,7 +19983,7 @@
     "oldname": "kuuwahaのHP",
     "webmaster": "kuuwaha",
     "banner": {
-      "image": "pegasuskuuwaha.bmp",
+      "image": "pegasus-kuuwaha.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -20045,7 +20045,7 @@
     },
     "webmaster": "小次郎",
     "banner": {
-      "image": "henige.gif",
+      "image": "henige-ya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20117,7 +20117,7 @@
     },
     "webmaster": "Who",
     "banner": {
-      "image": "bouo.gif",
+      "image": "boo-index.gif",
       "size": {
         "x": 88,
         "y": 32
@@ -20156,7 +20156,7 @@
     "oldname": "某氏の研究所",
     "webmaster": "某氏",
     "banner": {
-      "image": "boushimasao.png",
+      "image": "boshi-no-kenkyujo.png",
       "size": {
         "x": 200,
         "y": 50
@@ -20208,7 +20208,7 @@
     },
     "webmaster": "gurea",
     "banner": {
-      "image": "boushogun.gif",
+      "image": "boningen-shogun.gif",
       "size": {
         "x": 170,
         "y": 80
@@ -20230,7 +20230,7 @@
     },
     "webmaster": "ダレガ留守",
     "banner": {
-      "image": "bouningennoheya.gif",
+      "image": "boningen-no-heya.gif",
       "size": {
         "x": 134,
         "y": 37
@@ -20252,7 +20252,7 @@
     },
     "webmaster": "コウモリ君X",
     "banner": {
-      "image": "houbaku.gif",
+      "image": "hobaku-no-home-city.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20287,7 +20287,7 @@
     },
     "webmaster": "鉄ちゃんTM",
     "banner": {
-      "image": "homeybar.gif",
+      "image": "homey-bar.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20324,7 +20324,7 @@
     "oldname": "mmmのページっぽい",
     "webmaster": "mmm",
     "banner": {
-      "image": "mmm.gif",
+      "image": "mmm-no-page.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -20348,7 +20348,7 @@
     },
     "webmaster": "米・にせわりお",
     "banner": {
-      "image": "borunzoku.bmp",
+      "image": "borun-zoku.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -20371,7 +20371,7 @@
     },
     "webmaster": "エータ",
     "banner": {
-      "image": "bokuno.jpg",
+      "image": "boku-no-page.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -20393,7 +20393,7 @@
     },
     "webmaster": "棒人間",
     "banner": {
-      "image": "pokesol.gif",
+      "image": "poke-sol.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20416,7 +20416,7 @@
     },
     "webmaster": "ゼレペルデェン",
     "banner": {
-      "image": "pokeden.gif",
+      "image": "poke-den-com.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -20441,7 +20441,7 @@
     "oldname": ["Pokemon-Evolution", "くりすたる～む"],
     "webmaster": "TOKI",
     "banner": {
-      "image": "pokemonevolution.gif",
+      "image": "pokemon-evolution.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20464,7 +20464,7 @@
     },
     "webmaster": "ミズウミ",
     "banner": {
-      "image": "pokemonsgame.png",
+      "image": "pokemons-game-land.png",
       "size": {
         "x": 200,
         "y": 40
@@ -20489,7 +20489,7 @@
     },
     "webmaster": "frost",
     "banner": {
-      "image": "pokemonkobeya.gif",
+      "image": "pokemon-no-kobeya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20530,7 +20530,7 @@
     },
     "webmaster": "マサキ",
     "banner": {
-      "image": "pokemonland.jpeg",
+      "image": "pokemon-land.jpeg",
       "size": {
         "x": 200,
         "y": 40
@@ -20552,7 +20552,7 @@
     },
     "webmaster": "リザん",
     "banner": {
-      "image": "pokeriza.png",
+      "image": "poke-riza.png",
       "size": {
         "x": 200,
         "y": 40
@@ -20576,7 +20576,7 @@
     "oldname": ["ポケモンの錬金術師SPR", "スーパー正男SPR"],
     "webmaster": "ルカリオ☆",
     "banner": {
-      "image": "pokeren.png",
+      "image": "poke-ren-dojo.png",
       "size": {
         "x": 200,
         "y": 40
@@ -20599,7 +20599,7 @@
     "oldname": ["BlastTown", "ウオーズパーク"],
     "webmaster": "BlastWars",
     "banner": {
-      "image": "blastwars.gif",
+      "image": "hoshikuzu-no-tamariba.gif",
       "size": {
         "x": 125,
         "y": 55
@@ -20623,7 +20623,7 @@
     },
     "webmaster": "harold",
     "banner": {
-      "image": "hoshizoranomachi.gif",
+      "image": "hoshizora-no-machi.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -20641,7 +20641,7 @@
     "oldname": "スターランド",
     "webmaster": "★",
     "banner": {
-      "image": "starland.gif",
+      "image": "star-land.gif",
       "size": {
         "x": 157,
         "y": 51
@@ -20660,7 +20660,7 @@
     "oldname": ["星霜の時", "違男と浩二の秘密の裏庭（仮）"],
     "webmaster": "違男",
     "banner": {
-      "image": "starpalette.png",
+      "image": "hoshizora-palette.png",
       "size": {
         "x": 200,
         "y": 40
@@ -20686,7 +20686,7 @@
     },
     "webmaster": "暁",
     "banner": {
-      "image": "hoshinooshiro.gif",
+      "image": "hoshi-no-oshiro.gif",
       "size": {
         "x": 200,
         "y": 60
@@ -20708,7 +20708,7 @@
     },
     "webmaster": "雷夢",
     "banner": {
-      "image": "hoshinokisetsu.png",
+      "image": "hoshi-no-kisetsu.png",
       "size": {
         "x": 220,
         "y": 60
@@ -20730,7 +20730,7 @@
     "oldname": "イントレント",
     "webmaster": "レント",
     "banner": {
-      "image": "hoshinoshizuku.jpg",
+      "image": "hoshi-no-shizuku.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -20753,7 +20753,7 @@
       "yomi": "ほしのほおむへえし"
     },
     "banner": {
-      "image": "hoshinohp.gif",
+      "image": "hoshi-no-homepage.gif",
       "size": {
         "x": 250,
         "y": 50
@@ -20771,7 +20771,7 @@
     "oldname": "星のカービィBOX",
     "webmaster": "西風",
     "banner": {
-      "image": "hoshinorasen.gif",
+      "image": "hoshi-no-rasen.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20794,7 +20794,7 @@
     },
     "webmaster": "星カー",
     "banner": {
-      "image": "hoshinoworld.jpg",
+      "image": "hoshi-no-world.jpg",
       "size": {
         "x": 200,
         "y": 100
@@ -20814,7 +20814,7 @@
     },
     "webmaster": "螢",
     "banner": {
-      "image": "hotaruchan.gif",
+      "image": "hotaru-chan.gif",
       "size": {
         "x": 113,
         "y": 30
@@ -20844,7 +20844,7 @@
     },
     "webmaster": "フェル",
     "banner": {
-      "image": "poplando.gif",
+      "image": "pop-lando.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20862,7 +20862,7 @@
     },
     "webmaster": "ボン爆",
     "banner": {
-      "image": "bokunomasao.gif",
+      "image": "boku-no-masao.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -20884,7 +20884,7 @@
     },
     "webmaster": "紅蓮",
     "banner": {
-      "image": "honoonomiyako.bmp",
+      "image": "honoo-no-miyako.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -20901,7 +20901,7 @@
     },
     "webmaster": "HOHOA",
     "banner": {
-      "image": "hohoa.gif",
+      "image": "hohoa-park.gif",
       "size": {
         "x": 120,
         "y": 60
@@ -20924,7 +20924,7 @@
     },
     "webmaster": "ペプシ",
     "banner": {
-      "image": "bobokabi.png",
+      "image": "bobo-kabi.png",
       "size": {
         "x": 150,
         "y": 80
@@ -20948,7 +20948,7 @@
     "oldname": "マリパランド",
     "webmaster": "ポムリバ",
     "banner": {
-      "image": "pomland.gif",
+      "image": "pom-land.gif",
       "size": {
         "x": 161,
         "y": 60
@@ -20970,7 +20970,7 @@
     },
     "webmaster": "boyo",
     "banner": {
-      "image": "boyo.gif",
+      "image": "boyos-page.gif",
       "size": {
         "x": 170,
         "y": 47
@@ -21037,7 +21037,7 @@
     },
     "webmaster": "上村月梨",
     "banner": {
-      "image": "borokai.png",
+      "image": "boro-kai.png",
       "size": {
         "x": 250,
         "y": 100
@@ -21055,7 +21055,7 @@
     },
     "webmaster": "BONZO",
     "banner": {
-      "image": "bonzo.png",
+      "image": "bonzo-mansion.png",
       "size": {
         "x": 200,
         "y": 100
@@ -21123,7 +21123,7 @@
     "oldname": "マーブル ゲーム生活と学校生活",
     "webmaster": "マーブル7641",
     "banner": {
-      "image": "marble.jpeg",
+      "image": "marbles-star.jpeg",
       "size": {
         "x": 200,
         "y": 50
@@ -21172,7 +21172,7 @@
     "oldname": "石子のページ",
     "webmaster": "石子",
     "banner": {
-      "image": "isiko.gif",
+      "image": "ma-isikos-page.gif",
       "size": {
         "x": 150,
         "y": 75
@@ -21195,7 +21195,7 @@
     },
     "webmaster": "前の人",
     "banner": {
-      "image": "maenohito.gif",
+      "image": "maenohito-no-hp.gif",
       "size": {
         "x": 137,
         "y": 43
@@ -21245,7 +21245,7 @@
     },
     "webmaster": "棒",
     "banner": {
-      "image": "archive.png",
+      "image": "masao-archive.png",
       "size": {
         "x": 200,
         "y": 40
@@ -21271,7 +21271,7 @@
     },
     "webmaster": "mizuki",
     "banner": {
-      "image": "earth.bmp",
+      "image": "masao-earth.bmp",
       "size": {
         "x": 120,
         "y": 70
@@ -21289,7 +21289,7 @@
     },
     "webmaster": "Iron",
     "banner": {
-      "image": "masaor.gif",
+      "image": "masao-r.gif",
       "size": {
         "x": 136,
         "y": 52
@@ -21305,7 +21305,7 @@
     },
     "webmaster": "RON",
     "banner": {
-      "image": "attacker.gif",
+      "image": "masao-attacker.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21327,7 +21327,7 @@
     },
     "webmaster": "星のカビ",
     "banner": {
-      "image": "masaoandkirby.gif",
+      "image": "masao-and-kirby-land.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -21346,7 +21346,7 @@
     },
     "webmaster": "風森火山",
     "banner": {
-      "image": "masaogassyu.gif",
+      "image": "masao-and-gash.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -21376,7 +21376,7 @@
     },
     "webmaster": "フロール",
     "banner": {
-      "image": "masaoandkouji.gif",
+      "image": "masao-and-koji.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -21411,7 +21411,7 @@
     },
     "webmaster": "勇気",
     "banner": {
-      "image": "masaosozai.gif",
+      "image": "masao-and-sozai.gif",
       "size": {
         "x": 200,
         "y": 32
@@ -21430,7 +21430,7 @@
     "oldname": "ブルー・スパーク",
     "webmaster": "+Jade+",
     "banner": {
-      "image": "masaoex.gif",
+      "image": "masao-ex.gif",
       "size": {
         "x": 165,
         "y": 70
@@ -21474,7 +21474,7 @@
     },
     "webmaster": "山本山",
     "banner": {
-      "image": "masaoiro.gif",
+      "image": "masao-iro.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21491,7 +21491,7 @@
     },
     "webmaster": "SASAMI",
     "banner": {
-      "image": "airline.bmp",
+      "image": "masao-airline.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -21522,7 +21522,7 @@
     },
     "webmaster": "riaf",
     "banner": {
-      "image": "masaoeditor.gif",
+      "image": "masao-editor.gif",
       "size": {
         "x": 124,
         "y": 43
@@ -21554,7 +21554,7 @@
     },
     "webmaster": "ハトモドキ",
     "banner": {
-      "image": "masaoarea.jpg",
+      "image": "masao-area.jpg",
       "size": {
         "x": 193,
         "y": 55
@@ -21623,7 +21623,7 @@
     },
     "webmaster": "正二・正三",
     "banner": {
-      "image": "masaogarden.gif",
+      "image": "masao-garden.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -21645,7 +21645,7 @@
     },
     "webmaster": "すりり",
     "banner": {
-      "image": "masaogai.png",
+      "image": "masao-gai.png",
       "size": {
         "x": 140,
         "y": 33
@@ -21679,7 +21679,7 @@
     },
     "webmaster": "007",
     "banner": {
-      "image": "kaizoutechnique.png",
+      "image": "masao-kaizo-technique.png",
       "size": {
         "x": 170,
         "y": 49
@@ -21696,7 +21696,7 @@
     },
     "webmaster": "jjjjjjjjjj",
     "banner": {
-      "image": "kaizolink.jpg",
+      "image": "masao-kaizo-link.jpg",
       "size": {
         "x": 101,
         "y": 38
@@ -21717,7 +21717,7 @@
     },
     "webmaster": "神羅",
     "banner": {
-      "image": "masaocompany.gif",
+      "image": "masao-company.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21735,7 +21735,7 @@
     "oldname": "卍楽しい遊び部屋卍",
     "webmaster": "バイソン",
     "banner": {
-      "image": "kanrininkouryutai.gif",
+      "image": "masao-kanrinin-koryutai.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21759,7 +21759,7 @@
     ],
     "webmaster": "なめたけ",
     "banner": {
-      "image": "pavilion.png",
+      "image": "masao-pavilion.png",
       "size": {
         "x": 200,
         "y": 40
@@ -21783,7 +21783,7 @@
     },
     "webmaster": "ルックメン",
     "banner": {
-      "image": "kyujotai.gif",
+      "image": "masao-kyujotai.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -21819,7 +21819,7 @@
     "oldname": "どんぐり民話館㈱",
     "webmaster": "umecha_n",
     "banner": {
-      "image": "kyowakoku.gif",
+      "image": "masao-kyowakoku.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21838,7 +21838,7 @@
     },
     "webmaster": "与死拳",
     "banner": {
-      "image": "masaokukan.gif",
+      "image": "masao-space.gif",
       "size": {
         "x": 199,
         "y": 40
@@ -21859,7 +21859,7 @@
     },
     "webmaster": "流星群",
     "banner": {
-      "image": "masaoairport.gif",
+      "image": "masao-airport.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -21876,7 +21876,7 @@
     "oldname": ["STAR-NIGHT-CLUB", "セブンクロス", "クロスラウンド"],
     "webmaster": "STAR",
     "banner": {
-      "image": "club.gif",
+      "image": "masao-club-star.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -21899,7 +21899,7 @@
     },
     "webmaster": "くるりん",
     "banner": {
-      "image": "masaoclub_kururin.gif",
+      "image": "masao-club-kururin.gif",
       "size": {
         "x": 96,
         "y": 48
@@ -21929,7 +21929,7 @@
     },
     "webmaster": "ミクロ",
     "banner": {
-      "image": "masaoclub_micro.bmp",
+      "image": "masao-club-micro.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -21944,7 +21944,7 @@
       "yomi": "まさおくりくり"
     },
     "banner": {
-      "image": "cricri.gif",
+      "image": "masao-cricri.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -21965,7 +21965,7 @@
     },
     "webmaster": "NASA",
     "banner": {
-      "image": "masaocross.gif",
+      "image": "masao-cross.gif",
       "size": {
         "x": 88,
         "y": 30
@@ -21982,7 +21982,7 @@
     "oldname": "棒人間のページ",
     "webmaster": "Ω",
     "banner": {
-      "image": "masaokei.png",
+      "image": "masao-kei.png",
       "size": {
         "x": 86,
         "y": 40
@@ -22004,7 +22004,7 @@
     },
     "webmaster": "スタープラチナ",
     "banner": {
-      "image": "gate.gif",
+      "image": "masao-gate2.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22026,7 +22026,7 @@
     "oldname": "まめまめ王国",
     "webmaster": "まめ",
     "banner": {
-      "image": "gamekingdom.bmp",
+      "image": "masao-game-kingdom.bmp",
       "size": {
         "x": 210,
         "y": 58
@@ -22047,7 +22047,7 @@
     },
     "webmaster": "暇人",
     "banner": {
-      "image": "gamecity.gif",
+      "image": "masao-game-city.gif",
       "size": {
         "x": 200,
         "y": 80
@@ -22097,7 +22097,7 @@
       "yomi": "まさおけえむなとのへえし"
     },
     "banner": {
-      "image": "nadonopage.gif",
+      "image": "masao-game-nado-no-page.gif",
       "size": {
         "x": 80,
         "y": 70
@@ -22134,7 +22134,7 @@
     },
     "webmaster": "とき",
     "banner": {
-      "image": "masaogameland.png",
+      "image": "masao-game-land.png",
       "size": {
         "x": 200,
         "y": 40
@@ -22159,7 +22159,7 @@
     "oldname": ["正男ド→ム", "正男アパート"],
     "webmaster": "Tamu",
     "banner": {
-      "image": "gekijo.gif",
+      "image": "masao-gekijo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22177,7 +22177,7 @@
     "oldname": "スーパー正男・アイランド",
     "webmaster": "ボルティモ",
     "banner": {
-      "image": "gekko.png",
+      "image": "masao-gekkoden.png",
       "size": {
         "x": 191,
         "y": 32
@@ -22199,7 +22199,7 @@
     },
     "webmaster": "海王",
     "banner": {
-      "image": "masaokoukaiki.png",
+      "image": "masao-kokaiki.png",
       "size": {
         "x": 200,
         "y": 40
@@ -22229,7 +22229,7 @@
     },
     "webmaster": "思わぬ伏兵",
     "banner": {
-      "image": "koubou.gif",
+      "image": "masao-kobo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22252,7 +22252,7 @@
     },
     "webmaster": "absolute",
     "banner": {
-      "image": "collection.gif",
+      "image": "masao-collection.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22285,7 +22285,7 @@
     },
     "webmaster": "ゲーム太郎",
     "banner": {
-      "image": "control.gif",
+      "image": "masao-control-center.gif",
       "size": {
         "x": 200,
         "y": 70
@@ -22307,7 +22307,7 @@
       "yomi": "まさおさあちやあ"
     },
     "banner": {
-      "image": "searcher.bmp",
+      "image": "masao-searcher.bmp",
       "size": {
         "x": 88,
         "y": 31
@@ -22325,7 +22325,7 @@
     },
     "webmaster": "サイタマ",
     "banner": {
-      "image": "newshonbu.bmp",
+      "image": "masao-site-news-honbukyoku.bmp",
       "size": {
         "x": 152,
         "y": 59
@@ -22365,7 +22365,7 @@
     },
     "webmaster": "ゼータ2号",
     "banner": {
-      "image": "zetacity.gif",
+      "image": "masao-city-zeta.gif",
       "size": {
         "x": 175,
         "y": 32
@@ -22380,7 +22380,7 @@
       "yomi": "まさおしてい"
     },
     "banner": {
-      "image": "masaocity.gif",
+      "image": "masao-city-unknown.gif",
       "size": {
         "x": 99,
         "y": 40
@@ -22397,7 +22397,7 @@
     "oldname": "正男＠JAVA研究室",
     "webmaster": "虹色ヨッシー",
     "banner": {
-      "image": "masaojava.gif",
+      "image": "masao-java-laboratoly.gif",
       "size": {
         "x": 299,
         "y": 55
@@ -22422,7 +22422,7 @@
     },
     "webmaster": "強制的なおじさん",
     "banner": {
-      "image": "ojisan.gif",
+      "image": "masao-japan.gif",
       "size": {
         "x": 190,
         "y": 80
@@ -22439,7 +22439,7 @@
     },
     "webmaster": "どきっち",
     "banner": {
-      "image": "masaojo.jpg",
+      "image": "masao-jo.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -22456,7 +22456,7 @@
     },
     "webmaster": "渦巻",
     "banner": {
-      "image": "masaosweb.gif",
+      "image": "masaos-web.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -22480,7 +22480,7 @@
     "oldname": "GAME PARK",
     "webmaster": "スクリュー",
     "banner": {
-      "image": "screw.png",
+      "image": "masao-screw.png",
       "size": {
         "x": 181,
         "y": 73
@@ -22503,7 +22503,7 @@
     },
     "webmaster": "ぜる",
     "banner": {
-      "image": "masaoszone.gif",
+      "image": "masaos-zone.gif",
       "size": {
         "x": 88,
         "y": 32
@@ -22525,7 +22525,7 @@
     "oldname": "すごい博士のホームページ",
     "webmaster": "すごい博士",
     "banner": {
-      "image": "masaostand.png",
+      "image": "masao-stand.png",
       "size": {
         "x": 88,
         "y": 31
@@ -22543,7 +22543,7 @@
     },
     "webmaster": "BLACKSTAR",
     "banner": {
-      "image": "masaostation_kuronohoshi.gif",
+      "image": "masao-station-blackstar.gif",
       "size": {
         "x": 142,
         "y": 85
@@ -22565,7 +22565,7 @@
     },
     "webmaster": "ルーク",
     "banner": {
-      "image": "station.png",
+      "image": "masao-station-luke.png",
       "size": {
         "x": 220,
         "y": 69
@@ -22602,7 +22602,7 @@
     },
     "webmaster": "kaz",
     "banner": {
-      "image": "masaostory.gif",
+      "image": "masao-story.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22618,7 +22618,7 @@
     },
     "webmaster": "Q-man",
     "banner": {
-      "image": "sprits.gif",
+      "image": "masao-sprits.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -22651,7 +22651,7 @@
     },
     "webmaster": "チェキ・改",
     "banner": {
-      "image": "spectacle.bmp",
+      "image": "masao-spectacle.bmp",
       "size": {
         "x": 86,
         "y": 41
@@ -22667,7 +22667,7 @@
     },
     "webmaster": "valkeeno",
     "banner": {
-      "image": "masaosmabra.gif",
+      "image": "masao-smabra.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22703,7 +22703,7 @@
     },
     "webmaster": "AMSK",
     "banner": {
-      "image": "masao3union.gif",
+      "image": "masao3-union.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -22720,7 +22720,7 @@
     },
     "webmaster": "NT",
     "banner": {
-      "image": "settikeikaku.gif",
+      "image": "masao-setchi-keikaku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22742,7 +22742,7 @@
     "oldname": "はせたくのホームページ",
     "webmaster": "はせたく",
     "banner": {
-      "image": "hasetaku.jpg",
+      "image": "hasetaku-no-homepage.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -22768,7 +22768,7 @@
     "oldname": "THE・FULLMETAL's Page",
     "webmaster": "FULLMETAL",
     "banner": {
-      "image": "fullmetal.jpg",
+      "image": "the-fullmetals-page.jpg",
       "size": {
         "x": 200,
         "y": 50
@@ -22798,7 +22798,7 @@
     },
     "webmaster": "ナナシア",
     "banner": {
-      "image": "souden.gif",
+      "image": "masao-sodensen.gif",
       "size": {
         "x": 215,
         "y": 85
@@ -22820,7 +22820,7 @@
     },
     "webmaster": "taketyan",
     "banner": {
-      "image": "sozai.gif",
+      "image": "masao-sozaiten.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22840,7 +22840,7 @@
       "yomi": "まさおたいかい"
     },
     "banner": {
-      "image": "taikai.gif",
+      "image": "masao-taikai.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -22862,7 +22862,7 @@
     },
     "webmaster": "忠告人",
     "banner": {
-      "image": "daiteikoku.gif",
+      "image": "masao-daiteikoku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22878,7 +22878,7 @@
     },
     "webmaster": "ミネルバビスチェ",
     "banner": {
-      "image": "dailinkmiti.gif",
+      "image": "masao-dai-link-michi.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -22899,7 +22899,7 @@
     },
     "webmaster": "kei",
     "banner": {
-      "image": "masaotown.gif",
+      "image": "masao-town-kei.gif",
       "size": {
         "x": 224,
         "y": 96
@@ -22930,7 +22930,7 @@
     },
     "webmaster": "ケンタ",
     "banner": {
-      "image": "masaonoki.gif",
+      "image": "masao-tappuri.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -22965,7 +22965,7 @@
     },
     "webmaster": "NV",
     "banner": {
-      "image": "timeido.gif",
+      "image": "masao-chimeido.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -22986,7 +22986,7 @@
     },
     "webmaster": "dok_563",
     "banner": {
-      "image": "masaotyan.gif",
+      "image": "masao-chan.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23003,7 +23003,7 @@
     },
     "webmaster": "yuntara",
     "banner": {
-      "image": "masaotool.png",
+      "image": "masao-tool.png",
       "size": {
         "x": 88,
         "y": 32
@@ -23048,7 +23048,7 @@
     "oldname": "獣龍＆正男",
     "webmaster": "ロレイッガ＆オリオン",
     "banner": {
-      "image": "masaodisk.gif",
+      "image": "masao-disk.gif",
       "size": {
         "x": 197,
         "y": 63
@@ -23071,7 +23071,7 @@
     },
     "webmaster": "わかばまーく",
     "banner": {
-      "image": "iroiro.gif",
+      "image": "masao-de-iroiro.gif",
       "size": {
         "x": 88,
         "y": 38
@@ -23093,7 +23093,7 @@
     },
     "webmaster": "ジョニー・L・正男",
     "banner": {
-      "image": "masaotheme.gif",
+      "image": "masao-theme-park.gif",
       "size": {
         "x": 256,
         "y": 48
@@ -23112,7 +23112,7 @@
     },
     "webmaster": "フィラス",
     "banner": {
-      "image": "tekiplay.gif",
+      "image": "masao-teki-play.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23133,7 +23133,7 @@
     },
     "webmaster": "ナゲット",
     "banner": {
-      "image": "nage.gif",
+      "image": "masao-technology.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23156,7 +23156,7 @@
     },
     "webmaster": "康",
     "banner": {
-      "image": "syukai.png",
+      "image": "masao-de-tanoshiku.png",
       "size": {
         "x": 88,
         "y": 31
@@ -23183,7 +23183,7 @@
     },
     "webmaster": "鳴前知",
     "banner": {
-      "image": "tetudouhiroba.gif",
+      "image": "masao-tetsudo-hiroba.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23205,7 +23205,7 @@
     },
     "webmaster": "スイショウ",
     "banner": {
-      "image": "masadepa.png",
+      "image": "masao-department.png",
       "size": {
         "x": 200,
         "y": 60
@@ -23245,7 +23245,7 @@
       "yomi": "まさおとあくおこうしとあくし"
     },
     "banner": {
-      "image": "akuo.gif",
+      "image": "masao-to-akuo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23315,7 +23315,7 @@
     },
     "webmaster": "riaf",
     "banner": {
-      "image": "doumei.gif",
+      "image": "masao-domei.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23352,7 +23352,7 @@
     },
     "webmaster": "遊慶",
     "banner": {
-      "image": "kai.gif",
+      "image": "masao-to-kai.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23369,7 +23369,7 @@
     },
     "webmaster": "たこ",
     "banner": {
-      "image": "masaono1.gif",
+      "image": "masao-no1.gif",
       "size": {
         "x": 212,
         "y": 40
@@ -23385,7 +23385,7 @@
     },
     "webmaster": "SOMA",
     "banner": {
-      "image": "determination.gif",
+      "image": "masao-no1-determination.gif",
       "size": {
         "x": 180,
         "y": 50
@@ -23407,7 +23407,7 @@
     },
     "webmaster": "tem-o.n.",
     "banner": {
-      "image": "habitue.gif",
+      "image": "masao-no1-habitue.gif",
       "size": {
         "x": 180,
         "y": 55
@@ -23428,7 +23428,7 @@
       "yomi": "まさおのあきち"
     },
     "banner": {
-      "image": "akichi.gif",
+      "image": "masao-no-akichi.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23446,7 +23446,7 @@
     "oldname": "みんなでGO！！",
     "webmaster": "海ンちゅー",
     "banner": {
-      "image": "masaonoie.jpg",
+      "image": "masao-no-ie.jpg",
       "size": {
         "x": 120,
         "y": 40
@@ -23469,7 +23469,7 @@
     },
     "webmaster": "たま",
     "banner": {
-      "image": "izumi.gif",
+      "image": "masao-no-izumi.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23491,7 +23491,7 @@
     },
     "webmaster": "ヨッシィー",
     "banner": {
-      "image": "omotya.gif",
+      "image": "masao-no-omochabako.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23544,7 +23544,7 @@
     "oldname": "ゲームのページ",
     "webmaster": "人間",
     "banner": {
-      "image": "masaonokuni.bmp",
+      "image": "masao-no-kuni.bmp",
       "size": {
         "x": 194,
         "y": 55
@@ -23612,7 +23612,7 @@
     },
     "webmaster": "toku",
     "banner": {
-      "image": "masaonojikan.gif",
+      "image": "masao-no-jikan.gif",
       "size": {
         "x": 229,
         "y": 64
@@ -23633,7 +23633,7 @@
     },
     "webmaster": "ただのハンター",
     "banner": {
-      "image": "masaonoshiro.png",
+      "image": "masao-no-shiro.png",
       "size": {
         "x": 200,
         "y": 40
@@ -23655,7 +23655,7 @@
     },
     "webmaster": "うずまき",
     "banner": {
-      "image": "seiden.gif",
+      "image": "masao-no-seiden.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23679,7 +23679,7 @@
     "oldname": "正男ランドマークタワー",
     "webmaster": "kaidon",
     "banner": {
-      "image": "daiichi.gif",
+      "image": "masao-no-daiichi-soko.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -23701,7 +23701,7 @@
       "yomi": "まさおのたまりは"
     },
     "banner": {
-      "image": "tamariba.gif",
+      "image": "masao-no-tamariba.gif",
       "size": {
         "x": 80,
         "y": 30
@@ -23733,7 +23733,7 @@
     "oldname": ["ZUIRET", "TORN"],
     "webmaster": "チコララシ",
     "banner": {
-      "image": "tudoiba.gif",
+      "image": "masao-no-tsudoiba.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23764,7 +23764,7 @@
     "oldname": "メイプルる",
     "webmaster": "ユウタ",
     "banner": {
-      "image": "masaonotokoro.gif",
+      "image": "masao-no-tokoro.gif",
       "size": {
         "x": 120,
         "y": 47
@@ -23780,7 +23780,7 @@
       "yomi": "まさおのとんや"
     },
     "banner": {
-      "image": "tonya.gif",
+      "image": "masao-no-tonya.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -23798,7 +23798,7 @@
     },
     "webmaster": "takaya",
     "banner": {
-      "image": "nenkin.gif",
+      "image": "masao-no-nenkin-mondai.gif",
       "size": {
         "x": 192,
         "y": 72
@@ -23822,7 +23822,7 @@
     },
     "webmaster": "LemonKaju",
     "banner": {
-      "image": "pension.gif",
+      "image": "masaos-pension-problem.gif",
       "size": {
         "x": 189,
         "y": 50
@@ -23843,7 +23843,7 @@
     },
     "webmaster": "○タイヤ○",
     "banner": {
-      "image": "masaonohue.gif",
+      "image": "masao-no-hue.gif",
       "size": {
         "x": 168,
         "y": 46
@@ -23864,7 +23864,7 @@
     },
     "webmaster": "たこやき屋",
     "banner": {
-      "image": "takoyaki.jpg",
+      "image": "masao-no-page-takoyaki.jpg",
       "size": {
         "x": 176,
         "y": 36
@@ -23892,7 +23892,7 @@
     },
     "webmaster": "るあす",
     "banner": {
-      "image": "besso.gif",
+      "image": "masao-no-besso.gif",
       "size": {
         "x": 140,
         "y": 40
@@ -23916,7 +23916,7 @@
     "oldname": "ガンダム",
     "webmaster": "tyty",
     "banner": {
-      "image": "masaonoheya.gif",
+      "image": "masao-no-heya-tyty.gif",
       "size": {
         "x": 100,
         "y": 60
@@ -24002,7 +24002,7 @@
     },
     "webmaster": "正正尾",
     "banner": {
-      "image": "masaonomori.jpg",
+      "image": "masao-no-mori.jpg",
       "size": {
         "x": 137,
         "y": 32
@@ -24020,7 +24020,7 @@
     },
     "webmaster": "ハル",
     "banner": {
-      "image": "masaonoyakata.gif",
+      "image": "masao-no-yakata.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -24041,7 +24041,7 @@
     },
     "webmaster": "ピンポン",
     "banner": {
-      "image": "masayori.gif",
+      "image": "masao-no-yorimichi.gif",
       "size": {
         "x": 81,
         "y": 33
@@ -24064,7 +24064,7 @@
     },
     "webmaster": "棒",
     "banner": {
-      "image": "masayori_new.png",
+      "image": "masao-no-yorimichi-mirror.png",
       "size": {
         "x": 200,
         "y": 40
@@ -24087,7 +24087,7 @@
     },
     "webmaster": "mori（森）",
     "banner": {
-      "image": "rakuen.bmp",
+      "image": "masao-no-rakuen.bmp",
       "size": {
         "x": 222,
         "y": 48
@@ -24107,7 +24107,7 @@
     },
     "webmaster": "ぐはっ！",
     "banner": {
-      "image": "ryoiki.gif",
+      "image": "masao-no-ryoiki.gif",
       "size": {
         "x": 200,
         "y": 100
@@ -24126,7 +24126,7 @@
     },
     "webmaster": "ahya",
     "banner": {
-      "image": "masaopark.png",
+      "image": "masao-park.png",
       "size": {
         "x": 200,
         "y": 40
@@ -24165,7 +24165,7 @@
     },
     "webmaster": "正男谷ちゃん",
     "banner": {
-      "image": "masaopartyadventure.bmp",
+      "image": "masao-party-adventure.bmp",
       "size": {
         "x": 198,
         "y": 75
@@ -24181,7 +24181,7 @@
     },
     "webmaster": "T.C",
     "banner": {
-      "image": "masaobako.png",
+      "image": "masao-bako.png",
       "size": {
         "x": 200,
         "y": 40
@@ -24204,7 +24204,7 @@
     },
     "webmaster": "正男芭蕉",
     "banner": {
-      "image": "masaobasyou.gif",
+      "image": "masao-basyou.gif",
       "size": {
         "x": 224,
         "y": 39
@@ -24239,7 +24239,7 @@
     "oldname": "GAME TOWN",
     "webmaster": "黒の星",
     "banner": {
-      "image": "paradise.gif",
+      "image": "masao-paradise.gif",
       "size": {
         "x": 183,
         "y": 50
@@ -24286,7 +24286,7 @@
     },
     "oldname": "正男HOUSE",
     "banner": {
-      "image": "masaovillage.gif",
+      "image": "masao-village.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -24307,7 +24307,7 @@
     },
     "webmaster": "まさおファイア",
     "banner": {
-      "image": "fire.png",
+      "image": "masao-fire.png",
       "size": {
         "x": 200,
         "y": 40
@@ -24346,7 +24346,7 @@
     },
     "webmaster": "バネビー",
     "banner": {
-      "image": "fanclub.gif",
+      "image": "masao-fan-club.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -24369,7 +24369,7 @@
     },
     "webmaster": "マサオファン",
     "banner": {
-      "image": "masaofan.gif",
+      "image": "masao-fan-no-shinden.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -24404,7 +24404,7 @@
     },
     "webmaster": "プリン",
     "banner": {
-      "image": "purin.png",
+      "image": "masao-purin.png",
       "size": {
         "x": 106,
         "y": 50
@@ -24425,7 +24425,7 @@
     },
     "webmaster": "フォトン",
     "banner": {
-      "image": "bunmei.png",
+      "image": "masao-bunmei.png",
       "size": {
         "x": 213,
         "y": 43
@@ -24469,7 +24469,7 @@
     },
     "webmaster": "わくわくしますね",
     "banner": {
-      "image": "boukenno.gif",
+      "image": "masao-boken-no-kiroku.gif",
       "size": {
         "x": 220,
         "y": 80
@@ -24505,7 +24505,7 @@
     "oldname": "正男島",
     "webmaster": "フグ",
     "banner": {
-      "image": "masaojima.gif",
+      "image": "masao-jima.gif",
       "size": {
         "x": 135,
         "y": 45
@@ -24546,7 +24546,7 @@
     },
     "webmaster": "トマトマン",
     "banner": {
-      "image": "masaomania.bmp",
+      "image": "masao-mania.bmp",
       "size": {
         "x": 88,
         "y": 31
@@ -24568,7 +24568,7 @@
     "oldname": ["正男DESTINY", "MASAPOKE STREEM"],
     "webmaster": "Mz",
     "banner": {
-      "image": "museum.gif",
+      "image": "masao-museum.gif",
       "size": {
         "x": 100,
         "y": 40
@@ -24604,7 +24604,7 @@
     },
     "webmaster": "いお",
     "banner": {
-      "image": "masaomakemaster.gif",
+      "image": "masao-make-master.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -24620,7 +24620,7 @@
     },
     "webmaster": "Ma2",
     "banner": {
-      "image": "masaoya.gif",
+      "image": "masao-ya.gif",
       "size": {
         "x": 111,
         "y": 49
@@ -24644,7 +24644,7 @@
     },
     "webmaster": "AK-58",
     "banner": {
-      "image": "masaounion.gif",
+      "image": "masao-union.gif",
       "size": {
         "x": 88,
         "y": 33
@@ -24665,7 +24665,7 @@
     },
     "webmaster": "たま",
     "banner": {
-      "image": "mufg.png",
+      "image": "masao-union-flash-game.png",
       "size": {
         "x": 200,
         "y": 40
@@ -24698,7 +24698,7 @@
     },
     "webmaster": "暇人Y",
     "banner": {
-      "image": "masaorandomjump.gif",
+      "image": "masao-random-jump.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -24718,7 +24718,7 @@
     },
     "webmaster": "MISA",
     "banner": {
-      "image": "masaoland_misa.gif",
+      "image": "masao-land-misa.gif",
       "size": {
         "x": 193,
         "y": 66
@@ -24761,7 +24761,7 @@
     },
     "webmaster": "riaf",
     "banner": {
-      "image": "masaoring.gif",
+      "image": "masao-ring.gif",
       "size": {
         "x": 90,
         "y": 50
@@ -24783,7 +24783,7 @@
     },
     "webmaster": "秋原",
     "banner": {
-      "image": "masaolink.gif",
+      "image": "masao-link-shu.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -24804,7 +24804,7 @@
     },
     "webmaster": "ルキフェル",
     "banner": {
-      "image": "masaolinksl.jpg",
+      "image": "masao-links.jpg",
       "size": {
         "x": 88,
         "y": 31
@@ -24821,7 +24821,7 @@
     },
     "webmaster": "ガイア",
     "banner": {
-      "image": "masaoroom_gaia.png",
+      "image": "masao-room-gaia.png",
       "size": {
         "x": 163,
         "y": 83
@@ -24843,7 +24843,7 @@
     },
     "webmaster": "days",
     "banner": {
-      "image": "masaoroom_days.gif",
+      "image": "masao-room-days.gif",
       "size": {
         "x": 163,
         "y": 23
@@ -24878,7 +24878,7 @@
     "oldname": "REA",
     "webmaster": "れあ螺",
     "banner": {
-      "image": "rea.gif",
+      "image": "masao-rea.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -24906,7 +24906,7 @@
     },
     "webmaster": "ナイル",
     "banner": {
-      "image": "masaorecords.png",
+      "image": "masao-records.png",
       "size": {
         "x": 200,
         "y": 45
@@ -24937,7 +24937,7 @@
     },
     "webmaster": "Massa",
     "banner": {
-      "image": "rettou.bmp",
+      "image": "masao-retto.bmp",
       "size": {
         "x": 88,
         "y": 32
@@ -24967,7 +24967,7 @@
     },
     "webmaster": "モビ",
     "banner": {
-      "image": "revolution.gif",
+      "image": "masao-revolution.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -25006,7 +25006,7 @@
     },
     "webmaster": "GAN",
     "banner": {
-      "image": "road.gif",
+      "image": "masao-road.gif",
       "size": {
         "x": 188,
         "y": 62
@@ -25040,7 +25040,7 @@
     },
     "webmaster": "バーム",
     "banner": {
-      "image": "masaoworld_barm.bmp",
+      "image": "masao-world-barm.bmp",
       "size": {
         "x": 200,
         "y": 50
@@ -25060,7 +25060,7 @@
       "yomi": "まさおわあると"
     },
     "banner": {
-      "image": "masaoworld_wjp.gif",
+      "image": "masao-world-wjp.gif",
       "size": {
         "x": 100,
         "y": 40
@@ -25082,7 +25082,7 @@
     },
     "webmaster": "キラー正男",
     "banner": {
-      "image": "masaoworld_killer.bmp",
+      "image": "masao-world-killer.bmp",
       "size": {
         "x": 228,
         "y": 76
@@ -25099,7 +25099,7 @@
     "oldname": "マリオくんのページ",
     "webmaster": "マリオくん",
     "banner": {
-      "image": "masaoworld_mariokun.gif",
+      "image": "masao-world-mario-kun.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25121,7 +25121,7 @@
     },
     "webmaster": "メタル",
     "banner": {
-      "image": "masaoworld_metal.bmp",
+      "image": "masao-world-metal.bmp",
       "size": {
         "x": 150,
         "y": 40
@@ -25143,7 +25143,7 @@
     },
     "webmaster": "the Second",
     "banner": {
-      "image": "mwa.gif",
+      "image": "masao-world-adventure.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25242,7 +25242,7 @@
     },
     "webmaster": "sdp",
     "banner": {
-      "image": "masaniwa.gif",
+      "image": "masa-niwa.gif",
       "size": {
         "x": 175,
         "y": 40
@@ -25263,7 +25263,7 @@
     },
     "webmaster": "雅",
     "banner": {
-      "image": "masano2.gif",
+      "image": "masa-no-game-kan.gif",
       "size": {
         "x": 220,
         "y": 66
@@ -25280,7 +25280,7 @@
     },
     "webmaster": "masa",
     "banner": {
-      "image": "masano.gif",
+      "image": "masa-no-homepage.gif",
       "size": {
         "x": 163,
         "y": 36
@@ -25339,7 +25339,7 @@
     },
     "webmaster": "マサル",
     "banner": {
-      "image": "masaru.bmp",
+      "image": "masaru-no-page.bmp",
       "size": {
         "x": 164,
         "y": 74
@@ -25361,7 +25361,7 @@
     },
     "webmaster": "さいだぁ（仮）",
     "banner": {
-      "image": "magicaluniverse.png",
+      "image": "magical-universe.png",
       "size": {
         "x": 242,
         "y": 82
@@ -25379,7 +25379,7 @@
     "oldname": "魔法ゲームの森",
     "webmaster": "MZX",
     "banner": {
-      "image": "mahougame.png",
+      "image": "mahou-game.png",
       "size": {
         "x": 150,
         "y": 50
@@ -25425,7 +25425,7 @@
     "oldname": "正男仮面",
     "webmaster": "パッチ",
     "banner": {
-      "image": "masklabo.gif",
+      "image": "mask-the-game-labo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25447,7 +25447,7 @@
     },
     "webmaster": "ますた",
     "banner": {
-      "image": "masuta.gif",
+      "image": "masuta-no-note.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25479,7 +25479,7 @@
     },
     "webmaster": "鉄ちゃんTM",
     "banner": {
-      "image": "tetsuya.gif",
+      "image": "machikado-no-game-ya.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -25496,7 +25496,7 @@
     },
     "webmaster": "マッシー",
     "banner": {
-      "image": "masshi.png",
+      "image": "masshi-no-heya.png",
       "size": {
         "x": 200,
         "y": 40
@@ -25513,7 +25513,7 @@
     "oldname": "BOMUOMAN.S WORLD",
     "webmaster": "ボム男マン",
     "banner": {
-      "image": "musheternal.gif",
+      "image": "mush-eternal.gif",
       "size": {
         "x": 200,
         "y": 35
@@ -25544,7 +25544,7 @@
     },
     "webmaster": "カブ",
     "banner": {
-      "image": "machspeed.gif",
+      "image": "mach-speed.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -25581,7 +25581,7 @@
     },
     "webmaster": "PHOENIX",
     "banner": {
-      "image": "maboroshinorakuen.gif",
+      "image": "maboroshi-no-rakuen.gif",
       "size": {
         "x": 100,
         "y": 26
@@ -25605,7 +25605,7 @@
     "oldname": "Mame スーパーマサオ",
     "webmaster": "BINGO",
     "banner": {
-      "image": "mamesupermasao.gif",
+      "image": "mame-super-masao.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25631,7 +25631,7 @@
     "oldname": "チャボ部屋",
     "webmaster": "チャボ",
     "banner": {
-      "image": "mamechabo.gif",
+      "image": "mame-to-chabo.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25715,7 +25715,7 @@
     },
     "webmaster": "マリモ埼玉",
     "banner": {
-      "image": "marimosaitama.gif",
+      "image": "marimo-saitama.gif",
       "size": {
         "x": 288,
         "y": 100
@@ -25737,7 +25737,7 @@
     },
     "webmaster": "黄金ヨッシー",
     "banner": {
-      "image": "mariyoshi.gif",
+      "image": "mari-yoshi-star.gif",
       "size": {
         "x": 222,
         "y": 86
@@ -25764,7 +25764,7 @@
     "oldname": ["茲のゲームセンター", "正男ランド"],
     "webmaster": "茲",
     "banner": {
-      "image": "kokoge-sen.gif",
+      "image": "koko-no-game-center.gif",
       "size": {
         "x": 126,
         "y": 57
@@ -25829,7 +25829,7 @@
     },
     "webmaster": "riaf",
     "banner": {
-      "image": "meetplay.gif",
+      "image": "meet-play.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -25872,7 +25872,7 @@
     },
     "webmaster": "PQR",
     "banner": {
-      "image": "undefinedcreate.png",
+      "image": "mikakunin-sosaku.png",
       "size": {
         "x": 200,
         "y": 40
@@ -25943,7 +25943,7 @@
     ],
     "webmaster": "アスリータ",
     "banner": {
-      "image": "gorakuya.png",
+      "image": "michinoeki-goraku-ya.png",
       "size": {
         "x": 179,
         "y": 44
@@ -25966,7 +25966,7 @@
     "oldname": "戦国液体記",
     "webmaster": "きのこ・どく",
     "banner": {
-      "image": "kinoko.gif",
+      "image": "michi-no-mudai.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -25988,7 +25988,7 @@
     "oldname": "緑のHIGEのHOMEPAGE",
     "webmaster": "エラーコード∞",
     "banner": {
-      "image": "midoriirono.gif",
+      "image": "midori-no-hige.gif",
       "size": {
         "x": 112,
         "y": 76
@@ -26010,7 +26010,7 @@
     "oldname": "モット～の部屋",
     "webmaster": "モット～",
     "banner": {
-      "image": "midorinokusahara.gif",
+      "image": "midori-no-kusahara.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26033,7 +26033,7 @@
     },
     "webmaster": "いお",
     "banner": {
-      "image": "senko.bmp",
+      "image": "midori-no-senko.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -26068,7 +26068,7 @@
     },
     "webmaster": "みのもんじろう",
     "banner": {
-      "image": "minomonjirou.jpg",
+      "image": "minomonjiro.jpg",
       "size": {
         "x": 137,
         "y": 55
@@ -26085,7 +26085,7 @@
     },
     "webmaster": "学生指揮者",
     "banner": {
-      "image": "musicaview.png",
+      "image": "music-a-view.png",
       "size": {
         "x": 147,
         "y": 46
@@ -26101,7 +26101,7 @@
     },
     "webmaster": "蜃気楼",
     "banner": {
-      "image": "mc.gif",
+      "image": "mirage-room.gif",
       "size": {
         "x": 120,
         "y": 48
@@ -26123,7 +26123,7 @@
     },
     "webmaster": "空気以下の存在",
     "banner": {
-      "image": "miraiisan.png",
+      "image": "mirai-isan.png",
       "size": {
         "x": 109,
         "y": 30
@@ -26145,7 +26145,7 @@
     "oldname": "GBLのホームページ",
     "webmaster": "GBL",
     "banner": {
-      "image": "miraculous.gif",
+      "image": "miraculous-gate.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26167,7 +26167,7 @@
     "oldname": "みらくるくーるあいす",
     "webmaster": "氷",
     "banner": {
-      "image": "miraclecoolice.png",
+      "image": "miracle-cool-ice.png",
       "size": {
         "x": 200,
         "y": 40
@@ -26233,7 +26233,7 @@
     },
     "webmaster": "ヨッサン",
     "banner": {
-      "image": "yossan.gif",
+      "image": "minna-no-asobiba.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26295,7 +26295,7 @@
     },
     "webmaster": "Alek",
     "banner": {
-      "image": "moonrhyme.jpg",
+      "image": "moon-rhyme.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -26334,7 +26334,7 @@
     },
     "webmaster": "むぎ",
     "banner": {
-      "image": "mugi.png",
+      "image": "mugis-note.png",
       "size": {
         "x": 128,
         "y": 32
@@ -26357,7 +26357,7 @@
     "oldname": "エターナルストライク",
     "webmaster": "セラフィス",
     "banner": {
-      "image": "eternalhp.gif",
+      "image": "mugen-of-eternal-hp.gif",
       "size": {
         "x": 124,
         "y": 43
@@ -26396,7 +26396,7 @@
     "oldname": "ホコタテ任天社",
     "webmaster": "ケンコウ",
     "banner": {
-      "image": "mujuntecho.png",
+      "image": "mujun-techo.png",
       "size": {
         "x": 180,
         "y": 50
@@ -26447,7 +26447,7 @@
     },
     "webmaster": "ゆうき",
     "banner": {
-      "image": "mutekikun.gif",
+      "image": "muteki-kun.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26477,7 +26477,7 @@
     },
     "webmaster": "AA君",
     "banner": {
-      "image": "muhou.gif",
+      "image": "muhou-chitai.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26497,7 +26497,7 @@
     "oldname": "あへ",
     "webmaster": "Mura",
     "banner": {
-      "image": "muradokoro.gif",
+      "image": "mura-dokoro.gif",
       "size": {
         "x": 222,
         "y": 51
@@ -26519,7 +26519,7 @@
     },
     "webmaster": "walker",
     "banner": {
-      "image": "muryogamemaker.gif",
+      "image": "muryo-game-maker.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -26537,7 +26537,7 @@
     },
     "webmaster": "マサリオ",
     "banner": {
-      "image": "meisyo.gif",
+      "image": "meisho-mitei.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26572,7 +26572,7 @@
     },
     "webmaster": "製作員",
     "banner": {
-      "image": "madeinjibun.gif",
+      "image": "made-in-jibun.gif",
       "size": {
         "x": 100,
         "y": 50
@@ -26590,7 +26590,7 @@
     "oldname": "メガネ帝国",
     "webmaster": "漣奴",
     "banner": {
-      "image": "meganesou.gif",
+      "image": "megane-so.gif",
       "size": {
         "x": 150,
         "y": 50
@@ -26630,7 +26630,7 @@
     "webmaster": "メシス",
     "url": "http://hpcgi3.nifty.com/altodias/mi/",
     "banner": {
-      "image": "mesisisland.gif",
+      "image": "mesis-island.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26664,7 +26664,7 @@
     },
     "webmaster": "シビック",
     "banner": {
-      "image": "medarotsozaikan.gif",
+      "image": "medarot-sozaikan.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26711,7 +26711,7 @@
     },
     "webmaster": "セージ",
     "banner": {
-      "image": "memorylife.gif",
+      "image": "memory-life.gif",
       "size": {
         "x": 132,
         "y": 48
@@ -26733,7 +26733,7 @@
     "oldname": "がくのホームページ",
     "webmaster": "がく",
     "banner": {
-      "image": "gaku.gif",
+      "image": "marchen-world.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -26850,7 +26850,7 @@
     "oldname": "森のくまさんホームページ",
     "webmaster": "森くま",
     "banner": {
-      "image": "morinokumasan.gif",
+      "image": "mori-no-kumasan.gif",
       "size": {
         "x": 196,
         "y": 74
@@ -26873,7 +26873,7 @@
     },
     "webmaster": "真鈴",
     "banner": {
-      "image": "morinonakano.png",
+      "image": "mori-no-naka.png",
       "size": {
         "x": 200,
         "y": 40
@@ -26907,7 +26907,7 @@
     },
     "webmaster": "野獣",
     "banner": {
-      "image": "yaju.gif",
+      "image": "yaju-zone.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -26984,7 +26984,7 @@
     "oldname": "バトルロワイアル快速版",
     "webmaster": "かいきゅう",
     "banner": {
-      "image": "kaisoku.gif",
+      "image": "yamanote-kaisoku.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -27045,7 +27045,7 @@
     "oldname": "遊戯王カードの街",
     "webmaster": "影人",
     "banner": {
-      "image": "yugiohdeck.png",
+      "image": "yugioh-deck.png",
       "size": {
         "x": 88,
         "y": 31
@@ -27076,7 +27076,7 @@
     },
     "webmaster": "佑樹",
     "banner": {
-      "image": "yuki.gif",
+      "image": "yuki-no-homepage.gif",
       "size": {
         "x": 92,
         "y": 38
@@ -27108,7 +27108,7 @@
     },
     "webmaster": "勇輔",
     "banner": {
-      "image": "yusuke.jpg",
+      "image": "yusuke-no-page.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -27124,7 +27124,7 @@
     },
     "webmaster": "YUTA",
     "banner": {
-      "image": "yuta.gif",
+      "image": "yutas-homepage.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -27152,7 +27152,7 @@
     },
     "webmaster": "ゆうたん",
     "banner": {
-      "image": "yuutan.png",
+      "image": "yuutan-no-page.png",
       "size": {
         "x": 200,
         "y": 40
@@ -27173,7 +27173,7 @@
     },
     "webmaster": "ゆうと",
     "banner": {
-      "image": "yutoweb.gif",
+      "image": "yuto-web.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -27207,7 +27207,7 @@
     },
     "webmaster": "勇帆",
     "banner": {
-      "image": "yuho.bmp",
+      "image": "yuho-no-heya.bmp",
       "size": {
         "x": 160,
         "y": 40
@@ -27291,7 +27291,7 @@
     },
     "webmaster": "かびっち",
     "banner": {
-      "image": "yumeno.bmp",
+      "image": "yume-no-okoku.bmp",
       "size": {
         "x": 117,
         "y": 43
@@ -27319,7 +27319,7 @@
     },
     "webmaster": "セージ",
     "banner": {
-      "image": "yumemiru.gif",
+      "image": "yumemiru-kirby.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -27340,7 +27340,7 @@
     },
     "webmaster": "昴",
     "banner": {
-      "image": "yumemonogatari.png",
+      "image": "yume-monogatari.png",
       "size": {
         "x": 88,
         "y": 31
@@ -27400,7 +27400,7 @@
     },
     "webmaster": "よしお",
     "banner": {
-      "image": "yoshio.gif",
+      "image": "yoshio-no-site.gif",
       "size": {
         "x": 191,
         "y": 54
@@ -27423,7 +27423,7 @@
     "oldname": "ポシキの館",
     "webmaster": "ヨシキ",
     "banner": {
-      "image": "yoshiki.gif",
+      "image": "yoshiki-world.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -27516,7 +27516,7 @@
     "oldname": "SuperYoshi",
     "webmaster": "偽ルイ",
     "banner": {
-      "image": "yoshi.png",
+      "image": "yoshis-island-park.png",
       "size": {
         "x": 200,
         "y": 40
@@ -27540,7 +27540,7 @@
     "oldname": "YOSSHI-のページ",
     "webmaster": "YOSSHI-",
     "banner": {
-      "image": "yosshispage.gif",
+      "image": "yosshis-page.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -27592,7 +27592,7 @@
     },
     "webmaster": "おぎ",
     "banner": {
-      "image": "yorozukenkyu.gif",
+      "image": "yorozu-kenkyu-shitsu.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -27619,7 +27619,7 @@
       "yomi": "よろすやすたれとう"
     },
     "banner": {
-      "image": "yorozuyasutaredou.png",
+      "image": "yorozuya-sutare-do.png",
       "size": {
         "x": 200,
         "y": 40
@@ -27711,7 +27711,7 @@
     "oldname": ["kouta GAME CITY", "光太のゲームシティ"],
     "webmaster": "光太",
     "banner": {
-      "image": "lighttown.gif",
+      "image": "light-town.gif",
       "size": {
         "x": 192,
         "y": 89
@@ -27737,7 +27737,7 @@
     },
     "webmaster": "たかふみ",
     "banner": {
-      "image": "livewindow.gif",
+      "image": "live-window.gif",
       "size": {
         "x": 126,
         "y": 38
@@ -27755,7 +27755,7 @@
     "oldname": ["アルファクルーズ", "PKトパーズのページ"],
     "webmaster": "Rhines",
     "banner": {
-      "image": "rhines.bmp",
+      "image": "rhines-base.bmp",
       "size": {
         "x": 215,
         "y": 47
@@ -27793,7 +27793,7 @@
     },
     "webmaster": "楽々",
     "banner": {
-      "image": "rakuraku.bmp",
+      "image": "rakuraku-no-page.bmp",
       "size": {
         "x": 168,
         "y": 61
@@ -27852,7 +27852,7 @@
     "oldname": ["のとびの正男ランド", "しゃぶしゃぶの正男ランド"],
     "webmaster": "ららばい",
     "banner": {
-      "image": "syabusyabu.png",
+      "image": "shabushabu.png",
       "size": {
         "x": 188,
         "y": 110
@@ -27876,7 +27876,7 @@
     "oldname": "ラストエクリプスの部屋",
     "webmaster": "ポラリス",
     "banner": {
-      "image": "polaris.bmp",
+      "image": "lulluby-matenro.bmp",
       "size": {
         "x": 200,
         "y": 40
@@ -27928,7 +27928,7 @@
     },
     "webmaster": "ね～す",
     "banner": {
-      "image": "realsmash.png",
+      "image": "real-smash.png",
       "size": {
         "x": 200,
         "y": 40
@@ -27950,7 +27950,7 @@
     },
     "webmaster": "AA",
     "banner": {
-      "image": "rees.png",
+      "image": "re-endless-sunlight.png",
       "size": {
         "x": 200,
         "y": 40
@@ -27970,7 +27970,7 @@
     },
     "webmaster": "リク",
     "banner": {
-      "image": "riku.bmp",
+      "image": "riku-no-page.bmp",
       "size": {
         "x": 124,
         "y": 36
@@ -28009,7 +28009,7 @@
       "yomi": "りつきよう"
     },
     "banner": {
-      "image": "rikkyou.gif",
+      "image": "rikkyo.gif",
       "size": {
         "x": 88,
         "y": 31
@@ -28029,7 +28029,7 @@
     },
     "webmaster": "櫻",
     "banner": {
-      "image": "littleflower.gif",
+      "image": "little-flower.gif",
       "size": {
         "x": 120,
         "y": 30
@@ -28050,7 +28050,7 @@
       "yomi": "りはあさいとつりい"
     },
     "banner": {
-      "image": "riversidetree.gif",
+      "image": "riverside-tree.gif",
       "size": {
         "x": 164,
         "y": 43
@@ -28073,7 +28073,7 @@
     "oldname": "りゅーせいぐん",
     "webmaster": "バムバム",
     "banner": {
-      "image": "ryuseigun.gif",
+      "image": "ryusei-gun.gif",
       "size": {
         "x": 200,
         "y": 100
@@ -28097,7 +28097,7 @@
     },
     "webmaster": "星ゾラ",
     "banner": {
-      "image": "ryuseinogamebeya.gif",
+      "image": "ryusei-no-game-beya.gif",
       "size": {
         "x": 200,
         "y": 50
@@ -28120,7 +28120,7 @@
     },
     "webmaster": "琉",
     "banner": {
-      "image": "ryunoheya.bmp",
+      "image": "ryu-no-heya.bmp",
       "size": {
         "x": 214,
         "y": 49
@@ -28138,7 +28138,7 @@
     "oldname": "AKの部屋",
     "webmaster": "龍牙",
     "banner": {
-      "image": "ryunoyasumi.png",
+      "image": "ryu-no-yasumiba.png",
       "size": {
         "x": 200,
         "y": 60
@@ -28159,7 +28159,7 @@
     },
     "webmaster": "RYO",
     "banner": {
-      "image": "ryo.gif",
+      "image": "ryo-no-heya.gif",
       "size": {
         "x": 181,
         "y": 65
@@ -28216,7 +28216,7 @@
     },
     "webmaster": "リンク",
     "banner": {
-      "image": "linkno.png",
+      "image": "link-no-page.png",
       "size": {
         "x": 200,
         "y": 40
@@ -28244,7 +28244,7 @@
     },
     "webmaster": "まさふじ",
     "banner": {
-      "image": "ruiji.png",
+      "image": "luigi-castle.png",
       "size": {
         "x": 200,
         "y": 40
@@ -28266,7 +28266,7 @@
     },
     "webmaster": "クレフ館山",
     "banner": {
-      "image": "luigiworld.jpg",
+      "image": "luigi-world.jpg",
       "size": {
         "x": 200,
         "y": 40
@@ -28283,7 +28283,7 @@
     },
     "webmaster": "ルィーズィ",
     "banner": {
-      "image": "rulizuli.gif",
+      "image": "ruli-zuli.gif",
       "size": {
         "x": 240,
         "y": 90
@@ -28320,7 +28320,7 @@
       "yomi": "るかみとう"
     },
     "banner": {
-      "image": "rukamitou.bmp",
+      "image": "rukami-to.bmp",
       "size": {
         "x": 200,
         "y": 50
@@ -28379,7 +28379,7 @@
     "oldname": ["虹色の風", "正男のたまり場"],
     "webmaster": "Skies",
     "banner": {
-      "image": "nijiironokaze.gif",
+      "image": "nijiiro-no-kaze.gif",
       "size": {
         "x": 160,
         "y": 50
@@ -28401,7 +28401,7 @@
     },
     "webmaster": "虹風 虹奈",
     "banner": {
-      "image": "rainbowcity.png",
+      "image": "rainbow-city.png",
       "size": {
         "x": 200,
         "y": 40
@@ -28437,7 +28437,7 @@
     },
     "webmaster": "ミカエル",
     "banner": {
-      "image": "reverdesetoiles.png",
+      "image": "reve-des-etoiles.png",
       "size": {
         "x": 200,
         "y": 40
@@ -28455,7 +28455,7 @@
     },
     "webmaster": "Wrmhcm",
     "banner": {
-      "image": "recreation.gif",
+      "image": "recreations.gif",
       "size": {
         "x": 198,
         "y": 56
@@ -28491,7 +28491,7 @@
     "oldname": "正男World",
     "webmaster": "リヴァイア",
     "banner": {
-      "image": "lw.gif",
+      "image": "legend-world.gif",
       "size": {
         "x": 159,
         "y": 74
@@ -28530,7 +28530,7 @@
     },
     "webmaster": "レッドさんだー",
     "banner": {
-      "image": "redthunder.gif",
+      "image": "red-thunder.gif",
       "size": {
         "x": 200,
         "y": 100
@@ -28562,7 +28562,7 @@
     },
     "webmaster": "サムエル",
     "banner": {
-      "image": "retrogame.gif",
+      "image": "retro-game.gif",
       "size": {
         "x": 193,
         "y": 66
@@ -28600,7 +28600,7 @@
     "oldname": "カービィランド",
     "webmaster": "キラカビ",
     "banner": {
-      "image": "levelmeccha.gif",
+      "image": "level-meccha.gif",
       "size": {
         "x": 170,
         "y": 47
@@ -28670,7 +28670,7 @@
     },
     "webmaster": "レンアル",
     "banner": {
-      "image": "renaru.png",
+      "image": "renaru-no-iru-heya.png",
       "size": {
         "x": 200,
         "y": 40
@@ -28727,7 +28727,7 @@
     },
     "webmaster": "ログ",
     "banner": {
-      "image": "rogus.gif",
+      "image": "rogus-bluesky.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -28745,7 +28745,7 @@
     },
     "webmaster": "RockFannel",
     "banner": {
-      "image": "rockfannel.png",
+      "image": "rock-fannel.png",
       "size": {
         "x": 150,
         "y": 50
@@ -28838,7 +28838,7 @@
     },
     "webmaster": "Drmario",
     "banner": {
-      "image": "worldgame.gif",
+      "image": "world-game.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -28859,7 +28859,7 @@
     },
     "webmaster": "YTM改",
     "banner": {
-      "image": "ytmkai.gif",
+      "image": "ytm-kai.gif",
       "size": {
         "x": 101,
         "y": 35
@@ -28945,7 +28945,7 @@
     },
     "webmaster": "わたる",
     "banner": {
-      "image": "watanet.png",
+      "image": "wata-net.png",
       "size": {
         "x": 200,
         "y": 40
@@ -29023,7 +29023,7 @@
     },
     "webmaster": "平原",
     "banner": {
-      "image": "waraiou.gif",
+      "image": "warai-o.gif",
       "size": {
         "x": 200,
         "y": 40
@@ -29041,7 +29041,7 @@
     "oldname": ["Masao Empire", "ひりゅうの巣"],
     "webmaster": "飛竜",
     "banner": {
-      "image": "empire.gif",
+      "image": "masao-empire.gif",
       "size": {
         "x": 176,
         "y": 64
@@ -29068,7 +29068,7 @@
     },
     "webmaster": "sora",
     "banner": {
-      "image": "wonderfultime.jpg",
+      "image": "wonderful-time.jpg",
       "size": {
         "x": 121,
         "y": 51
