@@ -7,12 +7,7 @@ const CLASS_NAME_ARCHIVED = "archived";
 const CLASS_NAME_VANISHED = "vanished";
 
 // 正男のデータがアーカイブされている状態
-const ARCHIVE_STATES = [
-  STATE_ARCHIVED,
-  STATE_ARCHIVED_WAYBACK,
-  STATE_ARCHIVED_GEOLOG,
-  STATE_REMAINED,
-];
+const ARCHIVE_STATES = [STATE_ARCHIVED, STATE_REMAINED];
 
 // バナーの背景色を決める class 名
 const STATE_CLASS_NAMES = {
@@ -21,8 +16,6 @@ const STATE_CLASS_NAMES = {
   [STATE_VANISHED]: CLASS_NAME_VANISHED,
   [STATE_CANVAS]: CLASS_NAME_CANVAS,
   [STATE_ARCHIVED]: CLASS_NAME_ARCHIVED,
-  [STATE_ARCHIVED_WAYBACK]: CLASS_NAME_ARCHIVED,
-  [STATE_ARCHIVED_GEOLOG]: CLASS_NAME_ARCHIVED,
   [STATE_REMAINED]: CLASS_NAME_ARCHIVED,
 };
 
@@ -62,7 +55,8 @@ $.ajax({
   async: false,
   cache: false,
   success: function (json) {
-    list = json;
+    // 過疎村（当サイト）は一覧表に出さず、総数にも数えない
+    list = json.filter((entry) => entry.state != STATE_HOME);
   },
 });
 
@@ -168,9 +162,6 @@ function getLinkUrl(entry) {
     return (
       "https://web.archive.org/web/" + entry.wayback_time + "/" + entry.url
     );
-  }
-  if (entry.state == STATE_ARCHIVED_GEOLOG) {
-    return "https://geolog.mydns.jp/" + entry.url.replace("http://", "");
   }
   return entry.url;
 }

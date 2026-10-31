@@ -1,7 +1,12 @@
 // STATE_* は js/common.js で定義
 
 // 例外サイトリストに今の url を入れる状態（正男が今も見られるサイト）
-const EXCEPTION_LIST_STATES = [STATE_EXIST, STATE_CANVAS, STATE_REMAINED];
+const EXCEPTION_LIST_STATES = [
+  STATE_EXIST,
+  STATE_CANVAS,
+  STATE_REMAINED,
+  STATE_HOME,
+];
 
 const listUrl = "list.json";
 const anotherListUrl = "anotherlist.json";

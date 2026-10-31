@@ -4504,6 +4504,29 @@
   },
   {
     "site": {
+      "name": "過疎村",
+      "yomi": "かそむら"
+    },
+    "webmaster": "棒",
+    "banner": {
+      "image": "kasomura.png",
+      "size": {
+        "x": 200,
+        "y": 40
+      }
+    },
+    "url": "https://kasomura.stickmiz.net/",
+    "oldurl": "https://kasomura.nobody.jp/",
+    "year": {
+      "from": 2011,
+      "to": 0
+    },
+    "kind_masao": ["JS拡張", "SASUKE系"],
+    "feature": ["正男100個以上", "素材配布"],
+    "state": "home"
+  },
+  {
+    "site": {
       "name": "かつどんワールド",
       "yomi": "かつとんわあると"
     },

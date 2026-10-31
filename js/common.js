@@ -7,8 +7,8 @@ const STATE_CLOSED = "closed";
 const STATE_ARCHIVED = "archived";
 const STATE_VANISHED = "vanished";
 const STATE_REMAINED = "remained";
-const STATE_ARCHIVED_WAYBACK = "archived_wayback";
-const STATE_ARCHIVED_GEOLOG = "archived_geolog";
+// 過疎村（当サイト）。index.html の一覧表には表示しない
+const STATE_HOME = "home";
 
 const KNOWN_STATES = [
   STATE_CANVAS,
@@ -17,15 +17,13 @@ const KNOWN_STATES = [
   STATE_ARCHIVED,
   STATE_VANISHED,
   STATE_REMAINED,
-  STATE_ARCHIVED_WAYBACK,
-  STATE_ARCHIVED_GEOLOG,
+  STATE_HOME,
 ];
 
 // Wayback Machine 内のページにリンクするため、wayback_time が必要な状態
 const WAYBACK_LINK_STATES = [
   STATE_CLOSED,
   STATE_ARCHIVED,
-  STATE_ARCHIVED_WAYBACK,
   STATE_REMAINED,
 ];
 

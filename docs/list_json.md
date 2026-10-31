@@ -117,20 +117,19 @@ ID は次のように決めます。
 | `exist` | 正男を掲載するサイトとして現存 | `exist` | `url` | 書かない |
 | `closed` | 現存しない、または今は正男を扱っていない | `closed` | Wayback Machine | 必須 |
 | `archived` | 正男のデータ（画像を含む）がアーカイブされている | `archived` | Wayback Machine | 必須 |
-| `archived_wayback` | 同上（Wayback Machine に保存） | `archived` | Wayback Machine | 必須 |
-| `archived_geolog` | 同上（geolog に保存） | `archived` | geolog | 書かない |
 | `remained` | サイトが残っていて、正男のデータも残っている | `archived` | Wayback Machine | 必須 |
 | `vanished` | データが消滅している | `vanished` | リンクしない | 書かない |
+| `home` | 過疎村（当サイト） | （一覧表に表示しない） | （一覧表に表示しない） | 書かない |
 
 `remained` の意味は、コードから読み取ったものです。必要に応じて直してください。
 
 - Wayback Machine へのリンクは `https://web.archive.org/web/{wayback_time}/{url}` になる。
-- geolog へのリンクは、`url` から `http://` を取り除いて `https://geolog.mydns.jp/` の後ろに付けたものになる。
 - 「サイトの状態」の絞り込みでは、次のとおり表示する。
   - 「現存サイトのみ」: `exist`・`canvas`
   - 「Canvas対応サイトのみ」: `canvas`
-  - 「アーカイブに正男保存のサイトのみ」: `archived`・`archived_wayback`・`archived_geolog`・`remained`
-- 例外サイトリストには、`exist`・`canvas`・`remained` の `url` と、すべての `suburl` が入る。
+  - 「アーカイブに正男保存のサイトのみ」: `archived`・`remained`
+- `home` のサイトは `index.html` の一覧表に表示せず、「正男サイトの総数」にも数えない。
+- 例外サイトリストには、`exist`・`canvas`・`remained`・`home` の `url` と、すべての `suburl` が入る。
 
 ## url・oldurl・suburl
 
@@ -141,7 +140,7 @@ ID は次のように決めます。
 ## wayback_time
 
 - 14桁の数字（YYYYMMDDhhmmss）。例: `20041220185135`
-- `state` が `closed`・`archived`・`archived_wayback`・`remained` のときは必須。それ以外のときは書かない。
+- `state` が `closed`・`archived`・`remained` のときは必須。それ以外のときは書かない。
 
 ## kind_masao
 
