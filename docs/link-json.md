@@ -129,7 +129,7 @@
 | `game` | ゲーム系サイト |
 | `kirby` | 正男を置いていないカービィ系サイト |
 
-`list.json` の `kindMasao` の「カービィ系」は、カービィを題材にした正男サイトのことで、`kirby` とは別のものです。
+`list.json` の `masaoKind` の「カービィ系」は、カービィを題材にした正男サイトのことで、`kirby` とは別のものです。
 
 ## banners
 
@@ -139,8 +139,8 @@
 |---|---|---|---|
 | `src` | 文字列 / 配列 | ○ | 取得元の画像 URL。同じ画像が別の場所にあれば配列で書く |
 | `hash` | 文字列 | ○ | 画像の中身から計算したハッシュ値 |
-| `size.x` | 数値 | ○ | 画像の幅（px）。正の整数 |
-| `size.y` | 数値 | ○ | 画像の高さ（px）。正の整数 |
+| `size.width` | 数値 | ○ | 画像の幅（px）。正の整数 |
+| `size.height` | 数値 | ○ | 画像の高さ（px）。正の整数 |
 
 - ファイル名は、収集した時点では連番にする（例: `b0001.gif`）。
 - サイトが明確になったら、そのサイトの ID を使った名前に書き換え、`links` の `banner` も直す。命名は `list.json` の ID と同じく英小文字・数字・`-` だけで書く。
@@ -204,7 +204,7 @@
 2. 新しいリンク先 URL を `urls` に `judge: "pending"` で追加する。推定できれば `guess`・`guessReason` も書く。`excludedPrefixes` に当たる URL と、`not_masao` の URL は記録しない。
 3. バナー画像を `banner/collected/` に連番で保存し、`banners` に追加する。
 4. 人が `urls` の `pending` を確認し、`judge` を確定する。
-5. `masao` で未登録のものを `list.json` に登録する。バナーがあれば、その名前を ID にして `banner/` にコピーする。無ければ `yomi` から作った候補をもとに ID を決める。決めた ID を `urls` の `id` に書く。
+5. `masao` で未登録のものを `list.json` に登録する。バナーがあれば、その名前を ID にして `banner/` にコピーする。無ければ `reading` から作った候補をもとに ID を決める。決めた ID を `urls` の `id` に書く。
 6. `related` や未登録の正男サイトは、`surveys` に追加して調査対象にする。
 7. 人が、そのサイトのリンクをすべて拾い終えたと判断したら、`status` を `done` にする。
 
@@ -215,7 +215,7 @@
   - `http` と `https` を同じとみなすか
   - `www` の有無を同じとみなすか
   - 末尾の `/`、`index.html` の扱い
-  - `oldUrl`・`subUrl` と一致したら同じサイトとみなすか
+  - `oldUrl`・`mirrorUrl` と一致したら同じサイトとみなすか
 - 現存サイトの再調査の方法（差分だけを拾うか）
 
 ## 例
@@ -254,7 +254,7 @@
     "b0001.gif": {
       "src": "http://wwa.example.jp/img/banner.gif",
       "hash": "3f2a9c...",
-      "size": { "x": 200, "y": 40 }
+      "size": { "width": 200, "height": 40 }
     }
   },
   "excludedPrefixes": ["http://www.google.co.jp/"]

@@ -27,8 +27,8 @@ const WAYBACK_LINK_STATES = [
   STATE_REMAINED,
 ];
 
-// kindMasao・feature に使える値。index.html の絞り込みボタンもこの順で作る
-const KIND_MASAO_VALUES = [
+// masaoKind・feature に使える値。index.html の絞り込みボタンもこの順で作る
+const MASAO_KIND_VALUES = [
   "自動",
   "一画面",
   "ストーリー",

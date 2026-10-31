@@ -79,28 +79,28 @@ describe("正しいデータ", () => {
   });
   test("ルールどおりのデータはエラーにならない", async () => {
     const list = [
-      makeSite({ site: { name: "A", yomi: "あ" } }),
+      makeSite({ site: { name: "A", reading: "あ" } }),
       makeSite({
-        site: { name: "B", yomi: "か" },
+        site: { name: "B", reading: "か" },
         oldName: ["B2", "B3"],
         webmaster: "管理人",
-        banner: { image: "b.png", size: { x: 200, y: 40 } },
+        banner: { image: "b.png", size: { width: 200, height: 40 } },
         oldUrl: "http://old.example.com/",
-        subUrl: ["http://mirror.example.com/"],
-        year: { from: 2004, to: 2006 },
-        kindMasao: ["自動", "JS拡張"],
+        mirrorUrl: ["http://mirror.example.com/"],
+        period: { from: 2004, to: 2006 },
+        masaoKind: ["自動", "JS拡張"],
         feature: "エディタ",
-        work: "作品",
-        explanation: "メモ",
+        works: "作品",
+        note: "メモ",
         state: "closed",
         waybackTime: 20041220185135,
       }),
-      makeSite({ site: { name: "C", yomi: "さ" }, state: "vanished", url: "" }),
+      makeSite({ site: { name: "C", reading: "さ" }, state: "vanished", url: "" }),
     ];
     assert.deepEqual(await check(list), []);
   });
   test("エラーは「サイト名：内容」の形で出す", async () => {
-    const messages = await checkOne({ site: { name: "テストのサイト", yomi: "あ" }, state: "unknown" });
+    const messages = await checkOne({ site: { name: "テストのサイト", reading: "あ" }, state: "unknown" });
     assert.deepEqual(messages, ['テストのサイト：state has an unknown value "unknown"']);
   });
   test("1つのサイトに複数の誤りがあれば、すべて出す", async () => {
@@ -131,54 +131,54 @@ describe("id", () => {
   });
   test("重複した id は、2つ目のサイトでエラー", async () => {
     const list = [
-      makeSite({ id: "same", site: { name: "1つ目", yomi: "あ" } }),
-      makeSite({ id: "same", site: { name: "2つ目", yomi: "い" } }),
+      makeSite({ id: "same", site: { name: "1つ目", reading: "あ" } }),
+      makeSite({ id: "same", site: { name: "2つ目", reading: "い" } }),
     ];
     assert.deepEqual(await check(list), ['2つ目：id "same" is duplicated']);
   });
 });
 
-describe("site.yomi", () => {
+describe("site.reading", () => {
   test("よみの順に並んでいなければエラー", async () => {
     const list = [
-      makeSite({ site: { name: "後", yomi: "い" } }),
-      makeSite({ site: { name: "前", yomi: "あ" } }),
+      makeSite({ site: { name: "後", reading: "い" } }),
+      makeSite({ site: { name: "前", reading: "あ" } }),
     ];
-    assert.deepEqual(await check(list), ["前：yomi is out of order"]);
+    assert.deepEqual(await check(list), ["前：reading is out of order"]);
   });
   test("同じよみが続くのは誤りではない", async () => {
     const list = [
-      makeSite({ site: { name: "1", yomi: "あ" } }),
-      makeSite({ site: { name: "2", yomi: "あ" } }),
+      makeSite({ site: { name: "1", reading: "あ" } }),
+      makeSite({ site: { name: "2", reading: "あ" } }),
     ];
     assert.deepEqual(await check(list), []);
   });
-  const YOMI_ERROR =
-    "x：yomi must contain only hiragana without dakuten, handakuten or small letters";
-  for (const yomi of ["アイウ", "abc", "あい う", "あー"]) {
-    test(`ひらがな以外を含むよみ「${yomi}」はエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi } });
-      assert.deepEqual(messages, [YOMI_ERROR]);
+  const READING_ERROR =
+    "x：reading must contain only hiragana without dakuten, handakuten or small letters";
+  for (const reading of ["アイウ", "abc", "あい う", "あー"]) {
+    test(`ひらがな以外を含むよみ「${reading}」はエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", reading } });
+      assert.deepEqual(messages, [READING_ERROR]);
     });
   }
-  for (const yomi of ["かが", "はぱ", "う゛", "ゔ"]) {
-    test(`濁点・半濁点を含むよみ「${yomi}」はエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi } });
-      assert.deepEqual(messages, [YOMI_ERROR]);
+  for (const reading of ["かが", "はぱ", "う゛", "ゔ"]) {
+    test(`濁点・半濁点を含むよみ「${reading}」はエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", reading } });
+      assert.deepEqual(messages, [READING_ERROR]);
     });
   }
-  for (const yomi of ["きゃ", "あっ", "あぁ", "わゎ"]) {
-    test(`小さい文字を含むよみ「${yomi}」はエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi } });
-      assert.deepEqual(messages, [YOMI_ERROR]);
+  for (const reading of ["きゃ", "あっ", "あぁ", "わゎ"]) {
+    test(`小さい文字を含むよみ「${reading}」はエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", reading } });
+      assert.deepEqual(messages, [READING_ERROR]);
     });
   }
   test("空のよみはエラー", async () => {
-    const messages = await checkOne({ site: { name: "x", yomi: "" } });
-    assert.deepEqual(messages, [YOMI_ERROR]);
+    const messages = await checkOne({ site: { name: "x", reading: "" } });
+    assert.deepEqual(messages, [READING_ERROR]);
   });
   test("清音・大きい文字だけのよみは通る（あ〜ん・を・ゐ・ゑ）", async () => {
-    assert.deepEqual(await checkOne({ site: { name: "x", yomi: "あいうえおかはやわをゐゑん" } }), []);
+    assert.deepEqual(await checkOne({ site: { name: "x", reading: "あいうえおかはやわをゐゑん" } }), []);
   });
 });
 
@@ -209,29 +209,29 @@ describe("site", () => {
   test("site が無い要素の後のサイトも検査する", async () => {
     const broken = makeSite({ id: "no-site" });
     delete broken.site;
-    const list = [broken, makeSite({ site: { name: "次", yomi: "い" }, state: "unknown" })];
+    const list = [broken, makeSite({ site: { name: "次", reading: "い" }, state: "unknown" })];
     assert.deepEqual(await check(list), ['id "no-site"：site is required', '次：state has an unknown value "unknown"']);
   });
   test("site.name が無ければエラー", async () => {
-    const messages = await checkOne({ id: "no-name", site: { yomi: "あ" } });
+    const messages = await checkOne({ id: "no-name", site: { reading: "あ" } });
     assert.deepEqual(messages, ['id "no-name"：site.name is required']);
   });
-  test("site.yomi が無ければエラー", async () => {
+  test("site.reading が無ければエラー", async () => {
     const messages = await checkOne({ site: { name: "x" } });
-    assert.deepEqual(messages, ["x：site.yomi is required"]);
+    assert.deepEqual(messages, ["x：site.reading is required"]);
   });
   test("1つ前の要素によみが無ければ、並び順は比べない", async () => {
     const list = [
       makeSite({ site: { name: "よみなし" } }),
-      makeSite({ site: { name: "次", yomi: "あ" } }),
+      makeSite({ site: { name: "次", reading: "あ" } }),
     ];
-    assert.deepEqual(await check(list), ["よみなし：site.yomi is required"]);
+    assert.deepEqual(await check(list), ["よみなし：site.reading is required"]);
   });
 });
 
 describe("キー", () => {
   test("決まっていないキーはエラー", async () => {
-    const messages = await checkOne({ site: { name: "x", yomi: "あ" }, memo: "a" });
+    const messages = await checkOne({ site: { name: "x", reading: "あ" }, memo: "a" });
     assert.deepEqual(messages, ['x：unknown key "memo"']);
   });
 });
@@ -250,16 +250,16 @@ describe("state", () => {
   }
 });
 
-describe("kindMasao・feature", () => {
+describe("masaoKind・feature", () => {
   test("決まった値の文字列は通る", async () => {
-    assert.deepEqual(await checkOne({ kindMasao: "SASUKE系", feature: "まさお3" }), []);
+    assert.deepEqual(await checkOne({ masaoKind: "SASUKE系", feature: "まさお3" }), []);
   });
-  test("kindMasao に未知の値があればエラー", async () => {
-    const messages = await checkOne({ site: { name: "x", yomi: "あ" }, kindMasao: "謎" });
-    assert.deepEqual(messages, ['x：kindMasao has an unknown value "謎"']);
+  test("masaoKind に未知の値があればエラー", async () => {
+    const messages = await checkOne({ site: { name: "x", reading: "あ" }, masaoKind: "謎" });
+    assert.deepEqual(messages, ['x：masaoKind has an unknown value "謎"']);
   });
   test("配列の中の未知の値だけをエラーにする", async () => {
-    const messages = await checkOne({ site: { name: "x", yomi: "あ" }, feature: ["WWA", "謎"] });
+    const messages = await checkOne({ site: { name: "x", reading: "あ" }, feature: ["WWA", "謎"] });
     assert.deepEqual(messages, ['x：feature has an unknown value "謎"']);
   });
 });
@@ -267,13 +267,13 @@ describe("kindMasao・feature", () => {
 describe("waybackTime", () => {
   for (const state of ["closed", "archived", "remained"]) {
     test(`${state} で waybackTime が無ければエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi: "あ" }, state });
+      const messages = await checkOne({ site: { name: "x", reading: "あ" }, state });
       assert.deepEqual(messages, [`x：waybackTime is required when state is "${state}"`]);
     });
   }
   for (const state of ["canvas", "exist", "vanished", "home"]) {
     test(`${state} で waybackTime があればエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi: "あ" }, state, waybackTime: 20040101000000 });
+      const messages = await checkOne({ site: { name: "x", reading: "あ" }, state, waybackTime: 20040101000000 });
       assert.deepEqual(messages, [`x：waybackTime must not be set when state is "${state}"`]);
     });
   }
@@ -289,8 +289,8 @@ describe("waybackTime", () => {
   }
 });
 
-describe("year", () => {
-  const yearErrors = async (year) => checkOne({ site: { name: "x", yomi: "あ" }, year });
+describe("period", () => {
+  const yearErrors = async (period) => checkOne({ site: { name: "x", reading: "あ" }, period });
 
   test("from < to は正しい", async () => {
     assert.deepEqual(await yearErrors({ from: 2004, to: 2006 }), []);
@@ -299,7 +299,7 @@ describe("year", () => {
     assert.deepEqual(await yearErrors({ from: 2005, to: 2005 }), []);
   });
   test("from > to はエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2006, to: 2005 }), ["x：year.from must not be later than year.to"]);
+    assert.deepEqual(await yearErrors({ from: 2006, to: 2005 }), ["x：period.from must not be later than period.to"]);
   });
   test("推定（負の値）は絶対値で比べる：2006？～2005 はエラー", async () => {
     assert.equal((await yearErrors({ from: -2006, to: 2005 })).length, 1);
@@ -315,35 +315,35 @@ describe("year", () => {
     assert.deepEqual(await yearErrors({ from: -1, to: 2005 }), []);
   });
   test("from・to の片方が無ければエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004 }), ["x：year.from and year.to must both be integers"]);
+    assert.deepEqual(await yearErrors({ from: 2004 }), ["x：period.from and period.to must both be integers"]);
   });
   test("整数でなければエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004.5, to: 2006 }), ["x：year.from and year.to must both be integers"]);
+    assert.deepEqual(await yearErrors({ from: 2004.5, to: 2006 }), ["x：period.from and period.to must both be integers"]);
   });
   test("文字列の年はエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: "2004", to: 2006 }), ["x：year.from and year.to must both be integers"]);
+    assert.deepEqual(await yearErrors({ from: "2004", to: 2006 }), ["x：period.from and period.to must both be integers"]);
   });
 });
 
 describe("banner", () => {
-  const bannerErrors = (banner) => checkOne({ site: { name: "x", yomi: "あ" }, banner });
+  const bannerErrors = (banner) => checkOne({ site: { name: "x", reading: "あ" }, banner });
 
   test("画像と正の整数の大きさなら正しい", async () => {
-    assert.deepEqual(await bannerErrors({ image: "a.png", size: { x: 1, y: 1 } }), []);
+    assert.deepEqual(await bannerErrors({ image: "a.png", size: { width: 1, height: 1 } }), []);
   });
   test("画像があるのに size が無ければエラー", async () => {
     assert.deepEqual(await bannerErrors({ image: "a.png" }), [
-      "x：banner.size.x and banner.size.y must be positive integers",
+      "x：banner.size.width and banner.size.height must be positive integers",
     ]);
   });
-  for (const size of [{ x: 0, y: 40 }, { x: 200, y: -1 }, { x: 200.5, y: 40 }]) {
+  for (const size of [{ width: 0, height: 40 }, { width: 200, height: -1 }, { width: 200.5, height: 40 }]) {
     test(`大きさ ${JSON.stringify(size)} はエラー`, async () => {
       const messages = await bannerErrors({ image: "a.png", size });
-      assert.deepEqual(messages, ["x：banner.size.x and banner.size.y must be positive integers"]);
+      assert.deepEqual(messages, ["x：banner.size.width and banner.size.height must be positive integers"]);
     });
   }
   test("画像と色を両方書くとエラー", async () => {
-    const messages = await bannerErrors({ image: "a.png", size: { x: 1, y: 1 }, backgroundColor: "#000000" });
+    const messages = await bannerErrors({ image: "a.png", size: { width: 1, height: 1 }, backgroundColor: "#000000" });
     assert.deepEqual(messages, ["x：banner must not have both an image and colors"]);
   });
   test("色だけなら正しい（小文字の16進数も可）", async () => {
@@ -361,8 +361,8 @@ describe("banner", () => {
   });
 });
 
-describe("url・oldUrl・subUrl", () => {
-  const urlErrors = (overrides) => checkOne({ site: { name: "x", yomi: "あ" }, ...overrides });
+describe("url・oldUrl・mirrorUrl", () => {
+  const urlErrors = (overrides) => checkOne({ site: { name: "x", reading: "あ" }, ...overrides });
 
   test("https:// で始まる url は正しい", async () => {
     assert.deepEqual(await urlErrors({ url: "https://a.jp/" }), []);
@@ -378,9 +378,9 @@ describe("url・oldUrl・subUrl", () => {
   test("消滅したサイトは url が空でもよい", async () => {
     assert.deepEqual(await urlErrors({ state: "vanished", url: "" }), []);
   });
-  test("subUrl（文字列）に今の url があればエラー", async () => {
-    const messages = await urlErrors({ url: "https://a.jp/", subUrl: "https://a.jp/" });
-    assert.deepEqual(messages, ["x：subUrl must not include the current url"]);
+  test("mirrorUrl（文字列）に今の url があればエラー", async () => {
+    const messages = await urlErrors({ url: "https://a.jp/", mirrorUrl: "https://a.jp/" });
+    assert.deepEqual(messages, ["x：mirrorUrl must not include the current url"]);
   });
   test("oldUrl（配列）に今の url があればエラー", async () => {
     const messages = await urlErrors({ url: "https://a.jp/", oldUrl: ["https://b.jp/", "https://a.jp/"] });
@@ -388,8 +388,8 @@ describe("url・oldUrl・subUrl", () => {
   });
   test("ほかのサイトと url が同じでも誤りではない", async () => {
     const list = [
-      makeSite({ site: { name: "1", yomi: "あ" }, url: "https://same.jp/" }),
-      makeSite({ site: { name: "2", yomi: "い" }, url: "https://same.jp/" }),
+      makeSite({ site: { name: "1", reading: "あ" }, url: "https://same.jp/" }),
+      makeSite({ site: { name: "2", reading: "い" }, url: "https://same.jp/" }),
     ];
     assert.deepEqual(await check(list), []);
   });

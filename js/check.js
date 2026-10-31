@@ -1,4 +1,4 @@
-// STATE_*・KNOWN_STATES・WAYBACK_LINK_STATES・KIND_MASAO_VALUES・FEATURE_VALUES は js/common.js で定義
+// STATE_*・KNOWN_STATES・WAYBACK_LINK_STATES・MASAO_KIND_VALUES・FEATURE_VALUES は js/common.js で定義
 
 const KNOWN_KEYS = [
   "id",
@@ -8,18 +8,18 @@ const KNOWN_KEYS = [
   "banner",
   "url",
   "oldUrl",
-  "subUrl",
-  "year",
-  "kindMasao",
+  "mirrorUrl",
+  "period",
+  "masaoKind",
   "feature",
-  "work",
+  "works",
   "waybackTime",
   "state",
-  "explanation",
+  "note",
 ];
 
 // よみはひらがなだけで書き、濁点・半濁点・小さい文字は使わない
-const YOMI_FORMAT =
+const READING_FORMAT =
   /^[あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをん]+$/;
 // id は英小文字・数字・- だけで書く
 const ID_FORMAT = /^[a-z0-9-]+$/;
@@ -75,20 +75,20 @@ function isPositiveInteger(value) {
 }
 
 // -1 は不明、ほかの負の値は推定（-2005 は 2005 年ごろ）、to の 0 は継続中
-function checkYear(entry) {
-  const year = entry.year;
-  if (year === undefined) {
+function checkPeriod(entry) {
+  const period = entry.period;
+  if (period === undefined) {
     return;
   }
-  if (!Number.isInteger(year.from) || !Number.isInteger(year.to)) {
-    appendError(entry, "year.from and year.to must both be integers");
+  if (!Number.isInteger(period.from) || !Number.isInteger(period.to)) {
+    appendError(entry, "period.from and period.to must both be integers");
     return;
   }
-  if (year.from == -1 || year.to == -1 || year.to == 0) {
+  if (period.from == -1 || period.to == -1 || period.to == 0) {
     return;
   }
-  if (Math.abs(year.from) > Math.abs(year.to)) {
-    appendError(entry, "year.from must not be later than year.to");
+  if (Math.abs(period.from) > Math.abs(period.to)) {
+    appendError(entry, "period.from must not be later than period.to");
   }
 }
 
@@ -99,12 +99,12 @@ function checkBanner(entry) {
   }
   if (banner.image !== undefined) {
     if (
-      !isPositiveInteger(banner.size?.x) ||
-      !isPositiveInteger(banner.size?.y)
+      !isPositiveInteger(banner.size?.width) ||
+      !isPositiveInteger(banner.size?.height)
     ) {
       appendError(
         entry,
-        "banner.size.x and banner.size.y must be positive integers",
+        "banner.size.width and banner.size.height must be positive integers",
       );
     }
     if (banner.color !== undefined || banner.backgroundColor !== undefined) {
@@ -132,7 +132,7 @@ function checkId(entry, seenIds) {
   seenIds.add(entry.id);
 }
 
-// site・site.name・site.yomi が無くても、ほかの検査は続ける
+// site・site.name・site.reading が無くても、ほかの検査は続ける
 function checkSite(entry, previous) {
   if (entry.site == null) {
     appendError(entry, "site is required");
@@ -141,20 +141,20 @@ function checkSite(entry, previous) {
   if (entry.site.name === undefined) {
     appendError(entry, "site.name is required");
   }
-  const yomi = entry.site.yomi;
-  if (yomi === undefined) {
-    appendError(entry, "site.yomi is required");
+  const reading = entry.site.reading;
+  if (reading === undefined) {
+    appendError(entry, "site.reading is required");
     return;
   }
   // 1つ前の要素によみが無ければ、並び順は比べない
-  const previousYomi = previous?.site?.yomi;
-  if (previousYomi !== undefined && yomi < previousYomi) {
-    appendError(entry, "yomi is out of order");
+  const previousReading = previous?.site?.reading;
+  if (previousReading !== undefined && reading < previousReading) {
+    appendError(entry, "reading is out of order");
   }
-  if (!YOMI_FORMAT.test(yomi)) {
+  if (!READING_FORMAT.test(reading)) {
     appendError(
       entry,
-      "yomi must contain only hiragana without dakuten, handakuten or small letters",
+      "reading must contain only hiragana without dakuten, handakuten or small letters",
     );
   }
 }
@@ -177,7 +177,7 @@ function checkData(list) {
       appendError(entry, `state has an unknown value "${entry.state}"`);
     }
 
-    checkKnownValues(entry, "kindMasao", KIND_MASAO_VALUES);
+    checkKnownValues(entry, "masaoKind", MASAO_KIND_VALUES);
     checkKnownValues(entry, "feature", FEATURE_VALUES);
 
     const needsWaybackTime = WAYBACK_LINK_STATES.includes(entry.state);
@@ -203,7 +203,7 @@ function checkData(list) {
       );
     }
 
-    checkYear(entry);
+    checkPeriod(entry);
     checkBanner(entry);
 
     // データが消滅したサイトはリンクしないので、url が無くてもよい
@@ -211,8 +211,8 @@ function checkData(list) {
       appendError(entry, "url must start with http:// or https://");
     }
 
-    if (toArray(entry.subUrl).includes(entry.url)) {
-      appendError(entry, "subUrl must not include the current url");
+    if (toArray(entry.mirrorUrl).includes(entry.url)) {
+      appendError(entry, "mirrorUrl must not include the current url");
     }
 
     if (toArray(entry.oldUrl).includes(entry.url)) {

@@ -31,13 +31,13 @@ describe("common.js の定義", () => {
     const known = get("KNOWN_STATES");
     assert.ok(get("WAYBACK_LINK_STATES").every((s) => known.includes(s)));
   });
-  test("kindMasao は仕様の6値（この順でボタンを作る）", () => {
-    assert.deepEqual(get("KIND_MASAO_VALUES"), ["自動", "一画面", "ストーリー", "JS拡張", "カービィ系", "SASUKE系"]);
+  test("masaoKind は仕様の6値（この順でボタンを作る）", () => {
+    assert.deepEqual(get("MASAO_KIND_VALUES"), ["自動", "一画面", "ストーリー", "JS拡張", "カービィ系", "SASUKE系"]);
   });
   test("feature は仕様の5値（この順でボタンを作る）", () => {
     assert.deepEqual(get("FEATURE_VALUES"), ["正男100個以上", "素材配布", "エディタ", "WWA", "まさお3"]);
   });
-  for (const name of ["KNOWN_STATES", "KIND_MASAO_VALUES", "FEATURE_VALUES"]) {
+  for (const name of ["KNOWN_STATES", "MASAO_KIND_VALUES", "FEATURE_VALUES"]) {
     test(`${name} に重複が無い`, () => {
       const values = get(name);
       assert.equal(new Set(values).size, values.length);

@@ -1,4 +1,4 @@
-// STATE_*・WAYBACK_LINK_STATES・KIND_MASAO_VALUES・FEATURE_VALUES は js/common.js で定義
+// STATE_*・WAYBACK_LINK_STATES・MASAO_KIND_VALUES・FEATURE_VALUES は js/common.js で定義
 
 const CLASS_NAME_CANVAS = "canvas";
 const CLASS_NAME_EXIST = "exist";
@@ -70,11 +70,11 @@ function matchesOrder(entry, order) {
   if (range === undefined) {
     return true;
   }
-  const initial = entry.site.yomi.charAt(0);
+  const initial = entry.site.reading.charAt(0);
   return initial >= range[0] && initial <= range[1];
 }
 
-// kindMasao・feature のように、1つの値か配列で持つ項目の絞り込み
+// masaoKind・feature のように、1つの値か配列で持つ項目の絞り込み
 function matchesValue(value, filter) {
   if (filter == FILTER_ALL) {
     return true;
@@ -83,7 +83,7 @@ function matchesValue(value, filter) {
   return values.some((v) => v == filter);
 }
 
-function createTable(mode, order, kindMasao, feature) {
+function createTable(mode, order, masaoKind, feature) {
   const tbody = document.getElementById("kokon-nakami");
   let count = 0;
 
@@ -91,7 +91,7 @@ function createTable(mode, order, kindMasao, feature) {
     if (
       matchesMode(entry, mode) &&
       matchesOrder(entry, order) &&
-      matchesValue(entry.kindMasao, kindMasao) &&
+      matchesValue(entry.masaoKind, masaoKind) &&
       matchesValue(entry.feature, feature)
     ) {
       count += 1;
@@ -111,7 +111,7 @@ function createRow(entry) {
   tr.appendChild(createBannerCell(entry));
   tr.appendChild(createSiteNameCell(entry.site.name, entry.oldName));
   tr.appendChild(createTextCell(entry.webmaster ?? "？"));
-  tr.appendChild(createTextCell(formatPeriod(entry.year)));
+  tr.appendChild(createTextCell(formatPeriod(entry.period)));
   return tr;
 }
 
@@ -185,13 +185,13 @@ function createNoBanner(banner) {
 function createBannerImage(banner, name) {
   const img = document.createElement("img");
   // 幅の大きいバナーは、縦横比を保って縮める
-  if (banner.size.x > BANNER_MAX_WIDTH) {
-    const ratio = banner.size.x / BANNER_MAX_WIDTH;
+  if (banner.size.width > BANNER_MAX_WIDTH) {
+    const ratio = banner.size.width / BANNER_MAX_WIDTH;
     img.setAttribute("width", BANNER_MAX_WIDTH);
-    img.setAttribute("height", banner.size.y / ratio);
+    img.setAttribute("height", banner.size.height / ratio);
   } else {
-    img.setAttribute("width", banner.size.x);
-    img.setAttribute("height", banner.size.y);
+    img.setAttribute("width", banner.size.width);
+    img.setAttribute("height", banner.size.height);
   }
   img.className = "lazy";
   img.onload = img.onerror = function () {
@@ -223,13 +223,13 @@ function createSiteNameCell(name, oldNames) {
   return td;
 }
 
-// year.to が 0 なら継続中（「2010～」）
-function formatPeriod(year) {
-  const from = formatYear(year?.from);
-  if (year?.to === 0) {
+// period.to が 0 なら継続中（「2010～」）
+function formatPeriod(period) {
+  const from = formatYear(period?.from);
+  if (period?.to === 0) {
     return from + "～";
   }
-  const to = formatYear(year?.to);
+  const to = formatYear(period?.to);
   if (from == to) {
     return from;
   }
@@ -284,13 +284,13 @@ function clickRadio() {
   createTable(
     getFilterValue("mode"),
     getFilterValue("order"),
-    getFilterValue("kind-masao"),
+    getFilterValue("masao-kind"),
     getFilterValue("feature"),
   );
 }
 
 $(function () {
-  appendFilterRadios("kind-masao", KIND_MASAO_VALUES);
+  appendFilterRadios("masao-kind", MASAO_KIND_VALUES);
   appendFilterRadios("feature", FEATURE_VALUES);
   $("#all-site-num").append(
     "<p>現在の正男サイトの総数は<strong>" + list.length + "</strong>です。</p>",

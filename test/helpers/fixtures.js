@@ -7,7 +7,7 @@ function makeSite(overrides = {}) {
   serial += 1;
   return {
     id: "site-" + serial,
-    site: { name: "サイト" + serial, yomi: "あ" },
+    site: { name: "サイト" + serial, reading: "あ" },
     url: "https://example.com/" + serial + "/",
     state: "canvas",
     ...overrides,

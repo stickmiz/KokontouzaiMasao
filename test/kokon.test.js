@@ -73,7 +73,7 @@ describe("formatPeriod", () => {
     formatPeriod = (await openIndex([])).window.formatPeriod;
   });
 
-  test("year が無いときは「？」1つ", () => {
+  test("period が無いときは「？」1つ", () => {
     assert.equal(formatPeriod(undefined), "？");
   });
   test("from と to が違うときは「from～to」", () => {
@@ -102,7 +102,7 @@ describe("formatPeriod", () => {
   });
 });
 
-describe("matchesValue（kindMasao・feature の絞り込み）", () => {
+describe("matchesValue（masaoKind・feature の絞り込み）", () => {
   let matchesValue;
   before(async () => {
     matchesValue = (await openIndex([])).window.matchesValue;
@@ -130,7 +130,7 @@ describe("matchesValue（kindMasao・feature の絞り込み）", () => {
 
 describe("matchesOrder（先頭文字の行の絞り込み）", () => {
   let matchesOrder;
-  const entry = (yomi) => ({ site: { name: "x", yomi } });
+  const entry = (reading) => ({ site: { name: "x", reading } });
   before(async () => {
     matchesOrder = (await openIndex([])).window.matchesOrder;
   });
@@ -220,8 +220,8 @@ describe("createBannerImage（バナー画像の大きさ）", () => {
     window = (await openIndex([])).window;
   });
 
-  const make = (x, y) =>
-    window.createBannerImage({ image: "a.png", size: { x, y } }, "サイト名");
+  const make = (width, height) =>
+    window.createBannerImage({ image: "a.png", size: { width, height } }, "サイト名");
 
   test("幅が 200 以下ならそのままの大きさ", () => {
     const img = make(88, 31);
@@ -288,7 +288,7 @@ describe("createBannerCell（バナーの列）", () => {
   before(async () => {
     window = (await openIndex([])).window;
   });
-  const image = { image: "a.png", size: { x: 88, y: 31 } };
+  const image = { image: "a.png", size: { width: 88, height: 31 } };
 
   const expectedClass = {
     exist: "exist",
@@ -367,7 +367,7 @@ describe("createRow（一覧表の1行）", () => {
   });
 
   test("バナー・サイト名・管理人・期間の4列", () => {
-    const tr = createRow(makeSite({ webmaster: "棒", year: { from: 2011, to: 0 } }));
+    const tr = createRow(makeSite({ webmaster: "棒", period: { from: 2011, to: 0 } }));
     const cells = [...tr.children].map((td) => td.textContent);
     assert.equal(cells.length, 4);
     assert.equal(cells[2], "棒");
@@ -389,17 +389,17 @@ describe("index.html を開いたとき", () => {
   });
   test("すべてのサイトを list.json の順に表示する", async () => {
     const data = [
-      makeSite({ site: { name: "A", yomi: "あ" }, state: "canvas" }),
-      makeSite({ site: { name: "B", yomi: "か" }, state: "vanished" }),
-      makeSite({ site: { name: "C", yomi: "さ" }, state: "closed", waybackTime: 20040101000000 }),
+      makeSite({ site: { name: "A", reading: "あ" }, state: "canvas" }),
+      makeSite({ site: { name: "B", reading: "か" }, state: "vanished" }),
+      makeSite({ site: { name: "C", reading: "さ" }, state: "closed", waybackTime: 20040101000000 }),
     ];
     const { document } = await openIndex(data);
     assert.deepEqual(shownNames(document), ["A", "B", "C"]);
   });
   test("state が home のサイト（過疎村）は表示しない", async () => {
     const data = [
-      makeSite({ site: { name: "A", yomi: "あ" } }),
-      makeSite({ site: { name: "過疎村", yomi: "かそむら" }, state: "home" }),
+      makeSite({ site: { name: "A", reading: "あ" } }),
+      makeSite({ site: { name: "過疎村", reading: "かそむら" }, state: "home" }),
     ];
     const { document } = await openIndex(data);
     assert.deepEqual(shownNames(document), ["A"]);
@@ -418,11 +418,11 @@ describe("index.html を開いたとき", () => {
   test("「正男の種別」のボタンを common.js の値から順に作る", async () => {
     const { window, document } = await openIndex([]);
     // ページ内の配列は realm が違うので、Node の配列にしてから比べる
-    const values = [...getGlobal(window, "KIND_MASAO_VALUES")];
-    const inputs = [...document.querySelectorAll("#form-kind-masao input")].slice(1);
+    const values = [...getGlobal(window, "MASAO_KIND_VALUES")];
+    const inputs = [...document.querySelectorAll("#form-masao-kind input")].slice(1);
     assert.deepEqual(inputs.map((i) => i.value), values);
-    assert.deepEqual(inputs.map((i) => i.id), values.map((_, i) => "kind-masao-" + (i + 1)));
-    assert.ok(inputs.every((i) => i.name == "radio-kind-masao"));
+    assert.deepEqual(inputs.map((i) => i.id), values.map((_, i) => "masao-kind-" + (i + 1)));
+    assert.ok(inputs.every((i) => i.name == "radio-masao-kind"));
   });
   test("「サイトの特徴」のボタンを common.js の値から順に作る", async () => {
     const { window, document } = await openIndex([]);
@@ -432,7 +432,7 @@ describe("index.html を開いたとき", () => {
   });
   test("自動で作ったボタンは、ラベルを押すと選べる（label の for と id が合っている）", async () => {
     const { document } = await openIndex([]);
-    for (const label of document.querySelectorAll("#form-kind-masao label, #form-feature label")) {
+    for (const label of document.querySelectorAll("#form-masao-kind label, #form-feature label")) {
       assert.ok(document.getElementById(label.htmlFor), label.textContent);
     }
   });
@@ -444,10 +444,10 @@ describe("index.html を開いたとき", () => {
 
 describe("絞り込みのボタンを押したとき", () => {
   const data = () => [
-    makeSite({ site: { name: "現存", yomi: "あ" }, state: "exist", kindMasao: "自動" }),
-    makeSite({ site: { name: "Canvas", yomi: "か" }, state: "canvas", kindMasao: ["自動", "JS拡張"], feature: "エディタ" }),
-    makeSite({ site: { name: "閉鎖", yomi: "さ" }, state: "closed", waybackTime: 20040101000000 }),
-    makeSite({ site: { name: "保存", yomi: "か" }, state: "archived", waybackTime: 20040101000000, kindMasao: "一画面" }),
+    makeSite({ site: { name: "現存", reading: "あ" }, state: "exist", masaoKind: "自動" }),
+    makeSite({ site: { name: "Canvas", reading: "か" }, state: "canvas", masaoKind: ["自動", "JS拡張"], feature: "エディタ" }),
+    makeSite({ site: { name: "閉鎖", reading: "さ" }, state: "closed", waybackTime: 20040101000000 }),
+    makeSite({ site: { name: "保存", reading: "か" }, state: "archived", waybackTime: 20040101000000, masaoKind: "一画面" }),
   ];
 
   test("「現存サイトのみ」で exist・canvas だけになる", async () => {
@@ -480,7 +480,7 @@ describe("絞り込みのボタンを押したとき", () => {
   });
   test("自動で作った「正男の種別」のボタンで絞り込める（配列の値も対象）", async () => {
     const { document } = await openIndex(data());
-    radioByLabel(document, "form-kind-masao", "自動").click();
+    radioByLabel(document, "form-masao-kind", "自動").click();
     assert.deepEqual(shownNames(document), ["現存", "Canvas"]);
   });
   test("自動で作った「サイトの特徴」のボタンで絞り込める", async () => {
@@ -491,7 +491,7 @@ describe("絞り込みのボタンを押したとき", () => {
   test("複数の絞り込みは、すべてに当てはまるものだけ（AND）", async () => {
     const { document } = await openIndex(data());
     click(document, "k");
-    radioByLabel(document, "form-kind-masao", "一画面").click();
+    radioByLabel(document, "form-masao-kind", "一画面").click();
     assert.deepEqual(shownNames(document), ["保存"]);
   });
   test("当てはまるサイトが無ければ、表は空で表示数は0", async () => {
