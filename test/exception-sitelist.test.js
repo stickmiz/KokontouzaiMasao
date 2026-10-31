@@ -94,16 +94,16 @@ describe("extractUrls", () => {
       assert.deepEqual([...extractUrls([{ state, url: "http://a.jp/" }])], []);
     });
   }
-  test("suburl（文字列）は state にかかわらず入れる", () => {
-    const urls = extractUrls([{ state: "closed", url: "http://a.jp/", suburl: "http://m.jp/" }]);
+  test("subUrl（文字列）は state にかかわらず入れる", () => {
+    const urls = extractUrls([{ state: "closed", url: "http://a.jp/", subUrl: "http://m.jp/" }]);
     assert.deepEqual([...urls], ["http://m.jp/"]);
   });
-  test("suburl（配列）はすべて入れる", () => {
-    const urls = extractUrls([{ state: "vanished", url: "", suburl: ["http://m1.jp/", "http://m2.jp/"] }]);
+  test("subUrl（配列）はすべて入れる", () => {
+    const urls = extractUrls([{ state: "vanished", url: "", subUrl: ["http://m1.jp/", "http://m2.jp/"] }]);
     assert.deepEqual([...urls], ["http://m1.jp/", "http://m2.jp/"]);
   });
-  test("url の後に suburl を入れる", () => {
-    const urls = extractUrls([{ state: "canvas", url: "http://a.jp/", suburl: "http://m.jp/" }]);
+  test("url の後に subUrl を入れる", () => {
+    const urls = extractUrls([{ state: "canvas", url: "http://a.jp/", subUrl: "http://m.jp/" }]);
     assert.deepEqual([...urls], ["http://a.jp/", "http://m.jp/"]);
   });
   test("空の list なら空の配列", () => {
@@ -127,7 +127,7 @@ describe("exception-sitelist.html を開いたとき", () => {
   });
   test("list.json の対象の url と anotherlist.json の url をまとめて出す", async () => {
     const urls = await show(
-      [makeSite({ url: "http://a.jp/" }), makeSite({ state: "closed", url: "http://closed.jp/", wayback_time: 20040101000000 })],
+      [makeSite({ url: "http://a.jp/" }), makeSite({ state: "closed", url: "http://closed.jp/", waybackTime: 20040101000000 })],
       [{ url: "http://another.jp/" }],
     );
     assert.deepEqual(urls, ["http://a.jp/", "http://another.jp/"]);

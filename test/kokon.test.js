@@ -102,7 +102,7 @@ describe("formatPeriod", () => {
   });
 });
 
-describe("matchesValue（kind_masao・feature の絞り込み）", () => {
+describe("matchesValue（kindMasao・feature の絞り込み）", () => {
   let matchesValue;
   before(async () => {
     matchesValue = (await openIndex([])).window.matchesValue;
@@ -198,12 +198,12 @@ describe("getLinkUrl（バナーのリンク先）", () => {
   });
 
   for (const state of ["closed", "archived", "remained"]) {
-    test(`${state} は wayback_time 付きの Wayback Machine の URL`, () => {
-      const url = getLinkUrl({ state, url: "http://a.jp/", wayback_time: 20041220185135 });
+    test(`${state} は waybackTime 付きの Wayback Machine の URL`, () => {
+      const url = getLinkUrl({ state, url: "http://a.jp/", waybackTime: 20041220185135 });
       assert.equal(url, "https://web.archive.org/web/20041220185135/http://a.jp/");
     });
   }
-  test("Wayback Machine にリンクする状態で wayback_time が無ければ、日時なしの URL", () => {
+  test("Wayback Machine にリンクする状態で waybackTime が無ければ、日時なしの URL", () => {
     const url = getLinkUrl({ state: "closed", url: "http://a.jp/" });
     assert.equal(url, "https://web.archive.org/web/http://a.jp/");
   });
@@ -272,7 +272,7 @@ describe("createNoBanner（NO BANNER の色）", () => {
     assert.equal(div.style.backgroundColor, "rgb(128, 128, 128)");
   });
   test("banner の色があればその色", () => {
-    const div = createNoBanner({ color: "#3030FC", background_color: "#E8E8FF" });
+    const div = createNoBanner({ color: "#3030FC", backgroundColor: "#E8E8FF" });
     assert.equal(div.style.color, "rgb(48, 48, 252)");
     assert.equal(div.style.backgroundColor, "rgb(232, 232, 255)");
   });
@@ -300,7 +300,7 @@ describe("createBannerCell（バナーの列）", () => {
   };
   for (const [state, className] of Object.entries(expectedClass)) {
     test(`${state} の背景色の class は ${className}`, () => {
-      const td = window.createBannerCell(makeSite({ state, wayback_time: 20040101000000 }));
+      const td = window.createBannerCell(makeSite({ state, waybackTime: 20040101000000 }));
       assert.equal(td.className, className);
     });
   }
@@ -391,7 +391,7 @@ describe("index.html を開いたとき", () => {
     const data = [
       makeSite({ site: { name: "A", yomi: "あ" }, state: "canvas" }),
       makeSite({ site: { name: "B", yomi: "か" }, state: "vanished" }),
-      makeSite({ site: { name: "C", yomi: "さ" }, state: "closed", wayback_time: 20040101000000 }),
+      makeSite({ site: { name: "C", yomi: "さ" }, state: "closed", waybackTime: 20040101000000 }),
     ];
     const { document } = await openIndex(data);
     assert.deepEqual(shownNames(document), ["A", "B", "C"]);
@@ -444,10 +444,10 @@ describe("index.html を開いたとき", () => {
 
 describe("絞り込みのボタンを押したとき", () => {
   const data = () => [
-    makeSite({ site: { name: "現存", yomi: "あ" }, state: "exist", kind_masao: "自動" }),
-    makeSite({ site: { name: "Canvas", yomi: "か" }, state: "canvas", kind_masao: ["自動", "JS拡張"], feature: "エディタ" }),
-    makeSite({ site: { name: "閉鎖", yomi: "さ" }, state: "closed", wayback_time: 20040101000000 }),
-    makeSite({ site: { name: "保存", yomi: "か" }, state: "archived", wayback_time: 20040101000000, kind_masao: "一画面" }),
+    makeSite({ site: { name: "現存", yomi: "あ" }, state: "exist", kindMasao: "自動" }),
+    makeSite({ site: { name: "Canvas", yomi: "か" }, state: "canvas", kindMasao: ["自動", "JS拡張"], feature: "エディタ" }),
+    makeSite({ site: { name: "閉鎖", yomi: "さ" }, state: "closed", waybackTime: 20040101000000 }),
+    makeSite({ site: { name: "保存", yomi: "か" }, state: "archived", waybackTime: 20040101000000, kindMasao: "一画面" }),
   ];
 
   test("「現存サイトのみ」で exist・canvas だけになる", async () => {

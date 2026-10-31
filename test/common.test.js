@@ -24,14 +24,14 @@ describe("common.js の定義", () => {
       "vanished",
     ]);
   });
-  test("wayback_time が必要な state は closed・archived・remained", () => {
+  test("waybackTime が必要な state は closed・archived・remained", () => {
     assert.deepEqual(get("WAYBACK_LINK_STATES").sort(), ["archived", "closed", "remained"]);
   });
-  test("wayback_time が必要な state は、すべて使える state", () => {
+  test("waybackTime が必要な state は、すべて使える state", () => {
     const known = get("KNOWN_STATES");
     assert.ok(get("WAYBACK_LINK_STATES").every((s) => known.includes(s)));
   });
-  test("kind_masao は仕様の6値（この順でボタンを作る）", () => {
+  test("kindMasao は仕様の6値（この順でボタンを作る）", () => {
     assert.deepEqual(get("KIND_MASAO_VALUES"), ["自動", "一画面", "ストーリー", "JS拡張", "カービィ系", "SASUKE系"]);
   });
   test("feature は仕様の5値（この順でボタンを作る）", () => {

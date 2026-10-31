@@ -37,8 +37,8 @@ const extractUrls = (items) => {
       urls.push(item.url);
     }
 
-    if (item.suburl !== undefined) {
-      urls.push(...(Array.isArray(item.suburl) ? item.suburl : [item.suburl]));
+    if (item.subUrl !== undefined) {
+      urls.push(...(Array.isArray(item.subUrl) ? item.subUrl : [item.subUrl]));
     }
   });
 

@@ -8,7 +8,8 @@
 
 - 要素は `site.yomi` の順（あいうえお順）に並べる。
 - 使えるキーは、下の「項目一覧」にある15種類だけ。それ以外のキーはエラーになる。
-- 値を1つ持つときは文字列、2つ以上持つときは配列で書く（`oldname`・`oldurl`・`suburl`・`kind_masao`・`feature`・`work`）。
+- キーは camelCase で書く（例: `kindMasao`・`waybackTime`・`banner.backgroundColor`）。
+- 値を1つ持つときは文字列、2つ以上持つときは配列で書く（`oldName`・`oldUrl`・`subUrl`・`kindMasao`・`feature`・`work`）。
 - 項目が不明・該当なしのときは、そのキーを書かない（`null` や空文字は使わない）。
 
 ## 項目一覧
@@ -17,17 +18,17 @@
 |---|---|---|---|---|
 | `id` | 文字列 | ○ | サイトを指す ID（[id](#id)） | `link.json` からの参照 |
 | `site` | オブジェクト | ○ | サイト名とよみ（[site](#site)） | サイト名の列 |
-| `oldname` | 文字列 / 配列 |  | 以前のサイト名。新しいものから順に書く | サイト名の下に薄く表示 |
+| `oldName` | 文字列 / 配列 |  | 以前のサイト名。新しいものから順に書く | サイト名の下に薄く表示 |
 | `webmaster` | 文字列 |  | 管理人名（最新のもの） | 管理人の列。無ければ「？」 |
 | `banner` | オブジェクト |  | バナー画像、または画像が無いときの色（[banner](#banner)） | バナーの列 |
 | `url` | 文字列 | ○ | サイトの URL | バナーのリンク先 |
-| `oldurl` | 文字列 / 配列 |  | 以前の URL | 表示しない（記録用） |
-| `suburl` | 文字列 / 配列 |  | ミラーなど、今の URL 以外で正男を置いている URL | 例外サイトリスト |
+| `oldUrl` | 文字列 / 配列 |  | 以前の URL | 表示しない（記録用） |
+| `subUrl` | 文字列 / 配列 |  | ミラーなど、今の URL 以外で正男を置いている URL | 例外サイトリスト |
 | `year` | オブジェクト |  | 存在した・更新があった期間（[year](#year)） | 期間の列。無ければ「？」 |
-| `kind_masao` | 文字列 / 配列 |  | 正男の種別（[kind_masao](#kind_masao)） | 「正男の種別」の絞り込み |
+| `kindMasao` | 文字列 / 配列 |  | 正男の種別（[kindMasao](#kindmasao)） | 「正男の種別」の絞り込み |
 | `feature` | 文字列 / 配列 |  | サイトの特徴（[feature](#feature)） | 「サイトの特徴」の絞り込み |
 | `work` | 文字列 / 配列 |  | 代表作 | 今は表示しない（機能停止中） |
-| `wayback_time` | 数値 | 条件付き | Wayback Machine の日時（[wayback_time](#wayback_time)） | バナーのリンク先 |
+| `waybackTime` | 数値 | 条件付き | Wayback Machine の日時（[waybackTime](#waybacktime)） | バナーのリンク先 |
 | `state` | 文字列 | ○ | サイトの状態（[state](#state)） | 背景色・リンク先・絞り込み |
 | `explanation` | 文字列 |  | 掲載の根拠などのメモ | 表示しない（記録用） |
 
@@ -70,10 +71,10 @@ ID は次のように決めます。
 | `size.x` | 数値 | 画像の幅（px）。正の整数。200 を超えるときは、縦横比を保って幅 200 に縮めて表示する |
 | `size.y` | 数値 | 画像の高さ（px）。正の整数 |
 | `color` | 文字列 | 画像が無いときの「NO BANNER」の文字色。`#RRGGBB`。省略時は `#000000` |
-| `background_color` | 文字列 | 画像が無いときの背景色。`#RRGGBB`。省略時は `#808080` |
+| `backgroundColor` | 文字列 | 画像が無いときの背景色。`#RRGGBB`。省略時は `#808080` |
 
 - `image` を書くときは、`size.x` と `size.y` も書く。
-- `image` と色（`color`・`background_color`）は、両方は書かない。
+- `image` と色（`color`・`backgroundColor`）は、両方は書かない。
 - 画像のファイル名は、拡張子を除いた部分を英小文字・数字・`-` だけで書き、ほかの画像と重複させない（詳しくは次の節）。
 
 ### バナー画像のファイル名
@@ -86,7 +87,7 @@ ID は次のように決めます。
 - ローマ字はヘボン式で書く（shi・chi・tsu・fu・ji・sha・chu・jo など）。っち は tchi（例: `setchi`）。
 - 助詞の「は」は `wa`、「を」は `o` と書く（例: `koko-wa-masao-o`）。
 - 長音は書かない（例: 「工房」→ `kobo`、「同盟」→ `domei`、「倉庫」→ `soko`）。
-- サイト名・管理人名・`url`・`oldurl`・`suburl` に英字の綴りがあるときは、ヘボン式でなくてもその綴りを使う（例: `tyukyu`（旧 URL が tyukyu.com）、`isiko`（isiko's page））。
+- サイト名・管理人名・`url`・`oldUrl`・`subUrl` に英字の綴りがあるときは、ヘボン式でなくてもその綴りを使う（例: `tyukyu`（旧 URL が tyukyu.com）、`isiko`（isiko's page））。
 - ほかの画像と重複するときは、サイト名の語を足して区別する（例: `kobo-no-homepage` と `masao-kobo`）。
 - 画像は1週間キャッシュされるので、画像を差し替えるときはファイル名を変える。
 
@@ -111,7 +112,7 @@ ID は次のように決めます。
 
 ## state
 
-| 値 | 意味 | 背景色の class | リンク先 | `wayback_time` |
+| 値 | 意味 | 背景色の class | リンク先 | `waybackTime` |
 |---|---|---|---|---|
 | `canvas` | JS 版正男（Canvas）を導入して現存 | `canvas` | `url` | 書かない |
 | `exist` | 正男を掲載するサイトとして現存 | `exist` | `url` | 書かない |
@@ -123,28 +124,28 @@ ID は次のように決めます。
 
 `remained` の意味は、コードから読み取ったものです。必要に応じて直してください。
 
-- Wayback Machine へのリンクは `https://web.archive.org/web/{wayback_time}/{url}` になる。
+- Wayback Machine へのリンクは `https://web.archive.org/web/{waybackTime}/{url}` になる。
 - 「サイトの状態」の絞り込みでは、次のとおり表示する。
   - 「現存サイトのみ」: `exist`・`canvas`
   - 「Canvas対応サイトのみ」: `canvas`
   - 「アーカイブに正男保存のサイトのみ」: `archived`・`remained`
 - `home` のサイトは `index.html` の一覧表に表示せず、「正男サイトの総数」にも数えない。
-- 例外サイトリストには、`exist`・`canvas`・`remained`・`home` の `url` と、すべての `suburl` が入る。
+- 例外サイトリストには、`exist`・`canvas`・`remained`・`home` の `url` と、すべての `subUrl` が入る。
   - URL はファイル名を除いた部分（最後の `/` まで）にし、重複を除いて並べる。
   - `list.json`・`anotherlist.json` のどちらかが読み込めなければ、一覧は出さずにエラーの文を出す。
 
-## url・oldurl・suburl
+## url・oldUrl・subUrl
 
 - `url` は、`state` が `vanished` 以外のとき `http://` か `https://` で始める。`vanished` のときは空文字でもよい。
-- `oldurl`・`suburl` に、今の `url` を含めない。
+- `oldUrl`・`subUrl` に、今の `url` を含めない。
 - 同じ `url` でも管理者が違う別サイトのことがあるので、ほかのサイトとの `url` の重複は誤りとしない。
 
-## wayback_time
+## waybackTime
 
 - 14桁の数字（YYYYMMDDhhmmss）。例: `20041220185135`
 - `state` が `closed`・`archived`・`remained` のときは必須。それ以外のときは書かない。
 
-## kind_masao
+## kindMasao
 
 次の6つの値だけ使えます。`index.html` の「正男の種別」の絞り込みボタンは、この値から作ります。
 
@@ -156,7 +157,7 @@ ID は次のように決めます。
 
 `正男100個以上`・`素材配布`・`エディタ`・`WWA`・`まさお3`
 
-値を増やすときは、`js/common.js` の `FEATURE_VALUES` に足してください（`kind_masao` は `KIND_MASAO_VALUES`）。絞り込みボタンと検査の両方に反映されます。
+値を増やすときは、`js/common.js` の `FEATURE_VALUES` に足してください（`kindMasao` は `KIND_MASAO_VALUES`）。絞り込みボタンと検査の両方に反映されます。
 
 ## 例
 
@@ -169,7 +170,7 @@ ID は次のように決めます。
     "name": "あいうえお・わーるど",
     "yomi": "あいうえおわあると"
   },
-  "oldname": "あいうえお教室",
+  "oldName": "あいうえお教室",
   "webmaster": "あいうえお",
   "banner": {
     "image": "aiueo.gif",
@@ -179,17 +180,17 @@ ID は次のように決めます。
     }
   },
   "url": "http://www.geocities.jp/aiueo_world/",
-  "oldurl": ["http://aiueo.daa.jp/", "http://www.geocities.jp/aiueo_koubou/"],
+  "oldUrl": ["http://aiueo.daa.jp/", "http://www.geocities.jp/aiueo_koubou/"],
   "year": {
     "from": 2004,
     "to": -2005
   },
-  "wayback_time": 20041220185135,
+  "waybackTime": 20041220185135,
   "state": "closed"
 }
 ```
 
-ミラー（`suburl`）、複数の種別、代表作を持つ Canvas 対応サイトの例です。
+ミラー（`subUrl`）、複数の種別、代表作を持つ Canvas 対応サイトの例です。
 
 ```json
 {
@@ -207,12 +208,12 @@ ID は次のように決めます。
     }
   },
   "url": "http://masao0.web.fc2.com/",
-  "suburl": "http://chachamobrothers.web.fc2.com/",
+  "subUrl": "http://chachamobrothers.web.fc2.com/",
   "year": {
     "from": 2010,
     "to": 2015
   },
-  "kind_masao": ["ストーリー", "JS拡張"],
+  "kindMasao": ["ストーリー", "JS拡張"],
   "feature": "素材配布",
   "work": ["National Treason", "Slaughter a person", "Fourth False Force"],
   "state": "canvas"

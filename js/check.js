@@ -3,17 +3,17 @@
 const KNOWN_KEYS = [
   "id",
   "site",
-  "oldname",
+  "oldName",
   "webmaster",
   "banner",
   "url",
-  "oldurl",
-  "suburl",
+  "oldUrl",
+  "subUrl",
   "year",
-  "kind_masao",
+  "kindMasao",
   "feature",
   "work",
-  "wayback_time",
+  "waybackTime",
   "state",
   "explanation",
 ];
@@ -107,11 +107,11 @@ function checkBanner(entry) {
         "banner.size.x and banner.size.y must be positive integers",
       );
     }
-    if (banner.color !== undefined || banner.background_color !== undefined) {
+    if (banner.color !== undefined || banner.backgroundColor !== undefined) {
       appendError(entry, "banner must not have both an image and colors");
     }
   }
-  for (const key of ["color", "background_color"]) {
+  for (const key of ["color", "backgroundColor"]) {
     if (banner[key] !== undefined && !COLOR_CODE.test(banner[key])) {
       appendError(entry, `banner.${key} must be in #RRGGBB format`);
     }
@@ -177,29 +177,29 @@ function checkData(list) {
       appendError(entry, `state has an unknown value "${entry.state}"`);
     }
 
-    checkKnownValues(entry, "kind_masao", KIND_MASAO_VALUES);
+    checkKnownValues(entry, "kindMasao", KIND_MASAO_VALUES);
     checkKnownValues(entry, "feature", FEATURE_VALUES);
 
     const needsWaybackTime = WAYBACK_LINK_STATES.includes(entry.state);
-    if (needsWaybackTime && entry.wayback_time === undefined) {
+    if (needsWaybackTime && entry.waybackTime === undefined) {
       appendError(
         entry,
-        `wayback_time is required when state is "${entry.state}"`,
+        `waybackTime is required when state is "${entry.state}"`,
       );
     }
-    if (!needsWaybackTime && entry.wayback_time !== undefined) {
+    if (!needsWaybackTime && entry.waybackTime !== undefined) {
       appendError(
         entry,
-        `wayback_time must not be set when state is "${entry.state}"`,
+        `waybackTime must not be set when state is "${entry.state}"`,
       );
     }
     if (
-      entry.wayback_time !== undefined &&
-      !WAYBACK_TIME.test(String(entry.wayback_time))
+      entry.waybackTime !== undefined &&
+      !WAYBACK_TIME.test(String(entry.waybackTime))
     ) {
       appendError(
         entry,
-        "wayback_time must be a 14-digit number (YYYYMMDDhhmmss)",
+        "waybackTime must be a 14-digit number (YYYYMMDDhhmmss)",
       );
     }
 
@@ -211,12 +211,12 @@ function checkData(list) {
       appendError(entry, "url must start with http:// or https://");
     }
 
-    if (toArray(entry.suburl).includes(entry.url)) {
-      appendError(entry, "suburl must not include the current url");
+    if (toArray(entry.subUrl).includes(entry.url)) {
+      appendError(entry, "subUrl must not include the current url");
     }
 
-    if (toArray(entry.oldurl).includes(entry.url)) {
-      appendError(entry, "oldurl must not include the current url");
+    if (toArray(entry.oldUrl).includes(entry.url)) {
+      appendError(entry, "oldUrl must not include the current url");
     }
   }
 }

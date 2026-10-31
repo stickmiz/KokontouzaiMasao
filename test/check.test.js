@@ -82,18 +82,18 @@ describe("正しいデータ", () => {
       makeSite({ site: { name: "A", yomi: "あ" } }),
       makeSite({
         site: { name: "B", yomi: "か" },
-        oldname: ["B2", "B3"],
+        oldName: ["B2", "B3"],
         webmaster: "管理人",
         banner: { image: "b.png", size: { x: 200, y: 40 } },
-        oldurl: "http://old.example.com/",
-        suburl: ["http://mirror.example.com/"],
+        oldUrl: "http://old.example.com/",
+        subUrl: ["http://mirror.example.com/"],
         year: { from: 2004, to: 2006 },
-        kind_masao: ["自動", "JS拡張"],
+        kindMasao: ["自動", "JS拡張"],
         feature: "エディタ",
         work: "作品",
         explanation: "メモ",
         state: "closed",
-        wayback_time: 20041220185135,
+        waybackTime: 20041220185135,
       }),
       makeSite({ site: { name: "C", yomi: "さ" }, state: "vanished", url: "" }),
     ];
@@ -250,13 +250,13 @@ describe("state", () => {
   }
 });
 
-describe("kind_masao・feature", () => {
+describe("kindMasao・feature", () => {
   test("決まった値の文字列は通る", async () => {
-    assert.deepEqual(await checkOne({ kind_masao: "SASUKE系", feature: "まさお3" }), []);
+    assert.deepEqual(await checkOne({ kindMasao: "SASUKE系", feature: "まさお3" }), []);
   });
-  test("kind_masao に未知の値があればエラー", async () => {
-    const messages = await checkOne({ site: { name: "x", yomi: "あ" }, kind_masao: "謎" });
-    assert.deepEqual(messages, ['x：kind_masao has an unknown value "謎"']);
+  test("kindMasao に未知の値があればエラー", async () => {
+    const messages = await checkOne({ site: { name: "x", yomi: "あ" }, kindMasao: "謎" });
+    assert.deepEqual(messages, ['x：kindMasao has an unknown value "謎"']);
   });
   test("配列の中の未知の値だけをエラーにする", async () => {
     const messages = await checkOne({ site: { name: "x", yomi: "あ" }, feature: ["WWA", "謎"] });
@@ -264,25 +264,25 @@ describe("kind_masao・feature", () => {
   });
 });
 
-describe("wayback_time", () => {
+describe("waybackTime", () => {
   for (const state of ["closed", "archived", "remained"]) {
-    test(`${state} で wayback_time が無ければエラー`, async () => {
+    test(`${state} で waybackTime が無ければエラー`, async () => {
       const messages = await checkOne({ site: { name: "x", yomi: "あ" }, state });
-      assert.deepEqual(messages, [`x：wayback_time is required when state is "${state}"`]);
+      assert.deepEqual(messages, [`x：waybackTime is required when state is "${state}"`]);
     });
   }
   for (const state of ["canvas", "exist", "vanished", "home"]) {
-    test(`${state} で wayback_time があればエラー`, async () => {
-      const messages = await checkOne({ site: { name: "x", yomi: "あ" }, state, wayback_time: 20040101000000 });
-      assert.deepEqual(messages, [`x：wayback_time must not be set when state is "${state}"`]);
+    test(`${state} で waybackTime があればエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", yomi: "あ" }, state, waybackTime: 20040101000000 });
+      assert.deepEqual(messages, [`x：waybackTime must not be set when state is "${state}"`]);
     });
   }
   test("14桁ちょうどなら正しい", async () => {
-    assert.deepEqual(await checkOne({ state: "closed", wayback_time: 20041220185135 }), []);
+    assert.deepEqual(await checkOne({ state: "closed", waybackTime: 20041220185135 }), []);
   });
   for (const value of [2004122018513, 200412201851350]) {
     test(`${String(value).length}桁はエラー`, async () => {
-      const messages = await checkOne({ state: "closed", wayback_time: value });
+      const messages = await checkOne({ state: "closed", waybackTime: value });
       assert.equal(messages.length, 1);
       assert.match(messages[0], /14-digit number/);
     });
@@ -343,25 +343,25 @@ describe("banner", () => {
     });
   }
   test("画像と色を両方書くとエラー", async () => {
-    const messages = await bannerErrors({ image: "a.png", size: { x: 1, y: 1 }, background_color: "#000000" });
+    const messages = await bannerErrors({ image: "a.png", size: { x: 1, y: 1 }, backgroundColor: "#000000" });
     assert.deepEqual(messages, ["x：banner must not have both an image and colors"]);
   });
   test("色だけなら正しい（小文字の16進数も可）", async () => {
-    assert.deepEqual(await bannerErrors({ color: "#00ff00", background_color: "#ABCDEF" }), []);
+    assert.deepEqual(await bannerErrors({ color: "#00ff00", backgroundColor: "#ABCDEF" }), []);
   });
   for (const color of ["#FFF", "00FF00", "#GGGGGG", "red"]) {
     test(`#RRGGBB でない色「${color}」はエラー`, async () => {
       assert.deepEqual(await bannerErrors({ color }), ["x：banner.color must be in #RRGGBB format"]);
     });
   }
-  test("background_color の形式も検査する", async () => {
-    assert.deepEqual(await bannerErrors({ background_color: "#12345" }), [
-      "x：banner.background_color must be in #RRGGBB format",
+  test("backgroundColor の形式も検査する", async () => {
+    assert.deepEqual(await bannerErrors({ backgroundColor: "#12345" }), [
+      "x：banner.backgroundColor must be in #RRGGBB format",
     ]);
   });
 });
 
-describe("url・oldurl・suburl", () => {
+describe("url・oldUrl・subUrl", () => {
   const urlErrors = (overrides) => checkOne({ site: { name: "x", yomi: "あ" }, ...overrides });
 
   test("https:// で始まる url は正しい", async () => {
@@ -378,13 +378,13 @@ describe("url・oldurl・suburl", () => {
   test("消滅したサイトは url が空でもよい", async () => {
     assert.deepEqual(await urlErrors({ state: "vanished", url: "" }), []);
   });
-  test("suburl（文字列）に今の url があればエラー", async () => {
-    const messages = await urlErrors({ url: "https://a.jp/", suburl: "https://a.jp/" });
-    assert.deepEqual(messages, ["x：suburl must not include the current url"]);
+  test("subUrl（文字列）に今の url があればエラー", async () => {
+    const messages = await urlErrors({ url: "https://a.jp/", subUrl: "https://a.jp/" });
+    assert.deepEqual(messages, ["x：subUrl must not include the current url"]);
   });
-  test("oldurl（配列）に今の url があればエラー", async () => {
-    const messages = await urlErrors({ url: "https://a.jp/", oldurl: ["https://b.jp/", "https://a.jp/"] });
-    assert.deepEqual(messages, ["x：oldurl must not include the current url"]);
+  test("oldUrl（配列）に今の url があればエラー", async () => {
+    const messages = await urlErrors({ url: "https://a.jp/", oldUrl: ["https://b.jp/", "https://a.jp/"] });
+    assert.deepEqual(messages, ["x：oldUrl must not include the current url"]);
   });
   test("ほかのサイトと url が同じでも誤りではない", async () => {
     const list = [

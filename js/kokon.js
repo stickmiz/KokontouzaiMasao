@@ -74,7 +74,7 @@ function matchesOrder(entry, order) {
   return initial >= range[0] && initial <= range[1];
 }
 
-// kind_masao・feature のように、1つの値か配列で持つ項目の絞り込み
+// kindMasao・feature のように、1つの値か配列で持つ項目の絞り込み
 function matchesValue(value, filter) {
   if (filter == FILTER_ALL) {
     return true;
@@ -91,7 +91,7 @@ function createTable(mode, order, kindMasao, feature) {
     if (
       matchesMode(entry, mode) &&
       matchesOrder(entry, order) &&
-      matchesValue(entry.kind_masao, kindMasao) &&
+      matchesValue(entry.kindMasao, kindMasao) &&
       matchesValue(entry.feature, feature)
     ) {
       count += 1;
@@ -109,7 +109,7 @@ function createTable(mode, order, kindMasao, feature) {
 function createRow(entry) {
   const tr = document.createElement("tr");
   tr.appendChild(createBannerCell(entry));
-  tr.appendChild(createSiteNameCell(entry.site.name, entry.oldname));
+  tr.appendChild(createSiteNameCell(entry.site.name, entry.oldName));
   tr.appendChild(createTextCell(entry.webmaster ?? "？"));
   tr.appendChild(createTextCell(formatPeriod(entry.year)));
   return tr;
@@ -152,11 +152,11 @@ function createBannerLink(entry, bannerElement) {
 
 function getLinkUrl(entry) {
   if (WAYBACK_LINK_STATES.includes(entry.state)) {
-    if (entry.wayback_time === undefined) {
+    if (entry.waybackTime === undefined) {
       return "https://web.archive.org/web/" + entry.url;
     }
     return (
-      "https://web.archive.org/web/" + entry.wayback_time + "/" + entry.url
+      "https://web.archive.org/web/" + entry.waybackTime + "/" + entry.url
     );
   }
   return entry.url;
@@ -178,7 +178,7 @@ function createNoBanner(banner) {
   const div = document.createElement("div");
   div.style.color = banner?.color ?? NO_BANNER_COLOR;
   div.style.backgroundColor =
-    banner?.background_color ?? NO_BANNER_BACKGROUND_COLOR;
+    banner?.backgroundColor ?? NO_BANNER_BACKGROUND_COLOR;
   return div;
 }
 

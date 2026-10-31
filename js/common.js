@@ -20,14 +20,14 @@ const KNOWN_STATES = [
   STATE_HOME,
 ];
 
-// Wayback Machine 内のページにリンクするため、wayback_time が必要な状態
+// Wayback Machine 内のページにリンクするため、waybackTime が必要な状態
 const WAYBACK_LINK_STATES = [
   STATE_CLOSED,
   STATE_ARCHIVED,
   STATE_REMAINED,
 ];
 
-// kind_masao・feature に使える値。index.html の絞り込みボタンもこの順で作る
+// kindMasao・feature に使える値。index.html の絞り込みボタンもこの順で作る
 const KIND_MASAO_VALUES = [
   "自動",
   "一画面",

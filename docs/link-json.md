@@ -19,7 +19,7 @@
   "surveys": [ ... ],
   "urls": { ... },
   "banners": { ... },
-  "excluded_prefixes": [ ... ]
+  "excludedPrefixes": [ ... ]
 }
 ```
 
@@ -28,7 +28,7 @@
 | `surveys` | 配列 | サイトごとの調査記録（[surveys](#surveys)） |
 | `urls` | オブジェクト | リンク先 URL ごとの判定（[urls](#urls)） |
 | `banners` | オブジェクト | 収集したバナー画像（[banners](#banners)） |
-| `excluded_prefixes` | 配列 | 収集しない URL の前方一致リスト（[excluded_prefixes](#excluded_prefixes)） |
+| `excludedPrefixes` | 配列 | 収集しない URL の前方一致リスト（[excludedPrefixes](#excludedPrefixes)） |
 
 ## 全体のルール
 
@@ -75,12 +75,12 @@
 |---|---|---|---|
 | `url` | 文字列 | ○ | 調べたページの URL |
 | `source` | 文字列 | ○ | 調べた先。`live`（現存サイト）・`wayback`・`geolog` |
-| `wayback_time` | 数値 | 条件付き | Wayback Machine の日時。14桁（YYYYMMDDhhmmss） |
+| `waybackTime` | 数値 | 条件付き | Wayback Machine の日時。14桁（YYYYMMDDhhmmss） |
 | `checked` | 文字列 | ○ | 調べた日。`YYYY-MM-DD` |
 | `links` | 配列 | ○ | そのページにあったリンク（[links](#links)） |
 
-- `wayback_time` は、`source` が `wayback` のときは必須、それ以外のときは書かない。`list.json` と同じく数値で書く。
-- 1つの `surveys` の要素の中で、`url`・`source`・`wayback_time` の組み合わせは重複させない。
+- `waybackTime` は、`source` が `wayback` のときは必須、それ以外のときは書かない。`list.json` と同じく数値で書く。
+- 1つの `surveys` の要素の中で、`url`・`source`・`waybackTime` の組み合わせは重複させない。
 - 複数の時点で同じリンクが出てきても、ページごとにそのまま記録する（いつからいつまでリンクされていたかが分かるようにするため）。
 
 ### links
@@ -103,7 +103,7 @@
 | `id` | 文字列 |  | `list.json` に登録済みのときの ID |
 | `category` | 文字列 | 条件付き | `judge` が `related` のときの分類（[category](#category)） |
 | `guess` | 文字列 |  | スクリプトによる推定。`judge` と同じ値を使う |
-| `guess_reason` | 文字列 |  | 推定の根拠 |
+| `guessReason` | 文字列 |  | 推定の根拠 |
 | `note` | 文字列 |  | メモ |
 
 - `surveys` の `links` に出てくる URL は、必ず `urls` にもある。スクリプトは新しい URL を見つけたら、`judge` を `pending` にして追加する。
@@ -129,7 +129,7 @@
 | `game` | ゲーム系サイト |
 | `kirby` | 正男を置いていないカービィ系サイト |
 
-`list.json` の `kind_masao` の「カービィ系」は、カービィを題材にした正男サイトのことで、`kirby` とは別のものです。
+`list.json` の `kindMasao` の「カービィ系」は、カービィを題材にした正男サイトのことで、`kirby` とは別のものです。
 
 ## banners
 
@@ -150,7 +150,7 @@
 - `size` は `list.json` の `banner.size` と同じ形式。
 - `list.json` に登録するときは、収集したバナーを `banner/` にコピーして使う。このとき、ファイル名（拡張子を除く）がそのまま新しいサイトの ID になる。
 
-## excluded_prefixes
+## excludedPrefixes
 
 収集しない URL の前方一致リストです。検索エンジン、素材配布ではないソフト配布サイトなど、まとめて除外したいものに使います。
 
@@ -179,8 +179,8 @@
 - `surveys` の `id` が `list.json` にある
 - `surveys` の `url` が `urls` にある
 - `surveys` の中で、同じサイトが重複していない
-- `pages` の `url`・`source`・`wayback_time` の組み合わせが重複していない
-- `source` が `wayback` のとき、`wayback_time` が14桁の数値である。それ以外のときは書いていない
+- `pages` の `url`・`source`・`waybackTime` の組み合わせが重複していない
+- `source` が `wayback` のとき、`waybackTime` が14桁の数値である。それ以外のときは書いていない
 - `links` の `url` が `urls` にある
 - `links` の `banner` が `banners` にある
 - `urls` の `id` が `list.json` にある
@@ -201,7 +201,7 @@
 ## 運用の流れ
 
 1. スクリプトが、調査するサイトのリンク集ページを取得し、`pages` と `links` を追加する。`status` は `in_progress` にする。
-2. 新しいリンク先 URL を `urls` に `judge: "pending"` で追加する。推定できれば `guess`・`guess_reason` も書く。`excluded_prefixes` に当たる URL と、`not_masao` の URL は記録しない。
+2. 新しいリンク先 URL を `urls` に `judge: "pending"` で追加する。推定できれば `guess`・`guessReason` も書く。`excludedPrefixes` に当たる URL と、`not_masao` の URL は記録しない。
 3. バナー画像を `banner/collected/` に連番で保存し、`banners` に追加する。
 4. 人が `urls` の `pending` を確認し、`judge` を確定する。
 5. `masao` で未登録のものを `list.json` に登録する。バナーがあれば、その名前を ID にして `banner/` にコピーする。無ければ `yomi` から作った候補をもとに ID を決める。決めた ID を `urls` の `id` に書く。
@@ -215,7 +215,7 @@
   - `http` と `https` を同じとみなすか
   - `www` の有無を同じとみなすか
   - 末尾の `/`、`index.html` の扱い
-  - `oldurl`・`suburl` と一致したら同じサイトとみなすか
+  - `oldUrl`・`subUrl` と一致したら同じサイトとみなすか
 - 現存サイトの再調査の方法（差分だけを拾うか）
 
 ## 例
@@ -230,7 +230,7 @@
         {
           "url": "http://example.jp/masao/link.html",
           "source": "wayback",
-          "wayback_time": 20050312093000,
+          "waybackTime": 20050312093000,
           "checked": "2026-10-30",
           "links": [
             { "url": "http://foo.jp/masao/", "text": "フーの正男" },
@@ -248,7 +248,7 @@
   "urls": {
     "http://foo.jp/masao/": { "judge": "masao", "id": "foo-masao" },
     "http://wwa.example.jp/": { "judge": "related", "category": "wwa" },
-    "http://baz.jp/": { "judge": "pending", "guess": "masao", "guess_reason": "正男の起動ファイルを検出" }
+    "http://baz.jp/": { "judge": "pending", "guess": "masao", "guessReason": "正男の起動ファイルを検出" }
   },
   "banners": {
     "b0001.gif": {
@@ -257,6 +257,6 @@
       "size": { "x": 200, "y": 40 }
     }
   },
-  "excluded_prefixes": ["http://www.google.co.jp/"]
+  "excludedPrefixes": ["http://www.google.co.jp/"]
 }
 ```
