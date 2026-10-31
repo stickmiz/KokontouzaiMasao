@@ -1011,7 +1011,7 @@
     "id": "ahya",
     "site": {
       "name": "亞緋屋(株)",
-      "yomi": "あひやかつこかふ"
+      "yomi": "あひやかふ"
     },
     "webmaster": "亞緋屋",
     "banner": {
@@ -3913,7 +3913,7 @@
     "kind_masao": "ストーリー",
     "feature": "WWA",
     "wayback_time": 20250719024325,
-    "state": "exist"
+    "state": "archived"
   },
   {
     "id": "otokogi-funka-no-homepage",
@@ -5135,7 +5135,7 @@
     "id": "terabi",
     "site": {
       "name": "がらくた保存庫",
-      "yomi": "からくたほかんこ"
+      "yomi": "からくたほそんこ"
     },
     "oldname": ["Terabi Factory", "yuの正男ゲーム置き場"],
     "webmaster": "テラビモス",
@@ -8735,7 +8735,7 @@
     "id": "koko-wa-masao-o",
     "site": {
       "name": "ここは正男を改造したものを置いています",
-      "yomi": "ここはまさおをかいそうしたものをおいてあります"
+      "yomi": "ここはまさおをかいそうしたものをおいています"
     },
     "webmaster": "774",
     "banner": {
@@ -9399,7 +9399,7 @@
     "id": "side",
     "site": {
       "name": "Side 公式サイト",
-      "yomi": "さいとこいしきさいと"
+      "yomi": "さいとこうしきさいと"
     },
     "webmaster": "Karno",
     "banner": {
@@ -9422,7 +9422,7 @@
     "id": "saihate",
     "site": {
       "name": "最果ての魔力",
-      "yomi": "さいはたのまりよく"
+      "yomi": "さいはてのまりよく"
     },
     "oldname": "正男、WWAの隠れ家",
     "webmaster": "スコークス(R)",
@@ -10613,7 +10613,7 @@
     "id": "shisakugata",
     "site": {
       "name": "試作型重機動正男参開発所",
-      "yomi": "しさくかたしゆうきとうまさおさんけんきゆうしよ"
+      "yomi": "しさくかたしゆうきとうまさおさんかいはつしよ"
     },
     "webmaster": "ブルーベル",
     "banner": {
@@ -17741,7 +17741,7 @@
     "id": "new-world-hateshinai-daichi",
     "site": {
       "name": "NEW WORLD ～果てしない大地～",
-      "yomi": "にゆうわあるとはてしないせかい"
+      "yomi": "にゆうわあるとはてしないたいち"
     },
     "oldname": "NEW WORLD ～新たな世界～",
     "webmaster": "メダリー",
@@ -18963,7 +18963,7 @@
     "id": "papillon-no-game-page-kari",
     "site": {
       "name": "パピヨンのゲームページ（仮）",
-      "yomi": "はひよんのけえむへえしかつこかり"
+      "yomi": "はひよんのけえむへえしかり"
     },
     "webmaster": "パピヨン",
     "url": "http://t-fu3.hp.infoseek.co.jp/",
@@ -26601,7 +26601,7 @@
     "id": "masa-niwa",
     "site": {
       "name": "正庭大陸",
-      "yomi": "まさにわたいらく"
+      "yomi": "まさにわたいりく"
     },
     "webmaster": "sdp",
     "banner": {
@@ -28403,7 +28403,7 @@
     "id": "yama777-no-masao-seisaku-kojo",
     "site": {
       "name": "山777の正男製作工場",
-      "yomi": "やまななななななのまさおこうしよう"
+      "yomi": "やまななななななのまさおせいさくこうしよう"
     },
     "webmaster": "山777",
     "url": "http://rakki-yama-id.hp.infoseek.co.jp/",
@@ -29931,7 +29931,7 @@
     "id": "rainbow-city",
     "site": {
       "name": "RAINBOW CITY",
-      "yomi": "れいんほおしていい"
+      "yomi": "れいんほおしてい"
     },
     "webmaster": "虹風 虹奈",
     "banner": {
