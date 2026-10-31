@@ -95,20 +95,34 @@ ID は次のように決めます。
 
 | キー | 型 | 内容 |
 |---|---|---|
-| `from` | 数値 | 始まりの年 |
-| `to` | 数値 | 終わりの年 |
+| `from` | 数値 | 始まりの年。不明なら書かない |
+| `to` | 数値 | 終わりの年。不明・継続中なら書かない |
+| `fromEstimated` | `true` | `from` が推定（その年ごろ）のときだけ書く |
+| `toEstimated` | `true` | `to` が推定のときだけ書く |
+| `ongoing` | `true` | 継続中のときだけ書く |
 
-`period` を書くときは、`from` と `to` を両方、整数で書きます。値の意味は次のとおりです。
+- `from`・`to` は正の整数で書く。
+- `from` と `to` を両方書くときは、`from` ≦ `to` にする（推定でも同じ）。
+- フラグ（`fromEstimated`・`toEstimated`・`ongoing`）は `true` だけを書く。当てはまらないときは書かない（`false` は使わない）。
+- `fromEstimated` は `from` があるときだけ、`toEstimated` は `to` があるときだけ書ける。
+- `ongoing` と `to`（`toEstimated`）は一緒に書かない。
+- `ongoing` は、`state` が `exist`・`canvas`・`home` のときだけ書ける。
+- `from`・`to`・`ongoing` のどれも無いとき（始まりも終わりも不明）は、`period` 自体を書かない。
+- `period` の中で使えるキーは、上の5つだけ。
 
-| 値 | 意味 | 表示 |
-|---|---|---|
-| 正の数 | その年 | `2005` |
-| `-1` | 不明 | `？` |
-| `-1` 以外の負の数 | 推定（その年ごろ） | `-2005` → `2005？` |
-| `0`（`to` のみ） | 継続中 | `2005～` |
+表示は次のとおりです。始まりと終わりの表示が同じになるときは、1つだけ表示します。
 
-- `from` と `to` が同じ表示になるときは、1つだけ表示する（例: `2004`）。
-- `from` ≦ `to` にする。負の数は絶対値で比べる。`-1` や `to: 0` のときは比べない。
+| 書き方 | 表示 |
+|---|---|
+| （`period` が無い） | `？` |
+| `{ "from": 2004, "to": 2006 }` | `2004～2006` |
+| `{ "from": 2004, "to": 2004 }` | `2004` |
+| `{ "from": 2004, "to": 2005, "toEstimated": true }` | `2004～2005？` |
+| `{ "from": 2005, "fromEstimated": true, "to": 2005, "toEstimated": true }` | `2005？` |
+| `{ "to": 2006 }` | `？～2006` |
+| `{ "from": 2004 }` | `2004～？` |
+| `{ "from": 2010, "ongoing": true }` | `2010～` |
+| `{ "ongoing": true }` | `？～` |
 
 ## state
 
@@ -183,7 +197,8 @@ ID は次のように決めます。
   "oldUrl": ["http://aiueo.daa.jp/", "http://www.geocities.jp/aiueo_koubou/"],
   "period": {
     "from": 2004,
-    "to": -2005
+    "to": 2005,
+    "toEstimated": true
   },
   "waybackTime": 20041220185135,
   "state": "closed"

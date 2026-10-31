@@ -50,20 +50,18 @@ describe("formatYear", () => {
     formatYear = (await openIndex([])).window.formatYear;
   });
 
-  test("undefined は「？」", () => {
+  test("年が無ければ不明として「？」", () => {
     assert.equal(formatYear(undefined), "？");
   });
-  test("-1 は不明として「？」", () => {
-    assert.equal(formatYear(-1), "？");
+  test("年が無ければ、推定でも「？」", () => {
+    assert.equal(formatYear(undefined, true), "？");
   });
-  test("-1 以外の負の値は推定として「年？」", () => {
-    assert.equal(formatYear(-2005), "2005？");
+  test("推定の年は「年？」", () => {
+    assert.equal(formatYear(2005, true), "2005？");
   });
-  test("-2（-1 の隣の値）も推定として扱う", () => {
-    assert.equal(formatYear(-2), "2？");
-  });
-  test("正の値はそのまま文字列にする", () => {
+  test("推定でない年はそのまま文字列にする", () => {
     assert.equal(formatYear(2005), "2005");
+    assert.equal(formatYear(2005, undefined), "2005");
   });
 });
 
@@ -82,23 +80,29 @@ describe("formatPeriod", () => {
   test("from と to が同じときは1つだけ表示する", () => {
     assert.equal(formatPeriod({ from: 2004, to: 2004 }), "2004");
   });
-  test("to が 0 なら継続中として「from～」", () => {
-    assert.equal(formatPeriod({ from: 2010, to: 0 }), "2010～");
+  test("継続中なら「from～」", () => {
+    assert.equal(formatPeriod({ from: 2010, ongoing: true }), "2010～");
   });
   test("from が不明で継続中なら「？～」", () => {
-    assert.equal(formatPeriod({ from: -1, to: 0 }), "？～");
+    assert.equal(formatPeriod({ ongoing: true }), "？～");
+  });
+  test("from が推定で継続中なら「from？～」", () => {
+    assert.equal(formatPeriod({ from: 2010, fromEstimated: true, ongoing: true }), "2010？～");
   });
   test("from だけ不明なら「？～to」", () => {
-    assert.equal(formatPeriod({ from: -1, to: 2005 }), "？～2005");
+    assert.equal(formatPeriod({ to: 2005 }), "？～2005");
   });
-  test("from も to も不明なら「？」1つ", () => {
-    assert.equal(formatPeriod({ from: -1, to: -1 }), "？");
+  test("to だけ不明なら「from～？」", () => {
+    assert.equal(formatPeriod({ from: 2004 }), "2004～？");
   });
   test("推定の年は「？」付きで表示する", () => {
-    assert.equal(formatPeriod({ from: -2004, to: -2005 }), "2004？～2005？");
+    assert.equal(formatPeriod({ from: 2004, fromEstimated: true, to: 2005, toEstimated: true }), "2004？～2005？");
   });
   test("推定の年が同じなら1つだけ表示する", () => {
-    assert.equal(formatPeriod({ from: -2005, to: -2005 }), "2005？");
+    assert.equal(formatPeriod({ from: 2005, fromEstimated: true, to: 2005, toEstimated: true }), "2005？");
+  });
+  test("同じ年でも、片方だけ推定なら両方を表示する", () => {
+    assert.equal(formatPeriod({ from: 2005, to: 2005, toEstimated: true }), "2005～2005？");
   });
 });
 
@@ -367,7 +371,7 @@ describe("createRow（一覧表の1行）", () => {
   });
 
   test("バナー・サイト名・管理人・期間の4列", () => {
-    const tr = createRow(makeSite({ webmaster: "棒", period: { from: 2011, to: 0 } }));
+    const tr = createRow(makeSite({ webmaster: "棒", period: { from: 2011, ongoing: true } }));
     const cells = [...tr.children].map((td) => td.textContent);
     assert.equal(cells.length, 4);
     assert.equal(cells[2], "棒");

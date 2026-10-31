@@ -17,6 +17,9 @@ const KNOWN_KEYS = [
   "state",
   "note",
 ];
+const PERIOD_KEYS = ["from", "fromEstimated", "to", "toEstimated", "ongoing"];
+// 継続中（period.ongoing）にできる状態（今もあるサイト）
+const ONGOING_STATES = [STATE_EXIST, STATE_CANVAS, STATE_HOME];
 // 配列で書く項目
 const ARRAY_KEYS = [
   "oldName",
@@ -90,20 +93,53 @@ function isPositiveInteger(value) {
   return Number.isInteger(value) && value > 0;
 }
 
-// -1 は不明、ほかの負の値は推定（-2005 は 2005 年ごろ）、to の 0 は継続中
+// 不明な年は書かず、推定は fromEstimated・toEstimated、継続中は ongoing で表す
 function checkPeriod(entry) {
   const period = entry.period;
   if (period === undefined) {
     return;
   }
-  if (!Number.isInteger(period.from) || !Number.isInteger(period.to)) {
-    appendError(entry, "period.from and period.to must both be integers");
-    return;
+  for (const key of Object.keys(period)) {
+    if (!PERIOD_KEYS.includes(key)) {
+      appendError(entry, `period has an unknown key "${key}"`);
+    }
   }
-  if (period.from == -1 || period.to == -1 || period.to == 0) {
-    return;
+  for (const key of ["from", "to"]) {
+    if (period[key] !== undefined && !isPositiveInteger(period[key])) {
+      appendError(entry, `period.${key} must be a positive integer`);
+    }
+    const flag = key + "Estimated";
+    if (period[flag] !== undefined && period[flag] !== true) {
+      appendError(entry, `period.${flag} must be true`);
+    }
+    if (period[flag] !== undefined && period[key] === undefined) {
+      appendError(entry, `period.${flag} requires period.${key}`);
+    }
   }
-  if (Math.abs(period.from) > Math.abs(period.to)) {
+  if (period.ongoing !== undefined && period.ongoing !== true) {
+    appendError(entry, "period.ongoing must be true");
+  }
+  if (period.ongoing !== undefined && period.to !== undefined) {
+    appendError(entry, "period.to and period.ongoing must not both be set");
+  }
+  if (period.ongoing !== undefined && !ONGOING_STATES.includes(entry.state)) {
+    appendError(
+      entry,
+      `period.ongoing must not be set when state is "${entry.state}"`,
+    );
+  }
+  if (
+    period.from === undefined &&
+    period.to === undefined &&
+    period.ongoing === undefined
+  ) {
+    appendError(entry, "period must have from, to or ongoing");
+  }
+  if (
+    isPositiveInteger(period.from) &&
+    isPositiveInteger(period.to) &&
+    period.from > period.to
+  ) {
     appendError(entry, "period.from must not be later than period.to");
   }
 }

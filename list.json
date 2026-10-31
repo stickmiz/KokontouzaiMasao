@@ -50,8 +50,7 @@
     },
     "url": "http://rflabo.web.fc2.com/",
     "period": {
-      "from": 2015,
-      "to": -1
+      "from": 2015
     },
     "masaoKind": ["JS拡張"],
     "state": "canvas"
@@ -114,7 +113,8 @@
     "oldUrl": ["http://aiueo.daa.jp/", "http://www.geocities.jp/aiueo_koubou/"],
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20041220185135,
     "state": "closed"
@@ -177,7 +177,7 @@
     "oldUrl": ["http://www.geocities.jp/axb1357900/ikyshometop.html"],
     "period": {
       "from": 2006,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上", "素材配布"],
@@ -202,7 +202,8 @@
     "url": "http://finalgamestar.ikaduchi.com/",
     "oldUrl": ["http://fainlstartoruneido.hp.infoseek.co.jp/"],
     "period": {
-      "from": -2005,
+      "from": 2005,
+      "fromEstimated": true,
       "to": 2009
     },
     "state": "exist"
@@ -243,7 +244,6 @@
     "url": "http://www.geocities.jp/budoudaisukijp/",
     "oldUrl": ["http://aoijava.fc2web.com/"],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "feature": ["正男100個以上", "WWA"],
@@ -282,7 +282,6 @@
       "http://rbyakaaokiiro.web.fc2.com/"
     ],
     "period": {
-      "from": -1,
       "to": 2020
     },
     "masaoKind": ["JS拡張"],
@@ -305,7 +304,6 @@
     },
     "url": "http://homepage2.nifty.com/nasuneko/newpage1.html",
     "period": {
-      "from": -1,
       "to": 2011
     },
     "masaoKind": ["一画面", "ストーリー"],
@@ -328,7 +326,6 @@
     },
     "url": "http://rockman4649.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー", "カービィ系"],
@@ -351,8 +348,7 @@
     },
     "url": "http://ikss.biz/akaroke/index.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040806163526,
     "state": "closed"
@@ -370,7 +366,6 @@
     },
     "url": "http://akiocigogo.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050131013420,
@@ -414,7 +409,6 @@
     },
     "url": "http://akiyamahiroyuki.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20041118192427,
@@ -470,7 +464,6 @@
     "webmaster": "babubabusai",
     "url": "http://babubabusai.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040215094115,
@@ -561,7 +554,7 @@
     "oldUrl": ["http://atuoyr.ddo.jp/", "http://f35.aaacafe.ne.jp/~atuoyr/"],
     "period": {
       "from": 2004,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["正男100個以上"],
@@ -627,7 +620,6 @@
     "url": "http://2nd.geocities.jp/ajackman7000/gamecorner.htm",
     "oldUrl": ["http://www.geocities.jp/g_ajack/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "feature": ["WWA"],
@@ -738,7 +730,6 @@
     },
     "url": "http://www.geocities.jp/qsann1/",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "masaoKind": ["ストーリー"],
@@ -758,8 +749,8 @@
     },
     "url": "http://asobi.s58.xrea.com/",
     "period": {
-      "from": -1,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050205011947,
     "state": "closed"
@@ -834,8 +825,7 @@
     },
     "url": "http://simpeople.hp.infoseek.co.jp/",
     "period": {
-      "from": 2002,
-      "to": -1
+      "from": 2002
     },
     "waybackTime": 20050514040148,
     "state": "closed"
@@ -899,7 +889,8 @@
     "oldUrl": ["http://chibeso.hp.infoseek.co.jp/"],
     "period": {
       "from": 2003,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20070322075807,
     "state": "closed"
@@ -961,7 +952,8 @@
     },
     "url": "http://www4.kcn.ne.jp/~y-nsok/",
     "period": {
-      "from": -2004,
+      "from": 2004,
+      "fromEstimated": true,
       "to": 2005
     },
     "waybackTime": 20050426171329,
@@ -1023,8 +1015,8 @@
     },
     "url": "http://www.geocities.jp/ahya329m/index1.html",
     "period": {
-      "from": -1,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050109131422,
     "state": "closed"
@@ -1051,8 +1043,7 @@
       "http://masaoroom.hp.infoseek.co.jp/"
     ],
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上"],
@@ -1080,8 +1071,8 @@
       "http://kurusu2508.hp.infoseek.co.jp/"
     ],
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20041119154017,
@@ -1437,7 +1428,6 @@
     "url": "http://www.geocities.jp/takezao92/",
     "oldUrl": ["http://ease.higoyomi.com/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "masaoKind": ["自動", "一画面", "ストーリー"],
@@ -1481,7 +1471,6 @@
     },
     "url": "http://www2.holon.dyndns.org/~kyoso/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040202062543,
@@ -1505,7 +1494,6 @@
     "url": "http://www.geocities.jp/mmmmmmkjp/",
     "oldUrl": ["http://www.geocities.jp/faik335/"],
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["カービィ系"],
@@ -1614,7 +1602,8 @@
     ],
     "period": {
       "from": 2004,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "works": ["レイズアドベンチャー"],
     "waybackTime": 20060704224147,
@@ -1673,8 +1662,7 @@
     },
     "url": "http://www.geocities.jp/instar512/14.index.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20181105090140,
     "state": "archived"
@@ -1744,8 +1732,7 @@
     "url": "http://www.geocities.jp/waruo0719/",
     "oldUrl": ["http://www.geocities.jp/taku_dark/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050215031245,
     "state": "closed"
@@ -1818,8 +1805,7 @@
     "url": "http://ideyo.so.land.to/",
     "oldUrl": ["http://www.geocities.jp/korekore0120/"],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "waybackTime": 20090309023600,
     "state": "closed"
@@ -1960,8 +1946,7 @@
     },
     "url": "http://www.inkobe.org/bw/index.html",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20040607124232,
     "state": "closed"
@@ -2041,7 +2026,6 @@
     },
     "url": "http://www.geocities.jp/in_outs_gamenet/",
     "period": {
-      "from": -1,
       "to": 2010
     },
     "masaoKind": ["ストーリー"],
@@ -2078,7 +2062,8 @@
     },
     "url": "http://www.geocities.jp/buwsuter/masao/top.htm",
     "period": {
-      "from": -2007,
+      "from": 2007,
+      "fromEstimated": true,
       "to": 2008
     },
     "waybackTime": 20190329205204,
@@ -2100,8 +2085,7 @@
     },
     "url": "http://www5f.biglobe.ne.jp/~coffee-yukki-184/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20070312004513,
     "state": "closed"
@@ -2123,8 +2107,7 @@
     "url": "http://wing-zero.cun.jp/",
     "oldUrl": ["http://wingzero.udap.jp/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["自動"],
     "feature": ["素材配布"],
@@ -2149,8 +2132,7 @@
     "url": "http://www.geocities.jp/miyamuxu412/",
     "oldUrl": ["http://www.geocities.jp/shogun_hiro/"],
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20090309022911,
     "state": "closed"
@@ -2210,8 +2192,7 @@
     "webmaster": "冷蔵庫通信",
     "url": "http://www.geocities.jp/reituu174/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050508090141,
     "state": "closed"
@@ -2327,8 +2308,7 @@
     "webmaster": "ucchi",
     "url": "http://ucchicgi.hp.infoseek.co.jp/",
     "period": {
-      "from": 2001,
-      "to": -1
+      "from": 2001
     },
     "waybackTime": 20050122183907,
     "state": "closed"
@@ -2346,8 +2326,7 @@
     },
     "url": "https://uhyohyo.net/",
     "period": {
-      "from": -1,
-      "to": 0
+      "ongoing": true
     },
     "feature": ["エディタ"],
     "state": "canvas"
@@ -2498,7 +2477,7 @@
     ],
     "period": {
       "from": 2007,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["ストーリー", "JS拡張"],
     "feature": ["素材配布", "エディタ"],
@@ -2705,8 +2684,7 @@
       "http://kao.popkmart.ne.jp/wawao/"
     ],
     "period": {
-      "from": 2002,
-      "to": -1
+      "from": 2002
     },
     "waybackTime": 20051001201525,
     "state": "closed"
@@ -2770,8 +2748,10 @@
     },
     "url": "http://iwak.hp.infoseek.co.jp/",
     "period": {
-      "from": -2004,
-      "to": -2006
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20061214184238,
     "state": "closed"
@@ -2858,8 +2838,8 @@
       "http://www.geocities.jp/xxsxw817/top.html"
     ],
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "feature": ["エディタ"],
     "waybackTime": 20140107120007,
@@ -2878,7 +2858,6 @@
     },
     "url": "http://www.xlot.jp/",
     "period": {
-      "from": -1,
       "to": 2016
     },
     "waybackTime": 20160829152051,
@@ -2898,7 +2877,7 @@
     "url": "http://tarawi.starfree.jp/",
     "period": {
       "from": 2022,
-      "to": 0
+      "ongoing": true
     },
     "state": "canvas"
   },
@@ -3000,7 +2979,6 @@
     "url": "http://j-ynv.net/",
     "oldUrl": ["http://nvsofts.dyndns.org/"],
     "period": {
-      "from": -1,
       "to": 2009
     },
     "waybackTime": 20061205015211,
@@ -3015,8 +2993,8 @@
     "webmaster": "しょうた",
     "url": "http://members30.cool.ne.jp/~f8/",
     "period": {
-      "from": -1,
-      "to": -2003
+      "to": 2003,
+      "toEstimated": true
     },
     "waybackTime": 20030803194022,
     "state": "closed"
@@ -3071,8 +3049,7 @@
     },
     "url": "http://compeito.usamimi.info/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "masaoKind": ["自動", "一画面", "ストーリー"],
     "waybackTime": 20080116054303,
@@ -3108,8 +3085,7 @@
     "url": "http://www7a.biglobe.ne.jp/~puranetesu/",
     "oldUrl": ["http://girorogotyou.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050421220907,
     "state": "closed"
@@ -3143,8 +3119,10 @@
     },
     "url": "http://f30.aaacafe.ne.jp/~marirui/",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20040902174054,
@@ -3185,8 +3163,7 @@
     "url": "http://myk.main.jp/",
     "oldUrl": ["http://yuna0161.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20071123141015,
     "state": "closed",
@@ -3270,7 +3247,6 @@
     "url": "http://taka419.s55.xrea.com/",
     "oldUrl": ["http://taka419town.hp.infoseek.co.jp/"],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040521104132,
@@ -3352,8 +3328,8 @@
     },
     "url": "http://bakabakasai.hp.infoseek.co.jp/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20090710123247,
@@ -3376,7 +3352,6 @@
     },
     "url": "http://www.geocities.jp/hiroto1122jpjp/index.html",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050207051219,
@@ -3490,8 +3465,7 @@
     },
     "url": "http://gethio.syuriken.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060513165030,
     "state": "closed"
@@ -3512,8 +3486,7 @@
     },
     "url": "http://web1.nazca.co.jp/hp/papopi/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "state": "exist"
   },
@@ -3689,8 +3662,7 @@
       "http://www.geocities.jp/karukarupark/doru.html"
     ],
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "feature": ["WWA"],
     "state": "exist"
@@ -3712,7 +3684,6 @@
     },
     "url": "http://houka5.com/iwa326/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050306201514,
@@ -3749,7 +3720,6 @@
     },
     "url": "http://sakata.nobody.jp/",
     "period": {
-      "from": -1,
       "to": 2019
     },
     "state": "exist"
@@ -3770,7 +3740,6 @@
     },
     "url": "http://www.eonet.ne.jp/~masashio/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["カービィ系"],
@@ -3793,8 +3762,7 @@
     "url": "https://www.aurorarchipelago.net/",
     "oldUrl": ["http://aurorarchipelago.s223.xrea.com/"],
     "period": {
-      "from": 2021,
-      "to": -1
+      "from": 2021
     },
     "masaoKind": ["一画面"],
     "waybackTime": 20230322234115,
@@ -3981,8 +3949,10 @@
     },
     "url": "http://www.geocities.jp/omosirotown/",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040607151033,
     "state": "archived"
@@ -4100,7 +4070,7 @@
     "oldUrl": ["http://www.geocities.co.jp/Playtown/1729/"],
     "period": {
       "from": 2003,
-      "to": 0
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -4121,7 +4091,6 @@
     },
     "url": "http://owata.nobody.jp/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["自動"],
@@ -4137,8 +4106,8 @@
     "webmaster": "/keito940 鳶市 奎☆刀香",
     "url": "http://keito94.rosx.net/",
     "period": {
-      "from": -1,
-      "to": -2017
+      "to": 2017,
+      "toEstimated": true
     },
     "waybackTime": 20170923063134,
     "state": "closed"
@@ -4213,8 +4182,7 @@
     },
     "url": "http://kabisute.hp.infoseek.co.jp/enter.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー", "カービィ系"],
     "feature": ["WWA"],
@@ -4237,8 +4205,8 @@
     },
     "url": "http://kirbystar.web.infoseek.co.jp/toppage.html",
     "period": {
-      "from": -1,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["カービィ系"],
     "feature": ["WWA"],
@@ -4254,8 +4222,8 @@
     "webmaster": "グービィ",
     "url": "http://gubyi.hp.infoseek.co.jp/top2.html",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20040419081126,
@@ -4309,7 +4277,8 @@
     "oldUrl": ["http://d418jp.hp.infoseek.co.jp/"],
     "period": {
       "from": 2002,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20041120141413,
@@ -4333,7 +4302,7 @@
     "oldUrl": ["http://w8.oroti.net/~kirbypika/"],
     "period": {
       "from": 2003,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動"],
     "feature": ["WWA"],
@@ -4367,7 +4336,6 @@
     "webmaster": "独裁者SYO",
     "url": "http://www.geocities.jp/dokusaishasyomax/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20181105023524,
@@ -4424,7 +4392,8 @@
     "oldUrl": ["http://yamattha.hp.infoseek.co.jp/index.html"],
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20050529210049,
@@ -4451,7 +4420,6 @@
       "http://www.geocities.jp/simauta1027/"
     ],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20080317104834,
@@ -4485,7 +4453,8 @@
     },
     "url": "http://cute.cd/masagame/index.html",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2008
     },
     "waybackTime": 20100722040246,
@@ -4527,8 +4496,7 @@
     "url": "http://www7.plala.or.jp/earthborn/",
     "oldUrl": ["http://sky.geocities.jp/plasma1115/"],
     "period": {
-      "from": 2008,
-      "to": -1
+      "from": 2008
     },
     "waybackTime": 20091008141547,
     "state": "closed"
@@ -4627,7 +4595,8 @@
     "url": "http://www.geocities.jp/kazu0o0/",
     "oldUrl": ["http://yume.gaiax.com/home/kazu0o0"],
     "period": {
-      "from": -2004,
+      "from": 2004,
+      "fromEstimated": true,
       "to": 2005
     },
     "masaoKind": ["自動", "ストーリー", "カービィ系"],
@@ -4650,8 +4619,7 @@
     },
     "url": "http://kaz-game.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上"],
@@ -4698,7 +4666,6 @@
     },
     "url": "http://www.geocities.jp/theyuujp/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20041015055418,
@@ -4730,7 +4697,6 @@
     "url": "http://www.geocities.jp/wind0ut/",
     "oldUrl": ["http://www.geocities.co.jp/Playtown-Part/9018/"],
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20041021012729,
@@ -4754,7 +4720,7 @@
     "oldUrl": ["https://kasomura.nobody.jp/"],
     "period": {
       "from": 2011,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["JS拡張", "SASUKE系"],
     "feature": ["正男100個以上", "素材配布"],
@@ -4849,8 +4815,8 @@
     "webmaster": "メタ",
     "url": "http://seiryutei.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040727181723,
     "state": "closed"
@@ -4889,8 +4855,10 @@
     },
     "url": "http://www.geocities.jp/aokabi1/masao.html",
     "period": {
-      "from": -2007,
-      "to": -2007
+      "from": 2007,
+      "fromEstimated": true,
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20190329141000,
     "state": "archived"
@@ -4912,8 +4880,7 @@
     },
     "url": "http://www.mc.ccnw.ne.jp/m56118/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20080113053940,
@@ -5007,7 +4974,7 @@
     ],
     "period": {
       "from": 2009,
-      "to": 0
+      "ongoing": true
     },
     "state": "canvas"
   },
@@ -5064,8 +5031,7 @@
     },
     "url": "http://mk-labo.minidns.net/~wakame/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050828115211,
     "state": "closed"
@@ -5086,7 +5052,6 @@
     },
     "url": "http://yuu.a.orn.jp/",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20080415183149,
@@ -5107,7 +5072,9 @@
       }
     },
     "url": "http://www.hpmix.com/home/kamoburi/index.htm",
-    "oldUrl": ["http://suzuka.cool.ne.jp/kamoburi/masao/kamoburi/kmaonnnohasi.html"],
+    "oldUrl": [
+      "http://suzuka.cool.ne.jp/kamoburi/masao/kamoburi/kmaonnnohasi.html"
+    ],
     "waybackTime": 20041211024939,
     "state": "closed"
   },
@@ -5124,8 +5091,7 @@
     },
     "url": "http://garakutax.fc2web.com/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20041129021347,
@@ -5317,8 +5283,7 @@
     },
     "url": "http://cancheman.web.fc2.com/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20090108122140,
     "state": "closed"
@@ -5354,8 +5319,8 @@
     },
     "url": "http://www.geocities.jp/kiokunotuioku/",
     "period": {
-      "from": -1,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050308184815,
     "state": "closed"
@@ -5614,7 +5579,6 @@
     },
     "url": "http://www.geocities.jp/kentoheya/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20050912211756,
@@ -5637,8 +5601,7 @@
     "url": "http://kimukai.nce.buttobi.net/",
     "oldUrl": ["http://csx.jp/~kurokimu/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20051018040837,
@@ -5653,8 +5616,7 @@
     "webmaster": "木村",
     "url": "http://pepusiman.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20040417132409,
     "state": "closed"
@@ -5677,7 +5639,8 @@
     "mirrorUrl": ["http://gameplay.nobody.jp/"],
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20050207120056,
@@ -5701,8 +5664,7 @@
     "url": "http://kyanon.bnnm.net/",
     "oldUrl": ["http://inbinsiburu.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上"],
@@ -5726,7 +5688,8 @@
     "url": "http://sh.wktk.so/",
     "oldUrl": ["http://www19.atpages.jp/~shpqg/", "http://xxx.masao.info/"],
     "period": {
-      "from": -2007,
+      "from": 2007,
+      "fromEstimated": true,
       "to": 2020
     },
     "masaoKind": ["一画面", "JS拡張"],
@@ -5769,7 +5732,6 @@
     "url": "http://920room.web.fc2.com/",
     "oldUrl": ["http://1st.geocities.jp/na92029/"],
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["ストーリー"],
@@ -5873,8 +5835,7 @@
     },
     "url": "http://www.geocities.jp/iwa0213/index.html",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20091106213229,
     "state": "closed"
@@ -5988,8 +5949,7 @@
     "url": "http://irubon.com/",
     "oldUrl": ["http://www.geocities.jp/tkyy1125225/framepage2.html"],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "waybackTime": 20071016203928,
     "state": "closed"
@@ -6034,7 +5994,8 @@
     "url": "http://www.geocities.jp/kirisakku/",
     "oldUrl": ["http://www.geocities.co.jp/NeverLand-Homeroom/5471/"],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2009
     },
     "feature": ["WWA"],
@@ -6198,7 +6159,6 @@
     },
     "url": "http://ishisuke007.yh.land.to/",
     "period": {
-      "from": -1,
       "to": 2010
     },
     "masaoKind": ["自動"],
@@ -6252,8 +6212,8 @@
     "url": "http://www.geocities.jp/kumegons/",
     "oldUrl": ["http://kumegonns2.azarea.jp/"],
     "period": {
-      "from": -1,
-      "to": -2010
+      "to": 2010,
+      "toEstimated": true
     },
     "waybackTime": 20181027090119,
     "state": "closed"
@@ -6293,7 +6253,6 @@
     },
     "url": "http://www.geocities.jp/nihonnzixyagaru/ninnzinkirai/ddexyuerumasuta-zu.html",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20181101145651,
@@ -6312,8 +6271,8 @@
     },
     "url": "http://www.geocities.jp/crash_factory1/denkosekka/",
     "period": {
-      "from": -2008,
-      "to": -1
+      "from": 2008,
+      "fromEstimated": true
     },
     "waybackTime": 20081030005549,
     "state": "closed"
@@ -6334,7 +6293,8 @@
     },
     "url": "http://www.geocities.jp/jimmyakiti/",
     "period": {
-      "from": -2005,
+      "from": 2005,
+      "fromEstimated": true,
       "to": 2016
     },
     "masaoKind": ["ストーリー"],
@@ -6375,8 +6335,7 @@
     },
     "url": "http://www.geocities.jp/hhrjx512/",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20160909072531,
@@ -6420,7 +6379,6 @@
     },
     "url": "http://1st.geocities.jp/ta_crash/crashtown.html",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20080526055359,
@@ -6514,7 +6472,6 @@
     "url": "http://crapoke.hp.infoseek.co.jp/",
     "oldUrl": ["http://www.geocities.jp/zxc789asd/"],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "feature": ["素材配布"],
@@ -6565,8 +6522,7 @@
     },
     "url": "http://manitgurin.hp.infoseek.co.jp/menu.html",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20040921021450,
     "state": "closed"
@@ -6587,8 +6543,7 @@
     },
     "url": "http://www.geocities.jp/kuridamasii2004/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050413093559,
     "state": "closed"
@@ -6652,8 +6607,7 @@
     "url": "http://49.site44.com/",
     "oldUrl": ["http://www.sora-blue.net/~kururin/"],
     "period": {
-      "from": -1,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["一画面"],
     "works": ["うずまきでGO"],
@@ -6777,7 +6731,6 @@
     "url": "http://komainu.kakurezato.com/",
     "feature": ["正男100個以上"],
     "period": {
-      "from": -1,
       "to": 2011
     },
     "state": "exist"
@@ -6830,7 +6783,7 @@
     "url": "http://himateki.web.fc2.com/",
     "period": {
       "from": 2006,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["ストーリー", "カービィ系"],
     "state": "exist"
@@ -6861,8 +6814,7 @@
     },
     "url": "http://ketsui.web.fc2.com/crn/",
     "period": {
-      "from": 2009,
-      "to": -1
+      "from": 2009
     },
     "state": "exist"
   },
@@ -6925,8 +6877,7 @@
       "http://imclub.gaiax.com/home/keisei/main"
     ],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20081021050051,
     "state": "closed"
@@ -7076,7 +7027,8 @@
     "url": "http://www.geocities.co.jp/HeartLand-Yurinoki/7665/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20031204101700,
     "state": "closed"
@@ -7164,8 +7116,10 @@
     },
     "url": "http://www5e.biglobe.ne.jp/~reff/",
     "period": {
-      "from": -2002,
-      "to": -2003
+      "from": 2002,
+      "fromEstimated": true,
+      "to": 2003,
+      "toEstimated": true
     },
     "waybackTime": 20030807053118,
     "state": "closed"
@@ -7297,8 +7251,7 @@
     },
     "url": "http://w2.abcoroti.com/~masao/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "feature": ["まさお3"],
     "waybackTime": 20090523001454,
@@ -7454,7 +7407,6 @@
     },
     "url": "http://www.abcoroti.com:4600/~suratomo/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["自動"],
@@ -7483,7 +7435,8 @@
       "http://blackmarth.fc2web.com/"
     ],
     "period": {
-      "from": -2002,
+      "from": 2002,
+      "fromEstimated": true,
       "to": 2003
     },
     "waybackTime": 20030608181947,
@@ -7498,8 +7451,7 @@
     "webmaster": "スポンサー",
     "url": "http://suponnsa.hp.infoseek.co.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060924061252,
     "state": "closed"
@@ -7593,7 +7545,6 @@
     "webmaster": "セブン",
     "url": "http://sebunn777.hp.infoseek.co.jp/top.html",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -7644,7 +7595,6 @@
       "http://f33.aaacafe.ne.jp/~fain/"
     ],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー"],
@@ -7705,7 +7655,6 @@
     },
     "url": "http://www.geocities.jp/sakisss7/top.html",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "masaoKind": ["ストーリー"],
@@ -7775,8 +7724,7 @@
     },
     "url": "http://page.freett.com/nakayamayn/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["WWA"],
     "waybackTime": 20041009231754,
@@ -7798,7 +7746,6 @@
     "url": "http://f30.aaacafe.ne.jp/~kaisou/",
     "oldUrl": ["http://page.freett.com/fuyuk/index.html"],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040614174739,
@@ -8000,7 +7947,6 @@
     },
     "url": "http://battler.jog.buttobi.net/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "state": "exist"
@@ -8045,7 +7991,6 @@
     },
     "url": "http://www.geocities.jp/utakafumijp/index.html",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "feature": ["WWA"],
@@ -8098,7 +8043,6 @@
     "webmaster": "カビ丸",
     "url": "http://www.geocities.co.jp/HeartLand-Renge/6318/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040527022528,
@@ -8137,7 +8081,8 @@
     "webmaster": "ラティウス",
     "url": "http://abekun2.hp.infoseek.co.jp/",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2004
     },
     "feature": ["WWA"],
@@ -8194,8 +8139,7 @@
     },
     "url": "http://www.geocities.jp/tekunoex/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "feature": ["WWA"],
     "waybackTime": 20060210162351,
@@ -8219,8 +8163,7 @@
     "url": "http://gamecoffee.hp.infoseek.co.jp/",
     "oldUrl": ["http://amakoto-web.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["WWA"],
     "waybackTime": 20041125044417,
@@ -8355,8 +8298,10 @@
     "webmaster": "アサルト",
     "url": "http://www5f.biglobe.ne.jp/~gekkou/main.htm",
     "period": {
-      "from": -2003,
-      "to": -2004
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20031225221039,
     "state": "closed"
@@ -8503,8 +8448,8 @@
       "http://www.freepe.com/ii.cgi?1239"
     ],
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "feature": ["素材配布", "WWA"],
     "waybackTime": 20070821113248,
@@ -8580,8 +8525,10 @@
     },
     "url": "http://www.geocities.jp/no_moss2000/masao/",
     "period": {
-      "from": -2005,
-      "to": -2005
+      "from": 2005,
+      "fromEstimated": true,
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050511191816,
     "state": "archived"
@@ -8679,7 +8626,6 @@
     "url": "http://kokuryuuouhyakusiki.web.fc2.com/index.html",
     "oldUrl": ["http://kokuryuuomega.hp.infoseek.co.jp/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "masaoKind": ["自動"],
@@ -8747,8 +8693,7 @@
     },
     "url": "http://masaorz.ifdef.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20071219174116,
     "state": "closed"
@@ -8785,8 +8730,8 @@
     "webmaster": "ゴギ",
     "url": "http://homepage2.nifty.com/goji-peeji/",
     "period": {
-      "from": -1,
-      "to": -2003
+      "to": 2003,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "state": "vanished"
@@ -8826,8 +8771,7 @@
     },
     "url": "http://www.msite.jp/akibon/",
     "period": {
-      "from": 2002,
-      "to": -1
+      "from": 2002
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20040405003734,
@@ -9012,7 +8956,6 @@
       "http://nigigi.fc2web.com/"
     ],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "masaoKind": ["カービィ系"],
@@ -9035,10 +8978,6 @@
       }
     },
     "url": "http://umahito.web.fc2.com/",
-    "period": {
-      "from": -1,
-      "to": -1
-    },
     "masaoKind": ["自動", "一画面"],
     "feature": ["素材配布"],
     "state": "canvas"
@@ -9098,8 +9037,7 @@
     },
     "url": "http://www.ne.jp/asahi/korokoro/yoshimasa/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20101001100433,
     "state": "closed"
@@ -9121,7 +9059,6 @@
     "url": "http://www7b.biglobe.ne.jp/~corona_lvup/",
     "oldUrl": ["http://www.geocities.jp/pirories/"],
     "period": {
-      "from": -1,
       "to": 2015
     },
     "masaoKind": ["ストーリー"],
@@ -9192,8 +9129,7 @@
     "webmaster": "しずにい",
     "url": "http://www015.upp.so-net.ne.jp/shizuni-site/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "masaoKind": ["ストーリー"],
     "feature": ["WWA"],
@@ -9284,8 +9220,7 @@
     },
     "url": "http://psycho.chips.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20051214220556,
     "state": "closed"
@@ -9307,7 +9242,6 @@
     },
     "url": "http://www.henteko.no-ip.net/",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20190414013808,
@@ -9387,8 +9321,7 @@
     "url": "http://slars.hp.infoseek.co.jp/",
     "oldUrl": ["http://www.geocities.jp/slars_nuit/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "feature": ["WWA"],
@@ -9525,7 +9458,6 @@
     "url": "http://evolution.byoubu.com/",
     "oldUrl": ["http://book.geocities.jp/magurosu96/"],
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["ストーリー"],
@@ -9590,7 +9522,6 @@
     "webmaster": "酒丼",
     "url": "http://ishinazaka.homeip.net/sakadon/index.htm",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20041011180345,
@@ -9635,7 +9566,8 @@
     "url": "http://kasii.hp.infoseek.co.jp/",
     "period": {
       "from": 2003,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20071215151404,
     "state": "closed"
@@ -9657,7 +9589,8 @@
     "url": "http://mimitarune.hp.infoseek.co.jp/",
     "period": {
       "from": 2003,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050318222552,
@@ -9697,8 +9630,7 @@
     },
     "url": "http://simotori55.hp.infoseek.co.jp/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20051217204903,
     "state": "closed"
@@ -9719,8 +9651,7 @@
     },
     "url": "http://the-simple-page.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20040124052804,
     "state": "closed"
@@ -9755,7 +9686,8 @@
     "url": "http://yusuke.tm.land.to/",
     "period": {
       "from": 2005,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20070110204101,
     "state": "closed"
@@ -9956,8 +9888,7 @@
     "url": "http://hw001.gate01.com/khss1/",
     "oldUrl": ["http://j0010865.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["自動"],
     "waybackTime": 20050311192759,
@@ -9976,7 +9907,6 @@
     "url": "http://minakuru.m78.com/",
     "mirrorUrl": ["http://masao.karakuri-yashiki.com/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "feature": ["WWA"],
@@ -10097,8 +10027,8 @@
     },
     "url": "http://www.geocities.jp/yamahakutar/index.htm",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040203143130,
     "state": "closed"
@@ -10143,7 +10073,6 @@
     },
     "url": "http://199520081218.web.fc2.com/",
     "period": {
-      "from": -1,
       "to": 2010
     },
     "masaoKind": ["一画面", "ストーリー"],
@@ -10168,7 +10097,8 @@
     "oldUrl": ["http://motizuki7.hp.infoseek.co.jp/"],
     "period": {
       "from": 2004,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20070601040203,
     "state": "closed"
@@ -10190,8 +10120,7 @@
     "url": "http://happinessmasao.zouri.jp/",
     "oldUrl": ["http://happiness.nusutto.jp/happyisland.html"],
     "period": {
-      "from": 2008,
-      "to": -1
+      "from": 2008
     },
     "state": "exist"
   },
@@ -10275,8 +10204,7 @@
     },
     "url": "http://www.geocities.jp/ryuuhei11/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "feature": ["素材配布"],
@@ -10340,7 +10268,6 @@
     },
     "url": "http://www.geocities.jp/jangajanga0803/",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20071017231324,
@@ -10368,8 +10295,8 @@
       "http://www.geocities.jp/masahiro_saitama/"
     ],
     "period": {
-      "from": -1,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "masaoKind": ["自動", "一画面"],
     "waybackTime": 20200308153615,
@@ -10398,7 +10325,6 @@
     "webmaster": "GT9",
     "url": "http://awatyu.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040608212942,
@@ -10447,7 +10373,8 @@
     "url": "http://freedom.nukenin.jp/",
     "oldUrl": ["http://www.geocities.jp/s905sj205lp/"],
     "period": {
-      "from": -2006,
+      "from": 2006,
+      "fromEstimated": true,
       "to": 2007
     },
     "waybackTime": 20080218122939,
@@ -10492,7 +10419,6 @@
     },
     "url": "http://hihty.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "feature": ["WWA"],
@@ -10908,8 +10834,8 @@
     "url": "http://jack-pod.com/",
     "oldUrl": ["http://diced.jp/~jack-pod/"],
     "period": {
-      "from": -1,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "waybackTime": 20081218192116,
     "state": "closed"
@@ -10931,7 +10857,8 @@
     "url": "http://www.geocities.co.jp/Playtown-Bishop/7931/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "works": ["シャロンの冒険", "おじいさんの冒険", "浩二の反乱"],
@@ -11033,8 +10960,7 @@
     },
     "url": "http://yukinopezi.hp.infoseek.co.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20041119220448,
@@ -11057,7 +10983,6 @@
     "url": "http://www.geocities.jp/gg66tbff/gggg.game.index.html",
     "oldUrl": ["http://s-ht.com/~gg66tbff/"],
     "period": {
-      "from": -1,
       "to": 2015
     },
     "masaoKind": ["自動"],
@@ -11097,8 +11022,7 @@
     "url": "http://www1.tst.ne.jp/miko/jun/",
     "oldUrl": ["http://juner.csx.jp/game/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20060518125021,
     "state": "closed"
@@ -11113,7 +11037,8 @@
     "url": "https://plaza.rakuten.co.jp/bakatarenorinnku/",
     "oldUrl": ["http://www.geocities.jp/kenkenpanetto/"],
     "period": {
-      "from": -2004,
+      "from": 2004,
+      "fromEstimated": true,
       "to": 2006
     },
     "waybackTime": 20190113091244,
@@ -11135,8 +11060,7 @@
     },
     "url": "http://suzuki.plala.jp/jun/index.html",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20070923094515,
     "state": "closed"
@@ -11163,7 +11087,8 @@
     ],
     "period": {
       "from": 2007,
-      "to": -2009
+      "to": 2009,
+      "toEstimated": true
     },
     "waybackTime": 20080719075057,
     "state": "closed"
@@ -11203,7 +11128,8 @@
     "url": "http://homepage3.nifty.com/junphome/index2.html",
     "period": {
       "from": 2002,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20060208032240,
     "state": "archived"
@@ -11217,7 +11143,8 @@
     "webmaster": "JUMBO",
     "url": "http://jumbo10.k-server.org/",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2004
     },
     "waybackTime": 20040418234712,
@@ -11245,7 +11172,7 @@
     ],
     "period": {
       "from": 2003,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": [
       "自動",
@@ -11333,8 +11260,7 @@
     "webmaster": "Sho",
     "url": "http://www.eonet.ne.jp/~sweetheart/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20050211200243,
     "state": "closed"
@@ -11397,7 +11323,6 @@
     },
     "url": "http://bagu203.ninja-web.net/",
     "period": {
-      "from": -1,
       "to": 2008
     },
     "state": "vanished"
@@ -11507,7 +11432,6 @@
     },
     "url": "http://www.geocities.jp/ms1063jp2004/index.html",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー"],
@@ -11531,8 +11455,7 @@
     },
     "url": "http://wing2.jp/~nasubi1/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "masaoKind": ["一画面", "ストーリー", "カービィ系"],
     "feature": ["正男100個以上"],
@@ -11574,8 +11497,7 @@
       "http://www.rak2.jp/tyage/"
     ],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["ストーリー"],
     "state": "exist"
@@ -11652,8 +11574,10 @@
     "webmaster": "kohji",
     "url": "http://www.geocities.jp/smyrc263/index.html",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040701072859,
     "state": "closed"
@@ -11767,8 +11691,7 @@
     },
     "url": "http://f46.aaa.livedoor.jp/~cometman/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["自動"],
     "waybackTime": 20070529221419,
@@ -11791,7 +11714,8 @@
     },
     "url": "http://osugosi.run.buttobi.net/",
     "period": {
-      "from": -2005,
+      "from": 2005,
+      "fromEstimated": true,
       "to": 2013
     },
     "masaoKind": ["カービィ系"],
@@ -11815,8 +11739,7 @@
     },
     "url": "http://suimyakunosoko.hp.infoseek.co.jp/top.html",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["自動"],
     "waybackTime": 20080425222935,
@@ -11893,7 +11816,7 @@
     ],
     "period": {
       "from": 2006,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "一画面", "カービィ系", "SASUKE系"],
     "feature": ["正男100個以上", "素材配布"],
@@ -12005,8 +11928,7 @@
     },
     "url": "http://masao.wiki.fc2.com/",
     "period": {
-      "from": -1,
-      "to": 0
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -12054,7 +11976,6 @@
     "url": "http://www.masaoweb.ifdef.jp/",
     "oldUrl": ["http://smx.mydisk.jp/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20071120043932,
@@ -12120,7 +12041,8 @@
     "url": "http://supermg.fc2web.com/",
     "period": {
       "from": 2005,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "waybackTime": 20080618163500,
     "state": "closed"
@@ -12172,7 +12094,6 @@
     },
     "url": "http://island.geocities.jp/hk1997_2008/",
     "period": {
-      "from": -1,
       "to": 2009
     },
     "masaoKind": ["ストーリー"],
@@ -12212,8 +12133,7 @@
     },
     "url": "http://www60.atwiki.jp/masaositematome/",
     "period": {
-      "from": -1,
-      "to": 0
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -12248,7 +12168,7 @@
     "oldUrl": ["http://gms.symphonic-net.com/"],
     "period": {
       "from": 2009,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["正男100個以上", "エディタ"],
@@ -12274,11 +12194,31 @@
       "http://open.sesames.jp/takayasu38/html/_TOP/"
     ],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20051121084908,
     "state": "closed"
+  },
+  {
+    "id": "masao3",
+    "site": {
+      "name": "スーパーまさお3 ExE Style(仮)",
+      "reading": "すうはあまさおすりいえくせすたいるかり"
+    },
+    "oldName": ["まさお3"],
+    "webmaster": "れりしゅ",
+    "banner": {
+      "color": "#EEEEEE",
+      "backgroundColor": "#990000"
+    },
+    "url": "https://masao3.neocities.org/",
+    "oldUrl": ["http://masao3.starfree.jp/"],
+    "period": {
+      "from": 2018,
+      "ongoing": true
+    },
+    "feature": ["まさお3"],
+    "state": "exist"
   },
   {
     "id": "super-masao3-exe-style",
@@ -12352,7 +12292,6 @@
     "url": "http://www.geocities.jp/mattu17jp/index.html",
     "oldUrl": ["http://masao50net.ikaduchi.com/"],
     "period": {
-      "from": -1,
       "to": 2008
     },
     "waybackTime": 20060421152043,
@@ -12375,8 +12314,7 @@
     },
     "url": "http://omaeha.nusutto.jp/",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["自動", "ストーリー", "SASUKE系"],
     "feature": ["素材配布"],
@@ -12408,8 +12346,7 @@
     },
     "url": "http://a51.run.buttobi.net/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20060309224354,
@@ -12448,7 +12385,7 @@
     ],
     "period": {
       "from": 2008,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["一画面", "ストーリー", "JS拡張"],
     "feature": ["正男100個以上", "エディタ"],
@@ -12526,8 +12463,7 @@
       "http://www.geocities.co.jp/Playtown-Bingo/2763/"
     ],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["正男100個以上", "WWA"],
@@ -12595,7 +12531,6 @@
       "http://www.b-dash.net/~riafgar/"
     ],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20030604083647,
@@ -12622,7 +12557,6 @@
       "http://www2.pf-x.net/~meda/"
     ],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20041010031133,
@@ -12684,8 +12618,8 @@
     },
     "url": "http://sukai.gozaru.jp/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20050404020104,
@@ -12734,7 +12668,6 @@
     },
     "url": "http://sky.geocities.jp/dynasmash/sorakaze.html",
     "period": {
-      "from": -1,
       "to": 2011
     },
     "waybackTime": 20131215223604,
@@ -12825,7 +12758,6 @@
       "http://gigappa.hp.infoseek.co.jp/"
     ],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "masaoKind": ["ストーリー"],
@@ -12847,7 +12779,6 @@
     },
     "url": "http://f27.aaacafe.ne.jp/~skeith/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040124125806,
@@ -12992,8 +12923,7 @@
     "url": "http://star4192.run.buttobi.net/",
     "oldUrl": ["http://star41922960.hp.infoseek.co.jp/"],
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["自動", "カービィ系"],
     "feature": ["素材配布"],
@@ -13043,7 +12973,8 @@
     "webmaster": "スーパースター",
     "url": "http://www.geocities.jp/supasuta2001/",
     "period": {
-      "from": -2006,
+      "from": 2006,
+      "fromEstimated": true,
       "to": 2007
     },
     "feature": ["WWA"],
@@ -13059,8 +12990,10 @@
     "webmaster": "kkk",
     "url": "http://www.geocities.jp/tositosit/",
     "period": {
-      "from": -2006,
-      "to": -2013
+      "from": 2006,
+      "fromEstimated": true,
+      "to": 2013,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20181105034611,
@@ -13139,7 +13072,6 @@
     },
     "url": "http://www.geocities.jp/su_te_ru_ki/",
     "period": {
-      "from": -1,
       "to": 2012
     },
     "masaoKind": ["ストーリー"],
@@ -13270,7 +13202,8 @@
     "url": "http://www.geocities.jp/darekade4123/",
     "oldUrl": ["http://www.geocities.jp/namikimiti_0/"],
     "period": {
-      "from": -2004,
+      "from": 2004,
+      "fromEstimated": true,
       "to": 2011
     },
     "masaoKind": ["ストーリー", "カービィ系"],
@@ -13330,8 +13263,7 @@
     },
     "url": "http://smileroom.s101.xrea.com/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "state": "exist"
   },
@@ -13387,8 +13319,7 @@
     "webmaster": "マリオさん社員",
     "url": "http://f35.aaacafe.ne.jp/~sunshine/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040904195702,
     "state": "closed"
@@ -13484,7 +13415,6 @@
     },
     "url": "http://web-box.jp/smith/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20220329204533,
@@ -13529,7 +13459,6 @@
     },
     "url": "http://www.geocities.jp/nepiko130/masaoo-.html",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20181125074344,
@@ -13613,8 +13542,8 @@
     "url": "http://kazuya0506.hp.infoseek.co.jp/",
     "oldUrl": ["http://www.geocities.co.jp/NeverLand-Homeroom/3491/"],
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040205234512,
     "state": "closed"
@@ -13700,7 +13629,8 @@
     },
     "url": "http://www.geocities.jp/muchimuchi_5/",
     "period": {
-      "from": -2010,
+      "from": 2010,
+      "fromEstimated": true,
       "to": 2011
     },
     "waybackTime": 20190331142323,
@@ -13808,7 +13738,7 @@
     "url": "https://nue2004.info/",
     "period": {
       "from": 2004,
-      "to": 0
+      "ongoing": true
     },
     "state": "canvas"
   },
@@ -13911,8 +13841,8 @@
     },
     "url": "http://reimu2008.web.fc2.com/",
     "period": {
-      "from": -1,
-      "to": -2009
+      "to": 2009,
+      "toEstimated": true
     },
     "state": "vanished"
   },
@@ -13933,7 +13863,6 @@
     },
     "url": "http://www.geocities.jp/hyakutenboy/index.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "feature": ["正男100個以上"],
@@ -13969,8 +13898,7 @@
     },
     "url": "http://www.geocities.jp/masaogame/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20050323082151,
     "state": "closed"
@@ -14009,7 +13937,8 @@
     "url": "http://kirby.finito-web.com/",
     "period": {
       "from": 2002,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "waybackTime": 20050830001651,
     "state": "closed"
@@ -14023,7 +13952,8 @@
     "webmaster": "DarkGlow",
     "url": "http://www.geocities.jp/bou_ningen/",
     "period": {
-      "from": -2007,
+      "from": 2007,
+      "fromEstimated": true,
       "to": 2009
     },
     "waybackTime": 20181105023455,
@@ -14172,7 +14102,6 @@
     },
     "url": "http://www.geocities.jp/heartmakerjp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -14188,7 +14117,6 @@
     "webmaster": "daichi",
     "url": "http://www1.bmybox.com/~daipawa/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040814141246,
@@ -14254,7 +14182,6 @@
     },
     "url": "http://www.eonet.ne.jp/~igaiga/himathubushi/",
     "period": {
-      "from": -1,
       "to": 2009
     },
     "state": "exist"
@@ -14305,7 +14232,8 @@
     },
     "url": "http://rainbowrelish.web.fc2.com/",
     "period": {
-      "from": -2010,
+      "from": 2010,
+      "fromEstimated": true,
       "to": 2012
     },
     "feature": ["まさお3"],
@@ -14353,7 +14281,6 @@
     },
     "url": "http://takaxtuti.web.fc2.com/",
     "period": {
-      "from": -1,
       "to": 2010
     },
     "waybackTime": 20181029121924,
@@ -14586,8 +14513,7 @@
     "webmaster": "Super凡人",
     "url": "http://www.geocities.jp/dasakupage/",
     "period": {
-      "from": 2000,
-      "to": -1
+      "from": 2000
     },
     "waybackTime": 20050305055306,
     "state": "closed"
@@ -14653,7 +14579,7 @@
     "url": "https://dust-storm.net/",
     "period": {
       "from": 2020,
-      "to": 0
+      "ongoing": true
     },
     "state": "canvas"
   },
@@ -14713,8 +14639,7 @@
     },
     "url": "http://www013.upp.so-net.ne.jp/sasakitykt/indexttt.html",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20040617222953,
     "state": "closed"
@@ -14780,7 +14705,7 @@
     "oldUrl": ["http://tadz.web.fc2.com/"],
     "period": {
       "from": 2014,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["一画面", "JS拡張"],
     "feature": ["素材配布"],
@@ -14856,7 +14781,6 @@
     },
     "url": "http://www.geocities.jp/yasuaki_18/index.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20050723030814,
@@ -14919,8 +14843,7 @@
     },
     "url": "http://web-box.jp/wtr/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["素材配布"],
     "works": ["正男カート", "恐怖正男"],
@@ -15044,8 +14967,7 @@
     },
     "url": "http://taruru773.web.fc2.com/",
     "period": {
-      "from": 2012,
-      "to": -1
+      "from": 2012
     },
     "masaoKind": ["ストーリー"],
     "feature": ["素材配布"],
@@ -15142,8 +15064,7 @@
     },
     "url": "http://corrugated.web.fc2.com/",
     "period": {
-      "from": 2010,
-      "to": -1
+      "from": 2010
     },
     "feature": ["まさお3"],
     "state": "exist"
@@ -15161,7 +15082,6 @@
     },
     "url": "http://tiikinoazi.michikusa.jp/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "state": "exist"
@@ -15292,7 +15212,8 @@
       "http://tyanuki1116.hp.infoseek.co.jp/"
     ],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2006
     },
     "waybackTime": 20091016072312,
@@ -15351,7 +15272,8 @@
       "http://www.geocities.jp/masato2129/"
     ],
     "period": {
-      "from": -2006,
+      "from": 2006,
+      "fromEstimated": true,
       "to": 2015
     },
     "feature": ["WWA"],
@@ -15374,8 +15296,10 @@
     },
     "url": "http://pokekabi.hp.infoseek.co.jp/index-ennta-.html",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20040803095332,
@@ -15390,7 +15314,6 @@
     "webmaster": "フレイル",
     "url": "http://machikado.gaiax.com/home/innko",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040429221511,
@@ -15431,8 +15354,10 @@
     "url": "http://www.usamimi.info/~masao/",
     "oldUrl": ["http://home.owari.ne.jp/~yosh/777/tyouhennmasao.html"],
     "period": {
-      "from": -2006,
-      "to": -2006
+      "from": 2006,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "state": "exist"
   },
@@ -15455,7 +15380,7 @@
     "oldUrl": ["http://www.geocities.co.jp/Technopolis-Mars/9171/"],
     "period": {
       "from": 2002,
-      "to": 0
+      "ongoing": true
     },
     "works": [
       "スーパーラリオの魔界大冒険",
@@ -15568,8 +15493,7 @@
     },
     "url": "http://www.geocities.jp/hasamigirotin/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "feature": ["WWA"],
     "waybackTime": 20060418220722,
@@ -15619,7 +15543,6 @@
     "webmaster": "ツッチー",
     "url": "http://www.geocities.jp/dotayasu/index.html",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040415124302,
@@ -15702,7 +15625,6 @@
     },
     "url": "http://dhi.s54.xrea.com/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー"],
@@ -15741,7 +15663,6 @@
     "webmaster": "tosaki",
     "url": "http://yarukika.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040419065751,
@@ -15763,8 +15684,8 @@
     },
     "url": "http://www.geocities.jp/darkrose0502/wgame/wg.html",
     "period": {
-      "from": -1,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "masaoKind": ["自動", "一画面", "SASUKE系"],
     "feature": ["正男100個以上", "素材配布"],
@@ -15787,8 +15708,7 @@
     },
     "url": "http://www.geocities.jp/fmother_katumi/toppu.htm",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20070818150017,
     "state": "closed"
@@ -15919,7 +15839,8 @@
     "oldUrl": ["http://www.geocities.co.jp/SiliconValley-Sunnyvale/8255/"],
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20031122010210,
     "state": "archived"
@@ -15966,8 +15887,7 @@
     "oldUrl": ["http://www5.pf-x.net/~pumpkincf/"],
     "mirrorUrl": ["http://mdmasao.run.buttobi.net/"],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20060505135437,
@@ -16001,7 +15921,6 @@
     },
     "url": "http://www.geocities.jp/yscy502/top.html",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["カービィ系"],
@@ -16024,8 +15943,7 @@
     },
     "url": "http://www.geocities.jp/aisuhuriizu/DaylightMoon.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050117022903,
     "state": "closed"
@@ -16047,8 +15965,10 @@
     },
     "url": "http://dotani.s14.xrea.com/",
     "period": {
-      "from": -2002,
-      "to": -2007
+      "from": 2002,
+      "fromEstimated": true,
+      "to": 2007,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20040730050731,
@@ -16128,7 +16048,6 @@
     },
     "url": "http://hikari302goh.k-server.org/",
     "period": {
-      "from": -1,
       "to": 2003
     },
     "waybackTime": 20200807143137,
@@ -16152,8 +16071,7 @@
     "url": "http://masao.ojaru.jp/",
     "masaoKind": ["ストーリー"],
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "state": "exist"
   },
@@ -16173,7 +16091,8 @@
     },
     "url": "http://www.geocities.jp/takkuoki/",
     "period": {
-      "from": -2005,
+      "from": 2005,
+      "fromEstimated": true,
       "to": 2006
     },
     "waybackTime": 20181105034312,
@@ -16203,8 +16122,8 @@
     "webmaster": "てら",
     "url": "http://teratoleaf.hp.infoseek.co.jp/tera/index.html",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "state": "vanished"
   },
@@ -16281,8 +16200,7 @@
     "url": "http://www5a.biglobe.ne.jp/~f-files/yanopi/",
     "oldUrl": ["http://www5a.biglobe.ne.jp/~f-files/hiroshi/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20150228202517,
@@ -16386,8 +16304,8 @@
     },
     "url": "http://snowmusic8.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040901182232,
     "state": "archived"
@@ -16401,8 +16319,7 @@
     "webmaster": "nakka",
     "url": "http://www.h5.dion.ne.jp/~syun-ryo/denpa/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040707230300,
     "state": "closed"
@@ -16511,7 +16428,6 @@
     "webmaster": "けおらす",
     "url": "http://kuushuu.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20070505093824,
@@ -16534,8 +16450,10 @@
     "url": "http://totem.client.jp/masao.html",
     "oldUrl": ["http://totemgame.hp.infoseek.co.jp/"],
     "period": {
-      "from": -2004,
-      "to": -2006
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20070108223746,
     "state": "closed"
@@ -16742,7 +16660,8 @@
     "url": "http://www.geocities.jp/dosukichanko/",
     "period": {
       "from": 2003,
-      "to": -2010
+      "to": 2010,
+      "toEstimated": true
     },
     "waybackTime": 20090616044942,
     "state": "closed"
@@ -16764,8 +16683,7 @@
     },
     "url": "http://www11.plala.or.jp/bontobi/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20050208030123,
     "state": "closed"
@@ -16860,7 +16778,6 @@
     },
     "url": "http://tomo1212.gozaru.jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050307022439,
@@ -16907,7 +16824,6 @@
     },
     "url": "http://www.geocities.jp/egg_doragon/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20040608130538,
@@ -17038,7 +16954,8 @@
     "webmaster": "レオン春斗",
     "url": "http://toriaezunagame.hp.infoseek.co.jp/",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2005
     },
     "feature": ["WWA"],
@@ -17103,8 +17020,7 @@
     "mirrorUrl": ["http://vicuna.webcrow.jp/"],
     "oldUrl": ["http://vicuna.6.ql.bz/"],
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["ストーリー"],
     "feature": ["WWA"],
@@ -17188,7 +17104,6 @@
     },
     "url": "http://takonori1207.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20100223094304,
@@ -17339,8 +17254,7 @@
     "webmaster": "広田健吉",
     "url": "http://kenkichi1126.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20050131012500,
     "state": "closed"
@@ -17402,7 +17316,6 @@
     "webmaster": "ぐわぁ",
     "url": "http://www.geocities.jp/takeo3212003/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040812094735,
@@ -17417,8 +17330,8 @@
     "webmaster": "NICK",
     "url": "http://nicksama.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040812094735,
     "state": "closed"
@@ -17564,7 +17477,6 @@
     "webmaster": "弐号機",
     "url": "http://www.geocities.jp/nigouki2006/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20181027070659,
@@ -17597,8 +17509,7 @@
     "webmaster": "龜龍",
     "url": "http://tatsu.is.land.to/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20080220222810,
     "state": "closed"
@@ -17634,8 +17545,8 @@
     "webmaster": "ゴールドモドキ",
     "url": "http://csx.jp/~okutan.com/HomePage/homepage.htm",
     "period": {
-      "from": -2003,
-      "to": -1
+      "from": 2003,
+      "fromEstimated": true
     },
     "waybackTime": 20051208172049,
     "state": "closed"
@@ -17673,8 +17584,10 @@
     "webmaster": "にっしー",
     "url": "http://www2.pf-x.net/~nissy/",
     "period": {
-      "from": -2003,
-      "to": -2004
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20041215031310,
     "state": "closed"
@@ -17731,8 +17644,7 @@
     },
     "url": "http://new77792.web.fc2.com/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20070302061410,
     "state": "closed"
@@ -17754,7 +17666,8 @@
     },
     "url": "http://www.geocities.jp/giru931/",
     "period": {
-      "from": -2006,
+      "from": 2006,
+      "fromEstimated": true,
       "to": 2008
     },
     "feature": ["WWA"],
@@ -17893,7 +17806,6 @@
     "webmaster": "ネスネス",
     "url": "http://naok556.hp.infoseek.co.jp/top.html",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "feature": ["WWA"],
@@ -17910,8 +17822,8 @@
     "webmaster": "カビたん",
     "url": "http://www.geocities.jp/kabitann20002000/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "masaoKind": ["カービィ系"],
     "waybackTime": 20050922173409,
@@ -17934,8 +17846,8 @@
     },
     "url": "http://www.exfiction.net/nintendo/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "waybackTime": 20081011163213,
     "state": "closed"
@@ -18061,8 +17973,7 @@
     },
     "url": "http://f59.aaa.livedoor.jp/~nullpoga/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060827210625,
     "state": "archived"
@@ -18084,7 +17995,6 @@
     "url": "http://neozxy.web.fc2.com/",
     "oldUrl": ["http://otsu.cool.ne.jp/omg666/"],
     "period": {
-      "from": -1,
       "to": 2014
     },
     "feature": ["WWA"],
@@ -18100,8 +18010,8 @@
     "webmaster": "ねこ",
     "url": "http://www.geocities.co.jp/Playtown/8207/",
     "period": {
-      "from": -1,
-      "to": -2003
+      "to": 2003,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050130231053,
@@ -18153,8 +18063,10 @@
     },
     "url": "http://w1.oroti.net/~netchampion/",
     "period": {
-      "from": -2006,
-      "to": -2006
+      "from": 2006,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20200815161515,
     "state": "archived"
@@ -18215,8 +18127,10 @@
     "webmaster": "ユルカ",
     "url": "http://www.geocities.co.jp/Playtown-Yoyo/2832/",
     "period": {
-      "from": -2003,
-      "to": -2005
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20190325134234,
     "state": "archived"
@@ -18251,8 +18165,7 @@
     "url": "http://hoorin.web.fc2.com/",
     "oldUrl": ["http://f58.aaa.livedoor.jp/~hurara/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["自動", "ストーリー"],
     "waybackTime": 20090129172041,
@@ -18268,7 +18181,6 @@
     "url": "http://www.geocities.jp/kirarinkohouse/",
     "oldUrl": ["http://www.abcoroti.com:4600/~nogu2/"],
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20190330030504,
@@ -18334,8 +18246,7 @@
     },
     "url": "http://nl3.hp.infoseek.co.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20080827235446,
     "state": "closed"
@@ -18423,8 +18334,7 @@
     },
     "url": "http://www.geocities.jp/atkeaton/index.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060209235820,
     "state": "closed"
@@ -18575,7 +18485,8 @@
     "url": "http://however.suki-ari.net/",
     "period": {
       "from": 2008,
-      "to": -2011
+      "to": 2011,
+      "toEstimated": true
     },
     "state": "exist"
   },
@@ -18595,7 +18506,6 @@
     },
     "url": "http://paopaomasao.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040831133356,
@@ -18812,8 +18722,8 @@
     "webmaster": "連邦兵",
     "url": "http://goo.gaiax.com/home/renpouhei",
     "period": {
-      "from": -2002,
-      "to": -1
+      "from": 2002,
+      "fromEstimated": true
     },
     "waybackTime": 20040527131502,
     "state": "closed"
@@ -18853,8 +18763,8 @@
     },
     "url": "http://www.geocities.co.jp/Playtown-King/8630/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050307203232,
@@ -18880,7 +18790,8 @@
       "http://www.geocities.co.jp/Playtown-Yoyo/8501/"
     ],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2004
     },
     "waybackTime": 20190721043252,
@@ -18902,8 +18813,7 @@
     },
     "url": "http://hatendaisuke.xxxxxxxx.jp/",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["自動"],
     "waybackTime": 20090404050259,
@@ -18927,8 +18837,7 @@
     "url": "http://yubikun.hp.infoseek.co.jp/",
     "oldUrl": ["http://ww6.enjoy.ne.jp/~naoki327/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["WWA"],
     "waybackTime": 20050325034858,
@@ -18969,7 +18878,8 @@
     "url": "http://t-fu3.hp.infoseek.co.jp/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20050505093422,
     "state": "closed"
@@ -19075,7 +18985,8 @@
     "url": "http://www.geocities.jp/hariganekunnnohomepage/",
     "period": {
       "from": 2004,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "waybackTime": 20071227133555,
     "state": "closed"
@@ -19090,7 +19001,6 @@
     "webmaster": "マメマメマン",
     "url": "http://www.geocities.co.jp/Playtown-Queen/8518/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20050224133125,
@@ -19127,8 +19037,8 @@
     },
     "url": "http://tadu333.fc2web.com/",
     "period": {
-      "from": -1,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050516013050,
     "state": "closed"
@@ -19224,8 +19134,7 @@
     },
     "url": "http://www.hansyou.net/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["エディタ"],
     "waybackTime": 20071230035035,
@@ -19240,8 +19149,10 @@
     "webmaster": "PANDA",
     "url": "http://space.geocities.jp/fkpanda_black/",
     "period": {
-      "from": -2006,
-      "to": -2006
+      "from": 2006,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "feature": ["WWA"],
@@ -19317,7 +19228,8 @@
     "url": "http://raisuto.web.fc2.com/",
     "oldUrl": ["http://www.geocities.jp/rondsasami/"],
     "period": {
-      "from": -2009,
+      "from": 2009,
+      "fromEstimated": true,
       "to": 2011
     },
     "masaoKind": ["自動"],
@@ -19394,8 +19306,7 @@
     },
     "url": "http://www.h2.dion.ne.jp/~kuwa2001/hikaru_top.htm",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060709035352,
     "state": "closed"
@@ -19535,7 +19446,6 @@
     },
     "url": "http://www.geocities.jp/pkm_xyz7v7/",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20181105024711,
@@ -19582,7 +19492,7 @@
     "oldUrl": ["http://space.geocities.jp/singouki0/"],
     "period": {
       "from": 2011,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "一画面"],
     "feature": ["正男100個以上"],
@@ -19604,7 +19514,9 @@
       }
     },
     "url": "http://www.rak2.jp/town/user/hide721/",
-    "oldUrl": ["http://www.geocities.co.jp/Playtown-Darts/8720/hidesgamesroom/"],
+    "oldUrl": [
+      "http://www.geocities.co.jp/Playtown-Darts/8720/hidesgamesroom/"
+    ],
     "period": {
       "from": 2003,
       "to": 2003
@@ -19621,8 +19533,7 @@
     "webmaster": "一文字",
     "url": "http://hitomozi.web.infoseek.co.jp/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20050421152130,
     "state": "closed"
@@ -19646,8 +19557,7 @@
     },
     "url": "http://einestone.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "waybackTime": 20030618024139,
     "state": "closed"
@@ -19710,7 +19620,6 @@
     },
     "url": "http://www.geocities.jp/marimoteikoku/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -19803,8 +19712,10 @@
     "webmaster": "秘密",
     "url": "http://busterani.hp.infoseek.co.jp/Menu.html",
     "period": {
-      "from": -2003,
-      "to": -2003
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2003,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20090427110030,
@@ -19894,8 +19805,7 @@
     },
     "url": "http://www42.atpages.jp/hirasuegover2/",
     "period": {
-      "from": 2009,
-      "to": -1
+      "from": 2009
     },
     "masaoKind": ["自動", "一画面"],
     "feature": ["正男100個以上"],
@@ -19911,7 +19821,6 @@
     "webmaster": "ピラニア",
     "url": "http://lrpirania.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040613031358,
@@ -19990,7 +19899,8 @@
     "url": "http://homepage3.nifty.com/ao-taishi/",
     "period": {
       "from": 2003,
-      "to": -2015
+      "to": 2015,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050419135925,
@@ -20012,7 +19922,6 @@
     },
     "url": "http://www.geocities.jp/mnyoshi/shelling/ENTER.htm",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050419135925,
@@ -20087,7 +19996,6 @@
     },
     "url": "http://www.geocities.jp/fastcela/masao.html",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20190312151245,
@@ -20102,8 +20010,8 @@
     "url": "http://doyoulikemasao.web.fc2.com/",
     "oldUrl": ["http://sports.geocities.jp/touma9823/"],
     "period": {
-      "from": -1,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20190312151245,
     "state": "remained"
@@ -20146,7 +20054,8 @@
     "url": "http://homepage3.nifty.com/Fig22himitu/",
     "period": {
       "from": 2003,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20050411130255,
@@ -20191,8 +20100,7 @@
     },
     "url": "http://f61.aaa.livedoor.jp/~kazan/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20061205015030,
     "state": "closed"
@@ -20256,7 +20164,6 @@
     "url": "http://www.t3.rim.or.jp/~naoto/naoto.html",
     "oldUrl": ["http://fukuda.ec-net.jp/naoto/"],
     "period": {
-      "from": -1,
       "to": 2016
     },
     "masaoKind": ["JS拡張"],
@@ -20431,7 +20338,8 @@
     "url": "http://tokyo.cool.ne.jp/hurahura/",
     "period": {
       "from": 2003,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20030707144609,
@@ -20582,7 +20490,6 @@
     },
     "url": "http://rat.s4.xrea.com/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "feature": ["正男100個以上"],
@@ -20648,7 +20555,8 @@
     "webmaster": "如月久遠",
     "url": "http://kisaragi.nce.buttobi.net/",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2004
     },
     "waybackTime": 20040510015723,
@@ -20671,7 +20579,6 @@
     "url": "http://leaf60055.hp.infoseek.co.jp/",
     "oldUrl": ["http://chiba.cool.ne.jp/site-gi/"],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー"],
@@ -20734,7 +20641,8 @@
     "url": "http://tubotubo.fc2web.com/",
     "oldUrl": ["http://www2.pf-x.net/~tubotubo/"],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2004
     },
     "waybackTime": 20190519194836,
@@ -20756,8 +20664,7 @@
     },
     "url": "http://www.geocities.jp/place_masashi/",
     "period": {
-      "from": 2001,
-      "to": -1
+      "from": 2001
     },
     "waybackTime": 20050508155034,
     "state": "closed"
@@ -20791,8 +20698,7 @@
     },
     "url": "http://gmdr.ojaru.jp/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20071016054656,
     "state": "closed"
@@ -20839,8 +20745,7 @@
     "webmaster": "駒",
     "url": "http://www13.plala.or.jp/Koma-wwa/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050411195109,
     "state": "closed"
@@ -20888,7 +20793,6 @@
     "url": "http://home.r08.itscom.net/daman_pg/",
     "oldUrl": ["http://sdmo-tk4.hp.infoseek.co.jp/"],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["ストーリー"],
@@ -20956,7 +20860,8 @@
     "oldUrl": ["http://bunta.so.land.to/"],
     "period": {
       "from": 2007,
-      "to": -2008
+      "to": 2008,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "state": "exist"
@@ -20992,7 +20897,6 @@
     },
     "url": "http://www.geocities.jp/keron1997/",
     "period": {
-      "from": -1,
       "to": 2011
     },
     "waybackTime": 20190331121742,
@@ -21007,8 +20911,8 @@
     "webmaster": "星野カービィ",
     "url": "http://www.geocities.jp/toshinori511/",
     "period": {
-      "from": -1,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20051211215529,
     "masaoKind": ["カービィ系"],
@@ -21025,7 +20929,6 @@
     "webmaster": "翔",
     "url": "http://heiwanapeezi.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040612221821,
@@ -21049,8 +20952,7 @@
     "url": "http://b1studio.cyber-ninja.jp/",
     "oldUrl": ["http://www.geocities.jp/masaofactory/"],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "state": "exist"
   },
@@ -21136,8 +21038,7 @@
     },
     "url": "http://henigeyahonpo.hp.infoseek.co.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "feature": ["素材配布"],
     "waybackTime": 20041127203930,
@@ -21168,8 +21069,8 @@
     "webmaster": "Pengin",
     "url": "http://taketomo-penguin.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040128233947,
     "state": "closed"
@@ -21213,8 +21114,7 @@
     "url": "http://j-ynv.net/~Who/",
     "oldUrl": ["http://www.geocities.jp/masyk39/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "feature": ["素材配布"],
@@ -21230,8 +21130,7 @@
     "webmaster": "マリカビ",
     "url": "http://marikabi.s3p.net/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20041206224534,
     "state": "closed"
@@ -21355,8 +21254,7 @@
     },
     "url": "http://www.geocities.jp/koumorikunx/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20050827231246,
     "state": "closed"
@@ -21370,7 +21268,6 @@
     "webmaster": "ホークス",
     "url": "http://pics5.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050410082200,
@@ -21432,8 +21329,7 @@
     "url": "http://f50.aaa.livedoor.jp/~mmmz/",
     "oldUrl": ["http://f50.aaacafe.ne.jp/~mmmz/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["ストーリー"],
     "feature": ["WWA"],
@@ -21504,7 +21400,6 @@
     "url": "http://www.geocities.jp/sgnkf859/index.html",
     "oldUrl": ["http://www.geocities.jp/inytk95/"],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "feature": ["WWA"],
@@ -21607,7 +21502,6 @@
       "http://guraudon.hp.infoseek.co.jp/top.html"
     ],
     "period": {
-      "from": -1,
       "to": 2005
     },
     "feature": ["WWA"],
@@ -21857,7 +21751,8 @@
     "oldUrl": ["http://f50.aaacafe.ne.jp/~renstar/"],
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上"],
@@ -21899,7 +21794,6 @@
     "url": "http://hakkaku.s3p.net/",
     "oldUrl": ["http://page.freett.com/syu812/index.html"],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "masaoKind": ["カービィ系"],
@@ -21943,8 +21837,9 @@
     },
     "url": "http://www2s.biglobe.ne.jp/~hotarug/",
     "period": {
-      "from": -2000,
-      "to": 0
+      "from": 2000,
+      "fromEstimated": true,
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -21994,7 +21889,6 @@
     },
     "url": "http://www.geocities.jp/hyousetuha/masaofairu.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "masaoKind": ["自動", "一画面", "カービィ系"],
@@ -22085,7 +21979,6 @@
     "url": "http://1st.geocities.jp/pomlipa/",
     "oldUrl": ["http://www.geocities.co.jp/Playtown/7400/"],
     "period": {
-      "from": -1,
       "to": 2009
     },
     "waybackTime": 20190317200414,
@@ -22119,8 +22012,10 @@
     "webmaster": "ホリー",
     "url": "http://homepage3.nifty.com/horikun/",
     "period": {
-      "from": -2003,
-      "to": -2004
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20031207153702,
     "state": "closed"
@@ -22281,7 +22176,6 @@
     "webmaster": "ma-me",
     "url": "http://www.geocities.jp/ma_me0/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -22403,7 +22297,7 @@
     ],
     "period": {
       "from": 2015,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "一画面", "ストーリー", "JS拡張"],
     "feature": ["正男100個以上", "WWA"],
@@ -22536,8 +22430,10 @@
     },
     "url": "http://www.geocities.co.jp/Playtown-Dice/9371/hitokoto.htm",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20181105152035,
     "state": "archived"
@@ -22593,8 +22489,7 @@
     },
     "url": "http://masaoex.syoutikubai.com/",
     "period": {
-      "from": 2008,
-      "to": -1
+      "from": 2008
     },
     "masaoKind": ["自動", "一画面", "ストーリー"],
     "waybackTime": 20090802154900,
@@ -22618,8 +22513,8 @@
     },
     "url": "http://masaoikka1210.hp.infoseek.co.jp/masaoikkatop.index.htm",
     "period": {
-      "from": -2005,
-      "to": -1
+      "from": 2005,
+      "fromEstimated": true
     },
     "waybackTime": 20060219111900,
     "state": "closed"
@@ -22658,7 +22553,6 @@
     },
     "url": "http://sasami8.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["自動"],
@@ -22726,7 +22620,6 @@
     "url": "http://4274.ifdef.jp/",
     "oldUrl": ["http://popup15.tok2.com/home2/naruhito/index.html"],
     "period": {
-      "from": -1,
       "to": 2004
     },
     "feature": ["素材配布"],
@@ -22773,7 +22666,6 @@
     },
     "url": "http://www.geocities.jp/hayamahayamajp/",
     "period": {
-      "from": -1,
       "to": 2009
     },
     "masaoKind": ["ストーリー"],
@@ -22833,8 +22725,10 @@
     "webmaster": "にゃー",
     "url": "http://www.geocities.jp/takahashi2015/",
     "period": {
-      "from": -2005,
-      "to": -2005
+      "from": 2005,
+      "fromEstimated": true,
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["素材配布"],
@@ -22875,7 +22769,6 @@
     },
     "url": "http://www.geocities.co.jp/Playtown-Bishop/6402/masaokaizou.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20190320201533,
@@ -23003,7 +22896,9 @@
       }
     },
     "url": "http://umecha_n.web.poporo.net/masaokyouhakoku/index.html",
-    "oldUrl": ["http://web.poporo.net/home/umecha_n/masaokyouhakoku/index.html"],
+    "oldUrl": [
+      "http://web.poporo.net/home/umecha_n/masaokyouhakoku/index.html"
+    ],
     "masaoKind": ["自動"],
     "waybackTime": 20040805044858,
     "state": "closed"
@@ -23024,8 +22919,7 @@
     },
     "url": "http://yosiken.nm.land.to/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20060306130848,
     "state": "closed"
@@ -23065,8 +22959,7 @@
     "url": "http://masao-club.net/",
     "oldUrl": ["http://masao.boy.jp/", "http://masaobu.gozaru.jp/"],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["素材配布"],
     "waybackTime": 20050914104030,
@@ -23136,8 +23029,10 @@
     },
     "url": "http://www.geocities.jp/masao_cricri/",
     "period": {
-      "from": -2005,
-      "to": -2005
+      "from": 2005,
+      "fromEstimated": true,
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20181105024237,
     "state": "closed"
@@ -23199,8 +23094,7 @@
     },
     "url": "http://masaogate.cs.land.to/",
     "period": {
-      "from": 2008,
-      "to": -1
+      "from": 2008
     },
     "waybackTime": 20250710030238,
     "state": "closed"
@@ -23245,7 +23139,6 @@
     "url": "http://hikouki0108.web.fc2.com/",
     "oldUrl": ["http://www.geocities.jp/hikouki0108/"],
     "period": {
-      "from": -1,
       "to": 2009
     },
     "masaoKind": ["ストーリー"],
@@ -23460,7 +23353,8 @@
     },
     "url": "http://members.jcom.home.ne.jp/xo-jan/",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -23676,8 +23570,7 @@
     },
     "url": "http://m-games.hp.infoseek.co.jp/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["素材配布"],
@@ -23768,7 +23661,6 @@
     "url": "http://gmtd.hp.infoseek.co.jp/cgi-bin/navi/navi.cgi",
     "oldUrl": ["http://hp2.popkmart.ne.jp/tb/"],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20060213203054,
@@ -23807,8 +23699,7 @@
     },
     "url": "http://ukkii.xxxxxxxx.jp/",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["自動", "ストーリー"],
     "state": "exist"
@@ -23861,7 +23752,7 @@
     "url": "https://masao.space/",
     "period": {
       "from": 2015,
-      "to": 0
+      "ongoing": true
     },
     "state": "canvas"
   },
@@ -23899,26 +23790,6 @@
     "url": "http://valkeeno.yh.land.to/",
     "waybackTime": 20090220174931,
     "state": "archived"
-  },
-  {
-    "id": "masao3",
-    "site": {
-      "name": "まさお3",
-      "reading": "まさおすりい"
-    },
-    "webmaster": "管理者X",
-    "banner": {
-      "color": "#EEEEEE",
-      "backgroundColor": "#990000"
-    },
-    "url": "http://masao3.starfree.jp/",
-    "period": {
-      "from": 2018,
-      "to": 0
-    },
-    "feature": ["まさお3"],
-    "waybackTime": 20230424220149,
-    "state": "closed"
   },
   {
     "id": "masao3-union",
@@ -23981,8 +23852,7 @@
       "http://www.geocities.jp/hasetaku1994/"
     ],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "waybackTime": 20060811120136,
     "state": "closed"
@@ -24212,8 +24082,7 @@
     },
     "url": "http://mso.j-ynv.net/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20051124092322,
     "state": "closed"
@@ -24442,7 +24311,8 @@
     "oldUrl": ["http://masatetsu.infoseek.ne.jp/"],
     "period": {
       "from": 2005,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20090522030024,
     "state": "closed"
@@ -24485,8 +24355,7 @@
     "url": "https://masao.hits.jp/",
     "oldUrl": ["https://mhito.web.fc2.com/", "http://kohta.a.orn.jp/hito/"],
     "period": {
-      "from": -1,
-      "to": 0
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -24718,7 +24587,8 @@
     },
     "url": "http://homepage3.nifty.com/kaito55/index.htm",
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2005
     },
     "masaoKind": ["自動"],
@@ -24743,8 +24613,7 @@
     "url": "http://www25.tok2.com/home/masao000/",
     "oldUrl": ["http://wing2.jp/~tamaiwasi/"],
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "waybackTime": 20181028223616,
     "state": "closed"
@@ -24893,8 +24762,10 @@
     },
     "url": "http://www.geocities.jp/tpqxb274/index.htm",
     "period": {
-      "from": -2003,
-      "to": -2004
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20031216133552,
     "state": "closed"
@@ -24939,7 +24810,8 @@
     "url": "http://www.geocities.jp/uzumaki_naga/",
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["素材配布"],
@@ -24997,8 +24869,8 @@
     "webmaster": "nakkuru",
     "url": "http://www.geocities.jp/masaonakkuru/index.html",
     "period": {
-      "from": -1,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20060403043311,
     "state": "closed"
@@ -25113,7 +24985,6 @@
     },
     "url": "http://takaya.gozaru.jp/",
     "period": {
-      "from": -1,
       "to": 2023
     },
     "masaoKind": ["ストーリー"],
@@ -25188,8 +25059,7 @@
     "url": "http://www.usamimi.info/~masaoras/",
     "oldUrl": ["http://masaobessou.10m.biz/"],
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["自動"],
     "waybackTime": 20080612221847,
@@ -25216,7 +25086,6 @@
       "http://www.hamq.jp/i.cfm?i=typa"
     ],
     "period": {
-      "from": -1,
       "to": 2006
     },
     "masaoKind": ["カービィ系"],
@@ -25323,8 +25192,7 @@
     },
     "url": "http://www.geocities.jp/spmasaojp/haruheya.html",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040701034619,
     "state": "closed"
@@ -25371,7 +25239,7 @@
     "oldUrl": ["https://masayori.iinaa.net/"],
     "period": {
       "from": 2010,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "一画面", "ストーリー"],
     "feature": ["正男100個以上"],
@@ -25604,8 +25472,7 @@
     "url": "http://masaovillage.konohashigure.com/",
     "mirrorUrl": ["http://masaodays.nobody.jp/"],
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "state": "exist"
   },
@@ -25690,7 +25557,6 @@
     },
     "url": "http://www.geocities.jp/masaofann2002/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20051220083650,
@@ -25705,8 +25571,8 @@
     "webmaster": "じろー",
     "url": "http://akiba.geocities.jp/zirou50kiro/",
     "period": {
-      "from": -1,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20070529045657,
     "state": "closed"
@@ -25750,7 +25616,8 @@
     "url": "http://www.geocities.jp/masafoton/index.html",
     "period": {
       "from": 2005,
-      "to": -2009
+      "to": 2009,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー", "JS拡張"],
     "feature": ["正男100個以上"],
@@ -25847,8 +25714,8 @@
     "webmaster": "BINGO",
     "url": "http://masaopost.com/mini/",
     "period": {
-      "from": -1,
-      "to": -2013
+      "to": 2013,
+      "toEstimated": true
     },
     "waybackTime": 20131108225006,
     "state": "closed"
@@ -25879,8 +25746,7 @@
     },
     "url": "http://f42.aaa.livedoor.jp/~tanakana/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20060211011145,
     "state": "closed"
@@ -25902,7 +25768,6 @@
     },
     "url": "http://www.geocities.jp/yasuda_ueto/index.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "waybackTime": 20060623060301,
@@ -25982,8 +25847,7 @@
     },
     "url": "http://masaounion.web.fc2.com/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "masaoKind": ["自動"],
     "state": "exist"
@@ -26107,7 +25971,8 @@
     "url": "http://masao.harisen.jp/",
     "oldUrl": ["http://riafgar.fc2web.com/game/ring.html"],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2007
     },
     "waybackTime": 20070513101417,
@@ -26258,8 +26123,7 @@
     },
     "url": "http://www4.ocn.ne.jp/~masareco/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20070217192608,
     "state": "closed"
@@ -26460,9 +26324,10 @@
       }
     },
     "url": "http://www.geocities.jp/masaoworld_page/",
-    "oldUrl": ["http://mariokun777.hp.infoseek.co.jp/homepage/index/index.html"],
+    "oldUrl": [
+      "http://mariokun777.hp.infoseek.co.jp/homepage/index/index.html"
+    ],
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20060530162241,
@@ -26547,7 +26412,6 @@
     "webmaster": "GOIKE",
     "url": "http://www.medianetjapan.com/2/19/internet_computer/goike/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040624115828,
@@ -26611,8 +26475,7 @@
     },
     "url": "http://oab.no-ip.biz/~masaniwa/",
     "period": {
-      "from": 2011,
-      "to": -1
+      "from": 2011
     },
     "waybackTime": 20130125065513,
     "state": "closed"
@@ -26651,8 +26514,7 @@
     },
     "url": "http://makkasa.hp.infoseek.co.jp/",
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20050212232721,
@@ -26668,7 +26530,6 @@
     "webmaster": "ファン",
     "url": "http://www.geocities.jp/tako1234sei/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "waybackTime": 20050524113828,
@@ -26803,8 +26664,7 @@
     },
     "url": "http://masaomasuku.web.fc2.com/",
     "period": {
-      "from": 2008,
-      "to": -1
+      "from": 2008
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20100120042800,
@@ -26826,8 +26686,7 @@
     },
     "url": "http://www.abcoroti.com:4500/~note/",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20070526080624,
     "state": "closed"
@@ -26929,8 +26788,8 @@
     },
     "url": "http://www.geocities.jp/kabu0700/index.htm",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "feature": ["素材配布"],
     "waybackTime": 20040803041743,
@@ -27137,8 +26996,7 @@
       "http://www.an.wakwak.com/~narushima-f/"
     ],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["WWA"],
     "waybackTime": 20031224214116,
@@ -27165,8 +27023,8 @@
       "http://www.medianetjapan.com/2/20/internet_computer/yutaukuti/index.html"
     ],
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20181105024745,
@@ -27207,7 +27065,8 @@
     "oldUrl": ["http://www.geocities.co.jp/Playtown-King/8979/"],
     "period": {
       "from": 2003,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050210134339,
@@ -27421,7 +27280,6 @@
     "url": "http://www6.cty-net.ne.jp/~k-3730-t/motto.htm",
     "oldUrl": ["http://www.cty-net.ne.jp/~minokato/motto.htm"],
     "period": {
-      "from": -1,
       "to": 2009
     },
     "masaoKind": ["一画面", "ストーリー"],
@@ -27563,7 +27421,8 @@
     "url": "http://tokyo.cool.ne.jp/kaikogbl/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040606074951,
     "state": "closed"
@@ -27614,8 +27473,7 @@
       "http://members.at.infoseek.co.jp/shiraneeyo/"
     ],
     "period": {
-      "from": 2002,
-      "to": -1
+      "from": 2002
     },
     "feature": ["素材配布"],
     "works": ["ブレイズ君の冒険"],
@@ -27631,7 +27489,6 @@
     "webmaster": "araga",
     "url": "http://www.geocities.jp/makoossanshinobi/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "masaoKind": ["ストーリー"],
@@ -27786,8 +27643,8 @@
     "url": "http://www.geocities.jp/serahuxis/",
     "oldUrl": ["http://mugenofeternal.hp.infoseek.co.jp/etamasa.htm"],
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "works": ["エターナルマサオ"],
@@ -27803,8 +27660,10 @@
     "webmaster": "ムシの一歩",
     "url": "http://plaza.rakuten.co.jp/aggcpp9/",
     "period": {
-      "from": -2006,
-      "to": -2006
+      "from": 2006,
+      "fromEstimated": true,
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20070226072633,
     "state": "closed"
@@ -27837,8 +27696,7 @@
     "webmaster": "ナエキホワイト",
     "url": "http://www.geocities.jp/naehowa/",
     "period": {
-      "from": 2005,
-      "to": -1
+      "from": 2005
     },
     "waybackTime": 20071214213127,
     "state": "closed"
@@ -28033,7 +27891,8 @@
     "url": "http://www.geocities.jp/saza127/top.htm",
     "oldUrl": ["http://www.geocities.co.jp/Playtown-Dice/2659/top.htm"],
     "period": {
-      "from": -2003,
+      "from": 2003,
+      "fromEstimated": true,
       "to": 2006
     },
     "waybackTime": 20190216131642,
@@ -28052,7 +27911,6 @@
     },
     "url": "http://meganenorei.web.fc2.com/",
     "period": {
-      "from": -1,
       "to": 2014
     },
     "state": "exist"
@@ -28088,7 +27946,6 @@
     "webmaster": "メタルカービィ",
     "url": "http://www.geocities.jp/metarikku001/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20050123232428,
@@ -28111,7 +27968,8 @@
     "url": "http://sozaikan.onmitsu.jp/",
     "period": {
       "from": 2005,
-      "to": -2009
+      "to": 2009,
+      "toEstimated": true
     },
     "waybackTime": 20090209213505,
     "state": "archived"
@@ -28136,8 +27994,10 @@
     "webmaster": "デュナス",
     "url": "http://www.h6.dion.ne.jp/~gamars/",
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "feature": ["正男100個以上"],
@@ -28213,8 +28073,10 @@
     },
     "url": "http://www.geocities.jp/himitu574/",
     "period": {
-      "from": -2007,
-      "to": -2007
+      "from": 2007,
+      "fromEstimated": true,
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20181105023828,
     "masaoKind": ["カービィ系"],
@@ -28244,8 +28106,8 @@
     },
     "url": "http://www.geocities.jp/picemirion1027/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "feature": ["素材配布"],
     "waybackTime": 20040813180950,
@@ -28260,8 +28122,8 @@
     "webmaster": "mage",
     "url": "http://www.rr.iij4u.or.jp/~hironori/mc/index.html",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20050409034957,
     "state": "closed"
@@ -28282,8 +28144,7 @@
     },
     "url": "http://www6.ocn.ne.jp/~momokyu/index.html",
     "period": {
-      "from": 2006,
-      "to": -1
+      "from": 2006
     },
     "masaoKind": ["カービィ系"],
     "feature": ["WWA"],
@@ -28367,7 +28228,6 @@
     },
     "url": "http://www.geocities.jp/giriamu2001/koryu/",
     "period": {
-      "from": -1,
       "to": 2004
     },
     "waybackTime": 20040803041719,
@@ -28464,7 +28324,6 @@
     "webmaster": "槍鯛君",
     "url": "http://book.geocities.jp/atsushishi82/yaritaiindex.html",
     "period": {
-      "from": -1,
       "to": 2007
     },
     "feature": ["素材配布"],
@@ -28488,7 +28347,6 @@
     "url": "http://supermasao88tatsu.web.fc2.com/",
     "mirrorUrl": ["http://www.nava21.ne.jp/~torakiyo/"],
     "period": {
-      "from": -1,
       "to": 2012
     },
     "masaoKind": ["ストーリー"],
@@ -28513,7 +28371,6 @@
     "url": "http://kagebito4.web.fc2.com/",
     "oldUrl": ["http://kagebito.azarea.jp/"],
     "period": {
-      "from": -1,
       "to": 2010
     },
     "state": "exist"
@@ -28647,8 +28504,7 @@
     },
     "url": "http://w3.oroti.net/~yutoweb/",
     "period": {
-      "from": 2007,
-      "to": -1
+      "from": 2007
     },
     "waybackTime": 20200810094843,
     "state": "archived"
@@ -28662,7 +28518,6 @@
     "webmaster": "まさき",
     "url": "http://homepage2.nifty.com/yutoweb/masaki/",
     "period": {
-      "from": -1,
       "to": 2006
     },
     "state": "vanished"
@@ -28711,8 +28566,8 @@
     "webmaster": "uuu",
     "url": "http://uuu.tym.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040410025953,
     "state": "closed"
@@ -28750,8 +28605,8 @@
     "webmaster": "ユットX",
     "url": "http://yuttoxkerokero.hp.infoseek.co.jp/",
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20050126011509,
     "state": "closed"
@@ -28854,8 +28709,10 @@
     "webmaster": "風輔",
     "url": "http://www7.plala.or.jp/pupupukun/",
     "period": {
-      "from": -2003,
-      "to": -2003
+      "from": 2003,
+      "fromEstimated": true,
+      "to": 2003,
+      "toEstimated": true
     },
     "waybackTime": 20030822193505,
     "masaoKind": ["カービィ系"],
@@ -28939,7 +28796,8 @@
     "url": "http://yoshija.at.infoseek.co.jp/",
     "period": {
       "from": 2003,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20070622175353,
@@ -28954,7 +28812,6 @@
     "webmaster": "吉田政志",
     "url": "http://www.geocities.co.jp/NeverLand-Homeroom/8948/",
     "period": {
-      "from": -1,
       "to": 2003
     },
     "waybackTime": 20031226041356,
@@ -28986,8 +28843,10 @@
     "url": "http://f31.aaa.livedoor.jp/~yossan/",
     "oldUrl": ["http://f31.aaacafe.ne.jp/~yossan/"],
     "period": {
-      "from": -2004,
-      "to": -2004
+      "from": 2004,
+      "fromEstimated": true,
+      "to": 2004,
+      "toEstimated": true
     },
     "feature": ["WWA"],
     "waybackTime": 20050207043534,
@@ -29011,8 +28870,7 @@
     "url": "http://yip.nm.land.to/",
     "oldUrl": ["http://syw.s101.xrea.com/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "feature": ["WWA"],
     "waybackTime": 20050412013051,
@@ -29039,8 +28897,7 @@
       "http://www.geocities.jp/yosshigame/index.html"
     ],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["自動"],
     "feature": ["WWA"],
@@ -29120,7 +28977,8 @@
     "url": "http://z.lar.jp/",
     "period": {
       "from": 2004,
-      "to": -2006
+      "to": 2006,
+      "toEstimated": true
     },
     "waybackTime": 20051222053333,
     "state": "archived"
@@ -29142,7 +29000,8 @@
     "url": "http://naito44.client.jp/",
     "period": {
       "from": 2004,
-      "to": -2009
+      "to": 2009,
+      "toEstimated": true
     },
     "waybackTime": 20090528030112,
     "state": "archived"
@@ -29263,7 +29122,8 @@
     "url": "http://www.geocities.jp/cludes7/",
     "period": {
       "from": 2004,
-      "to": -2005
+      "to": 2005,
+      "toEstimated": true
     },
     "waybackTime": 20050420015934,
     "state": "archived"
@@ -29320,8 +29180,10 @@
     },
     "url": "http://maxic.ehoh.net/java/",
     "period": {
-      "from": -2007,
-      "to": -2008
+      "from": 2007,
+      "fromEstimated": true,
+      "to": 2008,
+      "toEstimated": true
     },
     "state": "exist"
   },
@@ -29467,8 +29329,7 @@
     },
     "url": "http://reendlesssunlight.web.fc2.com/",
     "period": {
-      "from": 2013,
-      "to": -1
+      "from": 2013
     },
     "state": "vanished"
   },
@@ -29509,7 +29370,6 @@
     "webmaster": "リッキー",
     "url": "http://www.geocities.jp/rikki_12jp/",
     "period": {
-      "from": -1,
       "to": 2005
     },
     "waybackTime": 20041211090307,
@@ -29531,7 +29391,7 @@
     "url": "http://overpass.dokkoisho.com/",
     "period": {
       "from": 2010,
-      "to": 0
+      "ongoing": true
     },
     "state": "exist"
   },
@@ -29552,8 +29412,7 @@
     "url": "http://wscity.com/~little/",
     "oldUrl": ["http://3.csx.jp/little/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040823070631,
     "state": "closed"
@@ -29598,8 +29457,8 @@
     "url": "http://bamubamuban.hp.infoseek.co.jp/",
     "oldUrl": ["http://www.geocities.jp/tuntuchan/toppu.htm"],
     "period": {
-      "from": -1,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["自動", "ストーリー", "カービィ系"],
     "feature": ["正男100個以上", "WWA"],
@@ -29665,8 +29524,8 @@
     },
     "url": "http://www13.plala.or.jp/akhp/",
     "period": {
-      "from": -2004,
-      "to": -1
+      "from": 2004,
+      "fromEstimated": true
     },
     "waybackTime": 20080304145128,
     "state": "closed"
@@ -29726,7 +29585,8 @@
     "url": "http://swri.hp.infoseek.co.jp/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20050516155227,
     "state": "closed"
@@ -29818,7 +29678,8 @@
     "url": "http://www.geocities.jp/rili_zuli/ge-mu.html",
     "oldUrl": ["http://rulizuli.nm.land.to/"],
     "period": {
-      "from": -2002,
+      "from": 2002,
+      "fromEstimated": true,
       "to": 2007
     },
     "masaoKind": ["ストーリー"],
@@ -29836,7 +29697,8 @@
     "url": "http://masakun.myhome.cx/maki/root/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "waybackTime": 20040203073514,
     "state": "closed"
@@ -29872,7 +29734,8 @@
     "url": "http://www25.tok2.com/home2/lechatbleu/",
     "period": {
       "from": 2003,
-      "to": -2004
+      "to": 2004,
+      "toEstimated": true
     },
     "masaoKind": ["ストーリー"],
     "waybackTime": 20041207050425,
@@ -30038,7 +29901,7 @@
     "oldUrl": ["http://www.geocities.jp/free_masaoworld/top.html"],
     "period": {
       "from": 2005,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["一画面"],
     "state": "canvas"
@@ -30053,8 +29916,7 @@
     "url": "http://www.geocities.jp/anto_sto27you/",
     "oldUrl": ["http://rayquasa.hp.infoseek.co.jp/masao/"],
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "masaoKind": ["自動", "一画面"],
     "feature": ["WWA"],
@@ -30112,7 +29974,8 @@
     "url": "http://web1.nazca.co.jp/hp/retrogame/",
     "period": {
       "from": 2004,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "masaoKind": ["一画面", "ストーリー"],
     "waybackTime": 20080417000216,
@@ -30179,7 +30042,7 @@
     "oldUrl": ["http://tyukyu.com/"],
     "period": {
       "from": 2004,
-      "to": 0
+      "ongoing": true
     },
     "masaoKind": ["自動", "ストーリー"],
     "feature": ["WWA"],
@@ -30202,8 +30065,8 @@
     },
     "url": "http://www.geocities.jp/the_remonn/",
     "period": {
-      "from": -1,
-      "to": -2007
+      "to": 2007,
+      "toEstimated": true
     },
     "waybackTime": 20181105024722,
     "state": "archived"
@@ -30304,7 +30167,6 @@
     "url": "http://fannnell.xxxxxxxx.jp/",
     "oldUrl": ["http://rockfannel.web.fc2.com/"],
     "period": {
-      "from": -1,
       "to": 2019
     },
     "feature": ["まさお3"],
@@ -30379,8 +30241,7 @@
     "webmaster": "こぶ",
     "url": "http://wa-ikun.web-zz.com/wa-itown.htm",
     "period": {
-      "from": 2004,
-      "to": -1
+      "from": 2004
     },
     "waybackTime": 20040604192749,
     "state": "closed"
@@ -30477,7 +30338,10 @@
       }
     },
     "url": "http://wakabasao.nm.land.to/",
-    "mirrorUrl": ["http://list.wakabasao.ifdef.jp/", "http://wakabasao.ifdef.jp/"],
+    "mirrorUrl": [
+      "http://list.wakabasao.ifdef.jp/",
+      "http://wakabasao.ifdef.jp/"
+    ],
     "period": {
       "from": 2006,
       "to": 2007
@@ -30547,14 +30411,12 @@
       "color": "#008000",
       "backgroundColor": "#000000"
     },
-    "url": "http://wfhp.my.coocan.jp/",
-    "oldUrl": ["http://homepage3.nifty.com/WFHP/"],
+    "url": "https://wfhp.sakura.ne.jp/",
+    "oldUrl": ["http://wfhp.my.coocan.jp/", "http://homepage3.nifty.com/WFHP/"],
     "period": {
-      "from": -1,
-      "to": 0
+      "to": 2021
     },
-    "waybackTime": 20190720022534,
-    "state": "archived"
+    "state": "exist"
   },
   {
     "id": "watarumu",
@@ -30619,8 +30481,7 @@
       "http://www.geocities.jp/hiryu828/"
     ],
     "period": {
-      "from": 2003,
-      "to": -1
+      "from": 2003
     },
     "feature": ["正男100個以上"],
     "waybackTime": 20050204013150,

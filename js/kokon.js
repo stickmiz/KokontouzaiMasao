@@ -222,28 +222,28 @@ function createSiteNameCell(name, oldNames) {
   return td;
 }
 
-// period.to が 0 なら継続中（「2010～」）
+// 継続中なら「2010～」。始まりと終わりの表示が同じなら1つだけ表示する
 function formatPeriod(period) {
-  const from = formatYear(period?.from);
-  if (period?.to === 0) {
+  const from = formatYear(period?.from, period?.fromEstimated);
+  if (period?.ongoing) {
     return from + "～";
   }
-  const to = formatYear(period?.to);
+  const to = formatYear(period?.to, period?.toEstimated);
   if (from == to) {
     return from;
   }
   return from + "～" + to;
 }
 
-// -1 は不明（「？」）、ほかの負の値は推定（-2005 なら「2005？」）
-function formatYear(value) {
-  if (value === undefined || value == -1) {
+// 不明（年が無い）なら「？」、推定なら「2005？」
+function formatYear(year, estimated) {
+  if (year === undefined) {
     return "？";
   }
-  if (value < 0) {
-    return -value + "？";
+  if (estimated) {
+    return year + "？";
   }
-  return String(value);
+  return String(year);
 }
 
 function resetTable() {

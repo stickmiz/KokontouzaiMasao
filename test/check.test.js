@@ -320,38 +320,84 @@ describe("waybackTime", () => {
 });
 
 describe("period", () => {
-  const yearErrors = async (period) => checkOne({ site: { name: "x", reading: "あ" }, period });
+  // state の既定は canvas（継続中にできる状態）
+  const periodErrors = async (period, state = "canvas") =>
+    checkOne({ site: { name: "x", reading: "あ" }, state, period });
+  // Wayback Machine にリンクする状態は waybackTime も書く
+  const archivedPeriodErrors = async (period, state) =>
+    checkOne({ site: { name: "x", reading: "あ" }, state, waybackTime: 20040101000000, period });
 
   test("from < to は正しい", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004, to: 2006 }), []);
+    assert.deepEqual(await periodErrors({ from: 2004, to: 2006 }), []);
   });
   test("from = to は正しい（境界）", async () => {
-    assert.deepEqual(await yearErrors({ from: 2005, to: 2005 }), []);
+    assert.deepEqual(await periodErrors({ from: 2005, to: 2005 }), []);
   });
   test("from > to はエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2006, to: 2005 }), ["x：period.from must not be later than period.to"]);
+    assert.deepEqual(await periodErrors({ from: 2006, to: 2005 }), ["x：period.from must not be later than period.to"]);
   });
-  test("推定（負の値）は絶対値で比べる：2006？～2005 はエラー", async () => {
-    assert.equal((await yearErrors({ from: -2006, to: 2005 })).length, 1);
+  test("推定でも from > to はエラー", async () => {
+    const messages = await periodErrors({ from: 2006, fromEstimated: true, to: 2005 });
+    assert.deepEqual(messages, ["x：period.from must not be later than period.to"]);
   });
-  test("推定（負の値）は絶対値で比べる：2004～2005？ は正しい", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004, to: -2005 }), []);
+  test("推定の from・to を書ける", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004, fromEstimated: true, to: 2005, toEstimated: true }), []);
   });
-  test("to が 0（継続中）なら比べない", async () => {
-    assert.deepEqual(await yearErrors({ from: 2011, to: 0 }), []);
+  test("from だけ・to だけでもよい（片方は不明）", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004 }), []);
+    assert.deepEqual(await periodErrors({ to: 2005 }), []);
   });
-  test("-1（不明）があれば比べない", async () => {
-    assert.deepEqual(await yearErrors({ from: 2011, to: -1 }), []);
-    assert.deepEqual(await yearErrors({ from: -1, to: 2005 }), []);
+  test("継続中は ongoing で書く（from は不明でもよい）", async () => {
+    assert.deepEqual(await periodErrors({ from: 2011, ongoing: true }), []);
+    assert.deepEqual(await periodErrors({ ongoing: true }), []);
   });
-  test("from・to の片方が無ければエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004 }), ["x：period.from and period.to must both be integers"]);
+  test("from・to・ongoing のどれも無ければエラー", async () => {
+    assert.deepEqual(await periodErrors({}), ["x：period must have from, to or ongoing"]);
   });
-  test("整数でなければエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: 2004.5, to: 2006 }), ["x：period.from and period.to must both be integers"]);
+  for (const value of [0, -2005, 2004.5, "2004"]) {
+    test(`from が正の整数でない ${JSON.stringify(value)} はエラー`, async () => {
+      assert.deepEqual(await periodErrors({ from: value, to: 2006 }), ["x：period.from must be a positive integer"]);
+    });
+  }
+  test("to が正の整数でなければエラー（0 で継続中は表さない）", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004, to: 0 }), ["x：period.to must be a positive integer"]);
   });
-  test("文字列の年はエラー", async () => {
-    assert.deepEqual(await yearErrors({ from: "2004", to: 2006 }), ["x：period.from and period.to must both be integers"]);
+  test("推定のフラグは true だけ", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004, fromEstimated: false }), ["x：period.fromEstimated must be true"]);
+    assert.deepEqual(await periodErrors({ to: 2004, toEstimated: "yes" }), ["x：period.toEstimated must be true"]);
+  });
+  test("年が無いのに推定のフラグがあればエラー", async () => {
+    assert.deepEqual(await periodErrors({ fromEstimated: true, to: 2005 }), ["x：period.fromEstimated requires period.from"]);
+    assert.deepEqual(await periodErrors({ from: 2004, toEstimated: true }), ["x：period.toEstimated requires period.to"]);
+  });
+  test("ongoing は true だけ", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004, ongoing: false }), ["x：period.ongoing must be true"]);
+  });
+  test("ongoing と to は一緒に書けない", async () => {
+    const messages = await periodErrors({ from: 2004, to: 2006, ongoing: true });
+    assert.deepEqual(messages, ["x：period.to and period.ongoing must not both be set"]);
+  });
+  test("ongoing と toEstimated も一緒に書けない", async () => {
+    const messages = await periodErrors({ from: 2004, to: 2006, toEstimated: true, ongoing: true });
+    assert.deepEqual(messages, ["x：period.to and period.ongoing must not both be set"]);
+  });
+  for (const state of ["exist", "canvas", "home"]) {
+    test(`${state} のサイトは継続中にできる`, async () => {
+      assert.deepEqual(await periodErrors({ from: 2011, ongoing: true }, state), []);
+    });
+  }
+  for (const state of ["closed", "archived", "remained"]) {
+    test(`${state} のサイトは継続中にできない`, async () => {
+      const messages = await archivedPeriodErrors({ from: 2011, ongoing: true }, state);
+      assert.deepEqual(messages, [`x：period.ongoing must not be set when state is "${state}"`]);
+    });
+  }
+  test("vanished のサイトは継続中にできない", async () => {
+    const messages = await periodErrors({ from: 2011, ongoing: true }, "vanished");
+    assert.deepEqual(messages, ['x：period.ongoing must not be set when state is "vanished"']);
+  });
+  test("period の中の決まっていないキーはエラー", async () => {
+    assert.deepEqual(await periodErrors({ from: 2004, until: 2006 }), ['x：period has an unknown key "until"']);
   });
 });
 
