@@ -94,16 +94,16 @@ describe("extractUrls", () => {
       assert.deepEqual([...extractUrls([{ state, url: "http://a.jp/" }])], []);
     });
   }
-  test("mirrorUrl（文字列）は state にかかわらず入れる", () => {
-    const urls = extractUrls([{ state: "closed", url: "http://a.jp/", mirrorUrl: "http://m.jp/" }]);
+  test("mirrorUrl は state にかかわらず入れる", () => {
+    const urls = extractUrls([{ state: "closed", url: "http://a.jp/", mirrorUrl: ["http://m.jp/"] }]);
     assert.deepEqual([...urls], ["http://m.jp/"]);
   });
-  test("mirrorUrl（配列）はすべて入れる", () => {
+  test("mirrorUrl が2つ以上ならすべて入れる", () => {
     const urls = extractUrls([{ state: "vanished", url: "", mirrorUrl: ["http://m1.jp/", "http://m2.jp/"] }]);
     assert.deepEqual([...urls], ["http://m1.jp/", "http://m2.jp/"]);
   });
   test("url の後に mirrorUrl を入れる", () => {
-    const urls = extractUrls([{ state: "canvas", url: "http://a.jp/", mirrorUrl: "http://m.jp/" }]);
+    const urls = extractUrls([{ state: "canvas", url: "http://a.jp/", mirrorUrl: ["http://m.jp/"] }]);
     assert.deepEqual([...urls], ["http://a.jp/", "http://m.jp/"]);
   });
   test("空の list なら空の配列", () => {

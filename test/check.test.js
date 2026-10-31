@@ -85,12 +85,12 @@ describe("正しいデータ", () => {
         oldName: ["B2", "B3"],
         webmaster: "管理人",
         banner: { image: "b.png", size: { width: 200, height: 40 } },
-        oldUrl: "http://old.example.com/",
+        oldUrl: ["http://old.example.com/"],
         mirrorUrl: ["http://mirror.example.com/"],
         period: { from: 2004, to: 2006 },
         masaoKind: ["自動", "JS拡張"],
-        feature: "エディタ",
-        works: "作品",
+        feature: ["エディタ"],
+        works: ["作品"],
         note: "メモ",
         state: "closed",
         waybackTime: 20041220185135,
@@ -251,16 +251,46 @@ describe("state", () => {
 });
 
 describe("masaoKind・feature", () => {
-  test("決まった値の文字列は通る", async () => {
-    assert.deepEqual(await checkOne({ masaoKind: "SASUKE系", feature: "まさお3" }), []);
+  test("決まった値は通る", async () => {
+    assert.deepEqual(await checkOne({ masaoKind: ["SASUKE系"], feature: ["まさお3"] }), []);
   });
   test("masaoKind に未知の値があればエラー", async () => {
-    const messages = await checkOne({ site: { name: "x", reading: "あ" }, masaoKind: "謎" });
+    const messages = await checkOne({ site: { name: "x", reading: "あ" }, masaoKind: ["謎"] });
     assert.deepEqual(messages, ['x：masaoKind has an unknown value "謎"']);
   });
   test("配列の中の未知の値だけをエラーにする", async () => {
     const messages = await checkOne({ site: { name: "x", reading: "あ" }, feature: ["WWA", "謎"] });
     assert.deepEqual(messages, ['x：feature has an unknown value "謎"']);
+  });
+});
+
+describe("配列で書く項目", () => {
+  const KEYS = ["oldName", "oldUrl", "mirrorUrl", "masaoKind", "feature", "works"];
+  const values = {
+    oldName: "前の名前",
+    oldUrl: "http://old.example.com/",
+    mirrorUrl: "http://mirror.example.com/",
+    masaoKind: "自動",
+    feature: "WWA",
+    works: "作品",
+  };
+
+  for (const key of KEYS) {
+    test(`${key} は値が1つでも配列なら通る`, async () => {
+      assert.deepEqual(await checkOne({ [key]: [values[key]] }), []);
+    });
+    test(`${key} が文字列ならエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", reading: "あ" }, [key]: values[key] });
+      assert.deepEqual(messages, [`x：${key} must be a non-empty array`]);
+    });
+    test(`${key} が空の配列ならエラー`, async () => {
+      const messages = await checkOne({ site: { name: "x", reading: "あ" }, [key]: [] });
+      assert.deepEqual(messages, [`x：${key} must be a non-empty array`]);
+    });
+  }
+  test("文字列の masaoKind は、値の検査をせずに配列でないことだけを出す", async () => {
+    const messages = await checkOne({ site: { name: "x", reading: "あ" }, masaoKind: "謎" });
+    assert.deepEqual(messages, ["x：masaoKind must be a non-empty array"]);
   });
 });
 
@@ -378,11 +408,11 @@ describe("url・oldUrl・mirrorUrl", () => {
   test("消滅したサイトは url が空でもよい", async () => {
     assert.deepEqual(await urlErrors({ state: "vanished", url: "" }), []);
   });
-  test("mirrorUrl（文字列）に今の url があればエラー", async () => {
-    const messages = await urlErrors({ url: "https://a.jp/", mirrorUrl: "https://a.jp/" });
+  test("mirrorUrl に今の url があればエラー", async () => {
+    const messages = await urlErrors({ url: "https://a.jp/", mirrorUrl: ["https://a.jp/"] });
     assert.deepEqual(messages, ["x：mirrorUrl must not include the current url"]);
   });
-  test("oldUrl（配列）に今の url があればエラー", async () => {
+  test("oldUrl のどれかが今の url ならエラー", async () => {
     const messages = await urlErrors({ url: "https://a.jp/", oldUrl: ["https://b.jp/", "https://a.jp/"] });
     assert.deepEqual(messages, ["x：oldUrl must not include the current url"]);
   });

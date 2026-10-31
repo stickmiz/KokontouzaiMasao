@@ -111,11 +111,11 @@ describe("matchesValue（masaoKind・feature の絞り込み）", () => {
   test("「すべて」なら値が無くても一致する", () => {
     assert.equal(matchesValue(undefined, "all"), true);
   });
-  test("文字列の値が絞り込みの値と同じなら一致する", () => {
-    assert.equal(matchesValue("自動", "自動"), true);
+  test("値が1つの配列で、絞り込みの値と同じなら一致する", () => {
+    assert.equal(matchesValue(["自動"], "自動"), true);
   });
-  test("文字列の値が違えば一致しない", () => {
-    assert.equal(matchesValue("自動", "一画面"), false);
+  test("値が1つの配列で、値が違えば一致しない", () => {
+    assert.equal(matchesValue(["自動"], "一画面"), false);
   });
   test("配列のどれかが同じなら一致する", () => {
     assert.equal(matchesValue(["自動", "JS拡張"], "JS拡張"), true);
@@ -343,12 +343,12 @@ describe("createSiteNameCell（サイト名の列）", () => {
     assert.equal(td.querySelector("em").textContent, "今の名前");
     assert.equal(td.querySelectorAll("span.old").length, 0);
   });
-  test("旧サイト名が文字列なら、薄い表示で1つ並べる", () => {
-    const td = createSiteNameCell("今の名前", "前の名前");
+  test("旧サイト名が1つなら、薄い表示で1つ並べる", () => {
+    const td = createSiteNameCell("今の名前", ["前の名前"]);
     const olds = [...td.querySelectorAll("span.old")].map((s) => s.textContent);
     assert.deepEqual(olds, ["前の名前"]);
   });
-  test("旧サイト名が配列なら、書いた順に並べる", () => {
+  test("旧サイト名が2つ以上なら、書いた順に並べる", () => {
     const td = createSiteNameCell("今の名前", ["1つ前", "2つ前"]);
     const olds = [...td.querySelectorAll("span.old")].map((s) => s.textContent);
     assert.deepEqual(olds, ["1つ前", "2つ前"]);
@@ -444,10 +444,10 @@ describe("index.html を開いたとき", () => {
 
 describe("絞り込みのボタンを押したとき", () => {
   const data = () => [
-    makeSite({ site: { name: "現存", reading: "あ" }, state: "exist", masaoKind: "自動" }),
-    makeSite({ site: { name: "Canvas", reading: "か" }, state: "canvas", masaoKind: ["自動", "JS拡張"], feature: "エディタ" }),
+    makeSite({ site: { name: "現存", reading: "あ" }, state: "exist", masaoKind: ["自動"] }),
+    makeSite({ site: { name: "Canvas", reading: "か" }, state: "canvas", masaoKind: ["自動", "JS拡張"], feature: ["エディタ"] }),
     makeSite({ site: { name: "閉鎖", reading: "さ" }, state: "closed", waybackTime: 20040101000000 }),
-    makeSite({ site: { name: "保存", reading: "か" }, state: "archived", waybackTime: 20040101000000, masaoKind: "一画面" }),
+    makeSite({ site: { name: "保存", reading: "か" }, state: "archived", waybackTime: 20040101000000, masaoKind: ["一画面"] }),
   ];
 
   test("「現存サイトのみ」で exist・canvas だけになる", async () => {

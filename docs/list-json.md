@@ -9,7 +9,7 @@
 - 要素は `site.reading` の順（あいうえお順）に並べる。
 - 使えるキーは、下の「項目一覧」にある15種類だけ。それ以外のキーはエラーになる。
 - キーは camelCase で書く（例: `masaoKind`・`waybackTime`・`banner.backgroundColor`）。
-- 値を1つ持つときは文字列、2つ以上持つときは配列で書く（`oldName`・`oldUrl`・`mirrorUrl`・`masaoKind`・`feature`・`works`）。
+- 複数の値を持てる項目（`oldName`・`oldUrl`・`mirrorUrl`・`masaoKind`・`feature`・`works`）は、値が1つでも配列で書く（例: `"feature": ["WWA"]`）。空の配列は使わない。
 - 項目が不明・該当なしのときは、そのキーを書かない（`null` や空文字は使わない）。
 
 ## 項目一覧
@@ -18,16 +18,16 @@
 |---|---|---|---|---|
 | `id` | 文字列 | ○ | サイトを指す ID（[id](#id)） | `link.json` からの参照 |
 | `site` | オブジェクト | ○ | サイト名とよみ（[site](#site)） | サイト名の列 |
-| `oldName` | 文字列 / 配列 |  | 以前のサイト名。新しいものから順に書く | サイト名の下に薄く表示 |
+| `oldName` | 配列 |  | 以前のサイト名。新しいものから順に書く | サイト名の下に薄く表示 |
 | `webmaster` | 文字列 |  | 管理人名（最新のもの） | 管理人の列。無ければ「？」 |
 | `banner` | オブジェクト |  | バナー画像、または画像が無いときの色（[banner](#banner)） | バナーの列 |
 | `url` | 文字列 | ○ | サイトの URL | バナーのリンク先 |
-| `oldUrl` | 文字列 / 配列 |  | 以前の URL | 表示しない（記録用） |
-| `mirrorUrl` | 文字列 / 配列 |  | ミラーなど、今の URL 以外で正男を置いている URL | 例外サイトリスト |
+| `oldUrl` | 配列 |  | 以前の URL | 表示しない（記録用） |
+| `mirrorUrl` | 配列 |  | ミラーなど、今の URL 以外で正男を置いている URL | 例外サイトリスト |
 | `period` | オブジェクト |  | 存在した・更新があった期間（[period](#period)） | 期間の列。無ければ「？」 |
-| `masaoKind` | 文字列 / 配列 |  | 正男の種別（[masaoKind](#masaokind)） | 「正男の種別」の絞り込み |
-| `feature` | 文字列 / 配列 |  | サイトの特徴（[feature](#feature)） | 「サイトの特徴」の絞り込み |
-| `works` | 文字列 / 配列 |  | 代表作 | 今は表示しない（機能停止中） |
+| `masaoKind` | 配列 |  | 正男の種別（[masaoKind](#masaokind)） | 「正男の種別」の絞り込み |
+| `feature` | 配列 |  | サイトの特徴（[feature](#feature)） | 「サイトの特徴」の絞り込み |
+| `works` | 配列 |  | 代表作 | 今は表示しない（機能停止中） |
 | `waybackTime` | 数値 | 条件付き | Wayback Machine の日時（[waybackTime](#waybacktime)） | バナーのリンク先 |
 | `state` | 文字列 | ○ | サイトの状態（[state](#state)） | 背景色・リンク先・絞り込み |
 | `note` | 文字列 |  | 掲載の根拠などのメモ | 表示しない（記録用） |
@@ -79,7 +79,7 @@ ID は次のように決めます。
 
 ### バナー画像のファイル名
 
-ファイル名はそのまま `id` になるので、次のルールで付けます。
+新しく登録するときは、ファイル名がそのまま `id` になるので、次のルールで付けます。登録した後にファイル名を変えても、`id` は変えません。
 
 - 今のサイト名（`site.name`）から付ける。旧サイト名・管理人名・URL からは付けない（例: 「正男工房」→ `masao-kobo`）。
 - 単語の区切りに `-` を入れる（例: `masao-no-heya`・`crash-bandicoot-town`）。
@@ -170,7 +170,7 @@ ID は次のように決めます。
     "name": "あいうえお・わーるど",
     "reading": "あいうえおわあると"
   },
-  "oldName": "あいうえお教室",
+  "oldName": ["あいうえお教室"],
   "webmaster": "あいうえお",
   "banner": {
     "image": "aiueo.gif",
@@ -208,13 +208,13 @@ ID は次のように決めます。
     }
   },
   "url": "http://masao0.web.fc2.com/",
-  "mirrorUrl": "http://chachamobrothers.web.fc2.com/",
+  "mirrorUrl": ["http://chachamobrothers.web.fc2.com/"],
   "period": {
     "from": 2010,
     "to": 2015
   },
   "masaoKind": ["ストーリー", "JS拡張"],
-  "feature": "素材配布",
+  "feature": ["素材配布"],
   "works": ["National Treason", "Slaughter a person", "Fourth False Force"],
   "state": "canvas"
 }

@@ -17,6 +17,15 @@ const KNOWN_KEYS = [
   "state",
   "note",
 ];
+// 配列で書く項目
+const ARRAY_KEYS = [
+  "oldName",
+  "oldUrl",
+  "mirrorUrl",
+  "masaoKind",
+  "feature",
+  "works",
+];
 
 // よみはひらがなだけで書き、濁点・半濁点・小さい文字は使わない
 const READING_FORMAT =
@@ -54,12 +63,19 @@ function appendError(entry, message) {
   appendMessage(label + "：" + message);
 }
 
-// 1つの値か配列で持つ項目を、配列にそろえる（項目が無ければ空の配列）
+// 配列で持つ項目を返す。配列でなければ空の配列（配列でないことは checkArrayKeys で報告する）
 function toArray(value) {
-  if (value === undefined) {
-    return [];
+  return Array.isArray(value) ? value : [];
+}
+
+// 値が1つでも配列で書き、空の配列は使わない（該当なしならキーを書かない）
+function checkArrayKeys(entry) {
+  for (const key of ARRAY_KEYS) {
+    const value = entry[key];
+    if (value !== undefined && (!Array.isArray(value) || value.length == 0)) {
+      appendError(entry, `${key} must be a non-empty array`);
+    }
   }
-  return Array.isArray(value) ? value : [value];
 }
 
 function checkKnownValues(entry, key, knownValues) {
@@ -177,6 +193,7 @@ function checkData(list) {
       appendError(entry, `state has an unknown value "${entry.state}"`);
     }
 
+    checkArrayKeys(entry);
     checkKnownValues(entry, "masaoKind", MASAO_KIND_VALUES);
     checkKnownValues(entry, "feature", FEATURE_VALUES);
 

@@ -74,13 +74,12 @@ function matchesOrder(entry, order) {
   return initial >= range[0] && initial <= range[1];
 }
 
-// masaoKind・feature のように、1つの値か配列で持つ項目の絞り込み
-function matchesValue(value, filter) {
+// masaoKind・feature のように、配列で持つ項目の絞り込み（項目が無ければ当てはまらない）
+function matchesValue(values, filter) {
   if (filter == FILTER_ALL) {
     return true;
   }
-  const values = Array.isArray(value) ? value : [value];
-  return values.some((v) => v == filter);
+  return values !== undefined && values.includes(filter);
 }
 
 function createTable(mode, order, masaoKind, feature) {
@@ -212,7 +211,7 @@ function createSiteNameCell(name, oldNames) {
   td.appendChild(em);
 
   if (oldNames !== undefined) {
-    for (const oldName of Array.isArray(oldNames) ? oldNames : [oldNames]) {
+    for (const oldName of oldNames) {
       td.appendChild(document.createElement("br"));
       const span = document.createElement("span");
       span.className = "old";

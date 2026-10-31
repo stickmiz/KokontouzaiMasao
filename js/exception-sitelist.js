@@ -38,7 +38,7 @@ const extractUrls = (items) => {
     }
 
     if (item.mirrorUrl !== undefined) {
-      urls.push(...(Array.isArray(item.mirrorUrl) ? item.mirrorUrl : [item.mirrorUrl]));
+      urls.push(...item.mirrorUrl);
     }
   });
 
