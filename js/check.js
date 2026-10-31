@@ -18,8 +18,11 @@ const KNOWN_KEYS = [
   "explanation",
 ];
 
-// よみはひらがなだけで書く
-const NOT_HIRAGANA = /[^あ-ん]/;
+// よみはひらがなだけで書き、濁点・半濁点・小さい文字は使わない
+const YOMI_FORMAT =
+  /^[あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをん]+$/;
+// id は英小文字・数字・- だけで書く
+const ID_FORMAT = /^[a-z0-9-]+$/;
 const HTTP_URL = /^https?:\/\//;
 // YYYYMMDDhhmmss
 const WAYBACK_TIME = /^\d{14}$/;
@@ -43,8 +46,12 @@ function appendMessage(text) {
   errorMessage.appendChild(document.createElement("br"));
 }
 
+// サイト名が無い要素は、id で示す
 function appendError(entry, message) {
-  appendMessage(entry.site.name + "：" + message);
+  const label =
+    entry.site?.name ??
+    (entry.id !== undefined ? `id "${entry.id}"` : "（サイト名なし）");
+  appendMessage(label + "：" + message);
 }
 
 // 1つの値か配列で持つ項目を、配列にそろえる（項目が無ければ空の配列）
@@ -111,17 +118,54 @@ function checkBanner(entry) {
   }
 }
 
+function checkId(entry, seenIds) {
+  if (entry.id === undefined) {
+    appendError(entry, "id is required");
+    return;
+  }
+  if (typeof entry.id != "string" || !ID_FORMAT.test(entry.id)) {
+    appendError(entry, `id "${entry.id}" must contain only a-z, 0-9 and -`);
+  }
+  if (seenIds.has(entry.id)) {
+    appendError(entry, `id "${entry.id}" is duplicated`);
+  }
+  seenIds.add(entry.id);
+}
+
+// site・site.name・site.yomi が無くても、ほかの検査は続ける
+function checkSite(entry, previous) {
+  if (entry.site == null) {
+    appendError(entry, "site is required");
+    return;
+  }
+  if (entry.site.name === undefined) {
+    appendError(entry, "site.name is required");
+  }
+  const yomi = entry.site.yomi;
+  if (yomi === undefined) {
+    appendError(entry, "site.yomi is required");
+    return;
+  }
+  // 1つ前の要素によみが無ければ、並び順は比べない
+  const previousYomi = previous?.site?.yomi;
+  if (previousYomi !== undefined && yomi < previousYomi) {
+    appendError(entry, "yomi is out of order");
+  }
+  if (!YOMI_FORMAT.test(yomi)) {
+    appendError(
+      entry,
+      "yomi must contain only hiragana without dakuten, handakuten or small letters",
+    );
+  }
+}
+
 function checkData(list) {
+  const seenIds = new Set();
   for (let i = 0; i < list.length; i++) {
     const entry = list[i];
 
-    if (i != 0 && entry.site.yomi < list[i - 1].site.yomi) {
-      appendError(entry, "yomi is out of order");
-    }
-
-    if (NOT_HIRAGANA.test(entry.site.yomi)) {
-      appendError(entry, "yomi must contain only hiragana");
-    }
+    checkId(entry, seenIds);
+    checkSite(entry, list[i - 1]);
 
     for (const key of Object.keys(entry)) {
       if (!KNOWN_KEYS.includes(key)) {

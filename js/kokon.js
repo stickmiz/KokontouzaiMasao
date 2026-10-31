@@ -143,10 +143,6 @@ function createBannerCell(entry) {
 
 function createBannerLink(entry, bannerElement) {
   const a = document.createElement("a");
-  const clickName = "古今東西正男/" + entry.site.name;
-  a.onclick = function () {
-    ga("send", "event", "banner", "click", clickName);
-  };
   a.href = getLinkUrl(entry);
   a.target = "_blank";
   a.className = hasBannerImage(entry.banner) ? "image" : "noimage";

@@ -1,0 +1,11 @@
+{
+  "name": "kokontouzai",
+  "private": true,
+  "description": "古今東西正男のテスト用。サイトには公開しない",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
