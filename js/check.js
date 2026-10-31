@@ -38,7 +38,7 @@ async function loadList() {
 }
 
 function appendMessage(text) {
-  const errorMessage = document.getElementById("error_message");
+  const errorMessage = document.getElementById("error-message");
   errorMessage.appendChild(document.createTextNode(text));
   errorMessage.appendChild(document.createElement("br"));
 }

@@ -84,7 +84,7 @@ function matchesValue(value, filter) {
 }
 
 function createTable(mode, order, kindMasao, feature) {
-  const tbody = document.getElementById("kokon_nakami");
+  const tbody = document.getElementById("kokon-nakami");
   let count = 0;
 
   for (const entry of list) {
@@ -99,7 +99,7 @@ function createTable(mode, order, kindMasao, feature) {
     }
   }
 
-  $("#display_site_num").append(
+  $("#display-site-num").append(
     "<p>現在、表示している正男サイトの数は<strong>" +
       count +
       "</strong>です。</p>",
@@ -252,19 +252,19 @@ function formatYear(value) {
 }
 
 function resetTable() {
-  document.getElementById("kokon_nakami").replaceChildren();
-  document.getElementById("display_site_num").replaceChildren();
+  document.getElementById("kokon-nakami").replaceChildren();
+  document.getElementById("display-site-num").replaceChildren();
 }
 
 // 絞り込みのラジオボタンを、値の一覧から作って form の末尾に足す。
-// form の id は「form_{key}」、ボタンの name は「radio_{key}」（「すべて」は index.html に書いてある）
+// form の id は「form-{key}」、ボタンの name は「radio-{key}」（「すべて」は index.html に書いてある）
 function appendFilterRadios(key, values) {
-  const form = document.getElementById("form_" + key);
+  const form = document.getElementById("form-" + key);
   values.forEach(function (value, i) {
-    const id = key + "_" + (i + 1);
+    const id = key + "-" + (i + 1);
     const input = document.createElement("input");
     input.type = "radio";
-    input.name = "radio_" + key;
+    input.name = "radio-" + key;
     input.value = value;
     input.id = id;
     input.addEventListener("click", clickRadio);
@@ -276,21 +276,27 @@ function appendFilterRadios(key, values) {
   });
 }
 
+// 絞り込みで選ばれている値（name に「-」を含むので elements で取り出す）
+function getFilterValue(key) {
+  return document.getElementById("form-" + key).elements["radio-" + key]
+    .value;
+}
+
 // 絞り込みのラジオボタンをクリックしたときに呼ぶ
 function clickRadio() {
   resetTable();
   createTable(
-    document.getElementById("form_mode").radio_mode.value,
-    document.getElementById("form_order").radio_order.value,
-    document.getElementById("form_kind_masao").radio_kind_masao.value,
-    document.getElementById("form_feature").radio_feature.value,
+    getFilterValue("mode"),
+    getFilterValue("order"),
+    getFilterValue("kind-masao"),
+    getFilterValue("feature"),
   );
 }
 
 $(function () {
-  appendFilterRadios("kind_masao", KIND_MASAO_VALUES);
+  appendFilterRadios("kind-masao", KIND_MASAO_VALUES);
   appendFilterRadios("feature", FEATURE_VALUES);
-  $("#all_site_num").append(
+  $("#all-site-num").append(
     "<p>現在の正男サイトの総数は<strong>" + list.length + "</strong>です。</p>",
   );
   createTable(FILTER_ALL, FILTER_ALL, FILTER_ALL, FILTER_ALL);

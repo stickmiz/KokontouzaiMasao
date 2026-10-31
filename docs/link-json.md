@@ -38,7 +38,7 @@
   - `surveys` の `status` を `done` にすること
   - `urls` の `judge` を `pending` 以外にすること
 - URL は、すべて正規化した値で書く（[URL の正規化](#url-の正規化)）。
-- サイトの ID は `list.json` の `id` を使う（[list_json.md の id](list_json.md#id)）。
+- サイトの ID は `list.json` の `id` を使う（[list-json.md の id](list-json.md#id)）。
 
 ## surveys
 
@@ -167,7 +167,7 @@
 
 ## list.json との関係
 
-- `list.json` の各サイトに `id` を付け、`link.json` からはその ID でサイトを指す。ID のルールは [list_json.md の id](list_json.md#id) を参照。
+- `list.json` の各サイトに `id` を付け、`link.json` からはその ID でサイトを指す。ID のルールは [list-json.md の id](list-json.md#id) を参照。
 - `id` を追加すると `list.json` のキーが15種類になるので、`js/check.js`・`CLAUDE.md` も直す。
 - `_` や大文字を含む今のバナー画像は、ID を付ける前にファイル名を変え、`list.json` の `banner.image` も直す。
 

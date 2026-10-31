@@ -88,14 +88,14 @@
 
       <p><a href="setsumei.html">このページについて</a></p>
 
-      <p><a href="exception_sitelist.html">例外リスト一覧</a></p>
+      <p><a href="exception-sitelist.html">例外リスト一覧</a></p>
 
       <div class="filter">
         先頭文字の行で絞り込む
-        <form id="form_order">
+        <form id="form-order">
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="all"
             id="all"
             onclick="clickRadio()"
@@ -103,70 +103,70 @@
           /><label for="all">すべての行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="a"
             id="a"
             onclick="clickRadio()"
           /><label for="a">あ行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="k"
             id="k"
             onclick="clickRadio()"
           /><label for="k">か行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="s"
             id="s"
             onclick="clickRadio()"
           /><label for="s">さ行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="t"
             id="t"
             onclick="clickRadio()"
           /><label for="t">た行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="n"
             id="n"
             onclick="clickRadio()"
           /><label for="n">な行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="h"
             id="h"
             onclick="clickRadio()"
           /><label for="h">は行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="m"
             id="m"
             onclick="clickRadio()"
           /><label for="m">ま行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="y"
             id="y"
             onclick="clickRadio()"
           /><label for="y">や行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="r"
             id="r"
             onclick="clickRadio()"
           /><label for="r">ら行</label>
           <input
             type="radio"
-            name="radio_order"
+            name="radio-order"
             value="w"
             id="w"
             onclick="clickRadio()"
@@ -176,65 +176,65 @@
 
       <div class="filter">
         サイトの状態で絞り込む
-        <form id="form_mode">
+        <form id="form-mode">
           <input
             type="radio"
-            name="radio_mode"
+            name="radio-mode"
             value="all"
-            id="all_site"
+            id="all-site"
             onclick="clickRadio()"
             checked
-          /><label for="all_site">すべて</label>
+          /><label for="all-site">すべて</label>
           <input
             type="radio"
-            name="radio_mode"
+            name="radio-mode"
             value="now"
-            id="now_site"
+            id="now-site"
             onclick="clickRadio()"
-          /><label for="now_site">現存サイトのみ</label>
+          /><label for="now-site">現存サイトのみ</label>
           <input
             type="radio"
-            name="radio_mode"
+            name="radio-mode"
             value="canvas"
-            id="canvas_site"
+            id="canvas-site"
             onclick="clickRadio()"
-          /><label for="canvas_site">Canvas対応サイトのみ</label>
+          /><label for="canvas-site">Canvas対応サイトのみ</label>
           <input
             type="radio"
-            name="radio_mode"
+            name="radio-mode"
             value="archive"
-            id="archive_site"
+            id="archive-site"
             onclick="clickRadio()"
-          /><label for="archive_site">アーカイブに正男保存のサイトのみ</label>
+          /><label for="archive-site">アーカイブに正男保存のサイトのみ</label>
         </form>
       </div>
 
       <div class="filter">
         正男の種別で絞り込む
-        <form id="form_kind_masao">
+        <form id="form-kind-masao">
           <input
             type="radio"
-            name="radio_kind_masao"
+            name="radio-kind-masao"
             value="all"
-            id="kind_masao_all"
+            id="kind-masao-all"
             onclick="clickRadio()"
             checked
-          /><label for="kind_masao_all">すべて</label>
+          /><label for="kind-masao-all">すべて</label>
           <!-- ほかのボタンは js/kokon.js が common.js の値から作る -->
         </form>
       </div>
 
       <div class="filter">
         サイトの特徴で絞り込む
-        <form id="form_feature">
+        <form id="form-feature">
           <input
             type="radio"
-            name="radio_feature"
+            name="radio-feature"
             value="all"
-            id="feature_all"
+            id="feature-all"
             onclick="clickRadio()"
             checked
-          /><label for="feature_all">すべて</label>
+          /><label for="feature-all">すべて</label>
           <!-- ほかのボタンは js/kokon.js が common.js の値から作る -->
         </form>
       </div>
@@ -251,13 +251,13 @@
                 <th>期間</th>
               </tr>
             </thead>
-            <tbody id="kokon_nakami"></tbody>
+            <tbody id="kokon-nakami"></tbody>
           </table>
         </div>
       </div>
 
-      <div id="display_site_num"></div>
-      <div id="all_site_num"></div>
+      <div id="display-site-num"></div>
+      <div id="all-site-num"></div>
 
       <noscript>
         <p>

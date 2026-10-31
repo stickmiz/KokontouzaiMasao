@@ -2,10 +2,10 @@
   color: #808080;
 }
 
-form#form_order {
+form#form-order {
   margin: 0;
 }
-form#form_mode {
+form#form-mode {
   margin: 0;
 }
 div.filter {
@@ -15,7 +15,7 @@ div.filter {
   margin: 12px 0;
   padding: 4px;
 }
-div#display_site_num {
+div#display-site-num {
   margin-top: 32px;
 }
 #main th {
